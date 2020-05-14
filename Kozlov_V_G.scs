@@ -1,0 +1,13 @@
+Kozlov_V_G
+=> nrel_main_idtf: [Kozlov Vladimir] (* <- lang_en;; *);
+=> nrel_main_idtf: [Козлов Владимир Геннадьевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Gomel;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[953945];
+=>nrel_email:[vgkozlov@gmail.com];
+=>nrel_mobile_phone_number:[+375295320736];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+Belarusian_State_Univesity_of_Transport->rrel_head_of_laboratory:Kozlov_V_G;;

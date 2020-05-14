@@ -1,0 +1,13 @@
+Efimenko_I_V
+=> nrel_main_idtf: [Efimenko Irina] (* <- lang_en;; *);
+=> nrel_main_idtf: [Ефименко Ирина Владимировна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Moskva;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[veassi@mail.ru];
+=>nrel_mobile_phone_number:[no phone number];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+JSC_Semantic_Hub->rrel_general_director:Efimenko_I_V;;

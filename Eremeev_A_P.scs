@@ -1,0 +1,13 @@
+Eremeev_A_P
+=> nrel_main_idtf: [Eremeev Aleksandr] (* <- lang_en;; *);
+=> nrel_main_idtf: [Еремеев Александр Павлович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Moskva;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[eremeev@appmat.ru];
+=>nrel_mobile_phone_number:[no phone number];
+<-concept_professor;
+<-concept_Grand_PhD;;
+National_Research_University_Moscow_Power_Engineering_Institute->rrel_head_of_department:Eremeev_A_P;;

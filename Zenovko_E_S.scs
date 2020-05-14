@@ -1,0 +1,13 @@
+Zenovko_E_S
+=> nrel_main_idtf: [Zenovko Evgeniya] (* <- lang_en;; *);
+=> nrel_main_idtf: [Зеновко Евгения Сергеевна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[evgeniakacan@gmail.com];
+=>nrel_mobile_phone_number:[+375292582003];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+The_United_Institute_of_Informatics_Problems_of_the_National_Academy_of_Sciences_of_Belarus->rrel_junior_researcher:Zenovko_E_S;;

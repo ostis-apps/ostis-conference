@@ -1,0 +1,13 @@
+Pisarevskiy_S_D
+=> nrel_main_idtf: [Pisarevskiy Srgey] (* <- lang_en;; *);
+=> nrel_main_idtf: [Писаревский Сргей Дмитриевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[pi_sar@mail.ru];
+=>nrel_mobile_phone_number:[+375295585643];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+National_Academy_of_Science_of_Belarus->rrel_department_manager:Pisarevskiy_S_D;;

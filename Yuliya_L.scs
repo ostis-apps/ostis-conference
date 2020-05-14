@@ -1,0 +1,13 @@
+Yuliya_L
+=> nrel_main_idtf: [Yuliya Lirler] (* <- lang_en;; *);
+=> nrel_main_idtf: [Юлия Лирлер ] (* <- lang_ru;; *);
+=>nrel_place_of_living:USA;
+=>nrel_place_of_living:Omaha;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+1402.554.4911];
+=>nrel_email:[ylierler@unomaha.edu];
+=>nrel_mobile_phone_number:[+15126337294];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+University_of_Nebraska_Omaha->rrel_professor:Yuliya_L;;

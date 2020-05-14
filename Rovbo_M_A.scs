@@ -1,0 +1,13 @@
+Rovbo_M_A
+=> nrel_main_idtf: [Rovbo Maksim] (* <- lang_en;; *);
+=> nrel_main_idtf: [Ровбо Максим Александрович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Moskva;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[rovboma@gmail.com];
+=>nrel_mobile_phone_number:[+7 985 305 29 67];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+National_Research_Center_Kurchatov_Institute->rrel_research_engineer:Rovbo_M_A;;

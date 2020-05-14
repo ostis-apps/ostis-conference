@@ -1,0 +1,13 @@
+Shunkevich_D_V
+=> nrel_main_idtf: [Shunkevich Daniil] (* <- lang_en;; *);
+=> nrel_main_idtf: [Шункевич Даниил Вячеславович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+375172938533];
+=>nrel_email:[shunkevichdv@gmail.com];
+=>nrel_mobile_phone_number:[+375293404175];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+Belarusian_State_University_Of_Informatics_And_Radioelectronics->rrel_head_of_department:Shunkevich_D_V;;

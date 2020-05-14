@@ -1,0 +1,13 @@
+Semenchenya_T_S
+=> nrel_main_idtf: [Semenchenya Tatyana] (* <- lang_en;; *);
+=> nrel_main_idtf: [Семенченя Татьяна Сергеевна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Gomel;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[levts@gstu.by];
+=>nrel_mobile_phone_number:[no phone number];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+SUKHOI_STATE_TECHNICAL_UNIVERSITY_OF_GOMEL->rrel_graduate:Semenchenya_T_S;;

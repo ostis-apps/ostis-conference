@@ -1,0 +1,13 @@
+Kopeyko_V_S
+=> nrel_main_idtf: [Kopeyko Vladimir] (* <- lang_en;; *);
+=> nrel_main_idtf: [Копейко Владимир Сергеевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[volodyakopeyko@gmail.com];
+=>nrel_mobile_phone_number:[+375298091300];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+Belarusian_State_University->rrel_student:Kopeyko_V_S;;

@@ -1,0 +1,13 @@
+Vasin_A_O
+=> nrel_main_idtf: [Vasin Anton] (* <- lang_en;; *);
+=> nrel_main_idtf: [Васин Антон Олегович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Ulyanovsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[vasin.anton404@gmail.com];
+=>nrel_mobile_phone_number:[89603785796];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+Ulyanovsk_State_Technical_University->rrel_undergraduate:Vasin_A_O;;

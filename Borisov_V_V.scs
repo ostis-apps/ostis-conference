@@ -1,0 +1,13 @@
+Borisov_V_V
+=> nrel_main_idtf: [Borisov Vadim] (* <- lang_en;; *);
+=> nrel_main_idtf: [Борисов Вадим Владимирович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Smolensk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+74812651461];
+=>nrel_email:[vbor67@mail.ru];
+=>nrel_mobile_phone_number:[+79107850039];
+<-concept_professor;
+<-concept_Grand_PhD;;
+Branch_of_FSBEI_HE_National_Research_University_MPEI_in_Smolensk->rrel_professor:Borisov_V_V;;

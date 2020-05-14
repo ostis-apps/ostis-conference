@@ -1,0 +1,13 @@
+Nikitin_N_A
+=> nrel_main_idtf: [Nikitin Nikita] (* <- lang_en;; *);
+=> nrel_main_idtf: [Никитин Никита Андреевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Volgograd;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[set.enter@mail.ru];
+=>nrel_mobile_phone_number:[+79275147044];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+Volgograd_State_Technical_University->rrel_graduate:Nikitin_N_A;;

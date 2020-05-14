@@ -1,0 +1,13 @@
+Yankovskaya_A_E
+=> nrel_main_idtf: [Yankovskaya Anna] (* <- lang_en;; *);
+=> nrel_main_idtf: [Янковская Анна Ефимовна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Tomsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+79138211920];
+=>nrel_email:[ayyankov@gmail.com];
+=>nrel_mobile_phone_number:[+79138211920];
+<-concept_professor;
+<-concept_Grand_PhD;;
+National_Research_Tomsk_State_University->rrel_professor:Yankovskaya_A_E;;

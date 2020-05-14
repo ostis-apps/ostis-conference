@@ -1,0 +1,13 @@
+Sadovskiy_M_E
+=> nrel_main_idtf: [Sadovskiy Mihail] (* <- lang_en;; *);
+=> nrel_main_idtf: [Садовский Михаил Ефимович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+375295494667];
+=>nrel_email:[mishachess@mail.ru];
+=>nrel_mobile_phone_number:[+375295494667];
+<-concept_no_scientific_title;
+<-concept_magistr_tehnicheskih_nauk;;
+Belarusian_State_University_Of_Informatics_And_Radioelectronics->rrel_graduate:Sadovskiy_M_E;;

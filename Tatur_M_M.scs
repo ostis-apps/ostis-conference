@@ -1,0 +1,13 @@
+Tatur_M_M
+=> nrel_main_idtf: [Tatur Mihail] (* <- lang_en;; *);
+=> nrel_main_idtf: [Татур Михаил Михайлович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[2938564];
+=>nrel_email:[tatur@bsuir.by];
+=>nrel_mobile_phone_number:[+375297643861];
+<-concept_professor;
+<-concept_Grand_PhD;;
+Belarusian_State_University_Of_Informatics_And_Radioelectronics->rrel_professor:Tatur_M_M;;

@@ -1,0 +1,13 @@
+Erofeev_A_A
+=> nrel_main_idtf: [Erofeev Aleksandr] (* <- lang_en;; *);
+=> nrel_main_idtf: [Ерофеев Александр Александрович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Gomel;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[80232952073];
+=>nrel_email:[alerof@tut.by];
+=>nrel_mobile_phone_number:[+375297300209];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+Belarusian_State_Univesity_of_Transport->rrel_vice_rector:Erofeev_A_A;;

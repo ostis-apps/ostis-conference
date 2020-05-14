@@ -1,0 +1,13 @@
+Evgenev_G_B
+=> nrel_main_idtf: [Evgenev Georgiy] (* <- lang_en;; *);
+=> nrel_main_idtf: [Евгенев Георгий Борисович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Moskva;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[84992636970];
+=>nrel_email:[g.evgenev@mail.ru];
+=>nrel_mobile_phone_number:[89031868296];
+<-concept_professor;
+<-concept_Grand_PhD;;
+Bauman_Moscow_State_Technical->rrel_professor:Evgenev_G_B;;

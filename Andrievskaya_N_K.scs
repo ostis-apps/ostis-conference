@@ -1,0 +1,13 @@
+Andrievskaya_N_K
+=> nrel_main_idtf: [Andrievskaya Nataliya] (* <- lang_en;; *);
+=> nrel_main_idtf: [Андриевская Наталия Климовна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Ukraina;
+=>nrel_place_of_living:Doneck;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[nataandr@yandex.ru];
+=>nrel_mobile_phone_number:[no phone number];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+Donetsk_National_Technical_University->rrel_senior_lecturer:Andrievskaya_N_K;;

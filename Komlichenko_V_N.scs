@@ -1,0 +1,13 @@
+Komlichenko_V_N
+=> nrel_main_idtf: [Komlichenko Vitaliy] (* <- lang_en;; *);
+=> nrel_main_idtf: [Комличенко Виталий Николаевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[2938481];
+=>nrel_email:[v.komlitchenko@gmail.com];
+=>nrel_mobile_phone_number:[+375296777395];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+Belarusian_State_University_Of_Informatics_And_Radioelectronics->rrel_head_of_department:Komlichenko_V_N;;

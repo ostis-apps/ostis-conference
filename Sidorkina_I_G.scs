@@ -1,0 +1,13 @@
+Sidorkina_I_G
+=> nrel_main_idtf: [Sidorkina Irina] (* <- lang_en;; *);
+=> nrel_main_idtf: [Сидоркина Ирина Геннадьевна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Yoshkar_Ola;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[88362455173];
+=>nrel_email:[igs592000@mail.ru];
+=>nrel_mobile_phone_number:[+79278836346];
+<-concept_professor;
+<-concept_Grand_PhD;;
+VOLGA_STATE_UNIVERSITY_OF_TECHNOLOGY->rrel_dean:Sidorkina_I_G;;

@@ -1,0 +1,13 @@
+Fominyh_I_B
+=> nrel_main_idtf: [Fominyh Igor] (* <- lang_en;; *);
+=> nrel_main_idtf: [Фоминых Игорь Борисович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Moskva;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[igborfomin@mail.ru];
+=>nrel_mobile_phone_number:[no phone number];
+<-concept_professor;
+<-concept_Grand_PhD;;
+National_Research_University_Moscow_Power_Engineering_Institute->rrel_professor:Fominyh_I_B;;
