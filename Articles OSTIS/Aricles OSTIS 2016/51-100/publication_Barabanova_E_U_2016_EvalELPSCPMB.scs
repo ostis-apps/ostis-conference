@@ -1,0 +1,31 @@
+article_Barabanova_E_U_2016_EvalELPSCPMB => nrel_main_idtf:
+[Барабанова Е.Ю. 2016 - ОценкЭПОCAM-ОСМП] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Barabanova E.U. 2016 - EvalELPSCPMB] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Barabanova_E_U_2016_EvalELPSCPMB=> nrel_article_title:[Оценка эффективности процесса абучения CAM-обработке студентов машиностроительного профиля](*
+	<- lang_ru;;
+	*);;
+article_Barabanova_E_U_2016_EvalELPSCPMB => nrel_author:
+Barabanova_E_U;;
+article_Barabanova_E_U_2016_EvalELPSCPMB <- lang_ru;;
+article_Barabanova_E_U_2016_EvalELPSCPMB => nrel_abstract: [В данной работе предложено решение вопроса по оценке эффективности процесса обучения CAM-обработке на основе выведенного коэффициента эффективности. При построении процедуры оценки использовались достижения современного интеллектуального анализа временных рядов, в частности, метод меры ассоциации между временными рядами. Помимо этого, рассмотрены особенности самой разработки рабочей учебной программы для обучения студентов машиностроительного направления на основе онтологии предметной области.];;
+article_Barabanova_E_U_2016_EvalELPSCPMB => nrel_count_page: 4;;
+article_Barabanova_E_U_2016_EvalELPSCPMB <- article_OSTIS_2016;;
+
+article_Barabanova_E_U_2016_EvalELPSCPMB => nrel_bibliographic_reference: [Барабанова, Е.Ю. Оценка эффективности процесса абучения CAM-обработке студентов машиностроительного профиля/ Е.Ю. Барабанова // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 517–520.](*
+<-interstate_standard;; 
+*);;
+
+article_Barabanova_E_U_2016_EvalELPSCPMB => nrel_year_publication: 2016;;
+
+article_Barabanova_E_U_2016_EvalELPSCPMB => nrel_comprise:  Materials_OSTIS2016;;
+article_Barabanova_E_U_2016_EvalELPSCPMB <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Барабанова.pdf";; *);;*);;
+
+article_Barabanova_E_U_2016_EvalELPSCPMB <- article;;

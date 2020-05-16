@@ -1,0 +1,34 @@
+article_Khusainov_A_F_2016_AboutCASMLMG => nrel_main_idtf:
+[Хусаинов А.Ф. 2016 - ОСоздАСГМОМ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Khusainov A.F. 2016 - AboutCASMLMG] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Khusainov_A_F_2016_AboutCASMLMG=> nrel_article_title:[О создании адаптивной системы генерации мультимодальных обучающих материалов](*
+	<- lang_ru;;
+	*);;
+article_Khusainov_A_F_2016_AboutCASMLMG => nrel_author:
+Khusainov_A_F;;
+article_Khusainov_A_F_2016_AboutCASMLMG => nrel_author:
+Rusezkij_K.V.;;
+
+article_Khusainov_A_F_2016_AboutCASMLMG <- lang_ru;;
+article_Khusainov_A_F_2016_AboutCASMLMG <- article_OSTIS_2016;;
+
+article_Khusainov_A_F_2016_AboutCASMLMG => nrel_abstract: [В статье представлены результаты создания обучающей системы, особенностью которой является возможность адаптации подвозможности обучаемого. Целью работы является обеспечение оптимального усвоения информации засчет учёта факторов, влияющих на восприятие мультимодальных текстов. Разработана архитектура системы многомодального синтеза текстов, для обеспечения механизма адаптации обучающего материала под особенности восприятия конкретного человека разработана модель представления знаний об одном и том же факте в виде совокупности данных разных модальностей.];; 
+ 
+article_Khusainov_A_F_2016_AboutCASMLMG => nrel_bibliographic_reference: [Хусаинов, А.Ф. О создании адаптивной системы генерации мультимодальных обучающих материалов/ А.Ф. Хусаинов, К.В. Русецкий // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 507–510.](*
+<-interstate_standard;; 
+*);;
+
+article_Khusainov_A_F_2016_AboutCASMLMG => nrel_year_publication: 2016;;
+
+article_Khusainov_A_F_2016_AboutCASMLMG => nrel_comprise:  Materials_OSTIS2016;;
+article_Khusainov_A_F_2016_AboutCASMLMG <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Хусаинов.pdf";; *);;*);;
+
+article_Khusainov_A_F_2016_AboutCASMLMG <- article;;

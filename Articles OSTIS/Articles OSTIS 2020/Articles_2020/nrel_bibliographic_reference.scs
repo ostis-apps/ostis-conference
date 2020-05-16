@@ -1,0 +1,33 @@
+sc_node_norole_relation->nrel_bibliographic_reference;;
+nrel_bibliographic_reference=> nrel_main_idtf:
+[библиографическая ссылка*](*<- lang_ru;;*);
+[bibliographic reference*] (*<- lang_en;;*);;
+
+definition ->...
+(*
+->rrel_key_sc_element:  nrel_bibliographic_reference;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Библиографическая ссылка — это краткое библиографическое описание литературного источника.](*<-lang_ru;;*);;*);;
+=> nrel_main_idtf: [Опр.(библиографическая ссылка*)](*<-lang_ru;;*);;
+=> nrel_using_constants:
+{ 
+	literary_source
+};;
+*);;
+
+nrel_bibliographic_reference=>nrel_first_domain: article;;
+nrel_bibliographic_reference=>nrel_second_domain: file;;
+..union4<=nrel_combination:
+{
+	article;
+	file
+};;
+..union4<=nrel_definitional_domain:nrel_bibliographic_reference;;
+
+
+
+arity -> ..arity4;;
+..arity4 -> nrel_bibliographic_reference;;
+nrel_bibliographic_reference<-oriented_relation;;
+nrel_bibliographic_reference<|-symmetric_relation;;
+nrel_bibliographic_reference<-antireflexive_relation;;
+nrel_bibliographic_reference<|-transitive_relation;;

@@ -1,0 +1,31 @@
+article_Korshunov_S_A_2016_OntolAfVSR => nrel_main_idtf:
+[Коршунов С. А. 2016 - ОнтолПкВРИМ]
+	(*
+	<- lang_ru;;
+	*);
+	[Korshunov S.A. 2016 - OntolAfVSR] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Korshunov_S_A_2016_OntolAfVSR => nrel_article_title:[Онтологический подход к визуализации результатов имитационного моделирования](*
+	<- lang_ru;;
+	*);;
+
+article_Korshunov_S_A_2016_OntolAfVSR => nrel_author:
+Korshunov_S_A;;
+
+article_Korshunov_S_A_2016_OntolAfVSR => nrel_abstract: [В работе рассмотрен подход к визуализации результатов имитационного моделированияна основе онтологий и концепция программного средства, реализующего этот подход. Разрабатываемое средство позволит повысить эффективность процесса визуализации результатов имитационного моделирования, автоматизировав построение визуальных моделей. Также описана архитектура предлагаемого программного средства, аспекты его программной реализации, предлагаемые модели онтологий, приведены примеры визуальных сцен, созданных при помощи предлагаемого средства.];;
+article_Korshunov_S_A_2016_OntolAfVSR => nrel_bibliographic_reference: [Коршунов, С. А. Онтологический подход к визуализации результатов имитационного моделирования / С.А. Коршунов // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 355–358.](*
+<-interstate_standard;; 
+*);;
+
+article_Korshunov_S_A_2016_OntolAfVSR => nrel_year_publication: 2016;;
+
+article_Korshunov_S_A_2016_OntolAfVSR => nrel_comprise:  Materials_OSTIS2016;;
+article_Korshunov_S_A_2016_OntolAfVSR <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Коршунов.pdf";; *);;*);;
+
+article_Korshunov_S_A_2016_OntolAfVSR <- article;;
+
+article_Korshunov_S_A_2016_OntolAfVSR <- lang_ru;;
+article_Korshunov_S_A_2016_OntolAfVSR <- article_OSTIS_2016;;

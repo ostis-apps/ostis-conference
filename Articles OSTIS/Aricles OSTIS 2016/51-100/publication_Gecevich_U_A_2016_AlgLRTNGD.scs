@@ -1,0 +1,40 @@
+article_Gecevich_U_A_2016_AlgLRTNGD=> nrel_main_idtf:
+[ Гецэвіч Ю.С. 2016 - АлгаріЛРдНТГД] 
+	(*
+	<- lang_by;;
+	*);
+	[Gecevich U.A. 2016 - AlgLRTNGD] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Gecevich_U_A_2016_AlgLRTNGD=> nrel_article_title:[АЛГАРЫТМ І ЛІНГВІСТЫЧНЫЯ РЭСУРСЫ ДЛЯ НАРМАЛІЗАЦЫІ ТЭКСТАЎ ГЕАГРАФІЧНАГА ДАМЕНА](*
+	<- lang_by;;
+	*);;
+article_Gecevich_U_A_2016_AlgLRTNGD => nrel_author:
+Gecevich_U_A;;
+article_Gecevich_U_A_2016_AlgLRTNGD => nrel_author:
+Kachan_Ya_S;;
+article_Gecevich_U_A_2016_AlgLRTNGD => nrel_author:
+Lysyj_S.I.;;
+article_Gecevich_U_A_2016_AlgLRTNGD => nrel_author:
+Marakulina_P_A;;
+article_Gecevich_U_A_2016_AlgLRTNGD => nrel_author:
+Krivalcevich_A_V;;
+article_Gecevich_U_A_2016_AlgLRTNGD <- lang_by;;
+article_Gecevich_U_A_2016_AlgLRTNGD => nrel_abstract: [У дадзеным артыкуле апісваецца алгарытм лінгвістычнай апрацоўкі і нармалізацыі тэкстаў геаграфічнага дамена на прыкладзе вучэбнага дапаможніка “Геаграфія Беларусі”. Прыведзена паслядоўнасць крокаў вылучэння ўсіх катэгорый сімвалаў, лікаў і іншых ужыванняў, неабходных для апрацоўкі.];;
+
+article_Gecevich_U_A_2016_AlgLRTNGD => nrel_count_page: 4;;
+article_Gecevich_U_A_2016_AlgLRTNGD  <- article_OSTIS_2016;;
+
+article_Gecevich_U_A_2016_AlgLRTNGD => nrel_bibliographic_reference: [Гецэвіч, Ю.С. АЛГАРЫТМ І ЛІНГВІСТЫЧНЫЯ РЭСУРСЫ ДЛЯ НАРМАЛІЗАЦЫІ ТЭКСТАЎ
+ГЕАГРАФІЧНАГА ДАМЕНА / Ю.С. Гецэвіч, Я.С. Качан, С.І. Лысы, П.А. Маракуліна, А.В. Крывальцэвіч// Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 397–400.](*
+<-interstate_standard;; 
+*);;
+
+article_Gecevich_U_A_2016_AlgLRTNGD=> nrel_year_publication: 2016;;
+
+article_Gecevich_U_A_2016_AlgLRTNGD => nrel_comprise:  Materials_OSTIS2016;;
+article_Gecevich_U_A_2016_AlgLRTNGD<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Гецевич.pdf";; *);;*);;
+
+article_Gecevich_U_A_2016_AlgLRTNGD <- article;;

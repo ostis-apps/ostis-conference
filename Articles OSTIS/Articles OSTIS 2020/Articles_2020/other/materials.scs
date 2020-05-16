@@ -1,0 +1,5 @@
+sc_node_not_relation-> materials;;
+materials => nrel_main_idtf:
+[материалы](*<- lang_ru;;*);
+[materials](*<- lang_en;;*);;
+

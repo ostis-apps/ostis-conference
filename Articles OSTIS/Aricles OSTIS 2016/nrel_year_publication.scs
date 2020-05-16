@@ -1,0 +1,37 @@
+sc_node_norole_relation->nrel_year_publication;;
+nrel_year_publication=> nrel_main_idtf:
+[год публикации*](*<- lang_ru;;*);
+[year of publication*] (*<-lang_en;;*);;
+
+definition ->...
+(*
+->rrel_key_sc_element:  nrel_year_publication;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Год публикации - год, в котором статья была опубликована в сборнике.](*<-lang_ru;;*);;*);;
+=> nrel_main_idtf: [Опр.(год публикации*)](*<-lang_ru;;*);;
+=> nrel_using_constants:
+{ 
+	article;
+	collection
+};;
+*);;
+
+nrel_year_publication=>nrel_first_domain: article;;
+nrel_year_publication=>nrel_second_domain: number;;
+..union6<=nrel_combination:
+{
+	article;
+	number
+};;
+..union6<=nrel_definitional_domain:nrel_year_publication;;
+
+
+
+arity -> ..arity6;;
+..arity6 -> nrel_year_publication;;
+..arity6 => nrel_measurement: 2;;
+
+
+nrel_year_publication<-oriented_relation;;
+nrel_year_publication<|-symmetric_relation;;
+nrel_year_publication<-antireflexive_relation;;
+nrel_year_publication<|-transitive_relation;;

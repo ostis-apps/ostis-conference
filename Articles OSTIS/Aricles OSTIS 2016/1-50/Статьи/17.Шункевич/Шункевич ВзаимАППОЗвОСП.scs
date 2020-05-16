@@ -1,0 +1,40 @@
+article_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_main_idtf:
+[Шункевич Д.В. 2016 - ВзаимАППОЗвОСП]
+	(*
+	<- lang_ru;;
+	*);
+	[Shunkevich D.V. 2016 - AsynAPKPIICSM] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_article_title:[Взаимодествие асинхронных параллельных процессов обработки знаний в общей семантической памяти](*
+	<- lang_ru;;
+	*);;
+
+article_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_author:
+Shunkevich_D_V;;
+
+article_Shunkevich_D_V_2016_AsynAPKPIICSM <- article;;
+article_Shunkevich_D_V_2016_AsynAPKPIICSM <- article_OSTIS_2016;;
+
+
+article_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_bibliographic_reference: [Шункевич, Д. В. Взаимодествие асинхронных параллельных процессов обработки знаний в общей семантической памяти / Д.В. Шункевич // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_year_publication: 2016;;
+
+article_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Shunkevich_D_V_2016_AsynAPKPIICSM <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/17.shunkevich.pdf";; *);; *);;
+
+article_Shunkevich_D_V_2016_AsynAPKPIICSM =>  nrel_abstract:
+[В работерассматривается базовая модель построения машин обработки знаний систем, управляемых знаниями,построенных по открытой семантической технологии проектирования интеллектуальных систем.В частности,описываются базовые принципы взаимодействия асинхронных параллельных процессов обработки знаний вобщей  семантической  памяти,  типология  действий,  выполняемых  агентами  в  такой  памяти,  типология  исредства  описания  блокировок,  необходимых  для  синхронизации  деятельности  агентов  над  общейсемантической памятью](*
+	<- lang_ru;;
+	*);;
+
+article_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_count_page: 8;;
+
+article_Shunkevich_D_V_2016_AsynAPKPIICSM <- lang_ru;;

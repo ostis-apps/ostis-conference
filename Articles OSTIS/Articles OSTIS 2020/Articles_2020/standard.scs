@@ -1,0 +1,16 @@
+sc_node_not_relation-> standard;;
+standard=> nrel_main_idtf:
+[стандарт](*<- lang_ru;;*);
+[standard](*<- lang_en;;*);;
+
+definition ->...
+(*
+->rrel_key_sc_element:  standard;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Стандарт -  модель, принимаемая за исходную для сопоставления с ней других подобных объектов.](*<-lang_ru;;*);;*);;
+=> nrel_main_idtf: [Опр.(стандарт)](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{ 
+	model;
+	concept_object
+};;
+*);;

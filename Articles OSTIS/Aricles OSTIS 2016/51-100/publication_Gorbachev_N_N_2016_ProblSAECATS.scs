@@ -1,0 +1,32 @@
+article_Gorbachev_N_N_2016_ProblSAECATS => nrel_main_idtf:
+[ Горбачёв Н.Н. 2016 - ПроблСОИ-ОСиПкИР] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Gorbachev N.N. 2016 - ProblSAECATS] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Gorbachev_N_N_2016_ProblSAECATS=> nrel_article_title:[Проблемы семантической организации информационно-образовательной среды и подходы к их решению](*
+	<- lang_ru;;
+	*);;
+article_Gorbachev_N_N_2016_ProblSAECATS => nrel_author:
+Gorbachev_N_N;;
+article_Gorbachev_N_N_2016_ProblSAECATS <- lang_ru;;
+article_Gorbachev_N_N_2016_ProblSAECATS => nrel_abstract: [В работе рассматриваются проблемы семантической организации электронной образовательной среды, связанные с актуализацией образовательного контента и предлагаются их решения на основе модели предметной области вуза в виде онтологии. Предложены методы управления перспективными информационными запасами вуза, возникающими в результате индивидуальной и коллективной работы преподавателей и студентов с внешними источниками знаний с использованием современных информационных технологий совместной работы.];;
+
+article_Gorbachev_N_N_2016_ProblSAECATS => nrel_count_page: 4;;
+article_Gorbachev_N_N_2016_ProblSAECATS <- article_OSTIS_2016;;
+
+article_Gorbachev_N_N_2016_ProblSAECATS => nrel_bibliographic_reference: [Горбачёв Н.Н. Проблемы семантической организации информационно-образовательной среды и подходы к их решению/ Н.Н. Горбачёв // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 531–534.](*
+<-interstate_standard;; 
+*);;
+
+article_Gorbachev_N_N_2016_ProblSAECATS=> nrel_year_publication: 2016;;
+
+article_Gorbachev_N_N_2016_ProblSAECATS => nrel_comprise:  Materials_OSTIS2016;;
+article_Gorbachev_N_N_2016_ProblSAECATS <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Горбачёв.pdf";; *);;*);;
+
+article_Gorbachev_N_N_2016_ProblSAECATS <- article;;

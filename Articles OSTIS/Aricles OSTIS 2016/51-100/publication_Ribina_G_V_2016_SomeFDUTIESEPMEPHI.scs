@@ -1,0 +1,31 @@
+article_Ribina_G_V_2016_SomeFDUTIESEPMEPHI => nrel_main_idtf:
+[Рыбина Г.В. 2016 - НекотОРиПОИЭСвУПНИЯУМИФИ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Rybina G.V. 2016 - SomeFDUTIESEPMEPHI] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Ribina_G_V_2016_SomeFDUTIESEPMEPHI=> nrel_article_title:[Некоторые особенности разработки и применение обучающих интегрированных экспертных систем в учебном процессе НИЯУ МИФИ](*
+	<- lang_ru;;
+	*);;
+article_Ribina_G_V_2016_SomeFDUTIESEPMEPHI => nrel_author:
+Ryibina_G_V;;
+article_Ribina_G_V_2016_SomeFDUTIESEPMEPHI => nrel_author:
+Ribin_V_M;;
+article_Ribina_G_V_2016_SomeFDUTIESEPMEPHI => nrel_author:
+Sergienko_E_S;;
+article_Ribina_G_V_2016_SomeFDUTIESEPMEPHI => nrel_abstract: [Анализируется опыт разработки и использования в учебном процессе НИЯУ МИФИ обучающих интегрированных экспертных систем, созданных на основе задачно-ориентированной методологии и интеллектуальной программной среды комплекса АТ-ТЕХНОЛОГИЯ. Делается акцент на особенностях реализации некоторых задач интеллектуального обучения, связанных с выявлением знаний и умений обучаемых решать неформализованные задачи.];;
+article_Ribina_G_V_2016_SomeFDUTIESEPMEPHI=> nrel_bibliographic_reference: [Рыбина, Г.В.  Некоторые особенности разработки и применение обучающих интегрированных экспертных систем в учебном процессе НИЯУ МИФИ/ Г.В. Рыбина, В.М. Рыбин, Е.С. Сергиенко // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 497–502.](*
+<-interstate_standard;; 
+*);;
+
+article_Ribina_G_V_2016_SomeFDUTIESEPMEPHI=> nrel_year_publication: 2016;;
+article_Ribina_G_V_2016_SomeFDUTIESEPMEPHI=> nrel_comprise:  Materials_OSTIS2016;;
+article_Ribina_G_V_2016_SomeFDUTIESEPMEPHI<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Рыбина.pdf";; *);;*);;
+
+article_Ribina_G_V_2016_SomeFDUTIESEPMEPHI <- article;;
+article_Ribina_G_V_2016_SomeFDUTIESEPMEPHI <- article_OSTIS_2016;;

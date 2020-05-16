@@ -1,0 +1,12 @@
+sc_node_not_relation -> article_OSTIS_2016;;
+article_OSTIS_2016 => nrel_main_idtf:
+	[статья OSTIS-2016]
+	(*
+	<- lang_ru;;
+	*);
+	[article OSTIS-2016]
+	(*
+	<- lang_en;;
+	*);;
+
+article_OSTIS_2016 <= nrel_inclusion: article;;

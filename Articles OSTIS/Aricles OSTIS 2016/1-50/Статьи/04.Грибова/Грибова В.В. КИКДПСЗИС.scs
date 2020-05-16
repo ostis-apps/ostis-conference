@@ -1,0 +1,39 @@
+article_Gribova_V_V_2016_ConcoaTfCoISS => nrel_main_idtf:
+[Грибова В.В. 2016 - КонцеИКдПСЗИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Gribova V.V. 2016 - ConcoaTfCoISS] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Gribova_V_V_2016_ConcoaTfCoISS => nrel_article_title:[Концепция инструментального комплекса для построения системы защиты информационных систем](*
+	<- lang_ru;;
+	*);;
+
+article_Gribova_V_V_2016_ConcoaTfCoISS => nrel_author:
+Gribova_V_V;
+Ivanova_A_V;;
+
+article_Gribova_V_V_2016_ConcoaTfCoISS <- article;;
+article_Gribova_V_V_2016_ConcoaTfCoISS <- article_OSTIS_2016;;
+
+article_Gribova_V_V_2016_ConcoaTfCoISS => nrel_bibliographic_reference: [Грибова, В. В. Концепция инструментального комплекса для построения системы защиты информационных систем / В.В. Грибова, А.В. Иванова // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Gribova_V_V_2016_ConcoaTfCoISS => nrel_year_publication: 2016;;
+
+article_Gribova_V_V_2016_ConcoaTfCoISS => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Gribova_V_V_2016_ConcoaTfCoISS <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/04.gribova.pdf";; *);; *);;
+
+article_Gribova_V_V_2016_ConcoaTfCoISS =>  nrel_abstract:
+[В статье рассмотрены существующие подходы к построению комплексных систем защиты информации(СЗИ)и  их  недостатки.  Сформированыпринципысозданияи  концепцияинструментария,обеспечивающего администратора платформы единой средой для управленияра знородными СЗИ,а так же рекомендациями по их выбору и настройке  всоответствии с конфигурацией ио собенностями конкретной информационной системы.];;
+
+article_Gribova_V_V_2016_ConcoaTfCoISS => nrel_count_page: 6;;
+
+article_Gribova_V_V_2016_ConcoaTfCoISS <- lang_ru;;
+

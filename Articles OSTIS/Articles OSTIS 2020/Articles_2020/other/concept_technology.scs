@@ -1,0 +1,4 @@
+sc_node_not_relation-> concept_technology;;
+concept_technology => nrel_main_idtf:
+[технология](*<- lang_ru;;*);
+[technology] (*<-lang_ru;;*);;

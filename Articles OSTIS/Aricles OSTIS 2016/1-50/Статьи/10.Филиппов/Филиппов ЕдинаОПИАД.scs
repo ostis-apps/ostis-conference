@@ -1,0 +1,45 @@
+
+article_Filippov_A_A_2016_UnifODMP => nrel_main_idtf:
+[Филиппов A.A. 2016 - ЕдинаОПИАД]
+	(*
+	<- lang_ru;;
+	*);
+	[Filippov A.A. 2016 - UnifODMP] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Filippov_A_A_2016_UnifODMP => nrel_article_title:[Единая Онтологическая платформа интеллектуального анализа данных](*
+	<- lang_ru;;
+	*);;
+
+article_Filippov_A_A_2016_UnifODMP => nrel_author:
+Filippov_A_A;
+Moskin_V.S.;
+Shalaev_D_O;
+Aruskina_N_G;;
+
+article_Filippov_A_A_2016_UnifODMP <- article;;
+article_Filippov_A_A_2016_UnifODMP <- article_OSTIS_2016;;
+
+article_Filippov_A_A_2016_UnifODMP => nrel_bibliographic_reference: [Филиппов, А. А. Единая Онтологическая платформа интеллектуального анализа данных / А.А. Филиппов, В.С. Мошкин, Д.О. Шалаев, Н.Г. Ярушкина  Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 18-20 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Filippov_A_A_2016_UnifODMP => nrel_year_publication: 2016;;
+
+article_Filippov_A_A_2016_UnifODMP => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Filippov_A_A_2016_UnifODMP <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/10.filippov.pdf";; *);; *);;
+
+
+article_Filippov_A_A_2016_UnifODMP => nrel_abstract:
+[В данной работе предложена методика разработки, а также основные принципы построения и архитектураединойплатформы интеллектуального анализа данных на основе онтологии предметной области.Помимо этого рассмотренпроцесс  построения  предметной  онтологии  с  помощью  встроенного  в  платформууниверсальногоредактора  напримере онтологии «Справочник боцмана»](*
+	<- lang_ru;;
+	*);;
+
+article_Filippov_A_A_2016_UnifODMP => nrel_count_page: 6;;
+
+article_Filippov_A_A_2016_UnifODMP <- lang_ru;;
+

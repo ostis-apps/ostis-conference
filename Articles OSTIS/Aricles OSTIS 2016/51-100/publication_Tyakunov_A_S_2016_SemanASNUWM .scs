@@ -1,0 +1,30 @@
+article_Tyakunov_A_S_2016_SemanASNUWM => nrel_main_idtf:
+[Тякунов А.С. 2016 - СеманАССcИСWM] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Tyakunov A.S. 2016 - SemanASNUWM] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Tyakunov_A_S_2016_SemanASNUWM => nrel_article_title:[Семантический анализ социальных сетей с использованием среды WOLFRAM MATHEMATICA](*
+	<- lang_ru;;
+	*);;
+article_Tyakunov_A_S_2016_SemanASNUWM => nrel_author:
+Tyakunov_A_S;;
+article_Tyakunov_A_S_2016_SemanASNUWM => nrel_author:
+Slavskiy_V_V;;
+article_Tyakunov_A_S_2016_SemanASNUWM => nrel_abstract: [В работе проводится обзор возможностей среды Wolfram Mathematica, используемых для семантического анализа открытых данных в социальных сетях. Рассмотрены варианты использования запросов Application Programming Interface (API) и их интерпретации. Подготовлена основа для создания учебно-методических пособий по использованию среды Wolfram Mathematica.];; 
+article_Tyakunov_A_S_2016_SemanASNUWM => nrel_bibliographic_reference: [Тякунов, А.С. Семантический анализ социальных сетей с использованием среды WOLFRAM MATHEMATICA/ А.С. Тякунов, В.В. Славский// Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 549–552.](*
+<-interstate_standard;; 
+*);;
+
+article_Tyakunov_A_S_2016_SemanASNUWM => nrel_year_publication: 2016;;
+
+article_Tyakunov_A_S_2016_SemanASNUWM => nrel_comprise:  Materials_OSTIS2016;;
+article_Tyakunov_A_S_2016_SemanASNUWM <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Тякунов.pdf";; *);;*);;
+
+article_Tyakunov_A_S_2016_SemanASNUWM <- article;;
+article_Tyakunov_A_S_2016_SemanASNUWM <- article_OSTIS_2016;;

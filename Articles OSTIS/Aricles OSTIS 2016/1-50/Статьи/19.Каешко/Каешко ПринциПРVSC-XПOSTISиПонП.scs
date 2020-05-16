@@ -1,0 +1,40 @@
+article_Kaeshko_A_I_2016_PrincaSIoIOSTISSaNFP => nrel_main_idtf:
+[Каешко А.И. 2016 - ПринциПРВSC-ХПOSTISиПОнП]
+	(*
+	<- lang_ru;;
+	*);
+	[Kaeshko A.I. 2016 - PrincaSIoIOSTISSaNFP] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Kaeshko_A_I_2016_PrincaSIoIOSTISSaNFP => nrel_article_title:[Принципы и программная реализация взаимодействия SC-хранилища проекта OSTIS и программного обеспечения на платформе .NET Framework](*
+	<- lang_ru;;
+	*);;
+
+article_Kaeshko_A_I_2016_PrincaSIoIOSTISSaNFP => nrel_author:
+Kaesko_A.I.;;
+
+article_Kaeshko_A_I_2016_PrincaSIoIOSTISSaNFP <- article;;
+article_Kaeshko_A_I_2016_PrincaSIoIOSTISSaNFP <- article_OSTIS_2016;;
+
+article_Kaeshko_A_I_2016_PrincaSIoIOSTISSaNFP => nrel_bibliographic_reference: [Каешко А.И. Принципы и программная реализация взаимодействия SC-хранилища проекта OSTIS и программного обеспечения на платформе .NET Framework / А.И. Каешко // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Kaeshko_A_I_2016_PrincaSIoIOSTISSaNFP => nrel_year_publication: 2016;;
+
+article_Kaeshko_A_I_2016_PrincaSIoIOSTISSaNFP => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Kaeshko_A_I_2016_PrincaSIoIOSTISSaNFP <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/19.kaeshko.pdf";; *);; *);;
+
+
+article_Kaeshko_A_I_2016_PrincaSIoIOSTISSaNFP => nrel_abstract:
+[Рассмотрен вопрос практического использования программной реализации sc-памяти проекта OSTIS в связке спрограммным обеспечением, реализованным на языке C#.Рассмотрены команды sctp-протокола для сетевоговзаимодействияс sc-хранилищем.](*
+	<- lang_ru;;
+	*);;
+
+article_Kaeshko_A_I_2016_PrincaSIoIOSTISSaNFP => nrel_count_page: 4;;
+
+article_Kaeshko_A_I_2016_PrincaSIoIOSTISSaNFP <- lang_ru;;

@@ -1,0 +1,4 @@
+sc_node_not_relation-> essay;;
+essay=> nrel_main_idtf:
+[сочинение](*<- lang_ru;;*);
+[essay](*<- lang_en;;*);;

@@ -1,0 +1,4 @@
+sc_node_not_relation-> quality;;
+quality => nrel_main_idtf:
+[качество](*<- lang_ru;;*);
+[quality] (*<-lang_en;;*);;

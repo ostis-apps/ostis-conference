@@ -1,0 +1,40 @@
+article_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_main_idtf:
+[Клещёв А.С 2016 - КонцеПУСПИД]
+	(*
+	<- lang_ru;;
+	*);
+	[Kleshev A.S. 2016 - ConcDoMSoIAA] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_article_title:[Концептуальное проектирование управляемой системы поддержки интеллектуальной деятельности](*
+	<- lang_ru;;
+	*);;
+
+article_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_author:
+Kleschev_A_S;
+Shalfeeva_E_A;;
+
+
+article_Kleshev_A_S_2016_ConcDoMSoIAA <- article;;
+article_Kleshev_A_S_2016_ConcDoMSoIAA <- article_OSTIS_2016;;
+
+article_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_bibliographic_reference: [Клещёв, А. С. Концептуальное проектирование управляемой системы поддержки интеллектуальной деятельности / А.С. Клещёв, Е.А. Шалфеева // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_year_publication: 2016;;
+
+article_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Kleshev_A_S_2016_ConcDoMSoIAA <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/02.kleshev.pdf";; *);; *);;
+
+article_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_abstract:
+[Данная  работа  посвящена  проблемеуправления  качеством  баз  знаний,  используемых  в  процессе  принятиярешений  повседневной  интеллектуальной  деятельности  специалистов.Выделены  Технологические  этапыавтоматизации интеллектуальной деятельности конкретной предметной области  и предложена концептуальнаяархитектура системы автоматизации, которая позволяет решать множество взаимосвязанных интеллектуальныхзадач известных классов с использованием управляемых баз знаний. ];;
+
+article_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_count_page: 8;;
+
+article_Kleshev_A_S_2016_ConcDoMSoIAA <- lang_ru;;
+

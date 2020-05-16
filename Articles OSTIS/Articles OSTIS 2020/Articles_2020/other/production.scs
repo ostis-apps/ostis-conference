@@ -1,0 +1,5 @@
+sc_node_not_relation-> production;;
+production => nrel_main_idtf:
+[продукция](*<- lang_ru;;*);
+[production] (*<-lang_en;;*);;
+

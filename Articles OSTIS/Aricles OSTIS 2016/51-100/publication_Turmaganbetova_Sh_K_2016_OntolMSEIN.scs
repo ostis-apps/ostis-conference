@@ -1,0 +1,28 @@
+article_Turmaganbetova_Sh_K_2016_OntolMSEIN => nrel_main_idtf:
+[ Турмаганбетова Ш.К. 2016 - ОнтолМПЗНИ ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Turmaganbetova Sh.K. 2016 - OntolMSEIN] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Turmaganbetova_Sh_K_2016_OntolMSEIN=> nrel_article_title:[Онтологическая модель поддержки запросов налоговых информаций ](*
+	<- lang_ru;;
+	*);;
+article_Turmaganbetova_Sh_K_2016_OntolMSEIN => nrel_author:
+Turmaganbetova_S.K.;;
+article_Turmaganbetova_Sh_K_2016_OntolMSEIN => nrel_abstract: [В рамках диссертационной работы определены основные понятия создаваемой онтологической модели, которая позволит организовать процесс реализации экспертной системы налоговой системы в Республике Казахстан. Таким образом, в рамках данной работы будет предложены три типа моделей,основанных на онтологии, которые структурируют и организовывают информацию для поддержки информационного доступа. Извлеченная информация разработана для навигации информационного поиска пользователей, но не ограничения возможностей пользователей.];;
+article_Turmaganbetova_Sh_K_2016_OntolMSEIN => nrel_bibliographic_reference: [Турмаганбетова, Ш.К. Онтологическая модель поддержки запросов налоговых информаций / Ш.К. Турмаганбетова / Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 557–560.](*
+<-interstate_standard;; 
+*);;
+
+article_Turmaganbetova_Sh_K_2016_OntolMSEIN=> nrel_year_publication: 2016;;
+
+article_Turmaganbetova_Sh_K_2016_OntolMSEIN => nrel_comprise:  Materials_OSTIS2016;;
+article_Turmaganbetova_Sh_K_2016_OntolMSEIN<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Турмаганбетова.pdf";; *);;*);;
+
+article_Turmaganbetova_Sh_K_2016_OntolMSEIN <- article;;
+article_Turmaganbetova_Sh_K_2016_OntolMSEIN <- article_OSTIS_2016;;

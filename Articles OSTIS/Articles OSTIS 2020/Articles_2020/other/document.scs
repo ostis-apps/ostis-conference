@@ -1,0 +1,5 @@
+sc_node_not_relation-> document;;
+document => nrel_main_idtf:
+[документ](*<- lang_ru;;*);
+[document](*<- lang_en;;*);;
+

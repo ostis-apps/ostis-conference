@@ -1,0 +1,30 @@
+article_Lukashevich_N_V_2016_GRSL => nrel_main_idtf:
+[Лукашевич Н. В. 2016 - СоздаЛОСРЯР]
+	(*
+	<- lang_ru;;
+	*);
+	[Lukashevich N.V. 2016 - GRSL] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Lukashevich_N_V_2016_GRSL=> nrel_article_title:[Создание лексикона оценочных слов русского языка Русентилекс](*
+	<- lang_ru;;
+	*);;
+
+article_Lukashevich_N_V_2016_GRSL => nrel_author:
+Lukasevic_N.V.;;
+article_Lukashevich_N_V_2016_GRSL => nrel_author:
+Levchik_A_V;;
+article_Lukashevich_N_V_2016_GRSL => nrel_abstract: [В данной статье описан новый лексикон оценочных слов и выражений русского языка РуСентиЛекс. Данный лексикон был собран из нескольких источников: оценочные слова из тезауруса русского языка РуТез, сленговые слова из Твиттера и слова с позитивными или негативными ассоциациями (коннотациями) из корпуса новостей. Для многозначных слов, имеющих различную оценочную направленность (тональность) при использовании в разных значениях, установлены связи значений с соответствующими понятиями в тезаурусе русского языка РуТез, что может облегчить выбор соответствующего значения слова в конкретной предметной области или конкретном контексте.];;
+article_Lukashevich_N_V_2016_GRSL => nrel_bibliographic_reference: [Лукашевич, Н. В. Создание лексикона оценочных слов русского языка Русентилекс / Н.В. Лукашевич, А.В. Левчик // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 377–382.](*
+<-interstate_standard;; 
+*);;
+
+article_Lukashevich_N_V_2016_GRSL=> nrel_year_publication: 2016;;
+
+article_Lukashevich_N_V_2016_GRSL => nrel_comprise:  Materials_OSTIS2016;;
+article_Lukashevich_N_V_2016_GRSL<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Лукашевич.pdf";; *);;*);;
+
+article_Lukashevich_N_V_2016_GRSL <- article;;
+article_Lukashevich_N_V_2016_GRSL <- article_OSTIS_2016;;

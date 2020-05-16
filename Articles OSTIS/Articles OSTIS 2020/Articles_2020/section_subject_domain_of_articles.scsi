@@ -1,0 +1,20 @@
+subject_domain_of_articles=> nrel_main_idtf:
+[Предметная область статей](*<- lang_ru;;*);
+[Subject domain of articles] (*<-lang_en;;*);;
+subject_domain_of_articles->rrel_maximum_studied_object_class: article;;
+subject_domain_of_articles->rrel_not_maximum_studied_object_class:
+article_OSTIS_2016;
+article_OSTIS_2020;;
+subject_domain_of_articles->rrel_explored_relation:
+nrel_article_title;
+nrel_abstract;
+nrel_author;
+nrel_bibliographic_reference;
+nrel_comprise;
+nrel_key_concepts;
+nrel_year_publication;
+nrel_count_page;
+nrel_published_material;;
+subject_domain_of_articles<-subject_domain;;
+
+

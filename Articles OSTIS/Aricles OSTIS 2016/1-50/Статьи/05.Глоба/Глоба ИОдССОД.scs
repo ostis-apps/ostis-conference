@@ -1,0 +1,44 @@
+//
+article_Globa_L_S_2016_OUfDPSD => nrel_main_idtf:
+[Глоба Л.С. 2016 - ИсполОдССОД]
+	(*
+	<- lang_ru;;
+	*);
+	[Globa L.S. 2016 - OUfDPSD] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Globa_L_S_2016_OUfDPSD => nrel_article_title:[Использование онологий для создания сценариев обработки данных](*
+	<- lang_ru;;
+	*);;
+
+
+
+article_Globa_L_S_2016_OUfDPSD => nrel_author:
+Globa_L_S;;
+
+article_Globa_L_S_2016_OUfDPSD <- article;;
+article_Globa_L_S_2016_OUfDPSD <- article_OSTIS_2016;;
+
+article_Globa_L_S_2016_OUfDPSD => nrel_bibliographic_reference: [Глоба, Л.С. Использование онологий для создания сценариев обработки данных  Л.С. Глоба  Открытые семантические технологии проектирования интеллектуальных систем Open Semantic Technologies for Intelligent Systems  материалы VI междунар. конф.Минск, 1820 февраля 2016 года Минск БГУИР, 2016 С. 27-30](*
+<-interstate_standard;; 
+*);;
+
+article_Globa_L_S_2016_OUfDPSD => nrel_year_publication: 2016;;
+
+article_Globa_L_S_2016_OUfDPSD => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Globa_L_S_2016_OUfDPSD <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/05.globa.pdf";; *);; *);;
+
+
+
+article_Globa_L_S_2016_OUfDPSD => nrel_abstract:
+[Предложенметодформированиясценариев обработки данных, основанный на онтологическом описании какинформационных, так и вычислительных ресурсов web-сервисов. Поиск и принятие решения о возможностивключения web-сервиса в состав сценария выполняетсяна основе оценки семантической близости,которая учитывает входы и выходы операций,множество типов параметров и шаблоны сервисов. Установление порядка выполнения сервисов в рамках одного сценария выполняется с помощью упорядоченного дерева,порядок обхода вершин которого соответствует порядку вычислений.Такой метод позволяет автоматизировать процесс формирования сценариев обработки больших объемов данных, расположенных в среде Интернет.](*
+	<- lang_ru;;
+	*);;
+
+article_Globa_L_S_2016_OUfDPSD => nrel_count_page: 6;;
+
+article_Globa_L_S_2016_OUfDPSD <- lang_ru;;

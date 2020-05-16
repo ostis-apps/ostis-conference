@@ -1,0 +1,37 @@
+article_Yurigina_U_S_2016_FeatRISAFSV => nrel_main_idtf:
+[Юрыгина Ю.С. 2016 - ОсобеРИСАиПСКА] 
+	(*
+	<- lang_ru;;
+	*);
+	[Yurigina U.S. 2016 - FeatRISAFSV] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Yurigina_U_S_2016_FeatRISAFSV => nrel_article_title:[Особенности реализации интеллектуальной системы анализа и прогнозирования состояния космических аппаратов](*
+	<- lang_ru;;
+	*);;
+article_Yurigina_U_S_2016_FeatRISAFSV => nrel_author:
+Urygina_U_S;;
+article_Yurigina_U_S_2016_FeatRISAFSV => nrel_author:
+Lahin_O_I;;
+article_Yurigina_U_S_2016_FeatRISAFSV => nrel_author:
+Donskov_A_V;;
+article_Yurigina_U_S_2016_FeatRISAFSV => nrel_author:
+Mishurova_N_V;;
+article_Yurigina_U_S_2016_FeatRISAFSV => nrel_author:
+Sisoev_D_V;;
+article_Yurigina_U_S_2016_FeatRISAFSV => nrel_author:
+Scorupina_E_G;;
+article_Yurigina_U_S_2016_FeatRISAFSV => nrel_abstract: [Рассматриваются методы и средства по созданию системы прогнозирования нештатных ситуаций на борту пилотируемых космических аппаратов. Для решения задач система использует концептуальную и математическую моделикосмического аппарата. Применение системы поможет специалистам главной оперативной группы управления своевременно обнаруживать отклонения от штатного режима работы и принимать соответствующие меры.];; 
+article_Yurigina_U_S_2016_FeatRISAFSV => nrel_bibliographic_reference: [Юрыгина, Ю.С. Особенности реализации интеллектуальной системы анализа и прогнозирования состояния космических аппаратов/ Ю.С. Юрыгина, О.И. Лахин, А.В. Донсков, Н.В. Мишурова, Д.В. Сысоев, Е.Г. Скорюпина // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 487–492.](*
+<-interstate_standard;; 
+*);;
+
+article_Yurigina_U_S_2016_FeatRISAFSV=> nrel_year_publication: 2016;;
+
+article_Yurigina_U_S_2016_FeatRISAFSV=> nrel_comprise:  Materials_OSTIS2016;;
+article_Yurigina_U_S_2016_FeatRISAFSV<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Юрыгина.pdf";; *);;*);;
+
+article_Yurigina_U_S_2016_FeatRISAFSV <- article;;
+article_Yurigina_U_S_2016_FeatRISAFSV <- article_OSTIS_2016;;

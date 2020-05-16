@@ -1,0 +1,32 @@
+article_Nevzorova_O_A_2016_SemanAMRiCMS => nrel_main_idtf:
+[Невзорова О. А. 2016 - СеманАПМвСКМ]
+	(*
+	<- lang_ru;;
+	*);
+	[Nevzorova O.A. 2016 - SemanAMRiCMS] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Nevzorova_O_A_2016_SemanAMRiCMS=> nrel_article_title:[Семантические аспекты представления метаданных в системе "Корпус-менеджер"](*
+	<- lang_ru;;
+	*);;
+
+article_Nevzorova_O_A_2016_SemanAMRiCMS => nrel_author:
+Nevzorova_O.A.;;
+article_Nevzorova_O_A_2016_SemanAMRiCMS => nrel_author:
+Muhamedsin_D.R.;;
+article_Nevzorova_O_A_2016_SemanAMRiCMS => nrel_author:
+Kurmanbakiev_M_I;;
+article_Nevzorova_O_A_2016_SemanAMRiCMS => nrel_abstract: [В статье рассказывается об опыте разработки модели представления метаданных в системе управления лингвистическими данными (корпус-менеджер), предназначенной для работы с электронным корпусом текстов татарского языка. В частности, в работе затронуты семантические аспекты представления метаданных.];;
+article_Nevzorova_O_A_2016_SemanAMRiCMS => nrel_bibliographic_reference: [Невзорова, О.А. Семантические аспекты представления метаданных в системе "Корпус-менеджер" / О.А. Невзорова, Д.Р. Мухамедшин, М.И. Курманбакиев // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 371–376.](*
+<-interstate_standard;; 
+*);;
+
+article_Nevzorova_O_A_2016_SemanAMRiCMS => nrel_year_publication: 2016;;
+
+article_Nevzorova_O_A_2016_SemanAMRiCMS => nrel_comprise:  Materials_OSTIS2016;;
+article_Nevzorova_O_A_2016_SemanAMRiCMS<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Невзорова.pdf";; *);;*);;
+
+article_Nevzorova_O_A_2016_SemanAMRiCMS<- article;;
+article_Nevzorova_O_A_2016_SemanAMRiCMS <- article_OSTIS_2016;;

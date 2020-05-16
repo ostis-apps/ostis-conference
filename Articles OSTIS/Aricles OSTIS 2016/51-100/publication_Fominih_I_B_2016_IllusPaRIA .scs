@@ -1,0 +1,32 @@
+article_Fominih_I_B_2016_IllusPaRIA => nrel_main_idtf:
+[Фоминых И. Б. 2016 - ИллюзВиПИП]
+	(*
+	<- lang_ru;;
+	*);
+	[Fominih I.B. 2016 - IllusPaRIA] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Fominih_I_B_2016_IllusPaRIA  => nrel_article_title:[Иллюзия восприятия и представления: информационный подход](*
+	<- lang_ru;;
+	*);;
+
+article_Fominih_I_B_2016_IllusPaRIA  => nrel_author:
+Fominih_I_B;;
+article_Fominih_I_B_2016_IllusPaRIA <- lang_ru;;
+article_Fominih_I_B_2016_IllusPaRIA => nrel_abstract: [Рассматриваются роль иллюзий в познании мира и формировании адекватного поведения живых систем. Особая роль отводится иллюзиям ассимиляции и контраста. На основе информационного подхода выявляется природа этих иллюзий. Приводятся примеры иллюзий.];;
+
+article_Fominih_I_B_2016_IllusPaRIA => nrel_count_page: 6;;
+article_Fominih_I_B_2016_IllusPaRIA <- article_OSTIS_2016;;
+
+article_Fominih_I_B_2016_IllusPaRIA  => nrel_bibliographic_reference: [Фоминых, И. Б. Иллюзия восприятия и представления: информационный подход / И. Б. Фоминых // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 349–354.](*
+<-interstate_standard;; 
+*);;
+
+article_Fominih_I_B_2016_IllusPaRIA => nrel_year_publication: 2016;;
+
+article_Fominih_I_B_2016_IllusPaRIA => nrel_comprise:  Materials_OSTIS2016;;
+article_Fominih_I_B_2016_IllusPaRIA<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Фоминых.pdf";; *);;*);;
+
+article_Fominih_I_B_2016_IllusPaRIA <- article;;

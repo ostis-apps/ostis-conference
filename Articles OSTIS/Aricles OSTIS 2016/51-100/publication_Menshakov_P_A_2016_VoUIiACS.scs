@@ -1,0 +1,31 @@
+article_Menshakov_P_A_2016_VoUIiACS => nrel_main_idtf:
+[Меньшаков П. А. 2016 - МетодГИнОНС] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Menshakov P.A. 2016 - VoUIiACS] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Menshakov_P_A_2016_VoUIiACS => nrel_article_title:[Методика голосовой идентификации на основе нейронных сетей](*
+	<- lang_ru;;
+	*);;
+
+article_Menshakov_P_A_2016_VoUIiACS => nrel_author:
+MenXsakov_P.A.;;
+article_Menshakov_P_A_2016_VoUIiACS => nrel_author:
+Murasko_I.A.;;
+article_Menshakov_P_A_2016_VoUIiACS => nrel_abstract: [На данный момент основным средством контроля доступа являются пропускные пункты, оборудованные различными средствами контроля доступа. Но большинство из средств контроля доступа имеют высокую цену. Причем большая часть расходов приходиться на выделение персонального средства идентификации каждому пользователю. Решением данной проблемы может стать голосовая идентификация. Использование биометрии позволяет отказаться от чипов и карт доступа, исключить потерю средства идентификации и его кражу. А использование голоса позволит отказаться от дорогостоящего оборудования для считывания данных.];;  
+article_Menshakov_P_A_2016_VoUIiACS => nrel_bibliographic_reference: [Меньшаков, П. А. Методика голосовой идентификации на основе нейронных сетей / П. А. Меньшаков, И. А. Мурашко  // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 411–414.](*
+<-interstate_standard;; 
+*);;
+
+article_Menshakov_P_A_2016_VoUIiACS => nrel_year_publication: 2016;;
+
+article_Menshakov_P_A_2016_VoUIiACS => nrel_comprise:  Materials_OSTIS2016;;
+article_Menshakov_P_A_2016_VoUIiACS <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Меньшаков.pdf";; *);;*);;
+
+article_Menshakov_P_A_2016_VoUIiACS <- article;;
+article_Menshakov_P_A_2016_VoUIiACS <- article_OSTIS_2016;;

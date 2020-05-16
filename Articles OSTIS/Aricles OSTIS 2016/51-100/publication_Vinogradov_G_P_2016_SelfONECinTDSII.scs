@@ -1,0 +1,30 @@
+article_Vinogradov_G_P_2016_SelfONECinTDSII => nrel_main_idtf:
+[Виноградов Г.П. 2016 - СамооСЭСвЗРНП] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Vinogradov G.P. 2016 - SelfONECinTDSII] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Vinogradov_G_P_2016_SelfONECinTDSII => nrel_article_title:[Самоорганизующиеся сетевые экспертные среды в задачах развития наукоемких производств](*
+	<- lang_ru;;
+	*);;
+article_Vinogradov_G_P_2016_SelfONECinTDSII => nrel_author:
+Vinogradov_G.P.;;
+article_Vinogradov_G_P_2016_SelfONECinTDSII => nrel_author:
+Vinogradova_N_G;;
+article_Vinogradov_G_P_2016_SelfONECinTDSII => nrel_abstract: [Рассматривается проблема построения самоорганизующихся сетевых экспертных сред для обеспечения инновационного развития производств, выпускающих высокотехнологичную и наукоемкую продукцию и услуги.];;
+article_Vinogradov_G_P_2016_SelfONECinTDSII => nrel_bibliographic_reference: [Виноградов, Г.П. Самоорганизующиеся сетевые экспертные среды в задачах развития наукоемких производств/ Г.П. Виноградов, Н.Г. Виноградова  // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 457–464.](*
+<-interstate_standard;; 
+*);;
+
+article_Vinogradov_G_P_2016_SelfONECinTDSII => nrel_year_publication: 2016;;
+
+article_Vinogradov_G_P_2016_SelfONECinTDSII => nrel_comprise:  Materials_OSTIS2016;;
+article_Vinogradov_G_P_2016_SelfONECinTDSII <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Виноградов.pdf";; *);;*);;
+
+article_Vinogradov_G_P_2016_SelfONECinTDSII <- article;;
+article_Vinogradov_G_P_2016_SelfONECinTDSII <- article_OSTIS_2016;;

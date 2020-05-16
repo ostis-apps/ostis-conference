@@ -1,0 +1,39 @@
+sc_node_norole_relation->nrel_count_page;;
+nrel_count_page=> nrel_main_idtf:
+[число страниц*](*<- lang_ru;;*);
+[count of page*] (*<-lang_en;;*);;
+
+
+definition ->...
+(*
+->rrel_key_sc_element:  nrel_count_page;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Число страниц - это количество страниц, занимаемых статьёй в сборнике.](*<-lang_ru;;*);;*);;
+=> nrel_main_idtf: [Опр.(число страниц*)](*<-lang_ru;;*);;
+=> nrel_using_constants:
+{ 
+	article;
+	collection;
+	page
+};;
+*);;
+
+nrel_count_page=>nrel_first_domain: article;;
+nrel_count_page=>nrel_second_domain: number;;
+..union6<=nrel_combination:
+{
+	article;
+	number
+};;
+..union6<=nrel_definitional_domain:nrel_count_page;;
+
+
+
+arity -> ..arity7;;
+..arity7 -> nrel_count_page;;
+..arity7 => nrel_measurement: 2;;
+
+
+nrel_count_page<-oriented_relation;;
+nrel_count_page<|-symmetric_relation;;
+nrel_count_page<-antireflexive_relation;;
+nrel_count_page<|-transitive_relation;;

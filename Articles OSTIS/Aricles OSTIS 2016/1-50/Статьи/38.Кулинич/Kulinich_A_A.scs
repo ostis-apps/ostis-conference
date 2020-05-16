@@ -1,0 +1,10 @@
+Kulinich_A_A => nrel_main_idtf:
+[Кулинич А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kulinich A.A.] 
+	(*
+	<- lang_en;;
+	*);;
+

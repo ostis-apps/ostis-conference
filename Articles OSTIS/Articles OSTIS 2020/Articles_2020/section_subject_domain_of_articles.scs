@@ -1,0 +1,12 @@
+section_subject_domain_of_articles
+=> nrel_main_idtf:
+	[Раздел. Предметная область статей.]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of articles.]
+	(* <- lang_en;; *);
+<- not_enough_formed_structure;
+<- atomic_section;;
+
+section_subject_domain_of_articles = [*^"file://section_subject_domain_of_articles.scsi"*];;
+
+section_subject_domain_of_articles -> rrel_key_sc_element: subject_domain_of_articles;;		

@@ -1,0 +1,32 @@
+sc_node_not_relation-> article_OSTIS_2020;;
+article_OSTIS_2020=> nrel_main_idtf:
+[статья OSTIS-2020] (*<- lang_ru;;*);
+[OSTIS-2020 article] (*<-lang_en;;*);;
+
+definition ->...
+(*
+->rrel_key_sc_element: article_OSTIS_2020;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Статья OSTIS 2020 - <b><sc_element sys_idtf="article"> статья</b></sc_element>, входящая в состав сборника "Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4".](*
+=>nrel_format:format_html;;
+<-lang_ru;;
+*);;
+*);;
+=> nrel_main_idtf: [Опр.(статья OSTIS 2020)];;
+=> nrel_using_constants:
+{ 
+	article
+};;
+*);;
+
+statement ->...
+(*
+->rrel_key_sc_element: article_OSTIS_2020;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Статьи OSTIS 2020 были опубликованы в 2020 году.](*<-lang_ru;;*);;*);;
+=> nrel_main_idtf: [Утв.(статья OSTIS 2020)](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{
+	year
+};;
+*);;
+
+article_OSTIS_2020<= nrel_inclusion: article;;

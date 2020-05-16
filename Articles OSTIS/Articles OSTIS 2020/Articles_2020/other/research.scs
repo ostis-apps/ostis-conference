@@ -1,0 +1,4 @@
+sc_node_not_relation-> research;;
+research=> nrel_main_idtf:
+[исследование](*<- lang_ru;;*);
+[research](*<- lang_en;;*);;

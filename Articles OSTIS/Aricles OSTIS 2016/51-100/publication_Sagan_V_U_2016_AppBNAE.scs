@@ -1,0 +1,30 @@
+article_Sagan_V_U_2016_AppBNAE=> nrel_main_idtf:
+[ Саган В.Ю. 2016 - ПримеСБдАЭКГ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Sagan V.U. 2016 - AppBNAE] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Sagan_V_U_2016_AppBNAE=>nrel_article_title:[Применение сетей Байеса для анализа ЭКГ](*
+	<- lang_ru;;
+	*);;
+article_Sagan_V_U_2016_AppBNAE => nrel_author:
+Sagan_V_U;;
+article_Sagan_V_U_2016_AppBNAE => nrel_author:
+Fridman_A.A.;;
+article_Sagan_V_U_2016_AppBNAE => nrel_abstract: [В данной работе описаны исследования в области автоматизированного анализа работы сердца по электрокардиограммам с применением машинного обучения. В частности описаны результаты применения байесовских сетей и наивного байесовского классификатора для определения наличия кардиологических патологий. Полученные результаты указывают на то, что данный подход применим к поставленной задаче. Наилучшие результаты были получены с использованием улучшенной байесовской сети.];; 
+article_Sagan_V_U_2016_AppBNAE => nrel_bibliographic_reference: [ Саган, В.Ю. Применение сетей Байеса для анализа ЭКГ / В.Ю. Саган, Р. Фридман// Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 579–582.](*
+<-interstate_standard;; 
+*);;
+
+article_Sagan_V_U_2016_AppBNAE => nrel_year_publication: 2016;;
+
+article_Sagan_V_U_2016_AppBNAE => nrel_comprise:  Materials_OSTIS2016;;
+article_Sagan_V_U_2016_AppBNAE <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Саган.pdf";; *);;*);;
+
+article_Sagan_V_U_2016_AppBNAE <- article;;
+article_Sagan_V_U_2016_AppBNAE <- article_OSTIS_2016;;

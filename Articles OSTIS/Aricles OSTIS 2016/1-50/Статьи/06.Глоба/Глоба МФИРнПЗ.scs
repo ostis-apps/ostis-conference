@@ -1,0 +1,43 @@
+article_Globa_L_S_2016_tMethodoCECoKPC => nrel_main_idtf:
+[Глоба Л.С. 2016 - МетодФИРнПЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Globa L.S. 2016 - tMethodoCECoKPC] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Globa_L_S_2016_tMethodoCECoKPC => nrel_article_title:[Метод формирования инженерных расчётов на порталах знаний](*
+	<- lang_ru;;
+	*);;
+
+article_Globa_L_S_2016_tMethodoCECoKPC => nrel_author:
+Globa_L_S;
+Novogrudskaa_R.L.;;
+
+article_Globa_L_S_2016_tMethodoCECoKPC <- article;;
+article_Globa_L_S_2016_tMethodoCECoKPC <- article_OSTIS_2016;;
+
+article_Globa_L_S_2016_tMethodoCECoKPC => nrel_bibliographic_reference: [Глоба, Л.С. Метод формирования инженерных расчётов на порталах знаний / Л.С. Глоба, Р.Л. Новогрудская// Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Globa_L_S_2016_tMethodoCECoKPC => nrel_year_publication: 2016;;
+
+article_Globa_L_S_2016_tMethodoCECoKPC => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Globa_L_S_2016_tMethodoCECoKPC <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/06.globa.pdf";; *);; *);;
+
+
+
+article_Globa_L_S_2016_tMethodoCECoKPC => nrel_abstract:
+[Предложен  метод  формирования  сложного  инженерного  расчета,  который  задает  механизм  объединениясоответствующих частичных функциональных элементов в общий функциональный элемент. Согласно методуформирования  сложного  инженерного  расчета  поиск  частичных  функциональных  элементов,  которыенеобходимо включить в общий, базируется на сравнении их параметров, поскольку в общий функциональныйэлемент включаются только те частичные функциональные элементы, в которых есть общие параметры, илиобласти  значений  параметров  которых  пересекаются.  Процесс  формирования  общего  функциональногоэлемента представлено с помощью упорядоченного дерева, которое упрощает процедуру его модификации.](*
+	<- lang_ru;;
+	*);;
+
+article_Globa_L_S_2016_tMethodoCECoKPC  => nrel_count_page: 4;;
+
+article_Globa_L_S_2016_tMethodoCECoKPC  <- lang_ru;;
+

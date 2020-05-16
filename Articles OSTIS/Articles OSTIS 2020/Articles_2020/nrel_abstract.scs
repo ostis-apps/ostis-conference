@@ -1,0 +1,35 @@
+sc_node_norole_relation->nrel_abstract;;
+nrel_abstract=> nrel_main_idtf:
+[аннотация*](*<- lang_ru;;*);
+[abstract*] (*<- lang_en;;*);;
+
+definition ->...
+(*
+->rrel_key_sc_element:  nrel_abstract;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Аннотация -  краткое изложение содержания книги, статьи и т. п.](*<-lang_ru;;*);;*);;
+=> nrel_main_idtf: [Опр.(аннотация*)](*<-lang_ru;;*);;
+=> nrel_using_constants:
+{ 
+	article;
+	book
+};;
+*);;
+
+nrel_abstract=>nrel_first_domain: article;;
+nrel_abstract=>nrel_second_domain: file;;
+..union1<=nrel_combination:
+{
+	article;
+	file
+};;
+..union1<=nrel_definitional_domain:nrel_abstract;;
+
+arity -> ..arity1;;
+..arity1 -> nrel_abstract;;
+..arity1 => nrel_measurement: 2;;
+2 <- number;;
+
+nrel_abstract<-oriented_relation;;
+nrel_abstract<|-symmetric_relation;;
+nrel_abstract<-antireflexive_relation;;
+nrel_abstract<|-transitive_relation;;

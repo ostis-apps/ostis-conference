@@ -1,0 +1,34 @@
+publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI => nrel_main_idtf:
+[Москаленко Ф.М. 2016 - ИСдОПIACPAAShOPPОИ]
+	(*
+	<- lang_ru;;
+	*);
+	[Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI => nrel_name_publication:[Технология разработки решателей задач интеллектуальных сервисов для облачной платформы IACPAAS на основе расширяемого редактора орграфов информации](*
+	<- lang_ru;;
+	*);;
+
+publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI <= nrel_author:
+Moskalenko_F_M;
+Timchenko_V_A;;
+
+
+publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI <- article;;
+
+publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI => nrel_reference_standard: [Москаленко, Ф. М. Технология разработки решателей задач интеллектуальных сервисов для облачной платформы IACPAAS на основе расширяемого редактора орграфов информации / Ф.М. Москаленко, В.А. Тимченко // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI => nrel_year_publication: 2016;;
+
+publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/03.moskalenko.pdf";; *);; *);;
+
+publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI  => nrel_count_page: 6;;
+
+publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI => nrel_article_language: lang_ru;;
+

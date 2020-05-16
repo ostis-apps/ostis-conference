@@ -1,0 +1,5 @@
+sc_node_not_relation-> creation;;
+creation => nrel_main_idtf:
+[произведение](*<- lang_ru;;*);
+[creation](*<- lang_en;;*);;
+

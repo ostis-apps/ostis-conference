@@ -1,0 +1,5 @@
+sc_node_not_relation-> model;;
+model=> nrel_main_idtf:
+[модель](*<- lang_ru;;*);
+[model](*<-lang_en;;*);;
+

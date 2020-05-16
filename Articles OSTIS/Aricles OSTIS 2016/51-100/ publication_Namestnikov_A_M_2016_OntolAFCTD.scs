@@ -1,0 +1,31 @@
+article_Namestnikov_A_M_2016_OntolAFCTD => nrel_main_idtf:
+[Наместников А. М. 2016 - ОнтолПкФКЗвЭАТД] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Namestnikov A.M. 2016 - OntolAFCTD] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Namestnikov_A_M_2016_OntolAFCTD=> nrel_article_title:[Отнтологический подход к формированию контекстных запросов в электронном архиве технических документов](*
+	<- lang_ru;;
+	*);;
+
+article_Namestnikov_A_M_2016_OntolAFCTD<= nrel_authors:
+Namestnikov_A.M. ;;
+
+
+article_Namestnikov_A_M_2016_OntolAFCTD <- article;;
+article_Namestnikov_A_M_2016_OntolAFCTD <- article_OSTIS_2016;;
+
+article_Namestnikov_A_M_2016_OntolAFCTD => nrel_bibliographic_reference: [Наместников, А. М. Отнтологический подход к формированию контекстных запросов в электронном архиве технических документов / А.М. Наместников  // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 415–420.](*
+<-interstate_standard;; 
+*);;
+
+article_Namestnikov_A_M_2016_OntolAFCTD => nrel_year_publication: 2016;;
+
+article_Namestnikov_A_M_2016_OntolAFCTD => nrel_comprise:  Materials_OSTIS2016;;
+article_Namestnikov_A_M_2016_OntolAFCTD <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Наместников.pdf";; *);;*);;
+article_Namestnikov_A_M_2016_OntolAFCTD => nrel_abstract: [В работе приводятся модели и методы выполнения контекстно-ориентированных запросов к электронным архивам технических документов крупной проектной организации. Онтология рассматривается в контексте решения задачи уточнения пользовательских запросов с целью повышения точности и полноты информационного поиска. В статье содержатся результаты вычислительных экспериментов на базе современного предметно-ориентированного электронного архива.];;
