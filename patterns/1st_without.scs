@@ -1,0 +1,39 @@
+correspondence_with_conference_participants_without_waiting=> nrel_main_idtf:
+     [переписка с участниками конференции без ожидания ответа](* <-lang_ru;; *);
+     [correspondence with conference participant without waiting](* <-lang_en;; *);;
+
+definition_of_addressee_of_letter=> nrel_main_idtf:
+     [определение адресата письма](* <-lang_ru;; *);
+     [definition of addressee of letter](* <-lang_en;; *);;
+
+definition_of_body_of_letter=> nrel_main_idtf:
+     [определение тела письма](* <-lang_ru;; *);
+     [definition of body of letter](* <-lang_en;; *);;
+
+sending_letter_to_addressee=> nrel_main_idtf:
+     [отправка письма адресату](* <-lang_ru;; *);
+     [sending letter to addressee](* <-lang_en;; *);;
+
+request_for_personal_information=> nrel_main_idtf:
+     [получение статьи для публикации в сборнике](* <-lang_ru;; *);
+     [request for personal information](* <-lang_en;; *);;
+
+waiting_for_reply=> nrel_main_idtf:
+     [ожидание ответа](* <-lang_ru;; *);
+     [waiting for reply](* <-lang_en;; *);;
+
+correspondence_with_conference_participants_with_waiting=> nrel_main_idtf:
+     [переписка с участниками конференции с ожиданием ответа](* <-lang_ru;; *);
+     [correspondence with conference participant with waiting](* <-lang_en;; *);;
+
+CMT=> nrel_main_idtf:
+     [CMT](* <-lang_ru;; *);
+     [CMT](* <-lang_en;; *);;
+
+correspondence_with_conference_participants_with_waiting=> nrel_main_idtf:
+     [переписка с участниками конференции c ожиданием ответа](* <-lang_ru;; *);
+     [correspondence with conference participant with waiting](* <-lang_en;; *);;
+
+review=> nrel_main_idtf:
+     [рецензия](* <-lang_ru;; *);
+     [review](* <-lang_en;; *);;
