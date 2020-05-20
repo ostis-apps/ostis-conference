@@ -1,0 +1,44 @@
+concept_DLP_system<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[DLP system]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(предотвращение утечек)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_technology;
+concept_information_system
+(*
+=> nrel_main_idtf:
+	[информационная система](* <- lang_ru;;*);;
+*);
+concept_confidential_data
+(*
+=> nrel_main_idtf:
+	[конфиденциальная информация](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[предотвращение утечек -  (англ. Data Leak Prevention, DLP) — технологии предотвращения утечек конфиденциальной информации из информационной системы вовне.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element: ... (*
+	<-explanation;;
+	=> nrel_main_idtf:
+	[Утверждение(DLP-система, анализ потоков данных, информационная система)] (*<-lang_ru;;*);;
+=> nrel_using_constants: {
+	concept_information_system;
+	concept_analysis_of_data_flows
+(*
+=> nrel_main_idtf:
+	[анализ потоков данных](* <- lang_ru;;*);;
+*)
+};;
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[DLP-системы строятся на анализе потоков данных, пересекающих периметр защищаемой информационной системы. ](*<-lang_ru;;*);;
+      *);;
+*);;

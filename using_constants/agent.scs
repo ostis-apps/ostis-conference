@@ -1,0 +1,42 @@
+concept_agent<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[агент]
+	(*<-lang_ru;;*);
+	[agent]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(агент)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_problem;
+concept_goal
+(*
+=> nrel_main_idtf:
+	[цель](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[агент - это «некто или нечто, прикладывающее усилия для достижения эффекта». Он действует без прямого вмешательства человека или другой управляющей сущности; стремится оптимизировать выполнение поставленной задачи; имеет цель.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<=nrel_property:
+{
+concept_reactivity
+(*
+=> nrel_main_idtf:
+	[реактивность](* <- lang_ru;;*);;
+*);
+concept_proactivity
+(*
+=> nrel_main_idtf:
+	[проактивность](* <- lang_ru;;*);;
+*);
+concept_sociality
+(*
+=> nrel_main_idtf:
+	[социальность](* <- lang_ru;;*);;
+*)
+};;

@@ -1,0 +1,49 @@
+concept_pseudophysical_logic<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[псевдофизическая логика]
+	(*<-lang_ru;;*);
+	[pseudophysical logic]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(псевдофизическая логика)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_model_for_representing_events
+(*
+=> nrel_main_idtf:
+	[модель представления событий](* <- lang_ru;;*);;
+*);
+concept_event_monitoring_system
+(*
+=> nrel_main_idtf:
+	[система мониторинга событий](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[псевдофизическая логика - модель представления событий для использования при разработке систем мониторинга событий.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element: ... (*
+	<-explanation;;
+	=> nrel_main_idtf:
+	[Утверждение(псевдофизическая логика, нечёткая логика, временная логика)] (*<-lang_ru;;*);;
+=> nrel_using_constants: {
+	concept_fuzzy_logic
+(*
+=> nrel_main_idtf:
+	[нечёткая логика](* <- lang_ru;;*);;
+*);
+	concept_temporal_logic
+(*
+=> nrel_main_idtf:
+	[временная логика](* <- lang_ru;;*);;
+*)
+};;
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[В основе псевдофизической логики лежат нечёткая логика и временная логика.](*<-lang_ru;;*);;
+      *);;
+*);;

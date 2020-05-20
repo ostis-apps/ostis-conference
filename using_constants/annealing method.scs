@@ -1,0 +1,56 @@
+concept_annealing_method<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[метод отжига]
+	(*<-lang_ru;;*);
+	[annealing method]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(метод отжига)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_method_solving_problem
+(*
+=> nrel_main_idtf:
+	[метод решения задачи](* <- lang_ru;;*);;
+*);
+	concept_optimization;
+concept_discrete_optimization
+(*
+=> nrel_main_idtf:
+	[дискретная оптимизация](* <- lang_ru;;*);;
+*);
+concept_combinatorial_optimization
+(*
+=> nrel_main_idtf:
+	[комбинаторная оптимизация](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[метод отжига - общий алгоритмический метод решения задачи глобальной оптимизации, особенно дискретной и комбинаторной оптимизации.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element: ... (*
+	<-explanation;;
+	=> nrel_main_idtf:
+	[Утверждение(метод отжига, алгоритм, физический процесс, кристаллизация вещества)] (*<-lang_ru;;*);;
+=> nrel_using_constants: {
+	concept_algorithm;
+	concept_physical_process
+(*
+=> nrel_main_idtf:
+	[физический процесс](* <- lang_ru;;*);;
+*);
+	concept_crystallization_of_substance
+(*
+=> nrel_main_idtf:
+	[ кристаллизация вещества](* <- lang_ru;;*);;
+*)
+};;
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Алгоритм основывается на имитации физического процесса, который происходит при кристаллизации вещества, в том числе при отжиге металлов.](*<-lang_ru;;*);;
+      *);;
+*);;

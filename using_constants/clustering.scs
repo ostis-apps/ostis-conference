@@ -1,0 +1,25 @@
+concept_clustering<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[clustering]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(кластеризация)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_decomposition_of_set
+(*
+=> nrel_main_idtf:
+	[разбиение множества](* <- lang_ru;;*);;
+*);
+concept_cluster
+(*
+=> nrel_main_idtf:
+	[кластер](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[кластеризация -  это задача разбиения множества объектов на группы, называемые кластерами. Внутри каждой группы должны оказаться «похожие» объекты, а объекты разных группы должны быть как можно более отличны.] (*<-lang_ru;;*);;
+*);;
+*);;

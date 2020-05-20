@@ -1,0 +1,40 @@
+concept_semantic_search<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[semantic search]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(семантический поиск)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_technology_of_information_search
+(*
+=> nrel_main_idtf:
+	[ технология поиска информации](* <- lang_ru;;*);;
+*);
+concept_context
+(*
+=> nrel_main_idtf:
+	[контекст](* <- lang_ru;;*);;
+*);
+concept_search_query
+(*
+=> nrel_main_idtf:
+	[поисковой запрос](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[семантический поиск -  способ и технология поиска информации, основанная на использовании контекстного (смыслового) значения запрашиваемых фраз, вместо словарных значений отдельных слов или выражений при поисковом запросе.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element: ... (*
+	<-explanation;;
+	=> nrel_main_idtf:
+	[Утверждение] (*<-lang_ru;;*);;
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Цель семантического поиска - определять особенности пользователя и предоставлять ему наиболее релевантные результаты.](*<-lang_ru;;*);;
+      *);;
+*);;

@@ -1,0 +1,33 @@
+concept_operational_image<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[операционное изображение]
+	(*<-lang_ru;;*);
+	[operational image]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(операционное изображение)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_instrument
+(*
+=> nrel_main_idtf:
+	[инструмент](* <- lang_ru;;*);;
+*);
+	concept_problem;
+concept_operation
+(*
+=> nrel_main_idtf:
+	[операция](* <- lang_ru;;*);;
+*);
+concept_image_processing
+(*
+=> nrel_main_idtf:
+	[обработка изображения](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[Операционные изображения - это инструменты, которые выполняют задачи и выполняют функции как часть операции. Семейство операционных изображений включает в себя различные технологии и процессы обработки изображений, которые обычно объединяют камеры или датчики с программным обеспечением для обработки изображений определенного типа.] (*<-lang_ru;;*);;
+*);;
+*);;

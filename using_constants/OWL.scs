@@ -1,0 +1,47 @@
+concept_OWL<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[OWL]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(OWL)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_ontology
+(*
+=> nrel_main_idtf:
+	[онтология](* <- lang_ru;;*);;
+*);
+concept_semantic_web
+(*
+=> nrel_main_idtf:
+	[семантическая паутина](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[OWL (англ. Web Ontology Language) — язык описания онтологий для семантической паутины. Язык OWL позволяет описывать классы и отношения между ними, присущие веб-документам и приложениям.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element: ... (*
+	<-explanation;;
+	=> nrel_main_idtf:
+	[Утверждение(OWL, веб-страница, URI)] (*<-lang_ru;;*);;
+=> nrel_using_constants: {
+	concept_web_page
+(*
+=> nrel_main_idtf:
+	[ веб-страница](* <- lang_ru;;*);;
+*);
+	concept_URI
+(*
+=> nrel_main_idtf:
+	[ URI](* <- lang_ru;;*);;
+*)
+};;
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[OWL пригоден для описания не только веб-страниц, но и любых объектов действительности. Каждому элементу описания в этом языке (в том числе свойствам, связывающим объекты) ставится в соответствие URI.](*<-lang_ru;;*);;
+      *);;
+*);;

@@ -1,0 +1,31 @@
+concept_clustering_algorithms<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[clustering algorithms]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(алгоритм кластеризации)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[алгоритм кластеризации -   функция a:X→Y, которая любому объекту x∈X ставит в соответствие идентификатор кластера y∈Y.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element: ... (*
+	<-explanation;;
+	=> nrel_main_idtf:
+	[Утверждение(алгоритм кластеризации, кластеризация, преобразование фукнкции)] (*<-lang_ru;;*);;
+=> nrel_using_constants: {
+	concept_clustering;
+	concept_converting_a_function
+(*
+=> nrel_main_idtf:
+	[преобразование фукнкции](* <- lang_ru;;*);;
+*)
+};;
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Алгоритм кластеризации является согласованным (англ. consistent), если результат кластеризации не изменяется после допустимого преобразования функции расстояния.](*<-lang_ru;;*);;
+      *);;
+*);;

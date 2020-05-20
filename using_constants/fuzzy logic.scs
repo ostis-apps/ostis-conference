@@ -1,0 +1,50 @@
+concept_fuzzy_logic<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[нечёткая логика]
+	(*<-lang_ru;;*);
+	[fuzzy logic]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(нечёткая логика)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_logics;
+concept_fuzzy_set
+(*
+=> nrel_main_idtf:
+	[нечёткое множество](* <- lang_ru;;*);;
+*);
+concept_fuzzy_knowledge
+(*
+=> nrel_main_idtf:
+	[нечёткое знание](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[нечёткая логика -  это раздел многозначной логики, который базируется на обобщении классической логики и теории нечётких множеств для формализации нечётких знаний, характеризуемых лингвистической неопределённостью.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element: ... (*
+	<-explanation;;
+	=> nrel_main_idtf:
+	[Утверждение] (*<-lang_ru;;*);;
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Предметом нечёткой логики считается исследование рассуждений в условиях нечёткости, размытости, сходных с рассуждениями в обычном смысле, и их применение в вычислительных системах.](*<-lang_ru;;*);;
+      *);;
+*);;
+
+concept_fuzzy_logic
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Схема.)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/fuzzy.gif"(*=>nrel_format:format_gif;;*);;
+*);;
+*);;

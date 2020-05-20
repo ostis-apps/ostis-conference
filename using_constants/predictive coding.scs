@@ -1,0 +1,26 @@
+concept_predictive_coding<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[predictive coding]
+	(*<-lang_en;;*);
+
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(интеллектуальное кодирование)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_information
+(*
+=> nrel_main_idtf:
+	[информация](* <- lang_ru;;*);;
+*);
+concept_prediction
+(*
+=> nrel_main_idtf:
+	[предсказание](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[интеллектуальное кодирование - вид кодирования, которое предусматривает, что обрабатывается лишь та информация, которая является важной для предсказания будущего.] (*<-lang_ru;;*);;
+*);;
+*);;

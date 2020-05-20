@@ -1,0 +1,23 @@
+concept_semantic_analysis<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[semantic analysis]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(семантический анализ)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_semantic_representation_of_knowledge;
+concept_automatic_text_processing;
+
+concept_semantic_relation
+(*
+=> nrel_main_idtf:
+	[семантическое отношение](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[семантический анализ -  этап в последовательности действий алгоритма автоматического понимания текстов, заключающийся в выделении семантических отношений, формировании семантического представления текстов.] (*<-lang_ru;;*);;
+*);;
+*);;

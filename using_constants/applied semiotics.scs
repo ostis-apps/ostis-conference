@@ -1,0 +1,44 @@
+concept_applied_semiotics<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[прикладная семиотика]
+	(*<-lang_ru;;*);
+	[applied semiotics]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(прикладная семиотика)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_semiotic_model
+(*
+=> nrel_main_idtf:
+	[семиотическая модель](* <- lang_ru;;*);;
+*);
+	concept_applied_problem
+(*
+=> nrel_main_idtf:
+	[прикладная задача](* <- lang_ru;;*);;
+*);
+concept_theoretical_semiotics
+(*
+=> nrel_main_idtf:
+	[теоретическая семиотика](* <- lang_ru;;*);;
+*);
+concept_limited_subset
+(*
+=> nrel_main_idtf:
+	[ограниченное подмножество](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[Прикладная семиотика своей основной задачей считает развитие эффективного аппарата интерпретации текстов на естественном языке в виде специальных семиотических моделей и использования этих моделей (точнее, представленных в них знаний) для решения прикладных задач. При этом аппарат прикладной семиотики строится с использованием достижений теоретической семиотики, но развивается не для естественного языка в целом, а для его существенно ограниченных подмножеств.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<=nrel_inclusion:
+	concept_semiotics
+(*
+=> nrel_main_idtf:
+	[семиотика](* <- lang_ru;;*);;
+*);;

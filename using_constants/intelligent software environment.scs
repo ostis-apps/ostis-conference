@@ -1,0 +1,36 @@
+concept_intelligent_software_environment<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[intelligent software environment]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(интеллектуальное программное обеспечение)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_program_software
+(*
+=> nrel_main_idtf:
+	[программное обеспечение](* <- lang_ru;;*);;
+*);
+	concept_algorithmization
+(*
+=> nrel_main_idtf:
+	[алгоритмизация](* <- lang_ru;;*);;
+*);
+concept_process_automation
+
+(*
+=> nrel_main_idtf:
+	[автоматизация процесса](* <- lang_ru;;*);;
+*);
+concept_solution_calculation
+(*
+=> nrel_main_idtf:
+	[вычисление решения](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[интеллектуальное программное обеспечение - программное обеспечение уровня конечного пользователя, которое исключает пользователя из этапов алгоритмизации и программирования задач, автоматизацию процесса вычисления решения в условиях приближенных исходных данных с анализом достоверности полученных результатов.] (*<-lang_ru;;*);;
+*);;
+*);;
