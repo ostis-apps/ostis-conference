@@ -1,0 +1,26 @@
+concept_semantic_representation_of_knowledge<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[semantic representation of knowledge]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(представление знаний)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_cognitive_science
+(*
+=> nrel_main_idtf:
+	[когнитология](* <- lang_ru;;*);;
+*);
+concept_computer_science
+(*
+=> nrel_main_idtf:
+	[информатика](* <- lang_ru;;*);;
+*);
+concept_artificial_intelligence
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[представление знаний -  вопрос, возникающий в когнитологии, в информатике и в исследованиях искусственного интеллекта.] (*<-lang_ru;;*);;
+*);;
+*);;

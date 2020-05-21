@@ -1,0 +1,56 @@
+concept_cognitive_hybrid_intellectual_systems<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[cognitive hybrid intellectual system]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(когнитивная гибридная интеллектуальная система)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_system;
+	concept_problem;
+concept_imitation_of_intellectual_activity
+(*
+=> nrel_main_idtf:
+	[имитация интеллектуальной деятельности](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[когнитивная гибридная интеллектуальная система - система, в которой для решения задачи используется более одного метода имитации интеллектуальной деятельности человека.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<=nrel_inclusion:
+{
+concept_analytical_model
+(*
+=> nrel_main_idtf:
+	[аналитическая модель](* <- lang_ru;;*);;
+*);
+concept_expert_system
+(*
+=> nrel_main_idtf:
+	[экспертная система](* <- lang_ru;;*);;
+*);
+concept_artificial_neural_network
+(*
+=> nrel_main_idtf:
+	[искусственная нейронная сеть](* <- lang_ru;;*);;
+*);
+concept_fuzzy_system
+(*
+=> nrel_main_idtf:
+	[нечёткая система](* <- lang_ru;;*);;
+*);
+concept_genetic_algorithm
+(*
+=> nrel_main_idtf:
+	[генетический алгоритм](* <- lang_ru;;*);;
+*);
+concept_simulation_statistical_models
+(*
+=> nrel_main_idtf:
+	[имитационная статическая модель](* <- lang_ru;;*);;
+*)
+};;

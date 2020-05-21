@@ -1,0 +1,37 @@
+concept_opposition_scale<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[оппозиционная шкала]
+	(*<-lang_ru;;*);
+	[opposition scale]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(оппозиционная шкала)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_antonym
+(*
+=> nrel_main_idtf:
+	[антоним](* <- lang_ru;;*);;
+*);
+	concept_scale
+(*
+=> nrel_main_idtf:
+	[шкала](* <- lang_ru;;*);;
+*);
+concept_interval
+(*
+=> nrel_main_idtf:
+	[интервал](* <- lang_ru;;*);;
+*);
+concept_entity
+(*
+=> nrel_main_idtf:
+	[сущность](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[оппозиционная шкала - шкала, образованная из пар антонимов, стоящих на разных концах шкалы, где за середину берётся интервал,, соответствующий среднему значению сущности, которая шкалируется..] (*<-lang_ru;;*);;
+*);;
+*);;

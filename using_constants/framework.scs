@@ -1,0 +1,54 @@
+concept_framework<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[фреймворк]
+	(*<-lang_ru;;*);
+	[framework]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(фреймворк)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_software_platform
+(*
+=> nrel_main_idtf:
+	[программная платформа](* <- lang_ru;;*);;
+*);
+concept_software 
+(*
+=> nrel_main_idtf:
+	[программное обеспечение](* <- lang_ru;;*);;
+*);
+concept_software_project
+(*
+=> nrel_main_idtf:
+	[программный проект](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[фреймворк -   программная платформа, определяющая структуру программной системы; программное обеспечение, облегчающее разработку и объединение разных компонентов большого программного проекта.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element: ... (*
+	<-explanation;;
+	=> nrel_main_idtf:
+	[Утверждение(фреймворк, архитектура приложения, разработка)] (*<-lang_ru;;*);;
+=> nrel_using_constants: {
+	concept_architecture_of_application
+(*
+=> nrel_main_idtf:
+	[архитектура приложения](* <- lang_ru;;*);;
+*);
+	concept_development
+(*
+=> nrel_main_idtf:
+	[разработка](* <- lang_ru;;*);;
+*)
+};;
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[«фреймворк» диктует правила построения архитектуры приложения, задавая на начальном этапе разработки поведение по умолчанию — «каркас», который нужно будет расширять и изменять, согласно указанным требованиям.](*<-lang_ru;;*);;
+      *);;
+*);;

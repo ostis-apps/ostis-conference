@@ -1,0 +1,27 @@
+concept_semiotic_modeling<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[семиотическое моделирование]
+	(*<-lang_ru;;*);
+	[semiotic modeling]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(семиотическое моделирование)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_modeling
+(*
+=> nrel_main_idtf:
+	[моделирование](* <- lang_ru;;*);;
+*);
+	concept_structural_programming
+(*
+=> nrel_main_idtf:
+	[структурное программирование](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[Семиотическое моделирование является формальным (теоретическим) моделированием, которое служит основой для других видов моделирования, хотя и не всегда применяется в них. Семиотическое управление можно сравнить со структурным программированием, которое задает логическую основу для других видов программирования.] (*<-lang_ru;;*);;
+*);;
+*);;

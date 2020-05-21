@@ -1,0 +1,27 @@
+concept_hybrid_intelligent_multi_agent_system<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[hybrid intelligent multi-agent system]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(гибридная интеллектуальная мультиагентная система)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_agent;
+	concept_simulation_subsystem
+(*
+=> nrel_main_idtf:
+	[имитационное моделирование](* <- lang_ru;;*);;
+*);
+concept_multi_agent_system;
+concept_system_dynamic_model
+(*
+=> nrel_main_idtf:
+	[системно-динамическая модель](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[гибридная интеллектуальная мультиагентная система - система, у которой разработана архитектура интеллектуального агента с внутренней подсистемой имитационного моделирования, представляющей собой имитационный аппарат (комплекс системно-динамических моделей). Предложены подходы реализации имитационного аппарата агентов на основе системно-динамических моделей в мультиагентной среде.] (*<-lang_ru;;*);;
+*);;
+*);;

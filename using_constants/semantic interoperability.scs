@@ -1,0 +1,26 @@
+concept_semantic_interoperability<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[semantic interoperability]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(семантическая совместимость)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_computer_system;
+concept_data_exchange
+(*
+=> nrel_main_idtf:
+	[обмен данных](* <- lang_ru;;*);;
+*);
+concept_sense
+(*
+=> nrel_main_idtf:
+	[смысл](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[семантическая совместимость -  способность  компьютерных систем для обмена данных с недвусмысленным, общим смыслом.] (*<-lang_ru;;*);;
+*);;
+*);;

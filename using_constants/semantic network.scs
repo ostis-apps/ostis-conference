@@ -1,0 +1,68 @@
+concept_semantic_network<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[семантическая сеть]
+	(*<-lang_ru;;*);
+	[semantic network]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(семантическая сеть)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_information_model
+(*
+=> nrel_main_idtf:
+	[информационная модель](* <- lang_ru;;*);;
+*);
+concept_subject_area;
+concept_directed_graph
+(*
+=> nrel_main_idtf:
+	[информационная модель](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[семантическая сеть -  информационная модель предметной области, имеет вид ориентированного графа. Вершины графа соответствуют объектам предметной области, а дуги (рёбра) задают отношения между ними.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element: ... (*
+	<-explanation;;
+	=> nrel_main_idtf:
+	[Утверждение(семантическая сеть, понятие, событие,свойство, процесс)] (*<-lang_ru;;*);;
+=> nrel_using_constants: {
+	concept_concept;
+	concept_event
+(*
+=> nrel_main_idtf:
+	[событие ](* <- lang_ru;;*);;
+*);
+concept_property
+(*
+=> nrel_main_idtf:
+	[ свойство](* <- lang_ru;;*);;
+*);
+concept_process
+(*
+=> nrel_main_idtf:
+	[процесс ](* <- lang_ru;;*);;
+*)
+};;
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Объектами могут быть: понятия, события, свойства, процессы.](*<-lang_ru;;*);;
+      *);;
+*);;
+
+concept_semantic_network
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (пример семантической сети)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/26.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

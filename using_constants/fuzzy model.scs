@@ -1,0 +1,35 @@
+concept_fuzzy_model<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[fuzzy model]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(нечёткая модель)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_mathematical_model
+(*
+=> nrel_main_idtf:
+	[математическая модель](* <- lang_ru;;*);;
+*);
+concept_fuzzy_logic;
+concept_subject_of_study
+(*
+=> nrel_main_idtf:
+	[предмет исследования](* <- lang_ru;;*);;
+*);
+
+concept_formalization
+(*
+=> nrel_main_idtf:
+	[формализация](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[нечёткая модель -  математическая модель, в основе вычисления которой лежит нечеткая логика. К построению таких моделей прибегают в случае, когда предмет исследования имеет очень слабую формализацию, и его точное математическое описание слишком сложное или просто не известно. ] (*<-lang_ru;;*);;
+*);;
+*);
+
+<=nrel_inclusion:
+	concept_fuzzy_logic;;

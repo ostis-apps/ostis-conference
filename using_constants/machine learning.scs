@@ -1,0 +1,42 @@
+concept_machine_learning<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[машинное обучение]
+	(*<-lang_ru;;*);
+	[machine learning]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(машинное обучение)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_artificial_intelligence;
+	concept_algorithm
+(*
+=> nrel_main_idtf:
+	[алгоритм](* <- lang_ru;;*);;
+*);
+concept_learning_ability
+(*
+=> nrel_main_idtf:
+	[способность обучаться](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[машинное обучение - обширный подраздел искусственного интеллекта, изучающий методы построения алгоритмов, способных обучаться.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<=nrel_inclusion:
+{
+concept_inductive_learning
+(*
+=> nrel_main_idtf:
+	[индуктивное обучение](* <- lang_ru;;*);;
+*);
+concept_deductive_learning
+(*
+=> nrel_main_idtf:
+	[дедуктивное обучение](* <- lang_ru;;*);;
+*)
+};;

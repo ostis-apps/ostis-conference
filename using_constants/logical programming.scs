@@ -1,0 +1,55 @@
+concept_logical_programming<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[логическое программирование]
+	(*<-lang_ru;;*);
+	[logical programming]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(логическое программирование)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_programming_paradigm
+(*
+=> nrel_main_idtf:
+	[парадигма программирования](* <- lang_ru;;*);;
+*);
+concept_theorem
+(*
+=> nrel_main_idtf:
+	[теорема](* <- lang_ru;;*);;
+*);
+concept_logical_inference
+(*
+=> nrel_main_idtf:
+	[логический вывод](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[логическое программирование -  парадигма программирования, основанная на автоматическом доказательстве теорем, с использованием механизмов логического вывода информации на основе заданных фактов и правил вывода.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element: ... (*
+	<-explanation;;
+	=> nrel_main_idtf:
+	[Утверждение(логическое программирование, математическая логика)] (*<-lang_ru;;*);;
+=> nrel_using_constants: {
+	concept_mathematical_logic
+(*
+=> nrel_main_idtf:
+	[ математическая логика](* <- lang_ru;;*);;
+*)
+};;
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Логическое программирование основано на теории и аппарате математической логики с использованием математических принципов резолюций.](*<-lang_ru;;*);;
+      *);;
+*);
+
+->concept_Prolog
+(*
+=> nrel_main_idtf:
+	[ Prolog](* <- lang_en;;*);;
+*);;

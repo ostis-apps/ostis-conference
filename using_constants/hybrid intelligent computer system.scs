@@ -1,0 +1,59 @@
+concept_hybrid_intelligent_computer_system<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[hybrid intelligent computer system]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(Гибридная интеллектуальная система)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_extremum 
+(*
+=> nrel_main_idtf:
+	[система](* <- lang_ru;;*);;
+*);
+concept_imitetion_intellectual_activity
+(*
+=> nrel_main_idtf:
+	[имитация интеллектуальной деятельности](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[Под гибридной интеллектуальной системой (ГиИС) принято понимать систему, в которой для решения задачи используется более одного метода имитации интеллектуальной деятельности человека.] (*<-lang_ru;;*);;
+*);;
+*);;
+
+concept_hybrid_intelligent_computer_system <= nrel_subdividing: ...
+(*
+	<-concept_analytical_model
+(*
+=> nrel_main_idtf:
+	[аналитическая модель](* <- lang_ru;;*);;
+*);;
+	<-concept_expert_system
+(*
+=> nrel_main_idtf:
+	[экспертная система](* <- lang_ru;;*);;
+*);;
+	<-concept_artificial_neural_networks
+(*
+=> nrel_main_idtf:
+	[искусственные нейронные сети](* <- lang_ru;;*);;
+*);;
+	<-concept_fuzzy_system
+(*
+=> nrel_main_idtf:
+	[нечёткая система](* <- lang_ru;;*);;
+*);;
+	<-concept_genetic_algorithm
+(*
+=> nrel_main_idtf:
+	[генетический алгоритм](* <- lang_ru;;*);;
+*);;
+	<-concept_simulation_statistical_model
+(*
+=> nrel_main_idtf:
+	[имитационная статическая модель](* <- lang_ru;;*);;
+*);;
+*);;

@@ -1,0 +1,21 @@
+concept_knowledge_bases<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[knowledge bases]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(база знаний)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_data_base
+(*
+=> nrel_main_idtf:
+	[база данных](* <- lang_ru;;*);;
+*);
+	concept_subject_area
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[база знаний -   база данных, содержащая правила вывода и информацию о человеческом опыте и знаниях в некоторой предметной области .] (*<-lang_ru;;*);;
+*);;
+*);;

@@ -1,0 +1,25 @@
+concept_database_management_system<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[database management system]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(система управления базами данных)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_database 
+(*
+=> nrel_main_idtf:
+	[база данных](* <- lang_ru;;*);;
+*);
+concept_data
+(*
+=> nrel_main_idtf:
+	[данные](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[СУБД -  ком­плекс про­грамм, по­зво­ляю­щих соз­дать ба­зу дан­ных (БД) и ма­ни­пу­ли­ро­вать дан­ны­ми (встав­лять, об­нов­лять, уда­лять и вы­би­рать).] (*<-lang_ru;;*);;
+*);;
+*);;

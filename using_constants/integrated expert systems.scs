@@ -1,0 +1,26 @@
+concept_expert_system<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[ expert system]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(экспертная система)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_computer_system
+(*
+=> nrel_main_idtf:
+	[компьютерная система](* <- lang_ru;;*);;
+*);
+	concept_problem;
+concept_specialist
+(*
+=> nrel_main_idtf:
+	[специалист](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[экспертная система - компьютерная система, способная частично заменить специалиста-эксперта в разрешении проблемной ситуации.] (*<-lang_ru;;*);;
+*);;
+*);;

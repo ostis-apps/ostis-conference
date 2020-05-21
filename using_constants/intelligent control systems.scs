@@ -1,0 +1,38 @@
+concept_intelligent_control_systems<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[intelligent control systems]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(интеллектуальные системы управления)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_intelligent_information_technologies
+(*
+=> nrel_main_idtf:
+	[интеллектуальные информационные технологии](* <- lang_ru;;*);;
+*);
+	concept_expert_system
+(*
+=> nrel_main_idtf:
+	[экспертная система](* <- lang_ru;;*);;
+*);
+concept_neural_network
+(*
+=> nrel_main_idtf:
+	[нейронная сеть](* <- lang_ru;;*);;
+*);
+concept_fuzzy_logic;
+
+concept_associative_memory
+(*
+=> nrel_main_idtf:
+	[ассоциативная память](* <- lang_ru;;*);;
+*)
+
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[интеллектуальные системы управления - система, важной задачей которой является разработка методов и алгоритмов, базирующихся на совместном применении конкретных интеллектуальных информационных инструментов (технологий), таких как динамические экспертные системы, искусственные нейронные сети, нечеткая логика, ассоциативная память.] (*<-lang_ru;;*);;
+*);;
+*);;

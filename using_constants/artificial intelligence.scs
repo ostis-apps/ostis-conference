@@ -1,0 +1,85 @@
+concept_artificial_intelligence<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[искуственный интеллект]
+	(*<-lang_ru;;*);
+	[artificial intelligence]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(искуственный интеллект)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_intelligent_system
+(*
+=> nrel_main_idtf:
+	[интеллектуальная система](* <- lang_ru;;*);;
+*);
+	concept_science;
+	concept_intelligent_machine
+(*
+=> nrel_main_idtf:
+	[интеллектуальная машина](* <- lang_ru;;*);;
+*);
+	concept_intelligent_computer_programs
+(*
+=> nrel_main_idtf:
+	[интеллектуальная компьютерная программа](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[искуственный интеллект - свойство интеллектуальных систем выполнять творческие функции, которые традиционно считаются прерогативой человека; наука и технология создания интеллектуальных машин, особенно интеллектуальных компьютерных программ.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element: ... (*
+	<-explanation;;
+	=> nrel_main_idtf:
+	[Утверждение(искусственный интеллект, аппаратное моделирование, программное моделирование)] (*<-lang_ru;;*);;
+=> nrel_using_constants: {
+	concept_hardware_modeling
+(*
+=> nrel_main_idtf:
+	[аппаратное моделирование](* <- lang_ru;;*);;
+*);
+	concept_software_modeling
+(*
+=> nrel_main_idtf:
+	[программное моделирование](* <- lang_ru;;*);;
+*)
+};;
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[искусственный интеллект - это направление, в рамках которого ставятся и решаются задачи аппаратного или программного моделирования тех видов человеческой деятельности, которые традиционно считаются интеллектуальными.](*<-lang_ru;;*);;
+      *);;
+*);
+
+<=nrel_subdividing:
+{
+concept_intuitive_approach;
+concept_character_approach;
+concept_logical_approach;
+concept_agent_based_approach;
+concept_hybrid_approach;
+concept_symbolic_modeling_of_thought_process;
+concept_working_with_natural_languages;
+concept_presentation_and_use_of_knowledge;
+concept_machine_learning;
+concept_biological_modeling_of_artificial_intelligence;
+concept_robotics;
+concept_machine_creation
+};;
+
+concept_artificial_intelligence
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Робот Kismet с искусственным интеллектом в Музее Массачусетского технологического института, 2006 год.)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Kismet.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+concept_artificial_intelligence -> rrel_example: [Существующие на сегодня интеллектуальные системы имеют очень узкие области применения. Например, программы, способные обыграть человека в шахматы, не могут отвечать на вопросы и т. д.] (*<-lang_ru;;*);;

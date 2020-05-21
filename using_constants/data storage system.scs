@@ -1,0 +1,30 @@
+concept_data_storage_system<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[data storage system]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(система хранения данных)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_technology 
+(*
+=> nrel_main_idtf:
+	[технология](* <- lang_ru;;*);;
+*);
+concept_recording_media
+(*
+=> nrel_main_idtf:
+	[носитель записи](* <- lang_ru;;*);;
+*);
+concept_retain_digital_data
+(*
+=> nrel_main_idtf:
+	[хранения цифровых данных](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[система хранения данных -  это технология, состоящая из компьютерных компонентов и носителей записи, которые используются для хранения цифровых данных.] (*<-lang_ru;;*);;
+*);;
+*);;

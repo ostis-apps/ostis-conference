@@ -1,0 +1,48 @@
+concept_optimization<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[optimization]
+	(*<-lang_en;;*);
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(оптимизация)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	concept_extremum 
+(*
+=> nrel_main_idtf:
+	[эктремум](* <- lang_ru;;*);;
+*);
+concept_target_function
+(*
+=> nrel_main_idtf:
+	[целевая функция](* <- lang_ru;;*);;
+*);
+concept_vector_space
+(*
+=> nrel_main_idtf:
+	[векторное пространство](* <- lang_ru;;*);;
+*)
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[оптимизация -  нахождение экстремума (минимума или максимума) целевой функции в некоторой области конечномерного векторного пространства, ограниченной набором линейных и/или нелинейных равенств и/или неравенств.] (*<-lang_ru;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element: ... (*
+	<-explanation;;
+	=> nrel_main_idtf:
+	[Утверждение(оптимизация, метод решения задач, математическое программирование)] (*<-lang_ru;;*);;
+=> nrel_using_constants: {
+	concept_method_solving_problem;
+	concept_mathematical_programming
+(*
+=> nrel_main_idtf:
+	[ математическое программирование](* <- lang_ru;;*);;
+*)
+};;
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Теорию и методы решения задачи оптимизации изучает математическое программирование.](*<-lang_ru;;*);;
+      *);;
+*);;
