@@ -1,0 +1,45 @@
+article_review=> nrel_main_idtf:
+     [рецензирование статьи](* <-lang_ru;; *);
+     [article review](* <-lang_en;; *);;
+
+checking_for_article_reviews=> nrel_main_idtf:
+     [проверка наличия рецензий на статью](* <-lang_ru;; *);
+     [checking for article reviews](* <-lang_en;; *);;
+
+sending_to_meta_reviewer=> nrel_main_idtf:
+     [отправка метарецензентуi](* <-lang_ru;; *);
+     [sending to meta reviewer](* <-lang_en;; *);;
+
+waiting_for_receipt_article=> nrel_main_idtf:
+     [ожидание получения статьи](* <-lang_ru;; *);
+     [waiting for receipt article](* <-lang_en;; *);;
+
+sending_article_for_revision_to_author_of_article=> nrel_main_idtf:
+     [отправка статьи на доработку автору статьи](* <-lang_ru;; *);
+     [sending article for revision to author of article](* <-lang_en;; *);;
+
+article_rejection=> nrel_main_idtf:
+     [отклонение статьи](* <-lang_ru;; *);
+     [article rejection](* <-lang_en;; *);;
+
+determination_of_status_of_article=> nrel_main_idtf:
+     [определение статуса статьи](* <-lang_ru;; *);
+     [determination of status of article](* <-lang_en;; *);;
+
+sending_to_two_meta_reviewers=> nrel_main_idtf:
+     [отправка двум метарецензентам](* <-lang_ru;; *);
+     [sending to two meta reviewers](* <-lang_en;; *);;
+
+Send_for_Revision=> nrel_main_idtf:
+     [Отправлено на доработку](* <-lang_ru;; *);
+     [Send for Revision](* <-lang_en;; *);;
+
+Accept=> nrel_main_idtf:
+     [Принято](* <-lang_ru;; *);
+     [Accept](* <-lang_en;; *);;
+
+Reject=> nrel_main_idtf:
+     [Отклонено](* <-lang_ru;; *);
+     [Reject](* <-lang_en;; *);;
+
+

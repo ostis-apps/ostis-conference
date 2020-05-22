@@ -1,0 +1,35 @@
+receiving_articles_for_publication_in_collection=> nrel_main_idtf:
+     [получение статьи для публикации в сборнике](* <-lang_ru;; *);
+     [receiving articles for publication in collection](* <-lang_en;; *);;
+
+pattern_matching=> nrel_main_idtf:
+     [сопоставление с образцом](* <-lang_ru;; *);
+     [pattern matching](* <-lang_en;; *);;
+
+reviewers_appointment=> nrel_main_idtf:
+     [назначение рецензента](* <-lang_ru;; *);
+     [reviewers appointment](* <-lang_en;; *);;
+
+sending_article_for_revision_to_author_of_article=> nrel_main_idtf:
+     [отправка статьи на доработку автору](* <-lang_ru;; *);
+     [sending article for revision to author of article](* <-lang_en;; *);;
+
+reviewer=> nrel_main_idtf:
+     [рецензент](* <-lang_ru;; *);
+     [reviewer](* <-lang_en;; *);;
+
+even_number_of_A4_pages => nrel_main_idtf:
+     [четное количество страниц формата а4](* <-lang_ru;; *);
+     [even number of A4 pages ](* <-lang_en;; *);;
+
+minimum_pages_are_4=> nrel_main_idtf:
+     [минимальный объем - 4 страницы](* <-lang_ru;; *);
+     [minimum pages are 4](* <-lang_en;; *);;
+
+no_less_than_10_literary_sources=> nrel_main_idtf:
+     [не менее 10 литературных источников](* <-lang_ru;; *);
+     [no less than 10 literary sources](* <-lang_en;; *);;
+
+lack_of_affiliation => nrel_main_idtf:
+     [отсутствие аффиляция](* <-lang_ru;; *);
+     [lack of affiliation ](* <-lang_en;; *);;

@@ -1,0 +1,35 @@
+conference_program_publication=> nrel_main_idtf:
+     [издание программы конференции](* <-lang_ru;; *);
+     [conference program publication](* <-lang_en;; *);;
+
+publication_of_collection_of_scientific_papers=> nrel_main_idtf:
+     [издание сборника научных трудов](* <-lang_ru;; *);
+     [publication of collection of scientific papers](* <-lang_en;; *);;
+
+preparation_of_handout_material=> nrel_main_idtf:
+     [подготовка раздаточного материала](* <-lang_ru;; *);
+     [preparation of handout material](* <-lang_en;; *);;
+
+compilation_of_content_of_collection=> nrel_main_idtf:
+     [составление содержания сборника](* <-lang_ru;; *);
+     [compilation of content of collection](* <-lang_en;; *);;
+
+compilation_of_content_of_program=> nrel_main_idtf:
+     [составление содержания программы](* <-lang_ru;; *);
+     [compilation of content of program](* <-lang_en;; *);;
+
+layout_of_conference_program=> nrel_main_idtf:
+     [верстка программы конференции](* <-lang_ru;; *);
+     [layout of conference program](* <-lang_en;; *);;
+
+layout_of_conference_collection=> nrel_main_idtf:
+     [верстка сборника конференции](* <-lang_ru;; *);
+     [layout_of_conference_collection](* <-lang_en;; *);;
+
+LATEX=> nrel_main_idtf:
+     [Латех](* <-lang_ru;; *);
+     [LATEX](* <-lang_en;; *);;
+
+Golenkov_Vladimir_Vasilevich=> nrel_main_idtf:
+     [Голенков Владимир Васильевич](* <-lang_ru;; *);
+     [Golenkov Vladimir Vasilevich](* <-lang_en;; *);;
