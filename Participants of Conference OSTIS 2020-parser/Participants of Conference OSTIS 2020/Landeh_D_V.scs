@@ -1,0 +1,13 @@
+Landeh_D_V
+=> nrel_main_idtf: [Landeh Dmitriy] (* <- lang_en;; *);
+=> nrel_main_idtf: [Ландэ Дмитрий Владимирович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Ukraina;
+=>nrel_place_of_living:Kiev ;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[dwlande@gmal.com];
+=>nrel_mobile_phone_number:[+3804674668917];
+<-concept_professor;
+<-concept_Grand_PhD;;
+Institute_for_information_recording_of_NAS_of_Ukraine->rrel_department_head:Landeh_D_V;;

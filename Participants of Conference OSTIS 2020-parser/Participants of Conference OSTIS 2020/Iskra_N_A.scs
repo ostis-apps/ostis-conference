@@ -1,0 +1,13 @@
+Iskra_N_A
+=> nrel_main_idtf: [Iskra Natalya] (* <- lang_en;; *);
+=> nrel_main_idtf: [Искра Наталья Александровна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+375172938617];
+=>nrel_email:[niskra@bsuir.by];
+=>nrel_mobile_phone_number:[+375295869352];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+Belarusian_State_University_Of_Informatics_And_Radioelectronics->rrel_senior_teacher:Iskra_N_A;;

@@ -1,0 +1,13 @@
+Miheenkova_M_A
+=> nrel_main_idtf: [Miheenkova Mariya] (* <- lang_en;; *);
+=> nrel_main_idtf: [Михеенкова Мария Анатольевна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Moskva;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+74991350140];
+=>nrel_email:[m.mikheyenkova@yandex.ru];
+=>nrel_mobile_phone_number:[+79099149209];
+<-concept_no_scientific_title;
+<-concept_Grand_PhD;;
+The_Institute_of_Informatics_Problems_of_the_Russian_Academy_of_Sciences->rrel_chief_researcher:Miheenkova_M_A;;

@@ -1,0 +1,13 @@
+Smorodin_V_S
+=> nrel_main_idtf: [Smorodin Viktor] (* <- lang_en;; *);
+=> nrel_main_idtf: [Смородин Виктор Сергеевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Gomel;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[80232510304];
+=>nrel_email:[smorodin@gsu.by];
+=>nrel_mobile_phone_number:[+375 29 329 27 99];
+<-concept_professor;
+<-concept_Grand_PhD;;
+Francisk_Skorina_Gomel_State_University->rrel_head_of_department:Smorodin_V_S;;

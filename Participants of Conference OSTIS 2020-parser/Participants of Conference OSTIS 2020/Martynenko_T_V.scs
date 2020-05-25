@@ -1,0 +1,13 @@
+Martynenko_T_V
+=> nrel_main_idtf: [Martynenko Tatyana] (* <- lang_en;; *);
+=> nrel_main_idtf: [Мартыненко Татьяна Владимировна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Ukraina;
+=>nrel_place_of_living:Doneck;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[78633049020];
+=>nrel_email:[tatyana.v.martynenko@gmail.com];
+=>nrel_mobile_phone_number:[+70714136376];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+Donetsk_National_Technical_University->rrel_docent:Martynenko_T_V;;

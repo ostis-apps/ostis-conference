@@ -1,0 +1,13 @@
+Mozhenkova_E_V
+=> nrel_main_idtf: [Mozhenkova Elena] (* <- lang_en;; *);
+=> nrel_main_idtf: [Моженкова Елена Викторовна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+375291132283];
+=>nrel_email:[Elena.Mozhenkova@gmail.com];
+=>nrel_mobile_phone_number:[+375291132283];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+Belarusian_State_University_Of_Informatics_And_Radioelectronics->rrel_graduate:Mozhenkova_E_V;;

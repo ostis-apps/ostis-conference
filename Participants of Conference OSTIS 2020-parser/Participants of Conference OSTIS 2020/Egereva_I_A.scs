@@ -1,0 +1,13 @@
+Egereva_I_A
+=> nrel_main_idtf: [Egereva Irina] (* <- lang_en;; *);
+=> nrel_main_idtf: [Егерева Ирина Александровна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Tver ;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[84822445261];
+=>nrel_email:[irina.egereva@gmail.com];
+=>nrel_mobile_phone_number:[89036301706];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+Tver_State_Technical_University->rrel_docent:Egereva_I_A;;

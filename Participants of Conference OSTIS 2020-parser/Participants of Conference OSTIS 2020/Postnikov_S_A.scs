@@ -1,0 +1,13 @@
+Postnikov_S_A
+=> nrel_main_idtf: [Postnikov Sergey] (* <- lang_en;; *);
+=> nrel_main_idtf: [Постников Сергей Александрович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+375 29 188 2667];
+=>nrel_email:[postsergey@gmail.com];
+=>nrel_mobile_phone_number:[+375 29 188 2667];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+JSC_DOVERAI->rrel_director:Postnikov_S_A;;

@@ -1,0 +1,13 @@
+Kurochka_K_S
+=> nrel_main_idtf: [Kurochka Konstantin] (* <- lang_en;; *);
+=> nrel_main_idtf: [Курочка Константин Сергеевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Gomel;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+375 23232-95-65];
+=>nrel_email:[kurochka@gstu.by];
+=>nrel_mobile_phone_number:[no phone number];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+SUKHOI_STATE_TECHNICAL_UNIVERSITY_OF_GOMEL->rrel_head_of_department:Kurochka_K_S;;

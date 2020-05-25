@@ -1,0 +1,13 @@
+Brazhuk_A_I
+=> nrel_main_idtf: [Brazhuk Andrey] (* <- lang_en;; *);
+=> nrel_main_idtf: [Бражук Андрей Иосифович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Grodno;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+375152720144];
+=>nrel_email:[brazhuk@grsu.by];
+=>nrel_mobile_phone_number:[+375296139580];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+Yanka_Kupala__State_University_of_Grodno->rrel_lead_software_engineer:Brazhuk_A_I;;

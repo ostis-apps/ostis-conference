@@ -1,0 +1,13 @@
+Prokopovich_G_A
+=> nrel_main_idtf: [Prokopovich Grigoriy] (* <- lang_en;; *);
+=> nrel_main_idtf: [Прокопович Григорий Александрович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+375172842094];
+=>nrel_email:[rprakapovich@robotics.by];
+=>nrel_mobile_phone_number:[+375295098378];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+The_United_Institute_of_Informatics_Problems_of_the_National_Academy_of_Sciences_of_Belarus->rrel_head_of_laboratory:Prokopovich_G_A;;

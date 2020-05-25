@@ -1,0 +1,13 @@
+Igor_M_B
+=> nrel_main_idtf: [Igor Mihaylovich] (* <- lang_en;; *);
+=> nrel_main_idtf: [Игорь Михайлович Бойко] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[igor_m_boyko@hotmail.com];
+=>nrel_mobile_phone_number:[+375295286497];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+Natioanal_Academy_of_Science_of_Belarus->rrel_leading_researcher:Igor_M_B;;

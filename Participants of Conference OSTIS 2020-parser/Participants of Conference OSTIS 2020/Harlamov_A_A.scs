@@ -1,0 +1,13 @@
+Harlamov_A_A
+=> nrel_main_idtf: [Harlamov Aleksandr] (* <- lang_en;; *);
+=> nrel_main_idtf: [Харламов Александр Александрович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Moskva;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+7 495 334 7061];
+=>nrel_email:[kharlamov@analyst.ru];
+=>nrel_mobile_phone_number:[+7 916 908 9599];
+<-concept_no_scientific_title;
+<-concept_Grand_PhD;;
+Institute_of_Higher_Nervous_Activity_and_Neurophysiology_of_RAS->rrel_senior_researcher:Harlamov_A_A;;

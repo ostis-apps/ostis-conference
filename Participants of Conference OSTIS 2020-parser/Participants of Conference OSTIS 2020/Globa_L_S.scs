@@ -1,0 +1,13 @@
+Globa_L_S
+=> nrel_main_idtf: [Globa Larisa] (* <- lang_en;; *);
+=> nrel_main_idtf: [Глоба Лариса Сергеевна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Ukraina;
+=>nrel_place_of_living:Kiev;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+380505261512];
+=>nrel_email:[lgloba@its.kpi.ua];
+=>nrel_mobile_phone_number:[+380505261512];
+<-concept_professor;
+<-concept_Grand_PhD;;
+Igor_Sykorsky_KPI->rrel_head_of_department:Globa_L_S;;

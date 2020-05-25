@@ -1,0 +1,13 @@
+Gruntovich_N_V
+=> nrel_main_idtf: [Gruntovich Nikolay] (* <- lang_en;; *);
+=> nrel_main_idtf: [Грунтович Николай Васильевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Gomel;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+375232260134];
+=>nrel_email:[gruntovich@tut.by];
+=>nrel_mobile_phone_number:[+375296390617];
+<-concept_professor;
+<-concept_Grand_PhD;;
+SUKHOI_STATE_TECHNICAL_UNIVERSITY_OF_GOMEL->rrel_professor:Gruntovich_N_V;;

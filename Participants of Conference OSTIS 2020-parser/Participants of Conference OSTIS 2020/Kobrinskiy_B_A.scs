@@ -1,0 +1,13 @@
+Kobrinskiy_B_A
+=> nrel_main_idtf: [Kobrinskiy Boris] (* <- lang_en;; *);
+=> nrel_main_idtf: [Кобринский Борис Аркадьевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Moskva ;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+74991354246];
+=>nrel_email:[kba_05@mail.ru];
+=>nrel_mobile_phone_number:[+79161238620];
+<-concept_professor;
+<-concept_Grand_PhD;;
+Problem_of_Artificial_Intelligence_Institute_of_the_Federal_Research_Center_of_the_RAN_and_Pirogov_Russian_National_Research_Medical_University->rrel_head_of_department:Kobrinskiy_B_A;;

@@ -1,0 +1,13 @@
+Demidov_A_I
+=> nrel_main_idtf: [Demidov Aleksandr] (* <- lang_en;; *);
+=> nrel_main_idtf: [Демидов Александр Игоревич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Gomel;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[80445844047];
+=>nrel_email:[demidovmainmailbox@gmail.com];
+=>nrel_mobile_phone_number:[80445844047];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+SUKHOI_STATE_TECHNICAL_UNIVERSITY_OF_GOMEL->rrel_student:Demidov_A_I;;

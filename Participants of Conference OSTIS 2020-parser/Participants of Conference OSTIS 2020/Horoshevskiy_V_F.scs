@@ -1,0 +1,13 @@
+Horoshevskiy_V_F
+=> nrel_main_idtf: [Horoshevskiy Vladimir] (* <- lang_en;; *);
+=> nrel_main_idtf: [Хорошевский Владимир Федорович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Moskva;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[V.Khor@mail.ru];
+=>nrel_mobile_phone_number:[no phone number];
+<-concept_professor;
+<-concept_Grand_PhD;;
+Dorodnicyn_Computing_Centre->rrel_leading_researcher:Horoshevskiy_V_F;;

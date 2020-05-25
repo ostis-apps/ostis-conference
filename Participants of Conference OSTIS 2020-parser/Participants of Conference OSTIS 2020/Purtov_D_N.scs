@@ -1,0 +1,13 @@
+Purtov_D_N
+=> nrel_main_idtf: [Purtov Dmitriy] (* <- lang_en;; *);
+=> nrel_main_idtf: [Пуртов Дмитрий Николаевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Yoshkar_Ola;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[dmitryi.purtov@travelline.ru];
+=>nrel_mobile_phone_number:[no phone number];
+<-concept_no_scientific_title;
+<-concept_graduate;;
+VOLGA_STATE_UNIVERSITY_OF_TECHNOLOGY->rrel_graduate:Purtov_D_N;;

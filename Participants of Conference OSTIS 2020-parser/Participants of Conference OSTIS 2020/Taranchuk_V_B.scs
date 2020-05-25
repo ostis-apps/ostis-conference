@@ -1,0 +1,13 @@
+Taranchuk_V_B
+=> nrel_main_idtf: [Taranchuk Valeriy] (* <- lang_en;; *);
+=> nrel_main_idtf: [Таранчук Валерий Борисович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[valery.taranchuk@gmail.com];
+=>nrel_mobile_phone_number:[+375296229986];
+<-concept_professor;
+<-concept_Grand_PhD;;
+Belarusian_State_Univeristy->rrel_professor:Taranchuk_V_B;;

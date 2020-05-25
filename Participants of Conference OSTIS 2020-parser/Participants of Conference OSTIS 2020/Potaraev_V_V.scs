@@ -1,0 +1,13 @@
+Potaraev_V_V
+=> nrel_main_idtf: [Potaraev Viktor] (* <- lang_en;; *);
+=> nrel_main_idtf: [Потараев Виктор Витальевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[vic229@rambler.ru];
+=>nrel_mobile_phone_number:[no phone number];
+<-concept_no_scientific_title;
+<-concept_master_of_engineering;;
+Belarusian_State_University_Of_Informatics_And_Radioelectronics->rrel_graduate:Potaraev_V_V;;

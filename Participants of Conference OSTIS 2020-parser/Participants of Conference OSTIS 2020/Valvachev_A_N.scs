@@ -1,0 +1,13 @@
+Valvachev_A_N
+=> nrel_main_idtf: [Valvachev Aleksandr] (* <- lang_en;; *);
+=> nrel_main_idtf: [Вальвачев Александр Николаевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+375 17 209 55 31];
+=>nrel_email:[van_955@mail.ru];
+=>nrel_mobile_phone_number:[+375 29 761 88 60];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+Belarusian_State_Univesity->rrel_leading_researcher:Valvachev_A_N;;

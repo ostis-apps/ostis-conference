@@ -1,0 +1,13 @@
+Krasnoproshin_V_V
+=> nrel_main_idtf: [Krasnoproshin Viktor] (* <- lang_en;; *);
+=> nrel_main_idtf: [Краснопрошин Виктор Владимирович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[krasnoproshin@bsu.by];
+=>nrel_mobile_phone_number:[no phone number];
+<-concept_professor;
+<-concept_Grand_PhD;;
+Belarusian_State_University->rrel_head_of_department:Krasnoproshin_V_V;;

@@ -1,0 +1,13 @@
+Kaipov_I_K
+=> nrel_main_idtf: [Kaipov Ivan] (* <- lang_en;; *);
+=> nrel_main_idtf: [Каипов Иван Кириллович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[kaipov1995@gmail.com];
+=>nrel_mobile_phone_number:[+375291127382];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+Belarusian_State_University->rrel_graduate:Kaipov_I_K;;

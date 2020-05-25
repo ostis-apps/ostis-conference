@@ -1,0 +1,13 @@
+Mackevich_V_V
+=> nrel_main_idtf: [Mackevich Vadim] (* <- lang_en;; *);
+=> nrel_main_idtf: [Мацкевич Вадим Владимирович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[matskevich1997@gmail.com];
+=>nrel_mobile_phone_number:[no phone number];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+noname_work_place->rrel_undergraduate:Mackevich_V_V;;

@@ -1,0 +1,13 @@
+Prihozhiy_A_A
+=> nrel_main_idtf: [Prihozhiy Anatoliy] (* <- lang_en;; *);
+=> nrel_main_idtf: [Прихожий Анатолий Алексеевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk ;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[2939564];
+=>nrel_email:[prihozhy@yahoo.com];
+=>nrel_mobile_phone_number:[+375 447659486];
+<-concept_professor;
+<-concept_Grand_PhD;;
+Belarusian_National_Technical_University->rrel_professor:Prihozhiy_A_A;;

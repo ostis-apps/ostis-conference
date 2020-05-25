@@ -1,0 +1,13 @@
+Rybina_G_V
+=> nrel_main_idtf: [Rybina Galina] (* <- lang_en;; *);
+=> nrel_main_idtf: [Рыбина Галина Валентиновна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Moskva;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[GVRybina@mephi.ru];
+=>nrel_mobile_phone_number:[+7 903 290-00-60];
+<-concept_professor;
+<-concept_Grand_PhD;;
+Institute_of_Nanoengineering_in_Electronics_Spintronics_and_Photonics->rrel_professor:Rybina_G_V;;

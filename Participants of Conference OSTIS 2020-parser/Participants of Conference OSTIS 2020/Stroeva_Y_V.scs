@@ -1,0 +1,13 @@
+Stroeva_Y_V
+=> nrel_main_idtf: [Stroeva Yuliya] (* <- lang_en;; *);
+=> nrel_main_idtf: [Строева Юлия Владимировна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Ulyanovsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[stroeva95@mail.ru];
+=>nrel_mobile_phone_number:[no phone number];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+Ulyanovsk_State_Technical_University->rrel_master:Stroeva_Y_V;;

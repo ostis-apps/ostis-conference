@@ -1,0 +1,13 @@
+Kurochkin_A_V
+=> nrel_main_idtf: [Kurochkin Aleksandr] (* <- lang_en;; *);
+=> nrel_main_idtf: [Курочкин Александр Васильевич] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[lawliet29@gmail.com];
+=>nrel_mobile_phone_number:[+375293045321];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+Belarussian_State_Univesity->rrel_graduate:Kurochkin_A_V;;

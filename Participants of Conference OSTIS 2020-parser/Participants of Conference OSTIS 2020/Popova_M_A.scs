@@ -1,0 +1,13 @@
+Popova_M_A
+=> nrel_main_idtf: [Popova Marina] (* <- lang_en;; *);
+=> nrel_main_idtf: [Попова Марина Андреевна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Ukraina;
+=>nrel_place_of_living:Kiev;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[pma1701@gmail.com];
+=>nrel_mobile_phone_number:[+380976707196];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+National_Technical_University_of_Ukraine_Igor_Sikorsky_Kyiv_Polytechnic_Institute->rrel_senior_teacher:Popova_M_A;;

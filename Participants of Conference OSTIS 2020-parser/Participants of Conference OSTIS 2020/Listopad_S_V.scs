@@ -1,0 +1,13 @@
+Listopad_S_V
+=> nrel_main_idtf: [Listopad Sergey] (* <- lang_en;; *);
+=> nrel_main_idtf: [Листопад Сергей Викторович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Kaliningrad;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[+79521112171];
+=>nrel_email:[ser-list-post@yandex.ru];
+=>nrel_mobile_phone_number:[+79521112171];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+Kaliningrad_branch_of_the_Federal_Research_Center->rrel_senior_researcher:Listopad_S_V;;

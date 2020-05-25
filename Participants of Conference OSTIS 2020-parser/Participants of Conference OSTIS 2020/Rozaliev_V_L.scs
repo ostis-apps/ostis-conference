@@ -1,0 +1,13 @@
+Rozaliev_V_L
+=> nrel_main_idtf: [Rozaliev Vladimir] (* <- lang_en;; *);
+=> nrel_main_idtf: [Розалиев Владимир Леонидович] (* <- lang_ru;; *);
+=>nrel_place_of_living:Russia;
+=>nrel_place_of_living:Volgograd;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[89173366988];
+=>nrel_email:[vladimir.rozaliev@gmail.com];
+=>nrel_mobile_phone_number:[89173366988];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+Volgograd_State_Technical_University->rrel_docent:Rozaliev_V_L;;

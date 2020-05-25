@@ -1,0 +1,13 @@
+Vasyaeva_T_A
+=> nrel_main_idtf: [Vasyaeva Tatyana] (* <- lang_en;; *);
+=> nrel_main_idtf: [Васяева Татьяна Александровна] (* <- lang_ru;; *);
+=>nrel_place_of_living:Ukraina;
+=>nrel_place_of_living:Doneck;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[vasyaeva@gmail.com];
+=>nrel_mobile_phone_number:[+380504728558];
+<-concept_no_scientific_title;
+<-concept_PhD;;
+Donetsk_National_Technical_University->rrel_docent:Vasyaeva_T_A;;

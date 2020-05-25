@@ -1,0 +1,13 @@
+Cyan_L
+=> nrel_main_idtf: [Cyan Lunvehy] (* <- lang_en;; *);
+=> nrel_main_idtf: [Цянь Лунвэй ] (* <- lang_ru;; *);
+=>nrel_place_of_living:Belarus;
+=>nrel_place_of_living:Minsk;
+<-participants_OSTIS_2020;
+<-concept_human;
+=>nrel_phone_number:[no phone number];
+=>nrel_email:[1360596883@qq.com];
+=>nrel_mobile_phone_number:[no phone number];
+<-concept_no_scientific_title;
+<-concept_no_scientific_degree;;
+Belarusian_State_University_Of_Informatics_And_Radioelectronics->rrel_graduate:Cyan_L;;
