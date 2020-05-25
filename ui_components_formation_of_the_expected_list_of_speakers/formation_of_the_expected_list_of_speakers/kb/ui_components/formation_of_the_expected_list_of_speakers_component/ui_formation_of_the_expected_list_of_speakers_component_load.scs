@@ -1,0 +1,8 @@
+ui_formation_of_the_expected_list_of_speakers_in_memory
+	<- ui_scgg_control; sc_node_not_relation;
+	=> nrel_main_idtf:
+		[Составить список докладчиков]
+		(* <- lang_ru;; *);
+	=> nrel_main_idtf:
+        [Format of the expected list of speakers]
+(* <- lang_en;; *);;

@@ -1,0 +1,27 @@
+format_formation_of_the_expected_list_of_speakers_json
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf:
+	[формат formation (json)] 
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[format formation (json)] 
+	(* 
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[application/json];;
+
+formation_of_the_expected_list_of_speakers_code <- ui_external_languages;
+=> nrel_main_idtf: 
+	[Формирование списка докладчиков]
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf: 
+	[Formation of the expected list of speakers] 
+	(* 
+	<- lang_en;;
+	*);;
