@@ -28,7 +28,7 @@ article_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_year_publication: 2016;;
 
 article_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Kleshev_A_S_2016_ConcDoMSoIAA <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Kleshev_A_S_2016_ConcDoMSoIAA <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/02.kleshev.pdf";; *);; *);;
 
 article_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_abstract:

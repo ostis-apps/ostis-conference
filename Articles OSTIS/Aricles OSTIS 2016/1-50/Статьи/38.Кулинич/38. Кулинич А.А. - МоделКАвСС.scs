@@ -27,7 +27,7 @@ article_Kulinich_A_A_2016_ModeloACitSE => nrel_year_publication: 2016;;
 
 article_Kulinich_A_A_2016_ModeloACitSE => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Kulinich_A_A_2016_ModeloACitSE <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Kulinich_A_A_2016_ModeloACitSE <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/38.kulinich.pdf";; *);; *);;
 
 article_Kulinich_A_A_2016_ModeloACitSE <- article;;

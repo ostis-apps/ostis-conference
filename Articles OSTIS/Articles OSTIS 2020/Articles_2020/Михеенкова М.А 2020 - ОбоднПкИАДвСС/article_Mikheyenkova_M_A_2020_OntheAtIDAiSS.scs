@@ -30,7 +30,7 @@ article_Mikheyenkova_M_A_2020_OntheAtIDAiSS => nrel_bibliographic_reference:[–ú–
 *);;
 article_Mikheyenkova_M_A_2020_OntheAtIDAiSS <- lang_en;;
 article_Mikheyenkova_M_A_2020_OntheAtIDAiSS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Mikheyenkova_M_A_2020_OntheAtIDAiSS <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/15.Mikheyenkova.pdf";; *);; *);;
 
 article_Mikheyenkova_M_A_2020_OntheAtIDAiSS => nrel_key_concepts:

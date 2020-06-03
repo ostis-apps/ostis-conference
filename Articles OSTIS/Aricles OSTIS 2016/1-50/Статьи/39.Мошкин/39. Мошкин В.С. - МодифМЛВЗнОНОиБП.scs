@@ -28,7 +28,7 @@ article_Moshkin_V_S_2016_ModifKIMBOFOASoUC => nrel_year_publication: 2016;;
 
 article_Moshkin_V_S_2016_ModifKIMBOFOASoUC => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Moshkin_V_S_2016_ModifKIMBOFOASoUC <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Moshkin_V_S_2016_ModifKIMBOFOASoUC <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/39.moshkin.pdf";; *);; *);;
 
 article_Moshkin_V_S_2016_ModifKIMBOFOASoUC <- article;;

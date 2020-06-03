@@ -27,7 +27,7 @@ article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM => nrel_year_publication: 2016;;
 
 article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/29.dorodnykh.pdf";; *);; *);;
 
 article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM => nrel_abstract:

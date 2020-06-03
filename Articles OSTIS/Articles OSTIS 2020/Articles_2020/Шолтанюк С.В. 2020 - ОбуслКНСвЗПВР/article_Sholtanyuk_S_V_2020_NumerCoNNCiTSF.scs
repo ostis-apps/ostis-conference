@@ -30,7 +30,7 @@ article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF => nrel_bibliographic_reference:[Шо
 *);;
 article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF <- lang_en;;
 article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/40.Sholtanyuk.pdf";; *);; *);;
 
 article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF => nrel_key_concepts:

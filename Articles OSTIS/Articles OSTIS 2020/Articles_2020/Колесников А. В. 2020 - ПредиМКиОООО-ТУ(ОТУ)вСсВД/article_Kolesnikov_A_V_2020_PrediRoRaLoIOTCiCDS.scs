@@ -31,7 +31,7 @@ article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS => nrel_bibliographic_reference:
 *);;
 article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS <- lang_en;;
 article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/02.Kolesnikov.pdf";; *);; *);;
 
 article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS => nrel_key_concepts:

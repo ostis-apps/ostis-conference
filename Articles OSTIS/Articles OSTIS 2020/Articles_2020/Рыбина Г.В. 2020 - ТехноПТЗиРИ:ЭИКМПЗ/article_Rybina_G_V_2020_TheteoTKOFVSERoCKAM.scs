@@ -37,7 +37,7 @@ article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM => nrel_bibliographic_reference:[Ð Ñ
 *);;
 article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM <- lang_en;;
 article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM<- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM<- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/05.Ryibina.pdf";; *);; *);;
 
 article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM => nrel_key_concepts:

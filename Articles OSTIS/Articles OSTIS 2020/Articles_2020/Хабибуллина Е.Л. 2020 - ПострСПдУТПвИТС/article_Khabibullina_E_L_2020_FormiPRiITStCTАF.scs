@@ -31,7 +31,7 @@ article_Khabibullina_E_L_2020_FormiPRiITStCTF => nrel_bibliographic_reference:[Ð
 *);;
 article_Khabibullina_E_L_2020_FormiPRiITStCTF <- lang_en;;
 article_Khabibullina_E_L_2020_FormiPRiITStCTF <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Khabibullina_E_L_2020_FormiPRiITStCTF <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Khabibullina_E_L_2020_FormiPRiITStCTF <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/50.Khabibullina.pdf";; *);; *);;
 
 

@@ -30,7 +30,7 @@ article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD => nrel_bibliographic_refer
 *);;
 article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD <- lang_en;;
 article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/25.Hardzei.pdf";; *);; *);;
 
 article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD => nrel_key_concepts:

@@ -35,7 +35,7 @@ article_Korukhova_Y_S_2020_AnapptSMIR => nrel_bibliographic_reference:[Кору�
 *);;
 article_Korukhova_Y_S_2020_AnapptSMIR <- lang_en;;
 article_Korukhova_Y_S_2020_AnapptSMIR <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Korukhova_Y_S_2020_AnapptSMIR <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Korukhova_Y_S_2020_AnapptSMIR <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/55.Korukhova.pdf";; *);; *);;
 
 

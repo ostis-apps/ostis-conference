@@ -28,7 +28,7 @@ article_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_year_publication: 2016;;
 
 article_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Kurbatov_S_S_2016_SoftfTASoTOPG <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Kurbatov_S_S_2016_SoftfTASoTOPG <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/21.kurbatov.pdf";; *);; *);;
 
 article_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_abstract:

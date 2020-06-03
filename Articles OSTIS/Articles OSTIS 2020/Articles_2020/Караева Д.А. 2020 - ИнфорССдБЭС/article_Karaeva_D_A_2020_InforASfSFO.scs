@@ -32,7 +32,7 @@ article_Karaeva_D_A_2020_InforASfSFO => nrel_bibliographic_reference:[Карае
 *);;
 article_Karaeva_D_A_2020_InforASfSFO <- lang_en;;
 article_Karaeva_D_A_2020_InforASfSFO <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Karaeva_D_A_2020_InforASfSFO <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Karaeva_D_A_2020_InforASfSFO <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/51.Karaeva.pdf";; *);; *);;
 
 

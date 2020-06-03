@@ -28,7 +28,7 @@ article_Ivashenko_V_P_2016_FoundoPIaOPI => nrel_year_publication: 2016;;
 
 article_Ivashenko_V_P_2016_FoundoPIaOPI => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Ivashenko_V_P_2016_FoundoPIaOPI <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Ivashenko_V_P_2016_FoundoPIaOPI <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/18.ivashenko.pdf";; *);; *);;
 
 

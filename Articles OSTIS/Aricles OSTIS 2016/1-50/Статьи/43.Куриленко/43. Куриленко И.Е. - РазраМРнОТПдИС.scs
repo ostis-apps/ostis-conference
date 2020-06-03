@@ -27,7 +27,7 @@ article_Kurilenko_I_E_2016_OnTMFfIS => nrel_year_publication: 2016;;
 
 article_Kurilenko_I_E_2016_OnTMFfIS => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Kurilenko_I_E_2016_OnTMFfIS <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Kurilenko_I_E_2016_OnTMFfIS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/43.kurilenko.pdf";; *);; *);;
 
 article_Kurilenko_I_E_2016_OnTMFfIS <- article;;

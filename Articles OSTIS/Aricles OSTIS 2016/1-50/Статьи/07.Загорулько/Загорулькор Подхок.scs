@@ -28,7 +28,7 @@ article_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD => nrel_year_publication: 2016
 
 article_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD => nrel_comprise:  Materials_OSTIS2016;;
 
-aticle_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+aticle_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/07.zagorulko.pdf";; *);; *);;
 
 

@@ -30,7 +30,7 @@ article_Lobanov_B_M_2020_CurrenSoDaUoITS => nrel_bibliographic_reference:[Лоб
 *);;
 article_Lobanov_B_M_2020_CurrenSoDaUoITS <- lang_en;;
 article_Lobanov_B_M_2020_CurrenSoDaUoITS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Lobanov_B_M_2020_CurrenSoDaUoITS <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Lobanov_B_M_2020_CurrenSoDaUoITS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/33.Lobanov.pdf";; *);; *);;
 
 article_Lobanov_B_M_2020_CurrenSoDaUoITS => nrel_key_concepts:

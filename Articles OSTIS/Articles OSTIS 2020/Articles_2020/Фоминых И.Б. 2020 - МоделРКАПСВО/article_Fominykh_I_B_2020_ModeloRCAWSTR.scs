@@ -34,7 +34,7 @@ article_Fominykh_I_B_2020_ModeloRCAWSTR => nrel_bibliographic_reference:[Фом�
 *);;
 article_Fominykh_I_B_2020_ModeloRCAWSTR <- lang_en;;
 article_Fominykh_I_B_2020_ModeloRCAWSTR <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Fominykh_I_B_2020_ModeloRCAWSTR <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Fominykh_I_B_2020_ModeloRCAWSTR <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/14.Fominih.pdf";; *);; *);;
 
 article_Fominykh_I_B_2020_ModeloRCAWSTR => nrel_key_concepts:

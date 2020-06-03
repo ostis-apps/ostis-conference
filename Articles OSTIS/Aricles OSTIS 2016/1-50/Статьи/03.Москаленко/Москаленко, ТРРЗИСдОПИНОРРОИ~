@@ -25,7 +25,7 @@ publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI => nrel_year_publ
 
 publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI => nrel_information_publication:  Materials_OSTIS2016;;
 
-publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/03.moskalenko.pdf";; *);; *);;
 
 publication_Moskalenko_F_M_2016_aTfDoPSoISfIACPAASCPotBoEEfDoI  => nrel_count_page: 6;;

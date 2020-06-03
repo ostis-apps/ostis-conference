@@ -28,7 +28,7 @@ article_Massel_L_V_2016_IntegoSCGaSMIISSfSM => nrel_year_publication: 2016;;
 
 article_Massel_L_V_2016_IntegoSCGaSMIISSfSM => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Massel_L_V_2016_IntegoSCGaSMIISSfSM <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Massel_L_V_2016_IntegoSCGaSMIISSfSM <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/09.massel.pdf";; *);; *);;
 
 

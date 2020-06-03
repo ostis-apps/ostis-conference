@@ -31,7 +31,7 @@ article_Averkin_A_N_2020_NeuraNiSA => nrel_bibliographic_reference:[Аверки
 *);;
 article_Averkin_A_N_2020_NeuraNiSA <- lang_en;;
 article_Averkin_A_N_2020_NeuraNiSA <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Averkin_A_N_2020_NeuraNiSA <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Averkin_A_N_2020_NeuraNiSA <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/16.Averkin.pdf";; *);; *);;
 
 article_Averkin_A_N_2020_NeuraNiSA => nrel_key_concepts:

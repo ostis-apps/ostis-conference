@@ -29,7 +29,7 @@ article_Kharlamov_A_A_2020_NeuroPoSRE => nrel_bibliographic_reference:[Харл�
 *);;
 article_Kharlamov_A_A_2020_NeuroPoSRE <- lang_en;;
 article_Kharlamov_A_A_2020_NeuroPoSRE <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Kharlamov_A_A_2020_NeuroPoSRE <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Kharlamov_A_A_2020_NeuroPoSRE <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/18.Harlamov.pdf";; *);; *);;
 
 article_Kharlamov_A_A_2020_NeuroPoSRE => nrel_key_concepts:

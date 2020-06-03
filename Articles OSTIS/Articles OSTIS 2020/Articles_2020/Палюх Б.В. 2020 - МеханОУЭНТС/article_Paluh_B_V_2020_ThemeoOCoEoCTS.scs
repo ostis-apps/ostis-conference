@@ -33,7 +33,7 @@ article_Paluh_B_V_2020_ThemeoOCoEoCTS => nrel_bibliographic_reference:[Палю�
 *);;
 article_Paluh_B_V_2020_ThemeoOCoEoCTS <- lang_en;;
 article_Paluh_B_V_2020_ThemeoOCoEoCTS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Paluh_B_V_2020_ThemeoOCoEoCTS <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Paluh_B_V_2020_ThemeoOCoEoCTS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/20.Paluh.pdf";; *);; *);;
 
 article_Paluh_B_V_2020_ThemeoOCoEoCTS => nrel_key_concepts:

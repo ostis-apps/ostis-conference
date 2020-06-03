@@ -35,7 +35,7 @@ article_Romanov_A_2020_OSTISTOiCoFSD => nrel_bibliographic_reference:[Роман
 *);;
 article_Romanov_A_2020_OSTISTOiCoFSD <- lang_en;;
 article_Romanov_A_2020_OSTISTOiCoFSD <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Romanov_A_2020_OSTISTOiCoFSD <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Romanov_A_2020_OSTISTOiCoFSD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/08.Romanov.pdf";; *);; *);;
 
 article_Romanov_A_2020_OSTISTOiCoFSD => nrel_key_concepts:

@@ -34,7 +34,7 @@ article_Rovbo_M_A_2020_AgentSLfSBWM => nrel_bibliographic_reference:[Ровбо,
 *);;
 article_Rovbo_M_A_2020_AgentSLfSBWM <- lang_en;;
 article_Rovbo_M_A_2020_AgentSLfSBWM <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Rovbo_M_A_2020_AgentSLfSBWM <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Rovbo_M_A_2020_AgentSLfSBWM <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/52.Rovbo.pdf";; *);; *);;
 
 

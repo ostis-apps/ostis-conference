@@ -28,7 +28,7 @@ article_Potebnia_A_V_2016_AnalysoIXPiSD => nrel_year_publication: 2016;;
 
 article_Potebnia_A_V_2016_AnalysoIXPiSD => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Potebnia_A_V_2016_AnalysoIXPiSD <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Potebnia_A_V_2016_AnalysoIXPiSD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/36.potebnia.pdf";; *);; *);;
 
 

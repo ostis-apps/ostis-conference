@@ -29,7 +29,7 @@ article_Erofeev_A_A_2020_TheinCCoTPoBR => nrel_bibliographic_reference:[Ероф
 *);;
 article_Erofeev_A_A_2020_TheinCCoTPoBR<- lang_en;;
 article_Erofeev_A_A_2020_TheinCCoTPoBR <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Erofeev_A_A_2020_TheinCCoTPoBR <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Erofeev_A_A_2020_TheinCCoTPoBR <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/21.Yerofeev.pdf";; *);; *);;
 
 article_Erofeev_A_A_2020_TheinCCoTPoBR => nrel_key_concepts:

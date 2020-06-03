@@ -28,7 +28,7 @@ article_Eremeev_A_P_2016_DevelotSfSMBoTPN => nrel_year_publication: 2016;;
 
 article_Eremeev_A_P_2016_DevelotSfSMBoTPN => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Eremeev_A_P_2016_DevelotSfSMBoTPN <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Eremeev_A_P_2016_DevelotSfSMBoTPN <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/42.eremeev.pdf";; *);; *);;
 
 article_Eremeev_A_P_2016_DevelotSfSMBoTPN <- article;;

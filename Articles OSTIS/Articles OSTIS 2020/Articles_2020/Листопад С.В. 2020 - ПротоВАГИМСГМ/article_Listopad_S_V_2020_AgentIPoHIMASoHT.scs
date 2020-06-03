@@ -29,7 +29,7 @@ article_Listopad_S_V_2020_AgentIPoHIMASoHT => nrel_bibliographic_reference:[Ли
 *);;
 article_Listopad_S_V_2020_AgentIPoHIMASoHT <- lang_en;;
 article_Listopad_S_V_2020_AgentIPoHIMASoHT <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Listopad_S_V_2020_AgentIPoHIMASoHT <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Listopad_S_V_2020_AgentIPoHIMASoHT <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/03.Listopad.pdf";; *);; *);;
 
 article_Listopad_S_V_2020_AgentIPoHIMASoHT => nrel_key_concepts:

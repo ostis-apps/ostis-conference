@@ -27,7 +27,7 @@ article_Koronchik_D_N_2016_SmartHCbK => nrel_year_publication: 2016;;
 
 article_Koronchik_D_N_2016_SmartHCbK => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Koronchik_D_N_2016_SmartHCbK <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Koronchik_D_N_2016_SmartHCbK <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/20.koronchik.pdf";; *);; *);;
 
 article_Koronchik_D_N_2016_SmartHCbK => nrel_abstract:

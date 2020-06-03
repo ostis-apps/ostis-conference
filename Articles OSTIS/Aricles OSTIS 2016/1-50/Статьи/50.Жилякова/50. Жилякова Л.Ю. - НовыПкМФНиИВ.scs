@@ -28,7 +28,7 @@ article_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_year_publication: 2016;;
 
 article_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Zhilyakova_L_Yu_2016_ANATMOANaTI <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Zhilyakova_L_Yu_2016_ANATMOANaTI <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/50.zhilyakova.pdf";; *);; *);;
 
 article_Zhilyakova_L_Yu_2016_ANATMOANaTI <- article;;

@@ -28,7 +28,7 @@ article_Grishenko_M_A_2016_SoftFRKBDPKBD => nrel_year_publication: 2016;;
 
 article_Grishenko_M_A_2016_SoftFRKBDPKBD => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Grishenko_M_A_2016_SoftFRKBDPKBD <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Grishenko_M_A_2016_SoftFRKBDPKBD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/30.grishenko.pdf";; *);; *);;
 
 

@@ -28,7 +28,7 @@ article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA => nrel_year_publication: 2016;;
 
 article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA => nrel_comptise:  Materials_OSTIS2016;;
 
-article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/35.rogushina.pdf";; *);; *);;
 
 article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA <- article;;

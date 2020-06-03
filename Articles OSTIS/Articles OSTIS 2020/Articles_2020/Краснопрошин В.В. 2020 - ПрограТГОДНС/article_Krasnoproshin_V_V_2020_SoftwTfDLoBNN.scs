@@ -31,7 +31,7 @@ article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN => nrel_bibliographic_reference:[К
 *);;
 article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN <- lang_en;;
 article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/37.Krasnoproshin.pdf";; *);; *);;
 
 article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN => nrel_key_concepts:

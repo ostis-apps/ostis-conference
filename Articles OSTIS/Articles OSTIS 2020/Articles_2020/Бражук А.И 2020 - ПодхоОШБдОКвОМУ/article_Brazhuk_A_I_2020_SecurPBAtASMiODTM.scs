@@ -31,7 +31,7 @@ article_Brazhuk_A_I_2020_SecurPBAtASMiODTM => nrel_bibliographic_reference:[Бр
 *);;
 article_Brazhuk_A_I_2020_SecurPBAtASMiODTM <- lang_en;;
 article_Brazhuk_A_I_2020_SecurPBAtASMiODTM <=nrel_published_material:nrel_published_material: nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Brazhuk_A_I_2020_SecurPBAtASMiODTM <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/39.Brazhuk.pdf";; *);; *);;
 
 article_Brazhuk_A_I_2020_SecurPBAtASMiODTM => nrel_key_concepts:

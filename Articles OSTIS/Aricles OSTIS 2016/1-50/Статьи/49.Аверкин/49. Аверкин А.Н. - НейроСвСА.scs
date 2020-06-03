@@ -29,7 +29,7 @@ article_Averkin_A_N_2016_NeuralNiSA => nrel_year_publication: 2016;;
 
 article_Averkin_A_N_2016_NeuralNiSA => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Averkin_A_N_2016_NeuralNiSA <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Averkin_A_N_2016_NeuralNiSA <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/49.averkin.pdf";; *);; *);;
 
 article_Averkin_A_N_2016_NeuralNiSA <- article;;

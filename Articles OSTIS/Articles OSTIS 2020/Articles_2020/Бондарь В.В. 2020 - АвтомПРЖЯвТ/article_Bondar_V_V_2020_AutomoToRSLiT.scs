@@ -30,7 +30,7 @@ article_Bondar_V_V_2020_AutomoToRSLiT => nrel_bibliographic_reference:[Бонд�
 *);;
 article_Bondar_V_V_2020_AutomoToRSLiT <- lang_en;;
 article_Bondar_V_V_2020_AutomoToRSLiT <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Bondar_V_V_2020_AutomoToRSLiT <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Bondar_V_V_2020_AutomoToRSLiT <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/54.Bondar.pdf";; *);; *);;
 
 

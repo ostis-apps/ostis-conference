@@ -31,7 +31,7 @@ article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI => nrel_bibliographic_refere
 *);;
 article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI <- lang_en;;
 article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/44.Semenchenia.pdf";; *);; *);;
 
 article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI => nrel_key_concepts:

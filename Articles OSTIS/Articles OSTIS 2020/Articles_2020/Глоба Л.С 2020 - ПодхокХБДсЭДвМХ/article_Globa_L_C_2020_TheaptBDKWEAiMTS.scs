@@ -32,7 +32,7 @@ article_Globa_L_C_2020_TheaptBDKWEAiMTS => nrel_bibliographic_reference:[Гло�
 *);;
 article_Globa_L_C_2020_TheaptBDKWEAiMTS <- lang_en;;
 article_Globa_L_C_2020_TheaptBDKWEAiMTS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Globa_L_C_2020_TheaptBDKWEAiMTS <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Globa_L_C_2020_TheaptBDKWEAiMTS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/09.Globa.pdf";; *);; *);;
 
 article_Globa_L_C_2020_TheaptBDKWEAiMTS => nrel_key_concepts:

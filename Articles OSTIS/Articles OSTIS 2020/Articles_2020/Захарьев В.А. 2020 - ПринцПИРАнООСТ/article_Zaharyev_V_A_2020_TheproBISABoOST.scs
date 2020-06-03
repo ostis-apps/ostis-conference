@@ -35,7 +35,7 @@ article_Zaharyev_V_A_2020_TheproBISABoOST=> nrel_bibliographic_reference:[Зах
 *);;
 article_Zaharyev_V_A_2020_TheproBISABoOST <- lang_en;;
 article_Zaharyev_V_A_2020_TheproBISABoOST <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Zaharyev_V_A_2020_TheproBISABoOST <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Zaharyev_V_A_2020_TheproBISABoOST <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/27.Zaharyev.pdf";; *);; *);;
 
 article_Zaharyev_V_A_2020_TheproBISABoOST => nrel_key_concepts:

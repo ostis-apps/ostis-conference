@@ -29,7 +29,7 @@ article_Evgenev_G_B_2020_OpenISCDT => nrel_bibliographic_reference:[Евгене
 *);;
 article_Evgenev_G_B_2020_OpenISCDT <- lang_en;;
 article_Evgenev_G_B_2020_OpenISCDT <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Evgenev_G_B_2020_OpenISCDT <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Evgenev_G_B_2020_OpenISCDT <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/19.Evgenev.pdf";; *);; *);;
 
 article_Evgenev_G_B_2020_OpenISCDT => nrel_key_concepts:

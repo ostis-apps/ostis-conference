@@ -30,7 +30,7 @@ article_Andreev_I_A2016_AutomCoCHaSIFTfO => nrel_year_publication: 2016;;
 
 article_Andreev_I_A2016_AutomCoCHaSIFTfO => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Andreev_I_A2016_AutomCoCHaSIFTfO <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Andreev_I_A2016_AutomCoCHaSIFTfO <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/27.andreev.pdf";; *);; *);;
 
 

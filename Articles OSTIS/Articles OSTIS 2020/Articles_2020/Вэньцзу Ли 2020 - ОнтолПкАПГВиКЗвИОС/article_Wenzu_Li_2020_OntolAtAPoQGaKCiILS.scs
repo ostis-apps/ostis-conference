@@ -31,7 +31,7 @@ article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS => nrel_bibliographic_reference:[Вэ�
 *);;
 article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS <- lang_en;;
 article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/29.Wenzu.pdf";; *);; *);;
 
 article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS => nrel_key_concepts:

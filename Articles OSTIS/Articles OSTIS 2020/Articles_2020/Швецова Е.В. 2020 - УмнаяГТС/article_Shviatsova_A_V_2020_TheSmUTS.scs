@@ -31,7 +31,7 @@ article_Shviatsova_A_V_2020_TheSmUTS => nrel_bibliographic_reference:[Швецо
 *);;
 article_Shviatsova_A_V_2020_TheSmUTS <- lang_en;;
 article_Shviatsova_A_V_2020_TheSmUTS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Shviatsova_A_V_2020_TheSmUTS <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Shviatsova_A_V_2020_TheSmUTS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/57.Shviatsova.pdf";; *);; *);;
 
 

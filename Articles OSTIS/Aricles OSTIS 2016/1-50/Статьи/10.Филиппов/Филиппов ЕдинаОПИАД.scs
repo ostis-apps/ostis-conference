@@ -30,7 +30,7 @@ article_Filippov_A_A_2016_UnifODMP => nrel_year_publication: 2016;;
 
 article_Filippov_A_A_2016_UnifODMP => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Filippov_A_A_2016_UnifODMP <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Filippov_A_A_2016_UnifODMP <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/10.filippov.pdf";; *);; *);;
 
 

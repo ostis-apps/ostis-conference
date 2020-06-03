@@ -29,7 +29,7 @@ article_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_year_publication: 2016;;
 
 article_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Plesniewicz_G_S_2016_SpecioWitEIAL <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Plesniewicz_G_S_2016_SpecioWitEIAL <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/44.plesnevich.pdf";; *);; *);;
 
 article_Plesniewicz_G_S_2016_SpecioWitEIAL <- article;;

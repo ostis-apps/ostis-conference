@@ -30,7 +30,7 @@ article_Lierler_Y_2020_AnArcoSIETT2ALM => nrel_bibliographic_reference:[Лирл
 *);;
 article_Lierler_Y_2020_AnArcoSIETT2ALM <- lang_en;;
 article_Lierler_Y_2020_AnArcoSIETT2ALM <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Lierler_Y_2020_AnArcoSIETT2ALM <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Lierler_Y_2020_AnArcoSIETT2ALM <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/31.Lierler.pdf";; *);; *);;
 
 article_Lierler_Y_2020_AnArcoSIETT2ALM <- 04.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 04;; => rrel_number_of_year: 2020;;*);;*);;

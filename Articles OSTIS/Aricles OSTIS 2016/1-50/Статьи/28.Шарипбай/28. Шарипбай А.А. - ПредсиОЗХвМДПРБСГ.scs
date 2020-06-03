@@ -27,7 +27,7 @@ article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_year_publication: 2016;;
 
 article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/28.sharipbai.pdf";; *);; *);;
 
 article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_abstract:

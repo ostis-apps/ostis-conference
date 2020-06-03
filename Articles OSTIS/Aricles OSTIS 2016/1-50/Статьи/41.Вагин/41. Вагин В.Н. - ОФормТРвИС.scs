@@ -30,7 +30,7 @@ article_Vagin_V_N_2016_AbouttTRFitIS => nrel_year_publication: 2016;;
 
 article_Vagin_V_N_2016_AbouttTRFitIS => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Vagin_V_N_2016_AbouttTRFitIS <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Vagin_V_N_2016_AbouttTRFitIS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/41.vagin.pdf";; *);; *);;
 
 article_Vagin_V_N_2016_AbouttTRFitIS <- article;;

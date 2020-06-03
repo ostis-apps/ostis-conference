@@ -28,7 +28,7 @@ article_Massel_L_V_2016_tDevoSMLiISoSTBoOE => nrel_year_publication: 2016;;
 
 article_Massel_L_V_2016_tDevoSMLiISoSTBoOE => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Massel_L_V_2016_tDevoSMLiISoSTBoOE <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Massel_L_V_2016_tDevoSMLiISoSTBoOE <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/08.massel.pdf";; *);; *);;
 
 article_Massel_L_V_2016_tDevoSMLiISoSTBoOE => nrel_abstract:

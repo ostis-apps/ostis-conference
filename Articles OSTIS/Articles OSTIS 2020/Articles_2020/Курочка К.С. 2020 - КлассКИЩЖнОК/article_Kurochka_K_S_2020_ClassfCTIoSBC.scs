@@ -31,7 +31,7 @@ article_Kurochka_K_S_2020_ClassfCTIoSBC => nrel_bibliographic_reference:[Кур�
 *);;
 article_Kurochka_K_S_2020_ClassfCTIoSBC <- lang_en;;
 article_Kurochka_K_S_2020_ClassfCTIoSBC <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Kurochka_K_S_2020_ClassfCTIoSBC <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Kurochka_K_S_2020_ClassfCTIoSBC <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/43.Kurochka.pdf";; *);; *);;
 
 article_Kurochka_K_S_2020_ClassfCTIoSBC <- 15.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 15;; => rrel_number_of_year: 2020;;*);;*);;

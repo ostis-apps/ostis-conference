@@ -35,7 +35,7 @@ article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT => nrel_bibliographic_reference:
 *);;
 article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT <- lang_en;;
 article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT<- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT<- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/07.Golenkov.pdf";; *);; *);;
 
 article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT => nrel_key_concepts:

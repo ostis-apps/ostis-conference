@@ -30,7 +30,7 @@ article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC => nrel_bibliographic_referenc
 *);;
 article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC <- lang_en;;
 article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/13.Kobrinskiy.pdf";; *);; *);;
 
 article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC => nrel_key_concepts:

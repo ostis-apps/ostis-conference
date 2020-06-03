@@ -27,7 +27,7 @@ article_Globa_L_S_2016_tMethodoCECoKPC => nrel_year_publication: 2016;;
 
 article_Globa_L_S_2016_tMethodoCECoKPC => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Globa_L_S_2016_tMethodoCECoKPC <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Globa_L_S_2016_tMethodoCECoKPC <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/06.globa.pdf";; *);; *);;
 
 

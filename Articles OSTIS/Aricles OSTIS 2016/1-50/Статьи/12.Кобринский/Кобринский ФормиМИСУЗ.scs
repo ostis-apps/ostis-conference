@@ -26,7 +26,7 @@ article_Kobrinsky_B_A_2016_FormMISMbK => nrel_year_publication: 2016;;
 
 article_Kobrinsky_B_A_2016_FormMISMbK => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Kobrinsky_B_A_2016_FormMISMbK <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Kobrinsky_B_A_2016_FormMISMbK <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/12.kobrinsky.pdf";; *);; *);;
 
 article_Kobrinsky_B_A_2016_FormMISMbK => nrel_abstract:

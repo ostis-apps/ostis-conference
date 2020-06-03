@@ -27,7 +27,7 @@ article_Boiko_I_M_2016_SemanCoAfKI => nrel_year_publication: 2016;;
 
 article_Boiko_I_M_2016_SemanCoAfKI => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Boiko_I_M_2016_SemanCoAfKI <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Boiko_I_M_2016_SemanCoAfKI <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/15.boiko.pdf";; *);; *);;
 
 

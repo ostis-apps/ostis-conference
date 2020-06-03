@@ -27,7 +27,7 @@ article_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_year_publication: 2016;;
 
 article_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Shunkevich_D_V_2016_AsynAPKPIICSM <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Shunkevich_D_V_2016_AsynAPKPIICSM <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/17.shunkevich.pdf";; *);; *);;
 
 article_Shunkevich_D_V_2016_AsynAPKPIICSM =>  nrel_abstract:

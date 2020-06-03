@@ -33,7 +33,7 @@ article_Longwei_Qian_2020_OntolMfCLP => nrel_bibliographic_reference:[Лунвэ
 *);;
 article_Longwei_Qian_2020_OntolMfCLP <- lang_en;;
 article_Longwei_Qian_2020_OntolMfCLP <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Longwei_Qian_2020_OntolMfCLP <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Longwei_Qian_2020_OntolMfCLP <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/28.Longwei.pdf";; *);; *);;
 
 article_Longwei_Qian_2020_OntolMfCLP => nrel_key_concepts:

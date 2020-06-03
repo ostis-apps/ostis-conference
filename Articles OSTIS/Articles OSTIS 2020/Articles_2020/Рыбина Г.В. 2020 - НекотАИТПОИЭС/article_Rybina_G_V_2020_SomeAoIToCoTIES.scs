@@ -32,7 +32,7 @@ article_Rybina_G_V_2020_SomeAoIToCoTIES => nrel_bibliographic_reference:[Рыб�
 *);;
 article_Rybina_G_V_2020_SomeAoIToCoTIES <- lang_en;;
 article_Rybina_G_V_2020_SomeAoIToCoTIES <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Rybina_G_V_2020_SomeAoIToCoTIES <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Rybina_G_V_2020_SomeAoIToCoTIES <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/06.Ryibina.pdf";; *);; *);;
 
 article_Rybina_G_V_2020_SomeAoIToCoTIES => nrel_key_concepts:

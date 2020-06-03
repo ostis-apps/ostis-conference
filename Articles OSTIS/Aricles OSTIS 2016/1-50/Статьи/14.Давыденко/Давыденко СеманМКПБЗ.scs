@@ -26,7 +26,7 @@ article_Davydenko_I_T_2016_tSemanMoKBCD => nrel_year_publication: 2016;;
 
 article_Davydenko_I_T_2016_tSemanMoKBCD => nrel_comprise:  Materials_OSTIS2016;;
 
-article_Davydenko_I_T_2016_tSemanMoKBCD <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Davydenko_I_T_2016_tSemanMoKBCD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/14.davydenko.pdf";; *);; *);;
 
 

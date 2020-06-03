@@ -30,7 +30,7 @@ article_Assanovich_B_A_2020_AutoEfDaCA => nrel_bibliographic_reference:[Асса
 *);;
 article_Assanovich_B_A_2020_AutoEfDaCA <- lang_en;;
 article_Assanovich_B_A_2020_AutoEfDaCA <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
-article_Assanovich_B_A_2020_AutoEfDaCA <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+article_Assanovich_B_A_2020_AutoEfDaCA <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
 nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/48.Assanovich.pdf";; *);; *);;
 
 
