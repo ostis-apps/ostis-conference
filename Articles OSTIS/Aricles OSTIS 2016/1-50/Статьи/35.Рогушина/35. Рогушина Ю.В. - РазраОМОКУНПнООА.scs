@@ -1,0 +1,34 @@
+article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA => nrel_main_idtf:
+[Рогушина Ю.В. 2016 - РазраОМОКУНПнООА]
+	(*
+	<- lang_ru;;
+	*);
+	[Rogushina J.V. 2016 - DeveloOOBMfCEoSPA] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA => nrel_article_title:[Разработка объективных методов оценки компетентности участников научных проектов на основе онологического анализа](*
+	<- lang_ru;;
+	*);;
+article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA <- lang_ru;;
+article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA => nrel_author:
+Rogushina_J_V;
+Gladun_A.A.;;
+article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA => nrel_abstract: [Предложены объективные методы оценки компетентности участников научных и научно-образовательных проектов. Представленные методы базируются на семантическом сопоставлении описания проекта и документов, характеризирующих компетентность его участникоы в выбранной сфере. Кроме того, предлагается использовать знания, извлекаемые из открытой среды Web – Wiki-справочники, наукометрические базы, официальные сайты организаций и сопровождающие их метаданные, онтологии предметных областей. Разработана специализированная онтология научной деятельности, позволяющая стандартизировать терминологическую базу описания квалификации участников проектов.];;
+
+article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA <- article_OSTIS_2016;;
+article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA => nrel_count_page: 8;;
+
+article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA => nrel_bibliographic_reference: [Рогушина, Ю.В. Разработка объективных методов оценки компетентности участников научных проектов на основе онологического анализа / Ю.В. Рогушина, А.Я. Гладун // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA => nrel_year_publication: 2016;;
+
+article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA => nrel_comptise:  Materials_OSTIS2016;;
+
+article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/35.rogushina.pdf";; *);; *);;
+
+article_Rogushina_J_V_2016_DeveloOOBMfCEoSPA <- article;;

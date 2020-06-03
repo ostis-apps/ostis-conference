@@ -1,0 +1,60 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..207;;
+sc_node_not_relation->..214;;
+sc_node_not_relation->..str;;
+article_Longwei_Qian_2020_OntolMfCLP=> nrel_main_idtf:
+[Лунвэй Цянь 2020 - ОнтолПкОКЯ]
+	(*
+	<- lang_ru;;
+	*);
+	[Longwei Qian 2020 - OntolMfCLP] 
+	(*
+	<- lang_en;;
+	*);;
+article_Longwei_Qian_2020_OntolMfCLP => nrel_article_title:[Онтологический подход к обработке китайского языка.](*
+	<- lang_ru;;
+	*);;
+article_Longwei_Qian_2020_OntolMfCLP => nrel_article_title:[Ontology Method for Chinese Language Processing.](*
+	<- lang_en;;
+	*);;
+article_Longwei_Qian_2020_OntolMfCLP <- article;;
+article_Longwei_Qian_2020_OntolMfCLP <- article_OSTIS_2020;;
+
+article_Longwei_Qian_2020_OntolMfCLP => nrel_abstract: [ This paper describes a method for computer processing of Chinese language texts based on Chinese linguistic ontology. The ontology is used to build a unified semantic model of Chinese linguistic knowledge and effectively organize the domain knowledge for processing of Chinese language texts. The described method of texts processing could be used further for Chinese language user interface implementation.];
+[ В статье рассматриваются существующие методы обработки китайского языка, а также методы построения онтологии предметной области. Был проведен анализ проблем, возникающих при обработке китайского языка в настоящее время.
+ На основании различных рассмотренных методов построения баз знаний английского и китайского языка был предложен онтологический подход к обработке китайского языка. Предложенный метод направлен на разработку семантической модели знаний о китайском языке. Как один из этапов реализации подхода была создана онтология китайского языка, которую можно использовать в дальнейших этапах для обработки китайского языка.
+ Таким образом, для дальнейшей обработки и реализации естественно-языкового пользовательского интерфейса в работе предлагается модель обработки китайского языка, основанная на знаниях.];;
+article_Longwei_Qian_2020_OntolMfCLP => nrel_author: 
+Longwei_Q;
+Wenzu_L;
+Sadouski_M_E;;
+article_Longwei_Qian_2020_OntolMfCLP => nrel_bibliographic_reference:[Лунвэй, Цянь. Онтологический подход к обработке китайского языка / Цянь Лунвэй, М.Е. Садовский, Ли Вэньцзу // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 207-214.](*
+ <-interstate_standard;; 
+*);;
+article_Longwei_Qian_2020_OntolMfCLP <- lang_en;;
+article_Longwei_Qian_2020_OntolMfCLP <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Longwei_Qian_2020_OntolMfCLP <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/28.Longwei.pdf";; *);; *);;
+
+article_Longwei_Qian_2020_OntolMfCLP => nrel_key_concepts:
+{
+	concept_Chinese_language_processing;
+	ontology;
+	concept_knowledge_driven;
+	concept_Chinese_language_generation
+};;
+article_Longwei_Qian_2020_OntolMfCLP <- 10.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 10;; => rrel_number_of_year: 2020;;*);;*);;
+article_Longwei_Qian_2020_OntolMfCLP<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..207=>..214);;
+..207=>..nrel:207;;
+..214=>..nrel:214;;
+..207<-exact_value;;
+..214<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..207<-page;;
+..214<-page;;
+number_of_page<-page;;
+article_Longwei_Qian_2020_OntolMfCLP <= nrel_published_material: report_Qian_Longwei_2020_OntolAttPoC;;

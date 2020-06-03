@@ -1,0 +1,33 @@
+article_Sorokin_O_L_2016_DataPARMPDCRPHF => nrel_main_idtf:
+[Сорокин О.Л. 2016 - АлгорОИвАРМСАПРОКдВКТП] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Sorokin O.L. 2016 - DataPARMPDCRPHF] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Sorokin_O_L_2016_DataPARMPDCRPHF => nrel_article_title:[Алгоритмы обработки информации в адаптивном реконфигурируемом модуле САПР ОК для визуализации контуров тепловых потоков](*
+	<- lang_ru;;
+	*);;
+
+article_Sorokin_O_L_2016_DataPARMPDCRPHF => nrel_author:
+Sorokin_O.L.;;
+article_Sorokin_O_L_2016_DataPARMPDCRPHF => nrel_author:
+Sidorkina_I_G;;
+
+article_Sorokin_O_L_2016_DataPARMPDCRPHF => nrel_abstract: [В работе рассмотрены основные алгоритмы работы модуля визуализации контура тепловых потоков с использованием нечеткой логики. Описано применение матрицнечетких решений и введение базы знаний на основе фреймовой структуры. Приведены основные этапы функционирования алгоритмов и их преимущества.];;
+
+article_Sorokin_O_L_2016_DataPARMPDCRPHF => nrel_bibliographic_reference: [Сорокин, О.Л. Алгоритмы обработки информации в адаптивном реконфигурируемом модуле САПР ОК для визуализации контуров тепловых потоков/ О.Л. Сорокин, И.Г. Сидоркина // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 431–434.](*
+<-interstate_standard;; 
+*);;
+
+article_Sorokin_O_L_2016_DataPARMPDCRPHF => nrel_year_publication: 2016;;
+
+article_Sorokin_O_L_2016_DataPARMPDCRPHF => nrel_comprise:  Materials_OSTIS2016;;
+article_Sorokin_O_L_2016_DataPARMPDCRPHF<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Сорокин.pdf";; *);;*);;
+
+article_Sorokin_O_L_2016_DataPARMPDCRPHF <- article;;
+article_Sorokin_O_L_2016_DataPARMPDCRPHF <- article_OSTIS_2016;;

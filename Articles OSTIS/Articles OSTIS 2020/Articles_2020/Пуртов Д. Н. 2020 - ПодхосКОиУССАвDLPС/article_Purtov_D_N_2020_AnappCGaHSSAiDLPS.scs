@@ -1,0 +1,60 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..301;;
+sc_node_not_relation->..304;;
+sc_node_not_relation->..str;;
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS => nrel_main_idtf:
+[Пуртов Д. Н. 2020 - ПодхосКОиУССАвDLPС]
+	(*
+	<- lang_ru;;
+	*);
+	[Purtov D.N. 2020 - AnappCGaHSSAiDLPS] 
+	(*
+	<- lang_en;;
+	*);;
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS => nrel_article_title:[Подход с комбинированием общего и узкоспециализированного семантического анализа в DLP-системах.](*
+	<- lang_ru;;
+	*);;
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS => nrel_article_title:[An approach combining general and highly specialized semantic analysis in DLP systems.](*
+	<- lang_en;;
+	*);;
+
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS <- article;;
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS <- article_OSTIS_2020;;
+
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS => nrel_abstract: [ The paper proposes an approach to combining general and highly specialized semantic analysis. The analysis of the main problems of the semantic analysis of the text is carried out, as well as an approach is proposed in which the semantic analysis in DLP systems immediately spreads to the entire protected system. The presented approach will allow to gradually accelerate the work of the DLP system, as well as analyze the result of the work of semantic analysis to evaluate and maintain semantic analysis in an up-to-date state.];
+[ Развитие современных компьютерных технологий позволило создавать системы для анализа не только структурированных данных, но также данных, представленных на естественном языке. Как правило системы автоматического анализа текста используют следующие этапы анализа: морфологический, синтаксический и семантический. Подобного рода системы использоваться в DLP-системах. DLP (Data Loss Prevention) -— это система, созданная для предотвращения утечек конфиденциальной информации за пределы корпоративной сети. Наиболее интересной частью анализа текста является семантический анализ. Именно при семантическом анализе выясняется смысл текста. В данной работе были рассмотрены основные проблеме семантического анализа, а также предложен способ построения семантического анализа, который может обеспечить максимальную эффективность при минимальных временных затратах и уменьшит издержки при эксплуатации. Особенность подхода заключается в особом комбинировании общего семантического анализа с специализированным, постепенном увеличении скорости анализа в DLP-системе, визуализации анализа с возможностью улучшения работы семантического анализа. Под общим анализом тут понимается возможность анализировать текст любого рода, а специализированный тексты только определенной тематики. Постепенный плавный переход от общего к специализированному анализу позволяет увеличить скорость работы системы в тех тематических областях. Визуализация дает возможность более быстро анализировать и оценивать результат работы семантического анализа, позволяет сразу актуализировать справочники слов, необходимых для понимания смысла текста. Все эти действия позволяют DLP-системе быть в актуальном состоянии для предотвращения утечки информации.];;
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS => nrel_author: 
+Purtov_D_N;
+Sidorkina_I_G;;
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS => nrel_bibliographic_reference:[Пуртов, Д.Н. Подход с комбинированием общего и узкоспециализированного семантического анализа в dlp-системах. / Д.Н.Пуртов, И.Г. Сидоркина // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 301-304.](*
+ <-interstate_standard;; 
+*);;
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS <- lang_en;;
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/46.Purtov.pdf";; *);; *);;
+
+
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS => nrel_key_concepts:
+{
+	concept_semantic_analysis;
+	concept_DLP_system;
+	concept_morphological_reference_book;
+	concept_visualization_of_semantic_analysis
+};;
+
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS <-  15.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 14;; => rrel_number_of_year: 2020;;*);;*);;
+article_Purtov_D_N_2020_AnappCGaHSSAiDLPS<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..301=>..304);;
+..301=>..nrel:301;;
+..304=>..nrel:304;;
+..301<-exact_value;;
+..304<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..301<-page;;
+..304<-page;;
+number_of_page<-page;;
+

@@ -1,0 +1,60 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..95;;
+sc_node_not_relation->..100;;
+sc_node_not_relation->..str;;
+article_Globa_L_C_2020_TheaptBDKWEAiMTS=> nrel_main_idtf:
+[Глоба Л.С 2020 - ПодхокХБДсЭДвМХ]
+	(*
+	<- lang_ru;;
+	*);
+	[Globa L.C. 2020 TheaptBDKWEAiMTS] 
+	(*
+	<- lang_en;;
+	*);;
+article_Globa_L_C_2020_TheaptBDKWEAiMTS => nrel_article_title:[Подход к хранению «больших данных» с эффективным доступом в многоуровневом хранилище.](*
+	<- lang_ru;;
+	*);;
+article_Globa_L_C_2020_TheaptBDKWEAiMTS => nrel_article_title:[The approach to "big data" keeping with effective access in multi-tier storage.](*
+	<- lang_en;;
+	*);;
+article_Globa_L_C_2020_TheaptBDKWEAiMTS <- article;;
+article_Globa_L_C_2020_TheaptBDKWEAiMTS <- article_OSTIS_2020;;
+
+article_Globa_L_C_2020_TheaptBDKWEAiMTS => nrel_abstract: [Big Data has too much cumulative amount of weakly linked data availability of a large amount of structured and unstructured data, their substantial diversity. Such data is handled by means of horizontally scalable software tools and alternative traditional database management systems as well as Business Intelligence class systems. One of the challenges of this Big Data approach is the need to effectively control and process data flows.
+ The paper discusses the approach of distributed data storage in multi-tier repositories, taking into account the interdependence of IT infrastructure and location of business objects, as well as the importance and reliability of data over time. The task of placing blocks of data in multi-tier repositories is formulated so that the average access time to them is minimal. A method for solving this problem using a genetic algorithm, the effectiveness of which is confirmed by the results of mathematical modeling is proposed.];
+[ Большие данные имеют слишком большой совокупный объем слабосвязанных данных, большой объем структурированных и неструктурированных данных, их существенное разнообразие. Такие данные обрабатываются с помощью горизонтально масштабируемых программных средств и альтернативных традиционных систем управления базами данных, а также систем класса Business Intelligence. Однако, обработка больших данных на основе такого подхода требует эффективных как контроля, так и доступа к хранилищам данных, контроля процессов обработки потоков данных.
+ В статье рассматривается подход распределенного хранения данных в многоуровневых хранилищах, учитывающий взаимозависимость ИТ-инфраструктуры и местоположения бизнес-объектов, а также важность и достоверность данных во времени. Задача размещения блоков данных в многоуровневых хранилищах сформулирована таким образом, чтобы среднее время доступа к ним было минимальным. Предложен метод решения этой задачи с использованием генетического алгоритма, эффективность которого подтверждается результатами математического моделирования.];;
+article_Globa_L_C_2020_TheaptBDKWEAiMTS => nrel_author: 
+Globa_L_C;
+Filimonov_N;;
+article_Globa_L_C_2020_TheaptBDKWEAiMTS => nrel_bibliographic_reference:[Глоба, Л.С. Подход к хранению «больших данных» с эффективным доступом в многоуровневом хранилище. / Л.С. Глоба, Н. Филимонов // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 95-100.](*
+ <-interstate_standard;; 
+*);;
+article_Globa_L_C_2020_TheaptBDKWEAiMTS <- lang_en;;
+article_Globa_L_C_2020_TheaptBDKWEAiMTS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Globa_L_C_2020_TheaptBDKWEAiMTS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/09.Globa.pdf";; *);; *);;
+
+article_Globa_L_C_2020_TheaptBDKWEAiMTS => nrel_key_concepts:
+{
+	concept_distributed_Big_Data_storing;
+	concept_data_storage_system;
+	concept_database_management_system;
+	concept_datacenter
+};;
+article_Globa_L_C_2020_TheaptBDKWEAiMTS <- 13.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 13;; => rrel_number_of_year: 2019;;*);;*);;
+13.12.2019 <- date_of_received;;
+article_Globa_L_C_2020_TheaptBDKWEAiMTS<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..95=>..100);;
+..95=>..nrel:95;;
+..100=>..nrel:100;;
+..95<-exact_value;;
+..100<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..95<-page;;
+..100<-page;;
+number_of_page<-page;;
+article_Globa_L_C_2020_TheaptBDKWEAiMTS <=nrel_published_material: report_Globa_L_S_2020_ApprotSBDwEAiTS;;

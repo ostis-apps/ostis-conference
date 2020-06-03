@@ -1,0 +1,40 @@
+sc_node_norole_relation->nrel_article_title;;
+nrel_article_title=> nrel_main_idtf:
+[название статьи*](*<- lang_ru;;*);
+[article title*] (*<- lang_en;;*);;
+
+
+
+definition ->...
+(*
+->rrel_key_sc_element:  nrel_article_title;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Название статьи - это словесное обозначение, наименование <b><sc_element sys_idtf="article"> статьи</b></sc_element>,.](*
+=>nrel_format:format_html;;
+<-lang_ru;;
+*);;
+*);;
+=> nrel_main_idtf: [Опр.(название статьи*)](*<-lang_ru;;*);;
+=> nrel_using_constants:
+{ 
+	article
+};;
+*);;
+
+nrel_article_title=>nrel_first_domain: article;;
+nrel_article_title=>nrel_second_domain: file;;
+..union2<=nrel_combination:
+{
+	article;
+	file
+};;
+..union2<=nrel_definitional_domain:nrel_article_title;;
+
+
+arity -> ..arity2;;
+..arity2 -> nrel_article_title;;
+..arity2 => nrel_measurement: 2;;
+
+nrel_article_title<-oriented_relation;;
+nrel_article_title<|-symmetric_relation;;
+nrel_article_title<-antireflexive_relation;;
+nrel_article_title<|-transitive_relation;;

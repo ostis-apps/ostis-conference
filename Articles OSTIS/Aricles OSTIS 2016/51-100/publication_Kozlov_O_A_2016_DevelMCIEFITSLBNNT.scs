@@ -1,0 +1,31 @@
+article_Kozlov_O_A_2016_DevelMCIEFITSLBNNT => nrel_main_idtf:
+[Козлов О.А. 2016 - РазраМУВЭнФИТОСнОНТ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Kozlov O.A. 2016 - DevelMCIEFITSLBNNT] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Kozlov_O_A_2016_DevelMCIEFITSLBNNT => nrel_article_title:[Разработка модели учета влияния эмоций на формирование индивидуальной траектории обучения студента на основе нейросетевых технологий](*
+	<- lang_ru;;
+	*);;
+article_Kozlov_O_A_2016_DevelMCIEFITSLBNNT => nrel_author:
+Kozlov_O.A.;;
+article_Kozlov_O_A_2016_DevelMCIEFITSLBNNT => nrel_author:
+Mihajlov_U.F.;;
+article_Kozlov_O_A_2016_DevelMCIEFITSLBNNT => nrel_abstract: [В статье приводится описание подхода поформированию модели учета влияния эмоций на формирование индивидуальной траектории изучения студентом некоторой предметной области знаний с помощью искусственной нейронной сети.];; 
+article_Kozlov_O_A_2016_DevelMCIEFITSLBNNT => nrel_bibliographic_reference: [Козлов, О.А. Разработка модели учета влияния эмоций на формирование индивидуальной траектории обучения студента на основе нейросетевых технологий/ О.А. Козлов, Ю.Ф. Михайлов // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 511–516.](*
+<-interstate_standard;; 
+*);;
+
+article_Kozlov_O_A_2016_DevelMCIEFITSLBNNT => nrel_year_publication: 2016;;
+
+article_Kozlov_O_A_2016_DevelMCIEFITSLBNNT => nrel_comprise:  Materials_OSTIS2016;;
+article_Kozlov_O_A_2016_DevelMCIEFITSLBNNT <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Козлов.pdf";; *);;*);;
+
+article_Kozlov_O_A_2016_DevelMCIEFITSLBNNT <- article;;
+
+article_Kozlov_O_A_2016_DevelMCIEFITSLBNNT <- article_OSTIS_2016;;

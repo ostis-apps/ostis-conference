@@ -1,0 +1,35 @@
+article_Afanasieva_T_V_2016_DescrAtEKAGTATS => nrel_main_idtf:
+[Афанасьева Т.В. 2016 - ОписаПкИЗоАЛТВР]
+	(*
+	<- lang_ru;;
+	*);
+	[Afanasieva T.V. 2016 - DescrAtEKAGTATS] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Afanasieva_T_V_2016_DescrAtEKAGTATS => nrel_article_title:[Описане подхода к извлечению знаний об аномалиях локальных тенденций временного ряда](*
+	<- lang_ru;;
+	*);;
+
+article_Afanasieva_T_V_2016_DescrAtEKAGTATS => nrel_author:
+Afanaseva_T_V;
+Zavarzin_D_V;;
+article_Afanasieva_T_V_2016_DescrAtEKAGTATS  <- lang_ru;;
+article_Afanasieva_T_V_2016_DescrAtEKAGTATS  => nrel_abstract: [В работе предлагается новый подход для извлечения знаний об аномалиях в данных которые представлены в виде локальных нечетких тенденций временных рядов (ВР). Работа основана на определениях гранулярного представления ВР, а также классификациях аномалий и свойств поведения нечетких тенденций ВР описанных в предыдущих работах.];;
+article_Afanasieva_T_V_2016_DescrAtEKAGTATS  => nrel_count_page: 4;;
+
+article_Afanasieva_T_V_2016_DescrAtEKAGTATS <- article_OSTIS_2016;;
+
+article_Afanasieva_T_V_2016_DescrAtEKAGTATS => nrel_bibliographic_reference: [Афанасьева, Т.В. Описане подхода к извлечению знаний об аномалиях локальных тенденций временного ряда / Т.В. Афанасьева, Д.В. Заварин // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Afanasieva_T_V_2016_DescrAtEKAGTATS => nrel_year_publication: 2016;;
+
+article_Afanasieva_T_V_2016_DescrAtEKAGTATS => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Afanasieva_T_V_2016_DescrAtEKAGTATS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/46.afanaseva.pdf";; *);; *);;
+
+article_Afanasieva_T_V_2016_DescrAtEKAGTATS <- article;;

@@ -1,0 +1,36 @@
+article_Rovba_E_A_2016_DesignISFSNBSKR => nrel_main_idtf:
+[  Ровба Е.А. 2016 - ПроекИСППвКнОСПЗ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Rovba E.A. 2016 - DesignISFSNBSKR] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Rovba_E_A_2016_DesignISFSNBSKR => nrel_article_title:[Проектирование интеллектуальной системы прогнозирования потребности в кадрах на основе семантического представления знаний](*
+	<- lang_ru;;
+	*);;
+article_Rovba_E_A_2016_DesignISFSNBSKR => nrel_author:
+Rovba_E_A;;
+article_Rovba_E_A_2016_DesignISFSNBSKR => nrel_author:
+Boyko_V_K;;
+article_Rovba_E_A_2016_DesignISFSNBSKR => nrel_author:
+Voytukevich_U_A;;
+article_Rovba_E_A_2016_DesignISFSNBSKR => nrel_author:
+Lyavshuk_V_E;;
+article_Rovba_E_A_2016_DesignISFSNBSKR => nrel_author:
+Petrov_S_V;;
+article_Rovba_E_A_2016_DesignISFSNBSKR => nrel_abstract: [В работе рассмотрен опыт разработки системы поддержки принятия стратегических решений в области управления сферой профессионального образования Республики Беларусь, развитие которой зависит от знания долговременных тенденций спроса и предложения кадров на рынке труда. Разработка системы потребовала интеграции данных, накапливаемых в формализованных и неформальных системах знаний республиканских органов государственного управления, а также картографической информации из открытых сетевых источников. Задача решена на основе онтологического подхода путем построения семантических сетей.];;
+article_Rovba_E_A_2016_DesignISFSNBSKR=> nrel_bibliographic_reference: [Ровба, Е.А. Проектирование интеллектуальной системы прогнозирования потребности в кадрах на основе семантического представления знаний/ Е.А. Ровба, В.К. Бойко, Ю.А. Войтукевич, В.Е. Лявшук, С.В. Петров // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 535–538.](*
+<-interstate_standard;; 
+*);;
+
+article_Rovba_E_A_2016_DesignISFSNBSKR=> nrel_year_publication: 2016;;
+
+article_Rovba_E_A_2016_DesignISFSNBSKR => nrel_comprise:  Materials_OSTIS2016;;
+article_Rovba_E_A_2016_DesignISFSNBSKR<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Ровба.pdf";; *);;*);;
+
+article_Rovba_E_A_2016_DesignISFSNBSKR <- article;;
+article_Rovba_E_A_2016_DesignISFSNBSKR <- article_OSTIS_2016;;

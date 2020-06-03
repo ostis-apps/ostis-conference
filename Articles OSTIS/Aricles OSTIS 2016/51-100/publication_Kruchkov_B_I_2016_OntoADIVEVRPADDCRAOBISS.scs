@@ -1,0 +1,32 @@
+article_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS => nrel_main_idtf:
+[Крючков Б.И. 2016 - ОнтоПкПИВСдВППДпДУР-ПКнМКС] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Kruchkov B.I. 2016 - OntoADIVEVRPADDCRAOBISS] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS => nrel_article_title:[Онтологический подход к построению интерактивной виртуальной среды для визуального представления планируемых действий при диалоговом управлении роботом-помощником космонавта на МКС](*
+	<- lang_ru;;
+	*);;
+article_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS => nrel_author:
+Kruchkov_B_I;;
+article_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS => nrel_author:
+Usov_V_M;;
+article_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS => nrel_author:
+Karpov_A.A.;;
+article_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS => nrel_abstract: [Для обеспечения безопасности пилотируемых космических полетов применительно к внутрикорабельной деятельности (ВнуКД) экипажа на борту МКС предлагается использование интерактивных виртуальных сред на базе онтологического подхода для визуального представления планируемых действий робота-помощника космонавта (Р-ПК) во время речепроизводства голосовых команд человека-оператора (Ч-О). Представлен результат анализа современных информационных технологий и средств для поддержки эргономического проектирования системы «космонавт –робот-помощник –рабочая среда».];;
+article_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS => nrel_bibliographic_reference: [Крючков, Б.И. Онтологический подход к построению интерактивной виртуальной среды для визуального представления планируемых действий при диалоговом управлении роботом-помощником космонавта на МКС/ Б.И. Крючков, В.М. Усов, А.А. Карпов  // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 477–482.](*
+<-interstate_standard;; 
+*);;
+
+article_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS=> nrel_year_publication: 2016;;
+
+article_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS=> nrel_comprise:  Materials_OSTIS2016;;
+article_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Крючков.pdf";; *);;*);;
+
+article_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS <- article;;
+article_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS <- article_OSTIS_2016;;

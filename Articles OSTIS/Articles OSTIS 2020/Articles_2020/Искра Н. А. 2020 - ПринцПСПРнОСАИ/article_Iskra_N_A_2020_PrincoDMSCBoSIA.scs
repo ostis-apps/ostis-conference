@@ -1,0 +1,60 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..189;;
+sc_node_not_relation->..196;;
+sc_node_not_relation->..str;;
+article_Iskra_N_A_2020_PrincoDMSCBoSIA => nrel_main_idtf:
+[Искра Н. А. 2020 - ПринцПСПРнОСАИ]
+	(*
+	<- lang_ru;;
+	*);
+	[Iskra N.A. 2020 - PrincoDMSCBoSIA] 
+	(*
+	<- lang_en;;
+	*);;
+article_Iskra_N_A_2020_PrincoDMSCBoSIA => nrel_article_title:[Принципы построения систем принятия решений на основе семантического анализа изображений.](*
+	<- lang_ru;;
+	*);;
+article_Iskra_N_A_2020_PrincoDMSCBoSIA => nrel_article_title:[Principles of decision-making systems construction based on semantic image analysis.](*
+	<- lang_en;;
+	*);;
+article_Iskra_N_A_2020_PrincoDMSCBoSIA <- article;;
+article_Iskra_N_A_2020_PrincoDMSCBoSIA <- article_OSTIS_2020;;
+
+article_Iskra_N_A_2020_PrincoDMSCBoSIA => nrel_abstract: [ In this paper principles of decision-making systems construction are considered. An approach to image analysis based on semantic model is proposed and studied. The results show an improvement in processing speed and image captioning quality based on Visual Genome dataset.];
+[ В статье рассматриваются принципы построения систем принятия решений. Предложен и изучен подход к анализу изображений на основе семантической модели. Результаты показывают улучшение скорости обработки и качества аннотирования на основе набора данных Visual Genome.];;
+article_Iskra_N_A_2020_PrincoDMSCBoSIA => nrel_author: 
+Iskra_N_A;
+Iskra_V_V;
+Lukashevich_M_M;;
+article_Iskra_N_A_2020_PrincoDMSCBoSIA => nrel_bibliographic_reference:[Искра, Н.А. Принципы построения систем принятия решений на основе семантического анализа изображений. / Н.А. Искра, В.В. Искра, М.М. Лукашевич // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 189-196.](*
+ <-interstate_standard;; 
+*);;
+article_Iskra_N_A_2020_PrincoDMSCBoSIA <- lang_en;;
+article_Iskra_N_A_2020_PrincoDMSCBoSIA <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Iskra_N_A_2020_PrincoDMSCBoSIA <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/26.Iskra.pdf";; *);; *);;
+
+article_Iskra_N_A_2020_PrincoDMSCBoSIA => nrel_key_concepts:
+{
+	concept_decision_making;
+	concept_video_surveillance;
+	concept_neural_network;
+	concept_semantic_analysis;
+	concept_image_captioning
+};;
+article_Iskra_N_A_2020_PrincoDMSCBoSIA <- 08.02.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 02;; => rrel_number_of_day_in_month: 08;; => rrel_number_of_year: 2020;;*);;*);;
+08.02.2020<- date_of_received;;
+article_Iskra_N_A_2020_PrincoDMSCBoSIA <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..189=>..196);;
+..189=>..nrel:189;;
+..196=>..nrel:196;;
+..189<-exact_value;;
+..196<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..189<-page;;
+..196<-page;;
+number_of_page<-page;;
+article_Iskra_N_A_2020_PrincoDMSCBoSIA <= nrel_published_material: report_Iskra_N_A_2020_PrincoBDMSBoSIA;;

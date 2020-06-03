@@ -1,0 +1,61 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..263;;
+sc_node_not_relation->..266;;
+sc_node_not_relation->..str;;
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA => nrel_main_idtf:
+[Власов С.А. 2020 - ПрименТВРнООвОАС]
+	(*
+	<- lang_ru;;
+	*);
+	[Vlasov S.A. 2020 - ApplicoVRTBoOiEoA] 
+	(*
+	<- lang_en;;
+	*);;
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA => nrel_article_title:[Применение технологии виртуальной реальности на основе онтологии в обучении авиационных студентов.](*
+	<- lang_ru;;
+	*);;
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA => nrel_article_title:[Application of virtual reality technology based on ontology in education of aviation.](*
+	<- lang_en;;
+	*);;
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA <- article;;
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA <- article_OSTIS_2020;;
+
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA => nrel_abstract: [ Education system is continuously evolving and to make process of learning easier people may use AR and VR technologies. It has a lot of benefits and can be used either for learning in simulators via VR headset, or for designing something new. Vuforia Engine provides variety of opportunities for getting a new knowledge. To be able to get full experience while using VR and AR technologies, people should get knowledge of ontology.];
+[ В последние годы, в образовании начали часто использовать технологии виртуальной и дополненной реальности. Это позволяет обогащать мир новейшими технологиями, порождая уникальный комбинированный интерактивный опыт. Онтологический подход определения сущности виртуальности связан с рассмотрением последней как универсального естественного феномена, одного из фундаментальных свойств бытия, бытия вообще, а не только социального. Подобный подход позволяет сделать онтологически значимые выводы, определив создаваемую в киберпространстве и мире Интернет виртуальность как один из онтологических подуровней «тонкой структуры» виртуальности вообще.
+ Используя технологию дополненной реальности, на факультете проектирования и проектирования самолетов Самарского университета разрабатывается специальное учебное приложение. В приложение загружены 3D модели самолетов, части которых доступны на кафедре. Используя это приложение, пользователь может направить камеру на чертеж самолета и получить параметризованную 3D-модель самолета на экране своего смартфона. Чертеж служит своего рода маркером, с помощью которого программа определяет модель, которую необходимо показать пользователю.];;
+
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA => nrel_author: 
+Vlasov_S.A.;
+Borgest_N_M;;
+
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA => nrel_bibliographic_reference:[Власов, С.А. Применение технологии виртуальной реальности на основе онтологии в обучении авиационных студентов. / С.А. Власов, Н.М. Боргест // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 263-266.](*
+ <-interstate_standard;; 
+*);;
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA <- lang_en;;
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/38.Vlasov.pdf";; *);; *);;
+
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA => nrel_key_concepts:
+{
+	concept_augmented_reality;
+	concept_virtual_reality;
+	concept_3D_model;
+	ontology
+};;
+
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA <-  03.02.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 02;; => rrel_number_of_day_in_month: 03;; => rrel_number_of_year: 2020;;*);;*);;
+03.02.2020 <- date_of_received;;
+article_Vlasov_S_A_2020_ApplicoVRTBoOiEoA <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..263=>..266);;
+..263=>..nrel:263;;
+..266=>..nrel:266;;
+..263<-exact_value;;
+..266<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..263<-page;;
+..266<-page;;
+number_of_page<-page;;

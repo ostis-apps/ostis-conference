@@ -1,0 +1,34 @@
+article_Eremeev_A_P_2016_DevelotSfSMBoTPN => nrel_main_idtf:
+[Еремеев А.П. 2016 - РазраПОдМСнОТСП]
+	(*
+	<- lang_ru;;
+	*);
+	[Eremeev A.P. 2016 - DevelotSfSMBoTPN] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Eremeev_A_P_2016_DevelotSfSMBoTPN => nrel_article_title:[Разработка программного обеспечения для моделирования систем на основе темпоральных сетей петри](*
+	<- lang_ru;;
+	*);;
+
+article_Eremeev_A_P_2016_DevelotSfSMBoTPN => nrel_author:
+Yeremeev_A_P;
+Korolev_U_I;;
+article_Eremeev_A_P_2016_DevelotSfSMBoTPN <- lang_ru;;
+article_Eremeev_A_P_2016_DevelotSfSMBoTPN => nrel_abstract: [В работе рассматривается вопрос разработки программного инструментария, предназначенного для моделирования сложных динамических систем и позволяющего оперировать временными (темпоральными) зависимостями. Моделирование осуществляется на основе формализма раскрашенных сетей Петри реального времени с поддержкой логики Аллена. Описывается прототип инструментария в среде G2, разработка программных средств на языках высокого уровня. Приведен пример использования созданного программного обеспечения в задаче разработки моделей объектов электроэнергетической системы.];;
+article_Eremeev_A_P_2016_DevelotSfSMBoTPN => nrel_count_page: 6;;
+article_Eremeev_A_P_2016_DevelotSfSMBoTPN <- article_OSTIS_2016;;
+
+article_Eremeev_A_P_2016_DevelotSfSMBoTPN => nrel_bibliographic_reference: [Еремеев А.Р. Разработка программного обеспечения для моделирования систем на основе темпоральных сетей петри / А.Р. Еремеев, Ю.И. Королёв // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Eremeev_A_P_2016_DevelotSfSMBoTPN => nrel_year_publication: 2016;;
+
+article_Eremeev_A_P_2016_DevelotSfSMBoTPN => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Eremeev_A_P_2016_DevelotSfSMBoTPN <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/42.eremeev.pdf";; *);; *);;
+
+article_Eremeev_A_P_2016_DevelotSfSMBoTPN <- article;;

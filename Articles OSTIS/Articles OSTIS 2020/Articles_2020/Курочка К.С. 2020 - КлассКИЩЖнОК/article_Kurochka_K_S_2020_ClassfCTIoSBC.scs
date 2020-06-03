@@ -1,0 +1,51 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..287;;
+sc_node_not_relation->..290;;
+sc_node_not_relation->..str;;
+article_Kurochka_K_S_2020_ClassfCTIoSBC => nrel_main_idtf:
+[Курочка К.С. 2020 - КлассКИЩЖнОК]
+	(*
+	<- lang_ru;;
+	*);
+	[Kurochka K.S. 2020 - ClassfCTIoSBC] 
+	(*
+	<- lang_en;;
+	*);;
+article_Kurochka_K_S_2020_ClassfCTIoSBC => nrel_article_title:[Классификатор конфокальных изображений щитовидной железы на одноплатных компьютерах.](*
+	<- lang_ru;;
+	*);;
+article_Kurochka_K_S_2020_ClassfCTIoSBC => nrel_article_title:[Classifier for Confocal Thyroid Imaging on Single Board Computers.](*
+	<- lang_en;;
+	*);;
+
+article_Kurochka_K_S_2020_ClassfCTIoSBC <- article;;
+article_Kurochka_K_S_2020_ClassfCTIoSBC <- article_OSTIS_2020;;
+
+article_Kurochka_K_S_2020_ClassfCTIoSBC => nrel_abstract: [ The paper proposes the architecture of a convolutional neural network for classification of digital images of the thyroid gland obtained using a laser confocal microscope. The possibility of using single-board computers as a basis for building a full-fledged device for classifying images with high mobility and versatility is being considered. The process of preparing data for training and comparing existing single-board computers available.];
+[ В статье рассматривается архитектура сверточной нейронной сети для классификации цифровых изображений щитовидной железы, полученных с помощью лазерного конфокального микроскопа. Предлагается способ увеличения возможностей использования лазерного конфокального микроскопа с помощью одноплатных компьютеров для классификации модифицированных тканей. Разработано соответствующее программное обеспечение, адаптированное для использования на одноплатных компьютерах, с ограниченными ресурсными возможностями. Проведен сравнительный анализ одноплатных устройств при решении задач бинарной классификации с использованием рассмотренной сверточной нейронной сети. Факторами отбора устройст для испытаний были выделены их технические характеристики, невысокая цена и доступность платформы на рынке Беларуси. Описаны сильные и слабые стороны при использовании данных устройств. Кратко приведены их характеристики. Предполагается, что приведенные устройства или их аналоги могут быть использованы для построения мобильных и энергоемких систем обработки информации при ограниченных возможностях, как пример обработка конфокальных изображений щитовидной железы.];;
+article_Kurochka_K_S_2020_ClassfCTIoSBC => nrel_author: 
+Kurochka_K_S;
+Demidov_A_I;;
+article_Kurochka_K_S_2020_ClassfCTIoSBC => nrel_bibliographic_reference:[Курочка, К.С. Классификатор конфокальных изображений щитовидной железы на одноплатных компьютерах / К.С. Курочка, А.И. Демидов // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 287-290.](*
+ <-interstate_standard;; 
+*);;
+article_Kurochka_K_S_2020_ClassfCTIoSBC <- lang_en;;
+article_Kurochka_K_S_2020_ClassfCTIoSBC <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Kurochka_K_S_2020_ClassfCTIoSBC <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/43.Kurochka.pdf";; *);; *);;
+
+article_Kurochka_K_S_2020_ClassfCTIoSBC <- 15.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 15;; => rrel_number_of_year: 2020;;*);;*);;
+article_Kurochka_K_S_2020_ClassfCTIoSBC<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..287=>..290);;
+..287=>..nrel:287;;
+..290=>..nrel:290;;
+..287<-exact_value;;
+..290<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..287<-page;;
+..290<-page;;
+number_of_page<-page;;
+article_Kurochka_K_S_2020_ClassfCTIoSBC<= nrel_published_material: report_Demidov_A_I_2020_ClassoCIotTGoSC;;

@@ -1,0 +1,35 @@
+article_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_main_idtf:
+[Плесневич Г.С. 2016 - СпециПЗвРИЛА]
+	(*
+	<- lang_ru;;
+	*);
+	[Plesniewicz G.S. 2016 - SpecioWitEIAL] 
+	(*
+	<- lang_en;;
+	*);;
+
+
+article_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_article_title:[Спецификация потока задач в расширенной интервальной логике Аллена](*
+	<- lang_ru;;
+	*);;
+
+article_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_author:
+Plesniewicz_G_S;
+Nguen_Thi_MinX_Vu;;
+article_Plesniewicz_G_S_2016_SpecioWitEIAL  <- lang_ru;;
+article_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_abstract: [В работе введена расширенная интервальная логика Аллена и показано как эта логика может быть использована для спецификации и анализа потоков работ (workflows). Предложениями расширенной логики служат булевы комбинации предложений логики Аллена содержащие, возможно, метрическую информацию. В частности, этот анализ включает: (1) распознавание несовместности (противоречивости) схемы потока работ; (2) вычисление ответа на запросы к непротиворечивому потоку работ.];;
+article_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_count_page: 6;;
+article_Plesniewicz_G_S_2016_SpecioWitEIAL  <- article_OSTIS_2016;;
+
+article_Plesniewicz_G_S_2016_SpecioWitEIAL => nrel_bibliographic_reference: [Плесневич, Г.С. Спецификация потока задач в расширенной интервальной логике Аллена / Г.С. Плесневич, Нгуен Тхи Минь Ву // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_year_publication: 2016;;
+
+article_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Plesniewicz_G_S_2016_SpecioWitEIAL <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/44.plesnevich.pdf";; *);; *);;
+
+article_Plesniewicz_G_S_2016_SpecioWitEIAL <- article;;

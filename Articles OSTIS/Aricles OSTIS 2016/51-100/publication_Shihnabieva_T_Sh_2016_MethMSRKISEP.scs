@@ -1,0 +1,28 @@
+article_Shihnabieva_T_Sh_2016_MethMSRKISEP => nrel_main_idtf:
+[Шихнабиева Т.Ш. 2016 - МетодиМСПЗвИСОН] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Shihnabieva T.Sh. 2016 - MethMSRKISEP] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Shihnabieva_T_Sh_2016_MethMSRKISEP=> nrel_article_title:[Методы и модели семантического представления знаний в интеллектуальных системах образовательного назначения](*
+	<- lang_ru;;
+	*);;
+article_Shihnabieva_T_Sh_2016_MethMSRKISEP => nrel_author:
+Shihnabieva_T_Sh;;
+article_Shihnabieva_T_Sh_2016_MethMSRKISEP => nrel_abstract: [Современные информационные технологии и стремительное расширение разнообразия сетевых образовательных услуг вызвало поток инноваций по реорганизации существующих образовательных систем всех уровней образования. В работе представлены некоторые подходы совершенствования существующих систем образовательного назначения с использованием интеллектуальных методов и моделей.];;
+article_Shihnabieva_T_Sh_2016_MethMSRKISEP=> nrel_bibliographic_reference: [Шихнабиева, Т.Ш. Методы и модели семантического представления знаний в интеллектуальных системах образовательного назначения/ Т.Ш. Шихнабиева // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 503–506.](*
+<-interstate_standard;; 
+*);;
+
+article_Shihnabieva_T_Sh_2016_MethMSRKISEP => nrel_year_publication: 2016;;
+
+article_Shihnabieva_T_Sh_2016_MethMSRKISEP => nrel_comprise:  Materials_OSTIS2016;;
+article_Shihnabieva_T_Sh_2016_MethMSRKISEP <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Шихнабиева.pdf";; *);;*);;
+
+article_Shihnabieva_T_Sh_2016_MethMSRKISEP <- article;;
+article_Shihnabieva_T_Sh_2016_MethMSRKISEP <- article_OSTIS_2016;;

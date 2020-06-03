@@ -1,0 +1,35 @@
+sc_node_norole_relation->nrel_author;;
+nrel_author=> nrel_main_idtf:
+[автор*](*<- lang_ru;;*);
+[author*] (*<- lang_en;;*);;
+
+definition ->...
+(*
+->rrel_key_sc_element:  nrel_author;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Автор -  человек, в результате творческой деятельности которого было создано произведение.](*<-lang_ru;;*);;*);;
+=> nrel_main_idtf: [Опр.(автор*)](*<-lang_ru;;*);;
+=> nrel_using_constants:
+{ 
+	person;
+	creation
+};;
+*);;
+
+nrel_author=>nrel_first_domain: article;;
+nrel_author=>nrel_second_domain: person;;
+..union3<=nrel_combination:
+{
+	article;
+	person
+};;
+..union3<=nrel_definitional_domain:nrel_author;;
+
+
+arity -> ..arity3;;
+..arity3 -> nrel_author;;
+..arity3 => nrel_measurement: 2;;
+
+nrel_author<-oriented_relation;;
+nrel_author<|-symmetric_relation;;
+nrel_author<-antireflexive_relation;;
+nrel_author<|-transitive_relation;;

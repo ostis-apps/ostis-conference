@@ -1,0 +1,40 @@
+article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM => nrel_main_idtf:
+[Дородных Н.О. 2016 - ПодхокАСБЗнОТКМ]
+	(*
+	<- lang_ru;;
+	*);
+	[Dorodnykh N.O. 2016 - AnAfDoKBOTBoCAtoCM] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM => nrel_article_title:[Подход к автоматизации создания баз знаний на основе трансформации концептуальных моделей](*
+	<- lang_ru;;
+	*);;
+
+article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM => nrel_author:
+Dorodnykh_N_O;
+Urin_A_U;;
+
+article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM <- article;;
+article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM <- article_OSTIS_2016;;
+
+article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM => nrel_bibliographic_reference: [Дородных Н.О. Подход к автоматизации создания баз знаний на основе трансформации концептуальных моделей / Н.О. Дородных, А.Ю. Юрин // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM => nrel_year_publication: 2016;;
+
+article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/29.dorodnykh.pdf";; *);; *);;
+
+article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM => nrel_abstract:
+[Рассмотрена концепция подхода к созданию программных компонентов,обеспечивающих автоматизированную разработку баз знаний (OWL иCLIPS) на основе трансформации концептуальных моделей, представленных в формате XML.Предлагается архитектура сервис-ориентированной программной системы (и ее основных элементов),реализующая  данный  подход.  Описана модель типового программного компонента,включая модель трансляции, на основе которой создаются (специализируются) компоненты.Описанметод (алгоритм) трансформации концептуальных моделей в программный код баз  знаний  с  возможностьюуточнения (моделирования) продукций в нотации RVML](*
+	<- lang_ru;;
+	*);;
+
+article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM => nrel_count_page: 6;;
+
+article_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM <- lang_ru;;

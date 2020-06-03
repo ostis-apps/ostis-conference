@@ -1,0 +1,61 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..257;;
+sc_node_not_relation->..262;;
+sc_node_not_relation->..str;;
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN => nrel_main_idtf:
+[Краснопрошин В.В. 2020 - ПрограТГОДНС]
+	(*
+	<- lang_ru;;
+	*);
+	[Krasnoproshin V.V. 2020 - SoftwTfDLoBNN] 
+	(*
+	<- lang_en;;
+	*);;
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN => nrel_article_title:[Программная технология глубокого обучения доверительных нейронных сетей.](*
+	<- lang_ru;;
+	*);;
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN => nrel_article_title:[Software technology for deep learning of belief neural network.](*
+	<- lang_en;;
+	*);;
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN <- article;;
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN <- article_OSTIS_2020;;
+
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN => nrel_abstract: [ The paper provides the framework structure and contents description for solving applied problems using deep belief networks. Original network architecture, focused on parallel data processing, set of algorithms implementing training processes based on the annealing method and solving problems are proposed.
+ The effectiveness of the described framework is demonstrated by the example of solving the problem of compressing color images.];
+[ В докладе предлагается описание структуры и состава фреймворка для решения прикладных задач с использованием глубоких доверительных сетей. Предложены оригинальная архитектура сети, ориентированная на параллельную обработку данных, набор алгоритмов реализующих процессы обучения на основе метода отжига и решения задач. Эффективность работы описанного фреймворка демонстрируется на примере решения задачи сжатия цветных изображений.];;
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN => nrel_author: 
+Mackevich_V_V;
+Krasnoproshin_V_V;;
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN => nrel_bibliographic_reference:[Краснопрошин, В.В. Программная технология глубокого обучения доверительных нейронных сетей. / В.В. Краснопрошин, В.В. Мацкевич // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 257-262.](*
+ <-interstate_standard;; 
+*);;
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN <- lang_en;;
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/37.Krasnoproshin.pdf";; *);; *);;
+
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN => nrel_key_concepts:
+{
+	concept_framework;
+	concept_annealing_method;
+	concept_deep_belief_network;
+	concept_parallel_computations;
+	concept_training;
+	concept_dataset
+};;
+
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN <-  12.02.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 02;; => rrel_number_of_day_in_month: 12;; => rrel_number_of_year: 2020;;*);;*);;
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..257=>..262);;
+..257=>..nrel:257;;
+..262=>..nrel:262;;
+..257<-exact_value;;
+..262<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..257<-page;;
+..262<-page;;
+number_of_page<-page;; 
+article_Krasnoproshin_V_V_2020_SoftwTfDLoBNN <= nrel_published_material: report_Matskevich_V_V_2020_TrustNNDLST;;

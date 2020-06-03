@@ -1,0 +1,40 @@
+article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_main_idtf:
+[Шарипбай А.А. 2016 - ПредсиОЗХвМДПРБСГ]
+	(*
+	<- lang_ru;;
+	*);
+	[Sharipbai A.A. 2016 - PresentaPKSiMDTEBSH] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_article_title:[Представление и обработка знаний хранящихся в многомерных данных посредством расширенного базового семантического гиперграфа](*
+	<- lang_ru;;
+	*);;
+
+article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_author:
+Saripbaj_A.A.;
+Barlybaev_A.B.;;
+
+article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH <- article;;
+article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH <- article_OSTIS_2016;;
+
+article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_bibliographic_reference: [Шарипбай, А.А. Представление и обработка знаний хранящихся в многомерных данных посредством расширенного базового семантического гиперграфа / А.А. Шарипбай, А.Б. Барлыбаев, Т.С. Сабыров // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_year_publication: 2016;;
+
+article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/28.sharipbai.pdf";; *);; *);;
+
+article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_abstract:
+[В данной работе рассматриваются вопросы представления и обработки знаний. Главной новизной работы является вложенность знаний, представление знан ий посредством расширенного базового семантического гиперграфа( РБСГ ) . Построена математическая модель представления знаний. Описаны технология хранения, обработки знаний. Представлен а клиентская част ьпредставления знаний.](*
+	<- lang_ru;;
+	*);;
+
+article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_count_page: 6;;
+
+article_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH <- lang_ru;;

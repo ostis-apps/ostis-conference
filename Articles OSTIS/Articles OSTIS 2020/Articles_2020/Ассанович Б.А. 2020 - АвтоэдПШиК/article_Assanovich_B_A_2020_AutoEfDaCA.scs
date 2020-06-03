@@ -1,0 +1,62 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..309;;
+sc_node_not_relation->..312;;
+sc_node_not_relation->..str;;
+article_Assanovich_B_A_2020_AutoEfDaCA => nrel_main_idtf:
+[Ассанович Б.А. 2020 - АвтоэдПШиК]
+	(*
+	<- lang_ru;;
+	*);
+	[Assanovich B.A. 2020 - AutoEfDaCA] 
+	(*
+	<- lang_en;;
+	*);;
+article_Assanovich_B_A_2020_AutoEfDaCA => nrel_article_title:[Автоэнкодеры для приложений шумоподавления и классификации.](*
+	<- lang_ru;;
+	*);;
+article_Assanovich_B_A_2020_AutoEfDaCA => nrel_article_title:[AutoEncoders for Denoising and Classification Applications.](*
+	<- lang_en;;
+	*);;
+
+article_Assanovich_B_A_2020_AutoEfDaCA <- article;;
+article_Assanovich_B_A_2020_AutoEfDaCA <- article_OSTIS_2020;;
+
+article_Assanovich_B_A_2020_AutoEfDaCA => nrel_abstract: [ Several structures of autoencoders used for the efficient data coding with unsupervised learning and applied to solving the tasks of classification and removing the internal noise from data used in problems of biometric and emotional recognition have been analyzed in this paper. Smile type recognition and biometric identification experiments using the transformed features from UvANEMO Smile Database and Caltech Faces datasets showed the possibility of improving the classification accuracy by 10%.];
+[ Проанализировано несколько структур автоэнкодеров, используемых для эффективного кодирования данных с обучением без учителя и применяемых для решения задач классификации и удаления внутреннего шума из данных, используемых в задачах биометрического и эмоционального распознавания. Эксперименты по распознаванию типов улыбок и биометрической идентификации с использованием преобразованных характеристик данных из видео базы улыбок Smile UvA-NEMO и наборов данных Caltech Faces показали возможность повышения точности классификации на 10%.];;
+article_Assanovich_B_A_2020_AutoEfDaCA => nrel_author: 
+Assanovich_B_A;;
+article_Assanovich_B_A_2020_AutoEfDaCA => nrel_bibliographic_reference:[Ассанович, Б.А. Автоэнкодеры для приложений шумоподавления и классификации / Б.А. Ассанович // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 309-312.](*
+ <-interstate_standard;; 
+*);;
+article_Assanovich_B_A_2020_AutoEfDaCA <- lang_en;;
+article_Assanovich_B_A_2020_AutoEfDaCA <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Assanovich_B_A_2020_AutoEfDaCA <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/48.Assanovich.pdf";; *);; *);;
+
+
+article_Assanovich_B_A_2020_AutoEfDaCA => nrel_key_concepts:
+{
+	concept_stacked_autoencoder;
+	concept_denoising;
+	concept_classification_accuracy;
+	concept_unsupervised_learning;
+	concept_smile_type_recognition;
+	concept_biometric_identification
+};;
+
+article_Assanovich_B_A_2020_AutoEfDaCA <-  19.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 19;; => rrel_number_of_year: 2020;;*);;*);;
+19.01.2020 <- date_of_received;;
+article_Assanovich_B_A_2020_AutoEfDaCA <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..309=>..312);;
+..309=>..nrel:309;;
+..312=>..nrel:312;;
+..309<-exact_value;;
+..312<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..309<-page;;
+..312<-page;;
+number_of_page<-page;;
+article_Assanovich_B_A_2020_AutoEfDaCA <= nrel_published_material: report_Assanovich_B_A_2020_AutoefNRaCA;;

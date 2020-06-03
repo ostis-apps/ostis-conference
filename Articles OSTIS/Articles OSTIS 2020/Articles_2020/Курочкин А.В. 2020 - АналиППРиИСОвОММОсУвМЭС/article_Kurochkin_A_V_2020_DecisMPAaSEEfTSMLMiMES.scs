@@ -1,0 +1,61 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..283;;
+sc_node_not_relation->..286;;
+sc_node_not_relation->..str;;
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES => nrel_main_idtf:
+[Курочкин А.В. 2020 - АналиППРиИСОвОММОсУвМЭС]
+	(*
+	<- lang_ru;;
+	*);
+	[Kurachkin A.V. 2020 - DecisMPAaSEEfTSMLMiMES] 
+	(*
+	<- lang_en;;
+	*);;
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES => nrel_article_title:[Анализ процессов принятия решений и извлечение семантического описания в обученных моделях машинного обучения с учителем в медицинских экспертных системах.](*
+	<- lang_ru;;
+	*);;
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES => nrel_article_title:[Decision-making process analysis and semantic explanation extraction from trained supervised machine learning models in medical expert systems.](*
+	<- lang_en;;
+	*);;
+
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES <- article;;
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES <- article_OSTIS_2020;;
+
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES => nrel_abstract: [ Supervised machine learning provides a mechanism for establishing an approximation of input-output relationship between arbitary dataset. However, semantic interpretation of an underlying decision-making process of a trained model is very hard, especially considering the probabilistic nature of machine learning. The paper discusses possible ways to semantically explain decisionmaking process of a trained supervised machine learning model in order to gain insights to the dataset and derive new expert knowledge from such models.];
+[ Модели машинного обучения с учителем предоставляют механизм установления аппроксимации взаимодействия между входными и выходными значениями произвольных наборов данных. Тем не менее, семантическая интерпретация лежащего в основе этих моделей процесса принятия решения является сложной задачей, особенно в контексте вероятностного характера некоторых методов машинного обучения с учителем. В статье рассматриваются методы семантического объяснения процесса принятия решения обученной модели машинного обучения с учителем, что позволяет выделить сложные зависимости из наборов данных и вывести с их помощью новые экспертные знания.];;
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES => nrel_author: 
+Kurochkin_A_V;
+Sadov_V_S;
+Kachan_T_V;;
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES => nrel_bibliographic_reference:[Курочкин, А.В. Анализ процессов принятия решений и извлечение семантического описания в обученных моделях машинного обучения с учителем в медицинских экспертных системах / А.В. Курочкин, В.С. Садов, Т.В. Качан // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 283-286.](*
+ <-interstate_standard;; 
+*);;
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES <- lang_en;;
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/42.Kurochkin.pdf";; *);; *);;
+
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES => nrel_key_concepts:
+{
+	concept_supervised_machine_learning;
+	concept_machine_learning_explanation;
+	concept_decision_support_systems;
+	concept_medical_expert_systems
+};;
+
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES <- 30.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 30;; => rrel_number_of_year: 2019;;*);;*);;
+30.12.2019 <- date_of_received;;
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..283=>..286);;
+..283=>..nrel:283;;
+..286=>..nrel:286;;
+..283<-exact_value;;
+..286<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..283<-page;;
+..286<-page;;
+number_of_page<-page;;
+article_Kurochkin_A_V_2020_DecisMPAaSEEfTSMLMiMES <= nrel_published_material: report_Kurochkin_A_V_2020_AnaloDMPatEoSDeTMLMwaTiMES;;

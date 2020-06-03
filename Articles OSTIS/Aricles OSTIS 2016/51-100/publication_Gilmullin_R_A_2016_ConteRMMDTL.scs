@@ -1,0 +1,36 @@
+article_Gilmullin_R_A_2016_ConteRMMDTL => nrel_main_idtf:
+[Гильмуллин Р. А. 2016 - КонтеПдРММвКТЯ]
+	(*
+	<- lang_ru;;
+	*);
+	[Gilmullin R.A. 2016 - ConteRMMDTL] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Gilmullin_R_A_2016_ConteRMMDTL=> nrel_article_title:[Контекстные правила для разрешения морфологической многозадачности в корпусе татарского языка](*
+	<- lang_ru;;
+	*);;
+
+article_Gilmullin_R_A_2016_ConteRMMDTL => nrel_author:
+GilXmullin_R.A.;;
+article_Gilmullin_R_A_2016_ConteRMMDTL => nrel_author:
+Gataullin_R.R.;;
+article_Gilmullin_R_A_2016_ConteRMMDTL <- lang_ru;;
+
+article_Gilmullin_R_A_2016_ConteRMMDTL => nrel_abstract: [Данная работа является продолжением работ по подготовке размеченного корпуса татарского языка. Ранее был представлен проект (http://tatcorp.antat.ru) по ручному снятию морфологической многозначности в корпусе татарского языка, основной целью которого является использование краудсорсингового подхода для накопления данных. Следующим шагом стала разработка инструментария для создания, тестирования и апробации контекстных правил разрешения морфологической многозначности.];;
+
+article_Gilmullin_R_A_2016_ConteRMMDTL => nrel_count_page: 4;;
+
+article_Gilmullin_R_A_2016_ConteRMMDTL <- article_OSTIS_2016;;
+
+article_Gilmullin_R_A_2016_ConteRMMDTL => nrel_bibliographic_reference: [Гильмуллин, Р. А. Контекстные правила для разрешения морфологической многозадачности в корпусе татарского языка/ Р.А. Гильмуллин, Р.Р. Гатауллин // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 389–392.](*
+<-interstate_standard;; 
+*);;
+
+article_Gilmullin_R_A_2016_ConteRMMDTL=> nrel_year_publication: 2016;;
+
+article_Gilmullin_R_A_2016_ConteRMMDTL=> nrel_comprise:  Materials_OSTIS2016;;
+article_Gilmullin_R_A_2016_ConteRMMDTL<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Гильмуллин.pdf";; *);;*);;
+
+article_Gilmullin_R_A_2016_ConteRMMDTL <- article;;

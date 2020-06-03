@@ -1,0 +1,61 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..267;;
+sc_node_not_relation->..272;;
+sc_node_not_relation->..str;;
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM => nrel_main_idtf:
+[Бражук А.И 2020 - ПодхоОШБдОКвОМУ]
+	(*
+	<- lang_ru;;
+	*);
+	[Brazhuk A.I. 2020 - SecurPBAtASMiODTM] 
+	(*
+	<- lang_en;;
+	*);;
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM => nrel_article_title:[Подход на основе шаблонов безопасности для определения контрмер в онтологическом моделировании угроз.](*
+	<- lang_ru;;
+	*);;
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM => nrel_article_title:[Security patterns based approach to automatically select mitigations in ontology-driven threat modelling.](*
+	<- lang_en;;
+	*);;
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM <- article;;
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM <- article_OSTIS_2020;;
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM => nrel_abstract: [ Common approach of the threat modelling includes an analysis of computer system architecture on early stages of development process and creation of threat model. Data Flow Diagrams (DFD) are often used to represent the system organization. The main challenge with threat modelling is that there are no formal approaches to describe the computer system architecture and structured knowledge sources of threats and countermeasures.
+ To overcome these restrictions we have created ontologydriven threat modelling (OdTM) framework based on base threat model, used to develop various domain-specific threat models. Each domain-specific threat model contains a set of typical components of some architectural domain, threats and countermeasures. A system architect describes its computer system with DFD diagram; then automatic reasoning procedures are used to semantically interpret the diagram and figure out relevant threats and countermeasures for the system.
+ We approach a conception of context security patterns as countermeasures. Context security pattern contains a precise description of security problem and its solution. Also it has criteria that allow to automatically map it to system component. We propose three ways to integrate context security patterns with domain-specific threat models: with data flow templates, through association with threats, and the use of labels.
+ All the models, discussed in this work, can be implemented as OWL (Web Ontology Language) ontologies with Description logics (DL) as a mathematical background.];
+[ Описан подход к моделированию угроз компьютерных систем на основе предметно-ориентированных моделей угроз, который позволяет автоматически определять угрозы и контрмеры по графическому представлению структуры системы в виде диаграми потоков данных. Описана базовая онтологическая модель угроз. Предложена концепция контекстных шаблонов безопасности для определения контрмер. Для реализации предлагается использовать язык онтологий OWL и функции автоматического логического вывода.];;
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM => nrel_author: 
+Brazhuk_A_I;;
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM => nrel_bibliographic_reference:[Бражук, А.И. Подход на основе шаблонов безопасности для определения контрмер в онтологическом моделировании угроз. / А.И.Бражук // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 267-272.](*
+ <-interstate_standard;; 
+*);;
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM <- lang_en;;
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM <=nrel_published_material:nrel_published_material: nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/39.Brazhuk.pdf";; *);; *);;
+
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM => nrel_key_concepts:
+{
+	concept_software_security;
+	concept_knowledge_management;
+	concept_threat_modelling;
+	concept_DFD;
+	concept_OWL
+};;
+
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM <- 26.11.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 11;; => rrel_number_of_day_in_month: 26;; => rrel_number_of_year: 2019;;*);;*);;
+26.11.2019 <- date_of_received;;
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..267=>..272);;
+..267=>..nrel:267;;
+..272=>..nrel:272;;
+..267<-exact_value;;
+..272<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..267<-page;;
+..272<-page;;
+number_of_page<-page;;
+article_Brazhuk_A_I_2020_SecurPBAtASMiODTM <= nrel_published_material: report_Brazhuk_A_I_2020_SecurTAfDCiOTM;;

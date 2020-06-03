@@ -1,0 +1,59 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..239;;
+sc_node_not_relation->..242;;
+sc_node_not_relation->..str;;
+article_Lobanov_B_M_2020_CurrenSoDaUoITS => nrel_main_idtf:
+[Лобанов Б. М. 2020 - СовремСРиИСИТ]
+	(*
+	<- lang_ru;;
+	*);
+	[Lobanov B.M. 2020 - CurrenSoDaUoITS] 
+	(*
+	<- lang_en;;
+	*);;
+article_Lobanov_B_M_2020_CurrenSoDaUoITS => nrel_article_title:[Современное состояние разработки и использования системы «ИнтонТайнер».](*
+	<- lang_ru;;
+	*);;
+article_Lobanov_B_M_2020_CurrenSoDaUoITS => nrel_article_title:[Current State of the Development and Use of the “IntonTainer” System.](*
+	<- lang_en;;
+	*);;
+article_Lobanov_B_M_2020_CurrenSoDaUoITS <- article;;
+article_Lobanov_B_M_2020_CurrenSoDaUoITS <- article_OSTIS_2020;;
+
+article_Lobanov_B_M_2020_CurrenSoDaUoITS => nrel_abstract: [ The purpose of this work is to describe a current state of the development and use of the “IntonTainer” system that provides a variety of ways to analyze and visualize the human intonation. The processing algorithms of a separate library, which became the core of the next version of the IntonTrainer application is described. Information on the use of the developed system is provided.];
+[ Цель данной работы - описать текущее состояние разработки и использования системы «IntonTainer», которая предоставляет различные способы анализа и визуализации интонации человека. Описаны алгоритмы обработки отдельной библиотеки, ставшей ядром следующей версии приложения “IntonTrainer”. Предоставляется информация об использовании разработанной системы.];;
+article_Lobanov_B_M_2020_CurrenSoDaUoITS => nrel_author: 
+Lobanov_B_M;
+Jytko_V_A;;
+article_Lobanov_B_M_2020_CurrenSoDaUoITS => nrel_bibliographic_reference:[Лобанов, Б.М. Современное состояние разработки и использования системы «Интонтайнер». / Б.М. Лобанов, В.А. Житко // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 239-242.](*
+ <-interstate_standard;; 
+*);;
+article_Lobanov_B_M_2020_CurrenSoDaUoITS <- lang_en;;
+article_Lobanov_B_M_2020_CurrenSoDaUoITS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Lobanov_B_M_2020_CurrenSoDaUoITS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/33.Lobanov.pdf";; *);; *);;
+
+article_Lobanov_B_M_2020_CurrenSoDaUoITS => nrel_key_concepts:
+{
+	concept_speech_intonation;
+	concept_intonation_analysis;
+	concept_software_model;
+	concept_IntonTrainer_users;
+	concept_melodic_portrait
+};;
+
+article_Lobanov_B_M_2020_CurrenSoDaUoITS <- 15.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 15;; => rrel_number_of_year: 2020;;*);;*);;
+article_Lobanov_B_M_2020_CurrenSoDaUoITS <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..239=>..242);;
+..239=>..nrel:239;;
+..242=>..nrel:242;;
+..239<-exact_value;;
+..242<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..239<-page;;
+..242<-page;;
+number_of_page<-page;;
+article_Lobanov_B_M_2020_CurrenSoDaUoITS <= nrel_published_material: report_Lobanov_B_M_2020_CurreSoDaUotIT;;

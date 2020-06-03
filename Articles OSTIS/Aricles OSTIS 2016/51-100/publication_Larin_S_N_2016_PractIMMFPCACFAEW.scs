@@ -1,0 +1,29 @@
+article_Larin_S_N_2016_PractIMMFPCACFAEW => nrel_main_idtf:
+[Ларин С.Н. 2016 - ПрактРМЗППвКАУПК-ТР] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Larin S.N. 2016 - PractIMMFPCACFAEW] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Larin_S_N_2016_PractIMMFPCACFAEW => nrel_article_title:[Практическая реализация моделей зрелых производственных процессов в контексте автоматизированного управления потоками конструкторско-технологических работ](*
+	<- lang_ru;;
+	*);;
+
+article_Larin_S_N_2016_PractIMMFPCACFAEW => nrel_author:
+Larin_S.N.;;
+article_Larin_S_N_2016_PractIMMFPCACFAEW => nrel_abstract: [В статье предлагается и описывается комплексный подход по управлению конструкторско-технологическими решениями. На основе моделей зрелости производственных процессов проведены исследования организационных предпосылок к системному совершенствованию конструкторско-технологических решений (КТР) в рамках потоков работ конструкторско-технологической подготовки производств. На основе объединения совокупности задач КТПП обосновывается необходимость создания инструментальной среды для моделирования потоков технологических работ. Представлены обобщенные задачи моделирующей среды TechWIQA.];;
+article_Larin_S_N_2016_PractIMMFPCACFAEW => nrel_bibliographic_reference: [Ларин, С.Н. Практическая реализация моделей зрелых производственных процессов в контексте автоматизированного управления потоками конструкторско-технологических работ/ С.Н. Ларин  // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 435–440.](*
+<-interstate_standard;; 
+*);;
+
+article_Larin_S_N_2016_PractIMMFPCACFAEW => nrel_year_publication: 2016;;
+
+article_Larin_S_N_2016_PractIMMFPCACFAEW => nrel_comprise:  Materials_OSTIS2016;;
+article_Larin_S_N_2016_PractIMMFPCACFAEW<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Ларин.pdf";; *);;*);;
+
+article_Larin_S_N_2016_PractIMMFPCACFAEW <- article;;
+article_Larin_S_N_2016_PractIMMFPCACFAEW <- article_OSTIS_2016;;

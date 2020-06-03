@@ -1,0 +1,42 @@
+article_Boiko_I_M_2016_SemanCoAfKI => nrel_main_idtf:
+[Бойко И.М. 2016 - СеманКДдВЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Boiko I.M. 2016 - SemanCoAfKI] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Boiko_I_M_2016_SemanCoAfKI => nrel_article_title:[Семантическая классификация действий для вывода знаний](*
+	<- lang_ru;;
+	*);;
+
+article_Boiko_I_M_2016_SemanCoAfKI => nrel_author:
+Bojko_I.M.;;
+
+article_Boiko_I_M_2016_SemanCoAfKI <- article;;
+
+article_Boiko_I_M_2016_SemanCoAfKI <- article_OSTIS_2016;;
+
+article_Boiko_I_M_2016_SemanCoAfKI => nrel_bibliographic_reference: [Бойко, И. М. Семантическая классификация действий для вывода знаний / И.М. Бойко // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Boiko_I_M_2016_SemanCoAfKI => nrel_year_publication: 2016;;
+
+article_Boiko_I_M_2016_SemanCoAfKI => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Boiko_I_M_2016_SemanCoAfKI <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/15.boiko.pdf";; *);; *);;
+
+
+
+article_Boiko_I_M_2016_SemanCoAfKI => nrel_abstract:
+[This paper proposes further development of Universal Semantic Code (USC). The notion of an action, represented by averb,  has  been  considered  as  a  main  component  for  knowledge  inference.  USC  represents  actions  trough  semanticstrings and operates with semantic axioms to convert thestrings to each other. That means the actions may be inferredfrom each other providing knowledge inference. In the example, semantic inference of actions applied to the text of thepatent  for  revealing  knowledge  not  included  in  the  text  and  for  reproducing  full  description  of  the  inventive  solutionclaimed in the patent.](*
+	<- lang_en;;
+	*);;
+
+article_Boiko_I_M_2016_SemanCoAfKI => nrel_count_page: 10;;
+
+article_Boiko_I_M_2016_SemanCoAfKI <- lang_en;;

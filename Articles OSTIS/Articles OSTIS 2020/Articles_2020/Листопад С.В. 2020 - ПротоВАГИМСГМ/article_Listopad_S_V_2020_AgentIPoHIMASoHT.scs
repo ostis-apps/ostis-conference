@@ -1,0 +1,57 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..51;;
+sc_node_not_relation->..56;;
+sc_node_not_relation->..str;;
+article_Listopad_S_V_2020_AgentIPoHIMASoHT => nrel_main_idtf:
+[Листопад С.В. 2020 - ПротоВАГИМСГМ]
+	(*
+	<- lang_ru;;
+	*);
+	[Listopad S.V. 2020 AgentIPoHIMASoHT] 
+	(*
+	<- lang_en;;
+	*);;
+article_Listopad_S_V_2020_AgentIPoHIMASoHT => nrel_article_title:[Протокол взаимодействия агентов гибридной интеллектуальной многоагентной системы гетерогенного мышления.](*
+	<- lang_ru;;
+	*);;
+article_Listopad_S_V_2020_AgentIPoHIMASoHT => nrel_article_title:[Agent interaction protocol of hybrid intelligent multi-agent system of heterogeneous thinking.](*
+	<- lang_en;;
+	*);;
+article_Listopad_S_V_2020_AgentIPoHIMASoHT <- article;;
+article_Listopad_S_V_2020_AgentIPoHIMASoHT <- article_OSTIS_2020;;
+
+article_Listopad_S_V_2020_AgentIPoHIMASoHT => nrel_abstract: [The paper aims at modeling the collective decision-making processes in dynamic environments. The need for such modeling is caused by the irrelevance of traditional abstract-mathematical methods to such problems, as well as the limited time in a dynamic environment to organize a comprehensive discussion of the problem and make decisions by a real team of experts. To provide information support for solving problems, a new class of intelligent systems is proposed that simulate teamwork under the guidance of a facilitator, namely hybrid intelligent multi-agent systems of heterogeneous thinking. The paper proposes the agent interaction protocol of the hybrid intelligent multi-agent system of heterogeneous thinking for solving the problem of regional power grid restoration after large-scale accidents.];
+[В статье рассматриваются вопросы моделирования процессов коллективного решения проблем в динамических средах. Необходимость такого моделирования обусловлена нерелевантностью традиционных абстрактноматематических методов к решению практических проблем, а также ограниченным временем в динамичной среде для организации всестороннего обсуждения проблемы и принятия решений реальной командой экспертов. Дляобеспечения информационной поддержки решения проблем предлагается новый класс интеллектуальных систем, имитирующих коллективную работу под руководством фасилитатора — гибридные интеллектуальные многоагентные системы гетерогенного мышления. В статье предложен протокол взаимодействия агентов гибридной интеллектуальной многоагентной системы гетерогенного мышления для решения проблемы восстановления региональных энергосистем после крупных аварий.];;
+
+article_Listopad_S_V_2020_AgentIPoHIMASoHT => nrel_author: Listopad_S_V;;
+article_Listopad_S_V_2020_AgentIPoHIMASoHT => nrel_bibliographic_reference:[Листопад, С.В. Протокол взаимодействия агентов гибридной интеллектуальной многоагентной системы гетерогенного мышления. / С.В. Листопад // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 51-56.] (*
+ <-interstate_standard;; 
+*);;
+article_Listopad_S_V_2020_AgentIPoHIMASoHT <- lang_en;;
+article_Listopad_S_V_2020_AgentIPoHIMASoHT <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Listopad_S_V_2020_AgentIPoHIMASoHT <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/03.Listopad.pdf";; *);; *);;
+
+article_Listopad_S_V_2020_AgentIPoHIMASoHT => nrel_key_concepts:
+{
+	concept_heterogeneous_thinking;
+	concept_hybrid_intelligent_multi_agent_system;
+	concept_agent_interaction_protocol
+};;
+
+article_Listopad_S_V_2020_AgentIPoHIMASoHT <- 13.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 13;; => rrel_number_of_year: 2020;;*);;*);;
+13.01.2020 <- date_of_received;;
+article_Listopad_S_V_2020_AgentIPoHIMASoHT <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..51=>..56);;
+..51=>..nrel:51;;
+..56=>..nrel:56;;
+..51<-exact_value;;
+..56<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..51<-page;;
+..56<-page;;
+number_of_page<-page;;
+article_Listopad_S_V_2020_AgentIPoHIMASoHT <=nrel_published_material: report_Listopad_S_V_2020_ThePftIoAoaHIMSoHT;;

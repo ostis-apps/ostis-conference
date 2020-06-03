@@ -1,0 +1,51 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..229;;
+sc_node_not_relation->..234;;
+sc_node_not_relation->..str;;
+article_Lierler_Y_2020_AnArcoSIETT2ALM => nrel_main_idtf:
+[Лирлер Ю. 2020 - АрхитПT2ALMдСОЯ]
+	(*
+	<- lang_ru;;
+	*);
+	[Lierler Y. 2020 - AnArcoSIETT2ALM] 
+	(*
+	<- lang_en;;
+	*);;
+article_Lierler_Y_2020_AnArcoSIETT2ALM => nrel_article_title:[Архитектура приложения Text2ALM для семантической обработки языка.](*
+	<- lang_ru;;
+	*);;
+article_Lierler_Y_2020_AnArcoSIETT2ALM => nrel_article_title:[An Architecture of Semantic Information Extraction Tool Text2ALM.](*
+	<- lang_en;;
+	*);;
+article_Lierler_Y_2020_AnArcoSIETT2ALM <- article;;
+article_Lierler_Y_2020_AnArcoSIETT2ALM <- article_OSTIS_2020;;
+
+article_Lierler_Y_2020_AnArcoSIETT2ALM => nrel_abstract: [ In this work we design a narrative understanding tool TEXT2ALM. This tool uses an action language ALM to perform inferences on complex interactions of events described in narratives. The methodology used to implement the TEXT2ALM system was originally outlined by Lierler, Inclezan, and Gelfond [11] via a manual process of converting a narrative to an ALM model. It relies on a conglomeration of resources and techniques from two distinct fields of artificial intelligence, namely, natural language processing and knowledge representation and reasoning. The effectiveness of system TEXT2ALM is measured by its ability to correctly answer questions from the bAbI tasks by Facebook Research in 2015. This tool matched or exceeded the performance of state-of-the-art machine learning methods in six of the seven tested tasks.];
+[ Приложения Text2ALM ориентируется на семантическую обработку текста с глаголами действия. Эта система использует язык программирования действий под названием ALM для выполнения выводов о сложных взаимодействиях событий, описанных в тексте. Система опирается на ресурсы и методы из двух различных областей искусственного интеллекта, а именно: обработка естественного языка и представление знаний. Эффективность приложения Text2ALM измеряется по ее способности правильно отвечать на вопросы из задач babi (Facebook Research, 2015). Text2ALM соответствовал или превышал производительность современных методов машинного обучения в шести из семи протестированных заданий.];;
+article_Lierler_Y_2020_AnArcoSIETT2ALM => nrel_author: 
+Olson_C;
+Lierler_Y;;
+article_Lierler_Y_2020_AnArcoSIETT2ALM => nrel_bibliographic_reference:[Лирлер, Ю. Архитектура приложения text2alm для семантической обработки языка. / Ю. Лирлер, К. Олсон // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 229-234.](*
+ <-interstate_standard;; 
+*);;
+article_Lierler_Y_2020_AnArcoSIETT2ALM <- lang_en;;
+article_Lierler_Y_2020_AnArcoSIETT2ALM <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Lierler_Y_2020_AnArcoSIETT2ALM <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/31.Lierler.pdf";; *);; *);;
+
+article_Lierler_Y_2020_AnArcoSIETT2ALM <- 04.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 04;; => rrel_number_of_year: 2020;;*);;*);;
+04.01.2020 <- date_of_received;;
+article_Lierler_Y_2020_AnArcoSIETT2ALM<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..229=>..234);;
+..229=>..nrel:229;;
+..234=>..nrel:234;;
+..229<-exact_value;;
+..234<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..229<-page;;
+..234<-page;;
+number_of_page<-page;;
+article_Lierler_Y_2020_AnArcoSIETT2ALM <= nrel_published_material: report_Lirler_J_2020_TextAAfSLP;;

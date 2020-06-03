@@ -1,0 +1,36 @@
+article_Dodonov_A_G_2016_RecogoIOMAA => nrel_main_idtf:
+[Додонов А.Г. 2016 - РаспоИОМП]
+	(*
+	<- lang_ru;;
+	*);
+	[Dodonov A.G. 2016 - RecogoIOMAA] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Dodonov_A_G_2016_RecogoIOMAA => nrel_article_title:[Распознование информационных операций](*
+	<- lang_ru;;
+	*);;
+
+article_Dodonov_A_G_2016_RecogoIOMAA => nrel_author:
+Lande_D.V.;
+Dodonov_A.G.;;
+article_Dodonov_A_G_2016_RecogoIOMAA <- lang_ru;;
+article_Dodonov_A_G_2016_RecogoIOMAA => nrel_abstract: [В работе предложено в качестве методологической основы детектирования информационных операций исследование динамики информационных потоков. Предложена модификация модели диффузии информации, модель информационной резервации. Рассмотрены мультиагентные модели распространения информации, позволяющие распознавать информационные операции. Определены достоинства и недостатки данных моделей.];;
+
+article_Dodonov_A_G_2016_RecogoIOMAA <- article_OSTIS_2016;;
+
+article_Dodonov_A_G_2016_RecogoIOMAA => nrel_bibliographic_reference: [Додонов А.Г. Распознование информационных операций / А.Г. Додонов, Д.В. Ландэ, В.А. Додонов // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Dodonov_A_G_2016_RecogoIOMAA => nrel_count_page: 6;;
+
+article_Dodonov_A_G_2016_RecogoIOMAA => nrel_year_publication: 2016;;
+
+article_Dodonov_A_G_2016_RecogoIOMAA => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Dodonov_A_G_2016_RecogoIOMAA <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/37.dodonov.pdf";; *);; *);;
+
+article_Dodonov_A_G_2016_RecogoIOMAA <- article;;

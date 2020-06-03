@@ -1,0 +1,31 @@
+article_Orlova_A_A_2016_SemanATUMEAOEFE => nrel_main_idtf:
+[Орлова А. А. 2016 - СеманАТЧРПпСДсПОFE] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Orlova A.A. 2016 - SemanATUMEAOEFE] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Orlova_A_A_2016_SemanATUMEAOEFE=> nrel_article_title:[Семантический анализ текстовой части руководства пользователя по сборке двигателя с помощью онторедактора FLUENT EDITOR](*
+	<- lang_ru;;
+	*);;
+
+article_Orlova_A_A_2016_SemanATUMEAOEFE => nrel_author:
+Orlova_A_A;;
+article_Orlova_A_A_2016_SemanATUMEAOEFE => nrel_author:
+Borgest_N_M;;
+article_Orlova_A_A_2016_SemanATUMEAOEFE => nrel_abstract: [В работе рассматривается семантический анализ текстовой части руководства по сборке двигателя 2,0 DOHC-16V, подготовленной на естественном английском языке, и преобразование его в онтологию на контролируемом английском языке (Controlled Natural Languages, CNL). Изучена возможность использования редактора FluentEditor, в котором онтологии создаются с помощью CNL, как для проверки полноты руководств пользователя, так и для их подготовки. Онтология части руководства пользователя по сборке двигателя представлена тезаурусом используемых профессиональных терминов и понятий рассматриваемой предметной области.];; 
+article_Orlova_A_A_2016_SemanATUMEAOEFE => nrel_bibliographic_reference: [Орлова, А. А. Семантический анализ текстовой части руководства пользователя по сборке двигателя с помощью онторедактора FLUENT EDITOR / А.А. Орлова, Н.М. Богрест  // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 421–426.](*
+<-interstate_standard;; 
+*);;
+
+article_Orlova_A_A_2016_SemanATUMEAOEFE => nrel_year_publication: 2016;;
+
+article_Orlova_A_A_2016_SemanATUMEAOEFE=> nrel_comprise:  Materials_OSTIS2016;;
+article_Orlova_A_A_2016_SemanATUMEAOEFE<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Орлова.pdf";; *);;*);;
+
+article_Orlova_A_A_2016_SemanATUMEAOEFE <- article;;
+article_Orlova_A_A_2016_SemanATUMEAOEFE <- article_OSTIS_2016;;

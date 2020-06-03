@@ -1,0 +1,42 @@
+article_Tuzikova_A_V_2016_AlgooBREFTN => nrel_main_idtf:
+[Тузикова А.В. 2016 - АлгорВБОвТС]
+	(*
+	<- lang_ru;;
+	*);
+	[Tuzikova A.V. 2016 - AlgooBREFTN] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Tuzikova_A_V_2016_AlgooBREFTN => nrel_article_title:[Алгоритм выделения бинарных отношений в терминологической сети](*
+	<- lang_ru;;
+	*);;
+
+article_Tuzikova_A_V_2016_AlgooBREFTN => nrel_author:
+Tuzikova_A_V_;;
+
+article_Tuzikova_A_V_2016_AlgooBREFTN <- article;;
+article_Tuzikova_A_V_2016_AlgooBREFTN <- article_OSTIS_2016;;
+
+article_Tuzikova_A_V_2016_AlgooBREFTN => nrel_bibliographic_reference: [Тузикова, А. В. Алгоритм выделения бинарных отношений в терминологической сети / А.В. Тузикова // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Tuzikova_A_V_2016_AlgooBREFTN => nrel_year_publication: 2016;;
+
+article_Tuzikova_A_V_2016_AlgooBREFTN => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Tuzikova_A_V_2016_AlgooBREFTN <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/26.tuzikova.pdf";; *);; *);;
+
+
+
+
+article_Tuzikova_A_V_2016_AlgooBREFTN => nrel_abstract:
+[В работе рассматривается возможность частичной автоматизации технологии построения терминологических сетей.Предлагается методвы явления семантических связей,основанный на использовании метрики редактирования для вычисления расстояний между понятийными вершинами.Работа алгоритма иллюстрируется на модельной терминологической сети.](*
+	<- lang_ru;;
+	*);;
+
+article_Tuzikova_A_V_2016_AlgooBREFTN => nrel_count_page: 4;;
+
+article_Tuzikova_A_V_2016_AlgooBREFTN <- lang_ru;;

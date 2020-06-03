@@ -1,0 +1,34 @@
+article_Karpov_V_E_2016_SensorMIBR => nrel_main_idtf:
+[Карпов В.Э. 2016 -  СенсоМППР] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Karpov V.E. 2016 - DevelDOIPBOA] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Karpov_V_E_2016_SensorMIBR => nrel_article_title:[Сенсорная модель подражательного поведения роботов](*
+	<- lang_ru;;
+	*);;
+article_Karpov_V_E_2016_SensorMIBR => nrel_author:
+Karpov_V_E;;
+article_Karpov_V_E_2016_SensorMIBR <- lang_ru;;
+article_Karpov_V_E_2016_SensorMIBR => nrel_abstract: [В работе рассматриваются вопросы реализации моделей подражательного поведения робота. Предложена модель, основанная на наблюдении субъектом за поведением других членов группы. Показано, что результат наблюдения должен оказывать воздействие на поведенческую мотивацию агента. Приведены результаты имитационного моделирования предложенной схемы на примере решения простой поведенческой задачи. Показано, что целесообразность применения подражательного поведения далеко не однозначна и определяется сложностью решаемых задач и степенью когнитивных способностей субъекта.];;
+
+article_Karpov_V_E_2016_SensorMIBR => nrel_count_page: 6;;
+article_Karpov_V_E_2016_SensorMIBR <- article_OSTIS_2016;;
+
+
+
+article_Karpov_V_E_2016_SensorMIBR=> nrel_bibliographic_reference: [Карпов, В.Э. Сенсорная модель подражательного поведения роботов/ В.Э. Карпов // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 471–476.](*
+<-interstate_standard;; 
+*);;
+
+article_Karpov_V_E_2016_SensorMIBR=> nrel_year_publication: 2016;;
+
+article_Karpov_V_E_2016_SensorMIBR => nrel_comprise:  Materials_OSTIS2016;;
+article_Karpov_V_E_2016_SensorMIBR<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Карпов.pdf";; *);;*);;
+
+article_Karpov_V_E_2016_SensorMIBR <- article;;

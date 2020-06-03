@@ -1,0 +1,57 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..337;;
+sc_node_not_relation->..340;;
+sc_node_not_relation->..str;;
+article_Bondar_V_V_2020_AutomoToRSLiT => nrel_main_idtf:
+[Бондарь В.В. 2020 - АвтомПРЖЯвТ]
+	(*
+	<- lang_ru;;
+	*);
+	[Bondar V.V. 2020 - AutomoToRSLiT] 
+	(*
+	<- lang_en;;
+	*);;
+article_Bondar_V_V_2020_AutomoToRSLiT => nrel_article_title:[Автоматизация перевода русского жестового языка в текст.](*
+	<- lang_ru;;
+	*);;
+article_Bondar_V_V_2020_AutomoToRSLiT => nrel_article_title:[Automation of the translation of Russian sign language into text.](*
+	<- lang_en;;
+	*);;
+
+article_Bondar_V_V_2020_AutomoToRSLiT <- article;;
+article_Bondar_V_V_2020_AutomoToRSLiT <- article_OSTIS_2020;;
+
+article_Bondar_V_V_2020_AutomoToRSLiT => nrel_abstract: [ This work considers recognition of person’s emotional state with body movements and postures as a problem of group classification of multi-attribute objects. The analysis of existing approaches to the recognition of the human emotional state based on video information was made. An approach proposed includes using markerless recognition of body movements based on video information, identification of poses and movements with a model of human motor activity, characteristics description of postures and movements in a limited natural language and the group classification method of poses and movements having verbal description for emotional state identification.];
+[ Данная статья посвящена постановке задачи автоматизации распознавания жестов русского языка глухих. Автором спроектирован прототип системы распознавания жестов с использованием камеры с сенсором глубины.];;
+article_Bondar_V_V_2020_AutomoToRSLiT => nrel_author: 
+Bondar_V_V;;
+article_Bondar_V_V_2020_AutomoToRSLiT => nrel_bibliographic_reference:[Бондарь, В.В. Автоматизация перевода русского жестового языка в текст. / В.В. Бондарь // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. //Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 337-340.](*
+ <-interstate_standard;; 
+*);;
+article_Bondar_V_V_2020_AutomoToRSLiT <- lang_en;;
+article_Bondar_V_V_2020_AutomoToRSLiT <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Bondar_V_V_2020_AutomoToRSLiT <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/54.Bondar.pdf";; *);; *);;
+
+
+article_Bondar_V_V_2020_AutomoToRSLiT => nrel_key_concepts:
+{
+	concept_sign_language;
+	concept_gesture_recognition;
+	concept_depth_sensor_camera;
+	concept_Kinect
+};;
+article_Bondar_V_V_2020_AutomoToRSLiT <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..337=>..340);;
+..337=>..nrel:337;;
+..340=>..nrel:340;;
+..337<-exact_value;;
+..340<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..337<-page;;
+..340<-page;;
+number_of_page<-page;;
+article_Bondar_V_V_2020_AutomoToRSLiT <= nrel_published_material: report_Bondar_V_V_2020_AutomotToRsLiT;;

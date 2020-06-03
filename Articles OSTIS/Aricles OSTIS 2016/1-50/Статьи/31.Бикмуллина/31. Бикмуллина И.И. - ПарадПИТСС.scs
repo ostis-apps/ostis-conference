@@ -1,0 +1,41 @@
+article_Bikmullina_I_I_2016_ProgPITSS => nrel_main_idtf:
+[Бикмуллина И.И. 2016 - ПарадПИТСС]
+	(*
+	<- lang_ru;;
+	*);
+	[Bikmullina I.I. 2016 - ProgPITSS] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Bikmullina_I_I_2016_ProgPITSS => nrel_article_title:[Парадигмы программирования информационных технологий структурного синтеза](*
+	<- lang_ru;;
+	*);;
+
+article_Bikmullina_I_I_2016_ProgPITSS => nrel_author:
+Bikmullina_I.I.;;
+
+article_Bikmullina_I_I_2016_ProgPITSS <- article;;
+article_Bikmullina_I_I_2016_ProgPITSS <- article_OSTIS_2016;;
+
+article_Bikmullina_I_I_2016_ProgPITSS => nrel_bibliographic_reference: [Бикмуллина, И.И. Парадигмы программирования информационных технологий структурного синтеза / И.И. Бикмуллина // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Bikmullina_I_I_2016_ProgPITSS => nrel_year_publication: 2016;;
+
+article_Bikmullina_I_I_2016_ProgPITSS => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Bikmullina_I_I_2016_ProgPITSS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/31.bikmullina.pdf";; *);; *);;
+
+
+
+article_Bikmullina_I_I_2016_ProgPITSS => nrel_abstract:
+[В статье развивается идея применения и разработки автоматизированного структурного синтеза UML моделей на  основе  семантических  отношений  предметной  области.Для  предлагаемого  подхода автоматизированно гоструктурного  синтеза  информационных  системболее  подробно  рассматриваются  объекты UML с семантической  точки  зрения  и  решения  принятые  с  целью  адекватного,  профессионального  синтеза диаграммы классов UML.](*
+	<- lang_ru;;
+	*);;
+
+article_Bikmullina_I_I_2016_ProgPITSS  => nrel_count_page: 6;;
+
+article_Bikmullina_I_I_2016_ProgPITSS <- lang_ru;;

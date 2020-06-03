@@ -1,0 +1,41 @@
+article_Davydenko_I_T_2016_tSemanMoKBCD => nrel_main_idtf:
+[Давыденко И.Т. 2016 - СеманМКПБЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Davydenko I.T. 2016 - tSemanMoKBCD] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Davydenko_I_T_2016_tSemanMoKBCD => nrel_article_title:[Семантическая модель коллективного проектирования баз знаний](*
+	<- lang_ru;;
+	*);;
+
+article_Davydenko_I_T_2016_tSemanMoKBCD => nrel_author:
+Davydenko_Irina_Timofeevna;;
+
+article_Davydenko_I_T_2016_tSemanMoKBCD <- article;;
+article_Davydenko_I_T_2016_tSemanMoKBCD <- article_OSTIS_2016;;
+
+article_Davydenko_I_T_2016_tSemanMoKBCD => nrel_bibliographic_reference: [Давыденко, И. Т. Семантическая модель коллективного проектирования баз знаний / И.Т. Давыденко // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Davydenko_I_T_2016_tSemanMoKBCD => nrel_year_publication: 2016;;
+
+article_Davydenko_I_T_2016_tSemanMoKBCD => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Davydenko_I_T_2016_tSemanMoKBCD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/14.davydenko.pdf";; *);; *);;
+
+
+article_Davydenko_I_T_2016_tSemanMoKBCD => nrel_abstract:
+[В работе рассматривается унифицированнаямодель коллективного проектирования баз знаний. Описываетсяунифицированнаяструктура  базы  знаний  системы,  управляемой  знаниями.Приведена  классификацияпользователей систем, управляемых знаниями, а также типология действий разработчиков баз знаний.](*
+	<- lang_ru;;
+	*);;
+
+article_Davydenko_I_T_2016_tSemanMoKBCD => nrel_count_page: 8;;
+
+article_Davydenko_I_T_2016_tSemanMoKBCD <- lang_ru;;
+

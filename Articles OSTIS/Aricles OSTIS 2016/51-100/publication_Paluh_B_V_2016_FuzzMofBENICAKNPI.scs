@@ -1,0 +1,32 @@
+article_Paluh_B_V_2016_FuzzMofBENICAKNPI => nrel_main_idtf:
+[Палюх Б.В. 2016 - НечетМППпПоИвУТЗХПИ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Paluh B.V. 2016 - FuzzMofBENICAKNPI] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Paluh_B_V_2016_FuzzMofBENICAKNPI => nrel_article_title:[Нечеткие модели поведения предпринимателя при переговорах об инвестировании в условиях точного знания характера потенциального инвестора](*
+	<- lang_ru;;
+	*);;
+article_Paluh_B_V_2016_FuzzMofBENICAKNPI => nrel_author:
+Paluh_B_V;;
+article_Paluh_B_V_2016_FuzzMofBENICAKNPI => nrel_author:
+Klushin_A_U;;
+article_Paluh_B_V_2016_FuzzMofBENICAKNPI => nrel_author:
+Mutovkina_N_U;;
+article_Paluh_B_V_2016_FuzzMofBENICAKNPI => nrel_abstract: [В статье рассматриваются модели поведения предпринимателя при переговорах с инвестором, объектом которых является инвестиционный проект. При выборе инвестор руководствуется не только объективными критериями оценки проектов, но и своими субъективными предпочтениями. Предприниматель должен учитывать данное обстоятельство и построить беседу так, чтобы убедить потенциального инвестора принять участие в финансировании предлагаемого проекта. От того, насколько удачной будет стратегия поведения предпринимателя, зависит результат переговоров.];; 
+article_Paluh_B_V_2016_FuzzMofBENICAKNPI => nrel_bibliographic_reference: [Палюх, Б.В. Нечеткие модели поведения предпринимателя при переговорах об инвестировании в условиях точного знания характера потенциального инвестора/ Б.В. Палюх, А.Ю. Клюшин, Н.Ю. Мутовкина // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 465–470.](*
+<-interstate_standard;; 
+*);;
+
+article_Paluh_B_V_2016_FuzzMofBENICAKNPI=> nrel_year_publication: 2016;;
+
+article_Paluh_B_V_2016_FuzzMofBENICAKNPI=> nrel_comprise:  Materials_OSTIS2016;;
+article_Paluh_B_V_2016_FuzzMofBENICAKNPI<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Палюх2.pdf";; *);;*);;
+
+article_Paluh_B_V_2016_FuzzMofBENICAKNPI <- article;;
+article_Paluh_B_V_2016_FuzzMofBENICAKNPI <- article_OSTIS_2016;;

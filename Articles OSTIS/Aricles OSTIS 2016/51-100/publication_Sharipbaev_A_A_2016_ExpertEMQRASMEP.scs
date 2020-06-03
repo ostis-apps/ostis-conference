@@ -1,0 +1,31 @@
+article_Sharipbay_A_A_2016_ExpertEMQRASMEP => nrel_main_idtf:
+[Шарипбай А.А. 2016 - ЭкспеМОКиНАСУОП] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Sharipbay A.A. 2016 - ExpertEMQRASMEP] 
+	(*
+	<- lang_en;;
+	*);;
+article_Sharipbay_A_A_2016_ExpertEMQRASMEP=> nrel_article_title:[Экспертные методы оценки, качества и надежности автоматизированной системы управления образовательным процессом](*
+	<- lang_ru;;
+	*);;
+article_Sharipbay_A_A_2016_ExpertEMQRASMEP => nrel_author:
+Saripbaj_A.A.;;
+article_Sharipbay_A_A_2016_ExpertEMQRASMEP => nrel_author:
+Niazova_R.S.;;
+article_Sharipbay_A_A_2016_ExpertEMQRASMEP => nrel_author:
+Kuzenbaev_B_A;;
+article_Sharipbay_A_A_2016_ExpertEMQRASMEP => nrel_abstract: [Данная статья рассматривает управление вузом, его функции и особенности, методы оценки качества и надежности автоматизированной системы управления образовательным процессом (АСУ ОП), уровни интеллектуальной системы управления образовательным процессом, задач и оценки качества программных средств, методы экспертных оценок, а также современное состояние методов оценки, качества и надежности АСУ ОП.];;
+article_Sharipbay_A_A_2016_ExpertEMQRASMEP=> nrel_bibliographic_reference: [ Шарипбай, А.А.Экспертные методы оценки, качества и надежности автоматизированной системы управления образовательным процессом/ А.А. Шарипбай, Р.С. Ниязова, Б.А. Кузенбаев // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 527–530.](*
+<-interstate_standard;; 
+*);;
+
+article_Sharipbay_A_A_2016_ExpertEMQRASMEP=> nrel_year_publication: 2016;;
+
+article_Sharipbay_A_A_2016_ExpertEMQRASMEP => nrel_comprise:  Materials_OSTIS2016;;
+article_Sharipbay_A_A_2016_ExpertEMQRASMEP <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Шарипбай.pdf";; *);;*);;
+
+article_Sharipbay_A_A_2016_ExpertEMQRASMEP <- article;;
+article_Sharipbay_A_A_2016_ExpertEMQRASMEP <- article_OSTIS_2016;;

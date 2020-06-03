@@ -1,0 +1,59 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..157;;
+sc_node_not_relation->..160;;
+sc_node_not_relation->..str;;
+article_Erofeev_A_A_2020_TheinCCoTPoBR => nrel_main_idtf:
+[Ерофеев А.А. 2020 - СистеИУППнБЖД]
+	(*
+	<- lang_ru;;
+	*);
+	[Erofeev A.A. 2020 - TheinCCoTPoBR] 
+	(*
+	<- lang_en;;
+	*);;
+article_Erofeev_A_A_2020_TheinCCoTPoBR => nrel_article_title:[Система интеллектуального управления перевозочным процессом на Белорусской железной дороге.](*
+	<- lang_ru;;
+	*);;
+article_Erofeev_A_A_2020_TheinCCoTPoBR => nrel_article_title:[The intelligent control concept of the transportation process on the Belarusian Railway.](*
+	<- lang_en;;
+	*);;
+article_Erofeev_A_A_2020_TheinCCoTPoBR <- article;;
+article_Erofeev_A_A_2020_TheinCCoTPoBR <- article_OSTIS_2020;;
+
+article_Erofeev_A_A_2020_TheinCCoTPoBR => nrel_abstract: [ Directions for the development of transportation control systems have been established. The basic provisions of the concept of creating an intelligent system for managing the transportation process on the Belarusian Railway are described. The generalized objective function of the effectiveness of intelligent control is formulated. An end-to-end control loop is described. The main functions of the intelligent control system and stages of system implementation are determined.];
+[ Установлены направления развития систем управления перевозочным процессом. Описаны основные положения концепции создания интеллектуальной системы управления перевозочным процессом на Белорусской железной дороге. Сформулирована обобщенная целевая функция эффективности интеллектуального управления. Описан сквозной цикл управления. Определены основные функции системы интеллектуального управления. Определены этапы внедрения системы.];;
+article_Erofeev_A_A_2020_TheinCCoTPoBR => nrel_author: 
+Erofeev_A_A;;
+article_Erofeev_A_A_2020_TheinCCoTPoBR => nrel_bibliographic_reference:[Ерофеев, А.А. Система интеллектуального управления перевозочным процессом на белорусской железной дороге. / А.А. Ерофеев // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 157-160.](*
+ <-interstate_standard;; 
+*);;
+article_Erofeev_A_A_2020_TheinCCoTPoBR<- lang_en;;
+article_Erofeev_A_A_2020_TheinCCoTPoBR <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Erofeev_A_A_2020_TheinCCoTPoBR <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/21.Yerofeev.pdf";; *);; *);;
+
+article_Erofeev_A_A_2020_TheinCCoTPoBR => nrel_key_concepts:
+{
+	concept_transportation_process;
+	concept_transportation_organization;
+	concept_operational_task;
+	concept_end_to_end_management_cycle;
+	concept_transportation_resources;
+	concept_intelligent_management
+};;
+article_Erofeev_A_A_2020_TheinCCoTPoBR <- 12.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 12;; => rrel_number_of_year: 2020;;*);;*);;
+12.01.2020 <- date_of_received;;
+article_Erofeev_A_A_2020_TheinCCoTPoBR <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..157=>..160);;
+..157=>..nrel:157;;
+..160=>..nrel:160;;
+..157<-exact_value;;
+..160<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..157<-page;;
+..160<-page;;
+number_of_page<-page;;
+article_Erofeev_A_A_2020_TheinCCoTPoBR <= nrel_published_material: report_Erofeev_A_A_2020_TheSoICotTPotBR;;

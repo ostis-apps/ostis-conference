@@ -1,0 +1,28 @@
+article_Stratnev_P_U_2016_UsSNFQGP => nrel_main_idtf:
+[ Стратнев П.Ю. 2016 - ИсполССдПКГЛ ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Stratnev P.U. 2016 - UsSNFQGP] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Stratnev_P_U_2016_UsSNFQGP=> nrel_article_title:[Использование социальных сетей для поиска компетентных групп людей ](*
+	<- lang_ru;;
+	*);;
+article_Stratnev_P_U_2016_UsSNFQGP => nrel_author:
+Stratnev_P_U;;
+article_Stratnev_P_U_2016_UsSNFQGP => nrel_abstract: [В статье рассмотрен метод поиска определённых групп пользователей, имеющих компетентность в некоторой области деятельности.];;
+
+article_Stratnev_P_U_2016_UsSNFQGP=> nrel_bibliographic_reference: [Стратнев, П.Ю. Использование социальных сетей для поиска компетентных групп людей/ П.Ю. Стратнев / Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 553–556.](*
+<-interstate_standard;; 
+*);;
+
+article_Stratnev_P_U_2016_UsSNFQGP=> nrel_year_publication: 2016;;
+
+article_Stratnev_P_U_2016_UsSNFQGP => nrel_comprise:  Materials_OSTIS2016;;
+article_Stratnev_P_U_2016_UsSNFQGP<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Стратнев.pdf";; *);;*);;
+article_Stratnev_P_U_2016_UsSNFQGP <- article;;
+article_Stratnev_P_U_2016_UsSNFQGP <- article_OSTIS_2016;;

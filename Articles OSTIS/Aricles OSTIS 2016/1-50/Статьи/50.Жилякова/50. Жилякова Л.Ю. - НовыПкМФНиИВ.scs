@@ -1,0 +1,34 @@
+article_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_main_idtf:
+[Жилякова Л.Ю. 2016 - НовыПкМФНиИВ]
+	(*
+	<- lang_ru;;
+	*);
+	[Zhilyakova L.Y. 2016 - ANATMOANaTI] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_article_title:[Новый подход к моделированию формальных нейронов и их взаимодействий](*
+	<- lang_ru;;
+	*);;
+
+article_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_author:
+Jilakova_L.U.;;
+
+article_Zhilyakova_L_Yu_2016_ANATMOANaTI <- article_OSTIS_2016;;
+article_Zhilyakova_L_Yu_2016_ANATMOANaTI <- lang_ru;;
+article_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_abstract: [В работе предпринята попытка обогатить аппарат искусственных нейронных сетей за счет усложнения модели формального нейрона. Рассматриваются не только электрические, но и химические его свойства: чувствительность к различным нейротрансмиттерам и способность их производить. Сеть из этих нейронов – гетерогенная структура, связи в которой зависят от химической ситуации в межклеточном пространстве, которое также является частью модели. В такой сети трансмиттеры могут играть решающую роль в формировании паттернов активности.];;
+article_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_count_page: 4;;
+
+article_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_bibliographic_reference: [Жилякова, Л. Ю. Новый подход к моделированию формальных нейронов и их взаимодействий / Л.Ю. Жилякова // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_year_publication: 2016;;
+
+article_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Zhilyakova_L_Yu_2016_ANATMOANaTI <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/50.zhilyakova.pdf";; *);; *);;
+
+article_Zhilyakova_L_Yu_2016_ANATMOANaTI <- article;;

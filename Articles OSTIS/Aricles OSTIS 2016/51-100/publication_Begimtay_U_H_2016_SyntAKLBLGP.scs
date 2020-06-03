@@ -1,0 +1,32 @@
+article_Begimtay_U_H_2016_SyntAKLBLGP => nrel_main_idtf:
+[Бегимтай У. Х. 2016 - СинтФКЯмОТСLGP]
+	(*
+	<- lang_ru;;
+	*);
+	[Begimtay U.H. 2016 - SyntAKLBLGP] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Begimtay_U_H_2016_SyntAKLBLGP=> nrel_article_title:[Синтаксический анализатор казахского языка на основе грамматики связей-LINK GRAMMAR PARSER](*
+	<- lang_ru;;
+	*);;
+
+article_Begimtay_U_H_2016_SyntAKLBLGP => nrel_author:
+Begimtay_U_H;;
+
+article_Begimtay_U_H_2016_SyntAKLBLGP <- lang_ru;;
+article_Begimtay_U_H_2016_SyntAKLBLGP => nrel_abstract: [В работе описан принцип работы синтаксического анализатора на основе грамматики связей – linkgrammarparser для казахского языка. Парсер грамматики связей позволяет размечать слова тегами частей речи и определять тип связей между ними. Также в данной работе показан принцип проверки сходства двух предложений и принцип вычисления числа на семантическом графе соответствующих и несоответствующих дуг.];;
+article_Begimtay_U_H_2016_SyntAKLBLGP => nrel_count_page: 4;;
+article_Begimtay_U_H_2016_SyntAKLBLGP <- article_OSTIS_2016;;
+
+article_Begimtay_U_H_2016_SyntAKLBLGP=> nrel_bibliographic_reference: [Бегимтай, У. Х. Синтаксический анализатор казахского языка на основе грамматики связей-LINK GRAMMAR PARSER/ У.Х. Бегимтай // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 393–396.](*
+<-interstate_standard;; 
+*);;
+
+article_Begimtay_U_H_2016_SyntAKLBLGP=> nrel_year_publication: 2016;;
+
+article_Begimtay_U_H_2016_SyntAKLBLGP=> nrel_comprise:  Materials_OSTIS2016;;
+article_Begimtay_U_H_2016_SyntAKLBLGP<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Бегимтай.pdf";; *);;*);;
+
+article_Begimtay_U_H_2016_SyntAKLBLGP <- article;;

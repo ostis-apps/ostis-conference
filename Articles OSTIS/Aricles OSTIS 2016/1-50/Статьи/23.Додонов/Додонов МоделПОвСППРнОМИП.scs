@@ -1,0 +1,43 @@
+article_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_main_idtf:
+[Додонов А.Г. 2016 - МоделПОвСППРнОМИП]
+	(*
+	<- lang_ru;;
+	*);
+	[Dodonov A.G. 2016 - ModeloSDIDMSSOTBoISM] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_article_title:[Модели предметных областей в системах поддержки принятия решений на основе мониторинга информационного пространства](*
+	<- lang_ru;;
+	*);;
+
+article_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_author:
+Dodonov_A.G.;
+Lande_D.V.;
+Kovalenko_T_V;;
+
+article_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM <- article;;
+article_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM <- article_OSTIS_2016;;
+
+article_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_bibliographic_reference: [Додонов А.Г. Модели предметных областей в системах поддержки принятия решений на основе мониторинга информационного пространства / А.Г. Додонов, Д.В. Ландэ, Т.В. Коваленко // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_year_publication: 2016;;
+
+article_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/23.dodonov.pdf";; *);; *);;
+
+
+
+article_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_abstract:
+[Описываются подходы к построению моделей предметных областей в системах поддержки принятия решений.Как  источники  знаний  рассматриваются  текстовые  корпусы  и  ресурсы  современных  наукометрическихсервисов.  Представлена  архитектура  системы  информационной  поддержки  принятия  решений,  идеологиясоздания и использования онтологий для построения сюжетов информационной поддержки принятия решений.Предложена  методология  аналитического  исследования,  которая  базируется  на  использованииинструментальных средств анализа и визуализации информационных потоков и сетевых структур.](*
+	<- lang_ru;;
+	*);;
+
+article_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_count_page: 6;;
+
+article_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM <- lang_ru;;

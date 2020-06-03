@@ -1,0 +1,62 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..305;;
+sc_node_not_relation->..308;;
+sc_node_not_relation->..str;;
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC => nrel_main_idtf:
+[Потараев В. В. 2020 - АналиТОвССИдКТ]
+	(*
+	<- lang_ru;;
+	*);
+	[Potaraev V.V. 2020 - AnalyoRTiSNUfTC] 
+	(*
+	<- lang_en;;
+	*);;
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC => nrel_article_title:[Анализ типов отношений в семантической сети, используемой для классификации текста.](*
+	<- lang_ru;;
+	*);;
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC => nrel_article_title:[Analysis of relation types in semantic network used for text classification.](*
+	<- lang_en;;
+	*);;
+
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC <- article;;
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC <- article_OSTIS_2020;;
+
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC => nrel_abstract: [ Contemporary information systems contain lots of textual information. One of important kinds of textual information processing is text classification. Semantic network is a model which can be used to resolve different tasks including text classification. There are other models which can resolve the same task, and some of them show relatively good results, but using semantic networks has such advantages as human readability and analyzing actual semantic relations between words. Semantic networks have different set of relation types depending on the network purpose. This article is devoted to looking for a set of relation types to be leveraged in semantic network created for text classification. The analysis is performed by generating semantic networks for Russian-language texts leveraging different sets of relation types. Generated networks are used for text classification. Texts were taken from books on several technical disciplines. Proposed algorithms can be used to perform text classification when performing such tasks as dividing electronic messages on categories, spam filtering, text topic recognition and other.];
+[ Современные информационные системы содержат большое количество текстовой информации. Одним из важных способов обработки текстовой информации является классификация текстов. Семантическая сеть является моделью, которая может быть использована для решения различных задач, в том числе для классификации текстовой информации. Существуют другие модели, способные решать эту задачу, и некоторые из них показывают довольно хорошие результаты, но использование семантических сетей имеет такие преимущества, как читабельность и анализ явных семантических отношений между словами. Семантические сети могут иметь различные наборы связей в зависимости от целей, для которых они создаются. В данной работе производится поиск набора типов связей, который можно использовать в семантической сети, создаваемой для классификакации текстов. Осуществляется анализ структуры сетей путём генерации семантических сетей для русскоязычных текстов с использованием различных типов связей. Сгенерированные сети используются для классификации текстов. Классифицируемые тексты были взяты из книг по нескольким техническим дисциплинам. Предложенные алгоритмы могут быть использованы для классификации текста при решении таких задач как разделение электронных сообщений по категориям, фильтрация спама, определение темы текста и при решении других задач.];;
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC => nrel_author: 
+Potaraev_V_V;;
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC => nrel_bibliographic_reference:[Потараев, В.В. Анализ типов отношений в семантической сети, используемой для классификации текста / В.В. Потараев // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 305-308.](*
+ <-interstate_standard;; 
+*);;
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC <- lang_en;;
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/47.Potaraev.pdf";; *);; *);;
+
+
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC => nrel_key_concepts:
+{
+	concept_semantic_network;
+	concept_text_classification;
+	concept_text_categorization;
+	concept_natural_language_processing;
+	concept_semantic_analysis;
+	concept_machine_learning;
+	concept_data_analysis
+};;
+
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC <- 15.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 15;; => rrel_number_of_year: 2020;;*);;*);;
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..305=>..308);;
+..305=>..nrel:305;;
+..308=>..nrel:308;;
+..305<-exact_value;;
+..308<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..305<-page;;
+..308<-page;;
+number_of_page<-page;;
+article_Potaraev_V_V_2020_AnalyoRTiSNUfTC <= nrel_published_material: report_Potaraev_V_V_2020_AnalyoRTitSNUtCT;;

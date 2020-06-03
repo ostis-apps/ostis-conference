@@ -1,0 +1,59 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..243;;
+sc_node_not_relation->..248;;
+sc_node_not_relation->..str;;
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD => nrel_main_idtf:
+[Таранчук В. Б. 2020 - ПримерИАЦПССГБД]
+	(*
+	<- lang_ru;;
+	*);
+	[Taranchuk V.B. 2020 - ExampoIAoDFbMoSGBD] 
+	(*
+	<- lang_en;;
+	*);;
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD => nrel_article_title:[Примеры интеллектуальной адаптации цифровых полей средствами системы ГеоБаза Данных.](*
+	<- lang_ru;;
+	*);;
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD => nrel_article_title:[Examples of intelligent adaptation of digital fields by means of the system GeoBazaDannych.](*
+	<- lang_en;;
+	*);;
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD <- article;;
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD <- article_OSTIS_2020;;
+
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD => nrel_abstract: [ Examples of interactive formation of digital models of geological objects in computational experiments that meet the intuitive requirements of the expert are given and discussed. Special tools of the system GeoBazaDannych are noted, and the results of comparison with standard solutions in the complex "The Generator of the geological model of the deposit" are presented. Examples of approximation and reconstruction of the digital field and its interactive adaptation by means of the system GeoBazaDannych are given and discussed; the obtained solutions and their accuracy are illustrated by maps of isolines.];
+[ В статье обсуждаются вопросы инструментального наполнения и использования интерактивной компьютерной системы ГеоБаза Данных. Представлены и обсуждаются результаты интеллектуальной обработки данных, включаемых и используемых в компьютерных геологических моделях.];;
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD => nrel_author: 
+Taranchuk_V_B;;
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD => nrel_bibliographic_reference:[Таранчук, В.Б. Примеры интеллектуальной адаптации цифровых полей средствами системы ГеоБаза Данных. / В.Б. Таранчук // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 243-248.](*
+ <-interstate_standard;; 
+*);;
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD <- lang_en;;
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/34.Taranchuk.pdf";; *);; *);;
+
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD => nrel_key_concepts:
+{
+	concept_digital_geological_model;
+	concept_system_GeoBazaDannych;
+	concept_intelligent_adaptation_of_digital_fields;
+	concept_interactive_graphical_visualization;
+	concept_smart_methods_of_computer_model_adaptation
+};;
+
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD <- 28.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 28;; => rrel_number_of_year: 2020;;*);;*);;
+28.01.2020 <- date_of_received;;
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..243=>..248);;
+..243=>..nrel:243;;
+..248=>..nrel:248;;
+..243<-exact_value;;
+..248<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..243<-page;;
+..248<-page;;
+number_of_page<-page;;
+article_Taranchuk_V_B_2020_ExampoIAoDFbMoSGBD <= nrel_published_material:report_Taranchuk_V_B_2020_ExampoIAoDFbMotGDS;;

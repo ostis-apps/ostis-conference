@@ -1,0 +1,41 @@
+article_Khoroshevsky_V_F__2016_RussiaATWCoE => nrel_main_idtf:
+[Хорошевский В.Ф. 2016 - РоссивКМЦКиП]
+	(*
+	<- lang_ru;;
+	*);
+	[Khoroshevsky V.F. 2016 - RussiaATWCoE] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Khoroshevsky_V_F__2016_RussiaATWCoE => nrel_article_title:[Россия в котексте мировых центров компетенций и превосходства](*
+	<- lang_ru;;
+	*);;
+
+article_Khoroshevsky_V_F__2016_RussiaATWCoE => nrel_author:
+Horosevskij_V.F.;
+Efimenko_I_V;;
+
+article_Khoroshevsky_V_F__2016_RussiaATWCoE <- article;;
+article_Khoroshevsky_V_F__2016_RussiaATWCoE <- article_OSTIS_2016;;
+
+article_Khoroshevsky_V_F__2016_RussiaATWCoE => nrel_bibliographic_reference: [Хорошевский, В.Ф. Россия в котексте мировых центров компетенций и превосходства / В.Ф. Хорошевский, И.В. Ефименко // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Khoroshevsky_V_F__2016_RussiaATWCoE => nrel_year_publication: 2016;;
+
+article_Khoroshevsky_V_F__2016_RussiaATWCoE => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Khoroshevsky_V_F__2016_RussiaATWCoE <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/33.khoroshevsky.pdf";; *);; *);;
+
+
+article_Khoroshevsky_V_F__2016_RussiaATWCoE => nrel_abstract:
+[В  работе  представлен  наукометрический  анализ  ландшафта  исследований  и  разработок,  выполняемыхроссийскими  специалистами  в  соавторствесо  специалистами  из  других  стран,  с  использованиемсемантических  технологий.  Целью  исследования  является  идентификация  российских  и  мировых  центровкомпетенцийи превосходства в различных предметных областяхна основе специализированных инструментов,разработанных и реализованных авторами.](*
+	<- lang_ru;;
+	*);;
+
+article_Khoroshevsky_V_F__2016_RussiaATWCoE  => nrel_count_page: 10;;
+
+article_Khoroshevsky_V_F__2016_RussiaATWCoE <- lang_ru;;

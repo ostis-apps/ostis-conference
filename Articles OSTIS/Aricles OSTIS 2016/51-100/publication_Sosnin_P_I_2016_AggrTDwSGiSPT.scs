@@ -1,0 +1,32 @@
+article_Sosnin_P_I_2016_AggrTDwSGiSPT => nrel_main_idtf:
+[Соснин П. И. 2016 - КомплТОиСГвРПЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Sosnin P.I. 2016 - AggrTDwSGiSPT] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Sosnin_P_I_2016_AggrTDwSGiSPT  => nrel_article_title:[Комплексирование текстовых описаний и семантизированной графики в решении проектных задач](*
+	<- lang_ru;;
+	*);;
+
+article_Sosnin_P_I_2016_AggrTDwSGiSPT  => nrel_author:
+Sosnin_P.I.;;
+article_Sosnin_P_I_2016_AggrTDwSGiSPT  => nrel_author:
+Galochkin_M_V;;
+article_Sosnin_P_I_2016_AggrTDwSGiSPT  => nrel_author:
+Lunetskas_A_A;;
+article_Sosnin_P_I_2016_AggrTDwSGiSPT  => nrel_abstract: [В статье представляются средства псевдо кодовой программируемой графики поддержки проектирования автоматизированных систем на концептуальном этапе. Специфику подхода определяет преобразование текстовых единиц в семантические граф-схемы в условиях взаимодействия с онтологией проекта. Возможность обратного преобразования схемы после её коррекции позволяет итеративно доводить её и исследуемую текстовую единицу до взаимно согласованных состояний, констатирующих и регистрирующих проверяемую версию понимания проектировщиком освоенного текстa.];; 
+article_Sosnin_P_I_2016_AggrTDwSGiSPT  => nrel_bibliographic_reference: [Соснин, П. И. Комплексирование текстовых описаний и семантизированной графики в решении проектных задач / П.И. Соснин, М.В. Галочкин, А.А. Лунецкас // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 359–366.](*
+<-interstate_standard;; 
+*);;
+
+article_Sosnin_P_I_2016_AggrTDwSGiSPT  => nrel_year_publication: 2016;;
+
+article_Sosnin_P_I_2016_AggrTDwSGiSPT  => nrel_comprise:  Materials_OSTIS2016;;
+article_Sosnin_P_I_2016_AggrTDwSGiSPT <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Соснин.pdf";; *);;*);;
+
+article_Sosnin_P_I_2016_AggrTDwSGiSPT  <- article;;
+article_Sosnin_P_I_2016_AggrTDwSGiSPT <- article_OSTIS_2016;;

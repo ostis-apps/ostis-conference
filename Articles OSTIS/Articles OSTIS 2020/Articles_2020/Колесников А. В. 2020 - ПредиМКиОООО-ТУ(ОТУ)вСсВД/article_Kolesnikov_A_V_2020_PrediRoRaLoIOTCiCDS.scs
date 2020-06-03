@@ -1,0 +1,60 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..43;;
+sc_node_not_relation->..50;;
+sc_node_not_relation->..str;;
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS=> nrel_main_idtf:
+[Колесников А. В. 2020 - ПредиМКиОООО-ТУ(ОТУ)вСсВД]
+	(*
+	<- lang_ru;;
+	*);
+	[Kolesnikov A.V. 2020 PrediRoRaLoIO-TCiCDS] 
+	(*
+	<- lang_en;;
+	*);;
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS => nrel_article_title:[Предикативная модель когнитивного и оперативного образа объекта оперативно-технологического управления (ОТУ) в системах с высокой динамикой.](*
+	<- lang_ru;;
+	*);;
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS => nrel_article_title:[Predicative representations of relations and links of the intellectual operational-technological control in complex dynamic systems.](*
+	<- lang_en;;
+	*);;
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS <- article;;
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS <- article_OSTIS_2020;;
+
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS => nrel_abstract: [The research belongs to the field of “intelligent control systems”, where it is important to “learn”, “understand”, “remember”, “evaluate the situation”, “find a solution”, “check the execution” and combines methods for solving intellectual problems, independently not solved by the human operator “in principle”. The cognitive hybrid intellectual systems are proposed for computer simulation of cognitive formations and enhancing human intelligence in operational work. In respect of such systems we developed the language for the description of relations and links for predicative coding of verbal knowledge about resources, properties and actions of personnel, for coding of the grammar of identity substitution and the functional deformation of the cognitive image of the object state.];
+[Для компьютерной имитации когнитивных образований и усиления человеческого интеллекта в оперативной работе, путем дополнения естественных способности оператора к работе с оперативно-технологической информацией, программно-аппаратными средствами, расширяющими мыслительные процессы человека предложены когнитивные гибридные интеллектуальные системы. Применительно к ним разработан язык описания отношений и связей для предикативного кодирования словесно-вербальных знаний о ресурсах, свойствах и действиях персонала, грамматика тождественных преобразований и функциональной деформации семантики энтропийного, когнитивного образа состояния объекта управления в регуляритивную, прагматическую информацию лаконичного и локализованного оперативного образа.];;
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS => nrel_author: 
+Kolesnikov_A_V;
+Rumovskaya_S_B;
+Jasinski_E_V;;
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS => nrel_bibliographic_reference:[Колесников, А.В. Предикативная модель когнитивного и оперативного образа объекта оперативно-технологического управления (ОТУ) в системах с высокой динамикой. /А.В. Колесников, С.Б. Румовская, Э.В. Ясинский // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. //Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 43-50.](*
+ <-interstate_standard;; 
+*);;
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS <- lang_en;;
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/02.Kolesnikov.pdf";; *);; *);;
+
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS => nrel_key_concepts:
+{
+	concept_intelligent_control_systems;
+	concept_cognitive_image;
+	concept_operational_image;
+	concept_cognitive_hybrid_intellectual_systems;
+	concept_language_for_describing_relations_and_links;
+	concept_predictive_coding
+};;
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS <- 01.02.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 02;; => rrel_number_of_day_in_month: 01;; => rrel_number_of_year: 2020;;*);;*);;
+01.02.2020 <- date_of_received;;
+article_Kolesnikov_A_V_2020_PrediRoRaLoIOTCiCDS<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..43=>..50);;
+..43=>..nrel:43;;
+..50=>..nrel:50;;
+..43<-exact_value;;
+..50<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..43<-page;;
+..50<-page;;
+number_of_page<-page;;

@@ -1,0 +1,30 @@
+article_Vishnyakov_V_A_2016_InstrumPCMACCAITU => nrel_main_idtf:
+[ Вишняков В.А. 2016 - КонцеИПМДвСОВсИИТ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Vishnyakov V.A. 2016 - InstrumPCMACCAITU] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Vishnyakov_V_A_2016_InstrumPCMACCAITU=> nrel_article_title:[Концепция инструментальной платформы в деятельности в среде облачных вычислений с использованием интеллектуальных технологий](*
+	<- lang_ru;;
+	*);;
+article_Vishnyakov_V_A_2016_InstrumPCMACCAITU => nrel_author:
+Vishnyakov_V_A;;
+article_Vishnyakov_V_A_2016_InstrumPCMACCAITU => nrel_author:
+Kazak_E_A;;
+article_Vishnyakov_V_A_2016_InstrumPCMACCAITU => nrel_abstract: [Показаны основные направления маркетинговая деятельности при использовании интеллектуальных технологий. Представлены направления использования интеллектуальных технологий в управленческой деятельности с использованием ОВ. Дан анализ особенностей маркетинговой деятельность в ОВ. В качестве тенденций развития рассмотрено совершенствование методов и моделей маркетинговой деятельности в ОВ . В качестве концепции предложено создание инструментальной платформы на базе многоагентной технологии, объединяющей интеллектуальные системы маркетологов для облачной среды.];;
+article_Vishnyakov_V_A_2016_InstrumPCMACCAITU => nrel_bibliographic_reference: [Вишняков, В.А. Концепция инструментальной платформы в деятельности в среде облачных вычислений с использованием интеллектуальных технологий/ В.А. Вишняков, Е.А. Казак// Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 545–548.](*
+<-interstate_standard;; 
+*);;
+
+article_Vishnyakov_V_A_2016_InstrumPCMACCAITU => nrel_year_publication: 2016;;
+
+article_Vishnyakov_V_A_2016_InstrumPCMACCAITU => nrel_comprise:  Materials_OSTIS2016;;
+article_Vishnyakov_V_A_2016_InstrumPCMACCAITU <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Вишняков.pdf";; *);;*);;
+
+article_Vishnyakov_V_A_2016_InstrumPCMACCAITU <- article;;
+article_Vishnyakov_V_A_2016_InstrumPCMACCAITU <- article_OSTIS_2016;;

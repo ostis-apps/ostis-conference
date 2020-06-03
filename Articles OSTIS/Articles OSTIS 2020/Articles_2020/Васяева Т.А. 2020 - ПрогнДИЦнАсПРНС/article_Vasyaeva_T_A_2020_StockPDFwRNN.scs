@@ -1,0 +1,66 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..277;;
+sc_node_not_relation->..282;;
+sc_node_not_relation->..str;;
+article_Vasyaeva_T_A_2020_StockPDFwRNN => nrel_main_idtf:
+[Васяева Т.А. 2020 - ПрогнДИЦнАсПРНС]
+	(*
+	<- lang_ru;;
+	*);
+	[Vasyaeva T.A. 2020 - StockPDFwRNN] 
+	(*
+	<- lang_en;;
+	*);;
+article_Vasyaeva_T_A_2020_StockPDFwRNN => nrel_article_title:[Прогнозирование динамики изменения цен на акции с помощью рекуррентных нейронных сетей.](*
+	<- lang_ru;;
+	*);;
+article_Vasyaeva_T_A_2020_StockPDFwRNN => nrel_article_title:[Stock Prices Dynamics Forecasting with Recurrent Neural Networks.](*
+	<- lang_en;;
+	*);;
+
+article_Vasyaeva_T_A_2020_StockPDFwRNN <- article;;
+article_Vasyaeva_T_A_2020_StockPDFwRNN <- article_OSTIS_2020;;
+
+article_Vasyaeva_T_A_2020_StockPDFwRNN => nrel_abstract: [ The application of deep neural networks was examined in the area of stock prices forecasting of pharmacies chain "36 and 6". The learning sample formation in the time series area was shown and the neural network architecture was proposed. The neural network for exchange trade forecasting using Python’s Keras Library was developed and trained. The basic parameters setting of algorithm have been carried out.];
+[ В статье рассмотрено применение рекуррентных нейронных сетей для прогнозирования цен акций сети аптек «36и6». Предметом исследования данной работы являются методы анализа фондовых бирж. Показано получение котировок акций, описан формат полученной информации. Данные представляют собой многомерный временной ряд, который содержит 5 каналов: цена открытия, максимальная цена, минимальная цена, цена закрытия, объем торгов. Рассмотрено формирование обучающей выборки «скользящим окном» в задачах машинного обучения применительно к многомерным временным рядам. Рекуррентные нейронные сети трудно обучать из-за проблемы исчезающего градиента. Показано применение GRU и LSTM сетей для решения данной проблемы. Предложена архитектура нейронной сети. Разработана и обучена нейронная сеть для прогнозирования биржевой торговли с использованием языка программирования Python, а также библиотеки Keras. Проведены эксперименты по настройке основных параметров.];;
+article_Vasyaeva_T_A_2020_StockPDFwRNN => nrel_author: 
+Vasyaeva_T_A;
+Martynenko_T_V;
+Khmilovyi_S_V;
+Andrievskaya_N_K;;
+article_Vasyaeva_T_A_2020_StockPDFwRNN => nrel_bibliographic_reference:[Васяева, Т.А. Прогнозирование динамики изменения цен на акции с помощью рекурентных нейронных сетей. / Т.А. Васяева, Т.В. Мартыненко, С.В. Хмелевой, Н.К. Андриевская // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 277-282.](*
+ <-interstate_standard;; 
+*);;
+article_Vasyaeva_T_A_2020_StockPDFwRNN <- lang_en;;
+article_Vasyaeva_T_A_2020_StockPDFwRNN <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Vasyaeva_T_A_2020_StockPDFwRNN <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/41.Vasyaeva.pdf";; *);; *);;
+
+article_Vasyaeva_T_A_2020_StockPDFwRNN => nrel_key_concepts:
+{
+	concept_machine_learning;
+	concept_deep_learning;
+	concept_recurrent_neural_networks;
+	concept_simple_recurrent_neural_network;
+	concept_update_gate_and_reset_gate;
+	concept_long_short_term_memory;
+	concept_time_series;
+	concept_stock_prices
+};;
+
+article_Vasyaeva_T_A_2020_StockPDFwRNN <- 14.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 14;; => rrel_number_of_year: 2019;;*);;*);;
+14.12.2019 <- date_of_received;;
+article_Vasyaeva_T_A_2020_StockPDFwRNN<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..277=>..282);;
+..277=>..nrel:277;;
+..282=>..nrel:282;;
+..277<-exact_value;;
+..282<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..277<-page;;
+..282<-page;;
+number_of_page<-page;;
+

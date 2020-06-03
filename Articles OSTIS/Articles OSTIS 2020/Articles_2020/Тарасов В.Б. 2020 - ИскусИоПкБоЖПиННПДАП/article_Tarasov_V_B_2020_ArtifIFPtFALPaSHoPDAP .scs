@@ -1,0 +1,64 @@
+sc_node_not_relation->..19;;
+sc_node_not_relation->..42;;
+sc_node_not_relation->..str;;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP => nrel_main_idtf:
+[Тарасов В.Б. 2020 - ИскусИоПкБоЖПиННПДАП]
+	(*
+	<- lang_ru;;
+	*);
+	[Tarasov V.B. 2020 ArtifIFPtFALPaSHoPDAP] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP => nrel_article_title:[Искусственный интеллект: от прошлого к будущему. О жизненном пути и научном наследии профессора Д.А. Поспелова](*
+	<- lang_ru;;
+	*);;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP => nrel_article_title:[Artificial intelligence: from the past to the future. About the life path and scientific heritage of prof. Dmitry A. Pospelov.](*
+	<- lang_en;;
+	*);;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP <- article;;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP <- article_OSTIS_2020;;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP => nrel_abstract: [В работе прослежены этапы жизненного пути и рассмотрены главные составляющие научного наследия выдающегося советского и российского учёного, основателя научного направления «Искусственный интеллект» и ведущей школы по искусственному интеллекту в СССР, инициатора создания и первого президента Советской (затем Российской) ассоциации искусственного интеллекта, доктора технических наук, профессора, академика Российской академии естественных наук Дмитрия Александровича Поспелова. Им открыты новые междисциплинарные научные области, такие как ситуационное управление и прикладная семиотика, псевдофизические логики, нечёткие и кольцевые шкалы, построены формальные модели индивидуального и коллективного поведения, разработаны элементы теории искусственных агентов и многоагентных (децентрализованных) систем, предложены оригинальные методы описания рассуждений «здравого смысла, введены уровни понимания для искусственных систем] (* 
+<-lang_ru;; 
+*);;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP => nrel_abstract: [The contribution of the outstanding scientist, the father of Artificial Intelligence in the USSR and Russia, the creator and first president of Soviet (then Russian) Association for AI, Prof. Dmitry Pospelov into various AI areas and related sciences has been considered. He was the founder of such new interdisciplinary research fields as Situational Control and Applied Semiotics, Lingua-Logical Modeling,Pseudo-Physical Logics and Non-Standard circular, fuzzy and general Scales. He also was the pioneer of Computers with Parallel and other Non-Traditional Architectures, the author of innovative approaches to individual and collective Behavior Modeling, including some original topics like computer-based behavior analysis of fairy tales heroes, as well as new techniques of Act Frames. Besides, Professor D.A.Pospelov has suggested some interesting approaches to common-sense reasoning with taking into account the results of psychological studies and proposed a classification of understanding levels. He should be viewed as a forerunner of agent theory and multi-agent systems with his early original contributions — Gyromata Theory and Decentralized Control in Collective Behavior. By analogy with Bionics Dmitry Pospelov has coined the term Psychonics to specify a sort of Psychology for Artificial Systems. The objective of Psychonics is the investigation of main psychological approaches, methods, models and tools in order of their practical use in AI to create advanced intelligent systems. Here the main results, concerning the architecture of human psyche, organization of human activity and features of human personality, are of primary concern. The paradigm of Psychonics may be viewed as a precursor of Artificial General Intelligence (AGI). Indeed, already in 1982 D.A.Pospelov formulated in his book «Fantasy or Science: on the Way to Artificial Intelligence» a very wide vision of Artificial Intelligence: «Modern investigations in AI should be aimed at studying and modeling of Human Psyche for the sake of its simulation in technical systems to solve a variety of practical problems conventionally viewed as intelligent ones» (p.211). It is worth stressing that in psychology, the word Psyche stands for the totality of human mind, both conscious and unconscious. The investigation of consciousness makes appeal to a well-known psychological triad: «Cognition — Affect -– Conation». So D.A.Pospelov has envisioned Intelligence as a wholistic, open, heterogeneous dynamic system that perfectly corresponds to AGI paradigm.] (*
+ <-lang_en;; 
+*);;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP => nrel_author: Tarasov_V_B;;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP => nrel_bibliographic_reference: [Тарасов, В.Б. Искусственный интеллект: от прошлого к будущему. О жизненном пути и научном наследии профессора Д.А.Поспелова. / В.Б. Тарасов // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. //Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. - С.19-42.](*
+<-interstate_standard;;
+*);;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP <- lang_ru;;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/01.Tarasov.pdf";; *);; *);;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP => nrel_key_concepts:
+{
+	concept_artificial_intelligence;
+	concept_situational_management;
+	concept_semiotic_modeling;
+	concept_applied_semiotics;
+	concept_pseudophysical_logic;
+	concept_model_of_the_outside_world;
+	concept_behavior_pattern;
+	concept_agent;
+	concept_multi_agent_system;
+	concept_cognitive_modeling;
+	concept_opposition_scale
+};;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP <- 30.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 30;; => rrel_number_of_year: 2020;;*);;*);;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..19=>..42);;
+..19=>..nrel:19;;
+..42=>..nrel:42;;
+..19<-exact_value;;
+..42<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..19<-page;;
+..42<-page;;
+number_of_page<-page;;
+article_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP<= nrel_published_material: report_Tarasov_V_B_2020_ArtifIFPtFALPaSHoPDAP;;

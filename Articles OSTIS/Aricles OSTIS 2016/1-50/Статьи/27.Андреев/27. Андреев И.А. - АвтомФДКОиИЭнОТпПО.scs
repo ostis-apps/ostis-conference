@@ -1,0 +1,43 @@
+article_Andreev_I_A2016_AutomCoCHaSIFTfO => nrel_main_idtf:
+[Андреев И.А. 2016 - АвтомФДКОиИЭнОТпПО]
+	(*
+	<- lang_ru;;
+	*);
+	[Andreev I.A. 2016 - AutomCoCHaSIFTfO] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Andreev_I_A2016_AutomCoCHaSIFTfO => nrel_article_title:[Автоматическое формирование дерева классов онотологии и их экземпляров на основе текста по предметной области](*
+	<- lang_ru;;
+	*);;
+
+article_Andreev_I_A2016_AutomCoCHaSIFTfO => nrel_author:
+Andreev_I_A;
+Beksaeva_E_A;
+Jelepov_A_S;
+Klejn_V.V.;
+Serkov_I_P;;
+
+article_Andreev_I_A2016_AutomCoCHaSIFTfO <- article;;
+article_Andreev_I_A2016_AutomCoCHaSIFTfO <- article_OSTIS_2016;;
+
+article_Andreev_I_A2016_AutomCoCHaSIFTfO => nrel_bibliographic_reference: [Андреев И.А. Автоматическое формирование дерева классов онотологии и их экземпляров на основе текста по предметной области / И.А. Андреев, Е.А. Бексаева, А.С. Желепов, В.В. Клейн, И.П. Серков // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Andreev_I_A2016_AutomCoCHaSIFTfO => nrel_year_publication: 2016;;
+
+article_Andreev_I_A2016_AutomCoCHaSIFTfO => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Andreev_I_A2016_AutomCoCHaSIFTfO <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/27.andreev.pdf";; *);; *);;
+
+
+article_Andreev_I_A2016_AutomCoCHaSIFTfO => nrel_abstract:
+[В  данной  статьер ассматривается алгоритм  формирования  дерева  классов  онтологии  иих  экземпляров  наоснове  текста  предметной  области.  Описывается  техническая  реализация  программной  системы,  входные  ивыходные данные, оценивается результат работы реализованного алгоритма.Предлагаемый подход основан наприменении лингвистических шаблонов и тезаурусов по предметным областям.](*
+	<- lang_ru;;
+	*);;
+article_Andreev_I_A2016_AutomCoCHaSIFTfO => nrel_count_page: 6;;
+
+article_Andreev_I_A2016_AutomCoCHaSIFTfO <- lang_ru;;

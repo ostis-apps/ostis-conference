@@ -1,0 +1,58 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..249;;
+sc_node_not_relation->..252;;
+sc_node_not_relation->..str;;
+article_Boyko_I_M_2020_ExperoTRESTiO => nrel_main_idtf:
+[Бойко И.М. 2020 - ОпытпТпДЗЗвО]
+	(*
+	<- lang_ru;;
+	*);
+	[Boyko I.M. 2020 - ExperoTRESTiO] 
+	(*
+	<- lang_en;;
+	*);;
+article_Boyko_I_M_2020_ExperoTRESTiO => nrel_article_title:[Опыт преобразования таксономии по дистанционному зондированию Земли в онтологию.](*
+	<- lang_ru;;
+	*);;
+article_Boyko_I_M_2020_ExperoTRESTiO => nrel_article_title:[Experience of Transformation the Remote Earth Sensing Taxonomy into Ontology.](*
+	<- lang_en;;
+	*);;
+article_Boyko_I_M_2020_ExperoTRESTiO <- article;;
+article_Boyko_I_M_2020_ExperoTRESTiO <- article_OSTIS_2020;;
+
+article_Boyko_I_M_2020_ExperoTRESTiO => nrel_abstract: [ This article represents an example of ontology development in the field of Remote Earth Sensing (RES). Initial taxonomy was transformed into ontology. The power of the ontology, its flexibility and logic of data structuring makes the application much more effective in comparison with the taxonomy.];
+[ В статье показан практический пример преобразования таксономии, содержащей информацию по дистанционному зондированию Земли в онтологию с целью обеспечить не только функцию навигации в иерархической структуре данных, но и обеспечить эффективный поиск требуемых данных по запросу пользователя];;
+article_Boyko_I_M_2020_ExperoTRESTiO => nrel_author: 
+Pisarevski_S_D;
+Boyko_I_M;;
+article_Boyko_I_M_2020_ExperoTRESTiO => nrel_bibliographic_reference:[Бойко, И.М. Опыт преобразования таксономии по дистанционному зондированию земли в онтологию. / И.М. Бойко, С.Д. Писаревский // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 249-252.](*
+ <-interstate_standard;; 
+*);;
+article_Boyko_I_M_2020_ExperoTRESTiO <- lang_en;;
+article_Boyko_I_M_2020_ExperoTRESTiO <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Boyko_I_M_2020_ExperoTRESTiO <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/35.Bojko.pdf";; *);; *);;
+
+article_Boyko_I_M_2020_ExperoTRESTiO => nrel_key_concepts:
+{
+	concept_axonomy;
+	ontology;
+	concept_remote_Earth_sensing
+	
+};;
+
+article_Boyko_I_M_2020_ExperoTRESTiO <- 14.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 14;; => rrel_number_of_year: 2020;;*);;*);;
+article_Boyko_I_M_2020_ExperoTRESTiO <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..249=>..252);;
+..249=>..nrel:249;;
+..252=>..nrel:252;;
+..249<-exact_value;;
+..252<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..249<-page;;
+..252<-page;;
+number_of_page<-page;;
+article_Boyko_I_M_2020_ExperoTRESTiO <= nrel_published_material: report_Boyko_I_M_2020_TheEoTToRSotEiO;;

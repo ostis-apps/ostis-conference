@@ -1,0 +1,65 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..123;;
+sc_node_not_relation->..128;;
+sc_node_not_relation->..str;;
+article_Fominykh_I_B_2020_ModeloRCAWSTR => nrel_main_idtf:
+[Фоминых И.Б. 2020 - МоделРКАПСВО]
+	(*
+	<- lang_ru;;
+	*);
+	[Fominykh I.B. 2020 ModeloВRCAWSTR] 
+	(*
+	<- lang_en;;
+	*);;
+article_Fominykh_I_B_2020_ModeloRCAWSTR => nrel_article_title:[Моделирование рассуждений когнитивного агента при существенных временных ограничениях.](*
+	<- lang_ru;;
+	*);;
+article_Fominykh_I_B_2020_ModeloRCAWSTR => nrel_article_title:[Modeling of Reasoning a Cognitive Agent with Significant Time Restrictions.](*
+	<- lang_en;;
+	*);;
+
+article_Fominykh_I_B_2020_ModeloRCAWSTR <- article;;
+article_Fominykh_I_B_2020_ModeloRCAWSTR <- article_OSTIS_2020;;
+
+article_Fominykh_I_B_2020_ModeloRCAWSTR => nrel_abstract: [ The problems of developing logical system to model the reasoning of cognitive agent are faced. Such an agent should be able to make conclusions based on its knowledge and observations in solving problems in the case of hard real-time. The hard real-time is characterized by setting a critical time threshold that considerably influences on agent’s problem-solving.Exceeding this time threshold can lead to serious, sometimes catastrophic consequences and it is unacceptable for the agent. The formal basis of the modeling system is a logical system that integrates the concepts of active temporal logic and logical programming. Among the original approaches and methods proposed by the authors the following one should be mentioned. An integrated logical system that combines the concepts of active logic and logical programming has been built.. An approach to constructing a paraconsistent declarative semantics based on the concept of active logic has been introduced. The method of representing agent’s temporal non-monotonous reasoning by active temporal logic has been proposed. The temporal granulation technique in logical system to formalize meta-reasoning has been suggested. Taking into account that the agent has to make decisions under the lack of time. the problem of the decision quality arises. In this context, it is useful to take branching time logics that allows us to infer various consequences of agent’s decision. A subclass of such logics oriented to real-time systems applications has been considered. In general, the proposed methods and
+algorithms provide the conceptual and algorithmic bases for developing new generation intelligent systems able to function in the case of hard real-time.];
+[ Рассматриваются вопросы проектирования системы моделирования рассуждений когнитивного агента, способного на основе своих знаний и наблюдений за внешней средой делать умозаключения, решая задачи в режиме «жёсткого» реального времени. Для работы в таком режиме характерно существование критического временного порога, установленного для решения стоящей перед агентом задачи. Превышение порога чревато тяжёлыми, подчас катастрофическими последствиями и для агента является неприемлемым. Формальной основой системы моделирования является логическая система, объединяющая концепции активной темпоральной логики и логического программирования. Среди предлагаемых авторами в работе оригинальных методов следует отметить подход к объединению концепций активной логики и логического программирования в одной логической системе; подход к построению паранепротиворечивой декларативной семантики логической системы, имеющей в основе концепцию активной логики; метод формализации темпоральных, немонотонных рассуждений агента средствами активной темпоральной логики; метод грануляции времени в логической системе для формализации мета-рассуждений. Учитывая, что в системах жесткого реального времени агенту часто приходится принимать решения в условиях недостатка времени, то возникает вопрос о качестве найденного решения. В этом плане полезно использование темпоральной логики ветвящегося времени, позволяющей смоделировать (вывести) различные последствия найденного агентом решения. Рассматривается подкласс такой логики, ориентированный на применение в системах реального времени. В целом, предлагаемые методы создают концептуальные и алгоритмические основы для построения перспективных интеллектуальных систем жёсткого реального времени нового поколения.];;
+article_Fominykh_I_B_2020_ModeloRCAWSTR => nrel_author: 
+Fominykh_I_B;
+Yeremeev_A_P;
+Alekseev_N_P;
+Gulyakina_N_A;;
+article_Fominykh_I_B_2020_ModeloRCAWSTR => nrel_bibliographic_reference:[Фоминых, И.Б. Моделирование рассуждений когнитивного агента при существенных временных ограничениях. / И.Б. Фоминых, А.П. Еремеев, Н.П. Алексеев, Н.А. Гулякина // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 123-128.](*
+ <-interstate_standard;; 
+*);;
+article_Fominykh_I_B_2020_ModeloRCAWSTR <- lang_en;;
+article_Fominykh_I_B_2020_ModeloRCAWSTR <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Fominykh_I_B_2020_ModeloRCAWSTR <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/14.Fominih.pdf";; *);; *);;
+
+article_Fominykh_I_B_2020_ModeloRCAWSTR => nrel_key_concepts:
+{
+	concept_cognitive_agent;
+	concept_hard_time_constraints;
+	concept_active_logic;
+	concept_step_theory;
+	concept_temporal_reasoning;
+	concept_logical_programming
+};;
+
+article_Fominykh_I_B_2020_ModeloRCAWSTR <- 17.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 17;; => rrel_number_of_year: 2020;;*);;*);;
+17.01.2020 <- date_of_received;;
+article_Fominih_I_B_2020_ModeloRCAWSTR<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..123=>..128);;
+..123=>..nrel:123;;
+..128=>..nrel:128;;
+..123<-exact_value;;
+..128<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..123<-page;;
+..128<-page;;
+number_of_page<-page;;
+article_Fominykh_I_B_2020_ModeloRCAWSTR <= nrel_published_material: report_Fominykh_I_B_2020_ModelCARuSTC;;

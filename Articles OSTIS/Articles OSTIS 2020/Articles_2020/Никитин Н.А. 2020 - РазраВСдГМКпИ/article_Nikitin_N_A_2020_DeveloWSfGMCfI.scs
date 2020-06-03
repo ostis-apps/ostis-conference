@@ -1,0 +1,63 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..345;;
+sc_node_not_relation->..348;;
+sc_node_not_relation->..str;;
+article_Nikitin_N_A_2020_DeveloWSfGMCfI => nrel_main_idtf:
+[Никитин Н.А. 2020 - РазраВСдГМКпИ]
+	(*
+	<- lang_ru;;
+	*);
+	[Nikitin N.A. 2020 - DeveloWSfGMCfI] 
+	(*
+	<- lang_en;;
+	*);;
+article_Nikitin_N_A_2020_DeveloWSfGMCfI => nrel_article_title:[Разработка веб сервиса для генерации музыкальной композиции по изображению.](*
+	<- lang_ru;;
+	*);;
+article_Nikitin_N_A_2020_DeveloWSfGMCfI => nrel_article_title:[Development of web service for generating musical composition from an image.](*
+	<- lang_en;;
+	*);;
+
+article_Nikitin_N_A_2020_DeveloWSfGMCfI <- article;;
+article_Nikitin_N_A_2020_DeveloWSfGMCfI <- article_OSTIS_2020;;
+
+article_Nikitin_N_A_2020_DeveloWSfGMCfI => nrel_abstract: [ This paper describes the process of designing and developing a web service for the automated generation of sounds from an image. Also describes the main method for synthesizing music from an image, which is based on the joint use of neural networks and light-music theory. It also contains testing of developed service.];
+[ В данной статье описывается процесс проектирования и разработки веб-сервиса для автоматической генерации звуков (музыкальной композиции) по изображению. Также описывается основной метод синтеза музыки из изображения, который основан на совместном использовании нейронных сетей и светомузыкальной теории. В первом разделе кратко описано развитие данной области и описана постановка задачи. Второй раздел посвящён определению основного метода работы программы - преобразования худодественных характеристик в музыкальные. Третий раздел содержит детальное описание процесса разработки веб-сервиса. Последний раздел описывает процесс тестирования.];;
+article_Nikitin_N_A_2020_DeveloWSfGMCfI => nrel_author: 
+Nikitin_N_A;
+Rozaliev_V.L.;
+Orlova_U.A.;;
+article_Nikitin_N_A_2020_DeveloWSfGMCfI => nrel_bibliographic_reference:[Никитин, Н.А. Разработка веб сервиса для генерации музыкальной композиции по изображению. / Н.А. Никитин, В.Л. Розалиев, Ю.А. Орлова // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. //Белорус. Гос. Ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 345-348.](*
+ <-interstate_standard;; 
+*);;
+article_Nikitin_N_A_2020_DeveloWSfGMCfI <- lang_en;;
+article_Nikitin_N_A_2020_DeveloWSfGMCfI <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Nikitin_N_A_2020_DeveloWSfGMCfI <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/56.Nikitin.pdf";; *);; *);;
+
+
+article_Nikitin_N_A_2020_DeveloWSfGMCfI => nrel_key_concepts:
+{
+	concept_recurrent_neural_network;
+	concept_light_music_theory;
+	concept_automated_music_generation;
+	concept_schemes_for_correlating_colors_and_notes;
+	concept_Keras;
+	concept_Flask
+};;
+
+article_Nikitin_N_A_2020_DeveloWSfGMCfI <- 30.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 30;; => rrel_number_of_year: 2019;;*);;*);;
+article_Nikitin_N_A_2020_DeveloWSfGMCfI <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..345=>..348);;
+..345=>..nrel:345;;
+..348=>..nrel:348;;
+..345<-exact_value;;
+..348<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..345<-page;;
+..348<-page;;
+number_of_page<-page;;
+article_Nikitin_N_A_2020_DeveloWSfGMCfI <=  nrel_published_material: report_Nikitin_N_A_2020_DeveloaWSfGMCfaI;;

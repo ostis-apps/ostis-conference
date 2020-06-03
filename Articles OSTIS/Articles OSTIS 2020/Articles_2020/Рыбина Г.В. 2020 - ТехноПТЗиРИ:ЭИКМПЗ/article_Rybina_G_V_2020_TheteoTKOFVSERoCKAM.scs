@@ -1,0 +1,65 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..63;;
+sc_node_not_relation->..68;;
+sc_node_not_relation->number_of_page;;
+sc_node_not_relation->page;;
+sc_node_not_relation->..str;;
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM=> nrel_main_idtf:
+[Рыбина Г.В. 2020 - ТехноПТЗиРИ:ЭИКМПЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Rybina G.V. 2020 TheteoTKOFVSERoCKAM] 
+	(*
+	<- lang_en;;
+	*);;
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM => nrel_article_title:[Технология получения темпоральных знаний из различных источников: экспериментальное исследование комбинированного метода приобретения знаний.](*
+	<- lang_ru;;
+	*);;
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM => nrel_article_title:[The technology of temporal knowledge obtaining from various sources: the experimental research of combined knowledge acquisition method.](*
+	<- lang_en;;
+	*);;
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM <- article;;
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM<- article_OSTIS_2020;;
+
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM => nrel_abstract: [ This paper analyzes the results of the experimental research of automated knowledge base construction for dynamic intelligent systems, in particular dynamic integrated expert systems on the basis of the so-called original combined knowledge acquisition method with temporal extensions. 
+ The focus of this work is on some aspects of the application and development of technologies of knowledge acquisition from various sources (experts, NL-texts, data bases) in order to create new applied intellectual technologies that can be used, for example, in the field of healthcare (personalized medicine, "smart" hospital, etc.). The paper describes general description of basic technologies of knowledge acquisition from various sources, features of the combined knowledge acquisition method and means of its implementation, features of a language experiment and the knowledge acquisition from a temporal database. Analysis of experimental results of software modeling is given.];
+[ В данной статье анализируются результаты экспериментального исследования автоматизированной технологии построения баз знаний для динамических интеллектуальных систем, а именно динамических интегрированных экспертных систем, на основе оригинального комбинированного метода приобретения знаний с темпоральными сущностями.
+ Рассматриваемый метод является неотъемлемой частью задачно-ориентированной методологии построения интегрированных экспертных систем, обладающих масштабируемой архитектурой и расширяемой функциональностью.
+ В фокусе внимания данной работы находятся некоторые аспекты применения и развития технологий извлечения знаний из различных источников (эксперты, ЕЯ-тексты, базы данных) с целью создания новых прикладных интеллектуальных технологий, которые могут использоваться, например, в сфере здравоохранения (персонализированная медицина, «умная» больница и др.).
+ Приводится общая характеристика базовых технологий извлечения знаний из различных источников, описываются особенности комбинированного метода приобретения знаний и средств его реализации, а также особенности языковых экспериментов и приобретения знаний из темпоральной базы данных. Проанализированы результаты экспериментального программного моделирования.];;
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM => nrel_author: 
+Rybina_G_V;
+Slinkov_A_A;
+Buyanov_D_R;;
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM => nrel_bibliographic_reference:[Рыбина, Г.В. Технология получения темпоральных знаний из различных источников: экспериментальное исследование комбинированного метода приобретения знаний. / Г.В. Рыбина, А.А. Слиньков, Д.Р. Буянов // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 63-68](*
+ <-interstate_standard;; 
+*);;
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM <- lang_en;;
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM<- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/05.Ryibina.pdf";; *);; *);;
+
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM => nrel_key_concepts:
+{
+	concept_artificial_intelligence;
+	concept_intelligent_systems;
+	concept_automated_temporal_knowledge_acquisition;
+	concept_temporal_inference
+};;
+
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM <- 13.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 13;; => rrel_number_of_year: 2019;;*);;*);;
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..63=>..68);;
+..63=>..nrel:63;;
+..68=>..nrel:68;;
+..63<-exact_value;;
+..68<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..63<-page;;
+..68<-page;;
+number_of_page<-page;;
+article_Rybina_G_V_2020_TheteoTKOFVSERoCKAM<=nrel_published_material:report_Rybina_G_V_2020_TechnfOTKfVSaESotCMoAK;;

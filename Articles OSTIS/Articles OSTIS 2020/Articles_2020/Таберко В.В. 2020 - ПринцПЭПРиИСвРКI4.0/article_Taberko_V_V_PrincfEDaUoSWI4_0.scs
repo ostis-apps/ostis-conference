@@ -1,0 +1,62 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..167;;
+sc_node_not_relation->..174;;
+sc_node_not_relation->..str;;
+article_Taberko_V_V_PrincfEDaUoSWI4_0 => nrel_main_idtf:
+[Таберко В.В. 2020 - ПринцПЭПРиИСвРКI4.0]
+	(*
+	<- lang_ru;;
+	*);
+	[Taberko V.V. 2020 - PrincfEDaUoSWI4.0] 
+	(*
+	<- lang_en;;
+	*);;
+article_Taberko_V_V_PrincfEDaUoSWI4_0 => nrel_article_title:[Принципы повышения эффективности процессов разработки и использования стандартов в рамках концепции Industry 4.0.](*
+	<- lang_ru;;
+	*);;
+article_Taberko_V_V_PrincfEDaUoSWI4_0 => nrel_article_title:[Principles for enhancing the development and use of standards within Industry 4.0.](*
+	<- lang_en;;
+	*);;
+article_Taberko_V_V_PrincfEDaUoSWI4_0 <- article;;
+article_Taberko_V_V_PrincfEDaUoSWI4_0 <- article_OSTIS_2020;;
+
+article_Taberko_V_V_PrincfEDaUoSWI4_0 => nrel_abstract: [ In this paper, we propose an approach to automating the processes of creating, developing and applying standards based on OSTIS Technology. The problems of modern approaches to the organization of these processes are considered, the role of standards in the framework of the Industry 4.0 concept is shown, examples of formalization of standards within the framework of the proposed approach are given.];
+[ В данной работе предлагается подход к автоматизации процессов создания, развития и применения стандартов на основе Технологии OSTIS. Рассмотрены проблемы современных подходов к организации указанных процессов, показана роль стандартов в рамках концепции Industry 4.0, приведены примеры формализации стандартов в рамках предлагаемого подхода.
+ На примере стандарта ISA-88, применяемого на предприятии ОАО "Савушкин продукт рассмотрена структура базы знаний, особенности решателя задач и пользовательского интерфейса системы поддержки указанных процессов. Показано, что разработанная система легко может интегрироваться с другими системами предприятия, являясь основой для построения системы информационного обслуживания сотрудников предприятия в контексте Industry 4.0.
+ Предложенный в работе подход позволяет обеспечить не только возможность автоматизации процессов создания, согласования и развития стандартов, но и позволяет значительно повысить эффективность процессов применения стандарта, как в ручном, так и в автоматическом режиме];;
+article_Taberko_V_V_PrincfEDaUoSWI4_0 => nrel_author: 
+Taberko_V_V;
+Shunkevich_D_V;
+Ivaniuk_D_S;
+Pupena_A_N;;
+article_Taberko_V_V_PrincfEDaUoSWI4_0 => nrel_bibliographic_reference:[Таберко, В.В. Принципы повышения эффективности процессов разработки и использования стандартов в рамках концепции industry 4.0. / В.В.Таберко, Д.С. Иванюк, Д.В. Шункевич, А.Н. Пупена // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 167-174.](*
+ <-interstate_standard;; 
+*);;
+article_Taberko_V_V_PrincfEDaUoSWI4_0 <- lang_en;;
+article_Taberko_V_V_PrincfEDaUoSWI4_0 <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Taberko_V_V_PrincfEDaUoSWI4_0 <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/23.Taberko.pdf";; *);; *);;
+
+article_Taberko_V_V_PrincfEDaUoSWI4_0 => nrel_key_concepts:
+{
+	concept_standarts;
+	ontology;
+	concept_Industry_4_0;
+	concept_ostis;
+	concept_ISA_88
+};;
+article_Taberko_V_V_PrincfEDaUoSWI4_0 <- 08.02.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 02;; => rrel_number_of_day_in_month: 08;; => rrel_number_of_year: 2020;;*);;*);;
+article_Taberko_V_V_PrincfEDaUoSWI4_0<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..167=>..174);;
+..167=>..nrel:167;;
+..174=>..nrel:174;;
+..167<-exact_value;;
+..174<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..167<-page;;
+..174<-page;;
+number_of_page<-page;;
+article_Taberko_V_V_PrincfEDaUoSWI4_0 <= nrel_published_material: report_Ivanyuk_D_S_2020_PrincfEtDaUoSwI;;

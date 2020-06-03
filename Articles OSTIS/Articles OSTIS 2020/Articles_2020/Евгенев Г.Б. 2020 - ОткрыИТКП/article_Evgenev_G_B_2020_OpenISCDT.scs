@@ -1,0 +1,58 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..149;;
+sc_node_not_relation->..152;;
+sc_node_not_relation->..str;;
+article_Evgenev_G_B_2020_OpenISCDT=> nrel_main_idtf:
+[Евгенев Г.Б. 2020 - ОткрыИТКП]
+	(*
+	<- lang_ru;;
+	*);
+	[Evgenev G.B. 2020 - OpenISCDT] 
+	(*
+	<- lang_en;;
+	*);;
+article_Evgenev_G_B_2020_OpenISCDT => nrel_article_title:[Открытая интегрированная технология компонентного проектирования.](*
+	<- lang_ru;;
+	*);;
+article_Evgenev_G_B_2020_OpenISCDT => nrel_article_title:[Open Integrated Semantic Component Design Technology.](*
+	<- lang_en;;
+	*);;
+article_Evgenev_G_B_2020_OpenISCDT <- article;;
+article_Evgenev_G_B_2020_OpenISCDT <- article_OSTIS_2020;;
+
+article_Evgenev_G_B_2020_OpenISCDT => nrel_abstract: [ The Digital revolution in industry is supposed to cover all stages of the product life cycle, including product design and planning of manufacturing processes. At these stages, goods and processes are not accomplished as real things but formed as models in the virtual world. Therefore, the Internet of Things concept, the basis of the “Industry 4.0” project, is not sufficient to conduct a fullscale digital revolution. The key methodology to examine this problem is the methodology of artificial intelligence. It provides for comprehensive consideration of the problems that arise at all stages of the life cycle of engineering products. The Internet of Knowledge has an ontological basis and includes meta-ontology, which comprises the ontology of objects, the ontology of tasks and the ontology of optimization. The Digital Revolution should give the knowledge carriers without programming skills an opportunity to enter pieces of information into the computer without intermediaries. The materials of the paper are of practical value for the creation of integrated automation systems of engineering products design and production.];
+[ Предложена методология создания семантических викисистем для представления знаний с использованием технологий искусственного интеллекта. Методология основана на многоагентных методах создания баз знаний и пригодна для разработки систем проектирования и управления для цифровых интеллектуальных производств. При формировании внешнего представления баз знаний могут использоваться национальные языки. Проанализированы схемы ввода знаний в компьютер. На основе технологии экспертного программирования для создания баз знаний предложена семантическая вики-система, которая может быть названа «Экспертопедией». Возможность замены словаря базы знаний позволяет обеспечить выполнение концептуального требования викисистем: использование любых языков. В базе знаний имеются возможности добавления модулей, выбора модуля-аналога, трансляции модуля знаний на один из языков программирования, тестирования полученного результата, а также определения входимости модуля в базы знаний и удаления выбранного модуля. Эти действия могут выполняться любым носителем знаний, что позволяет реализовать вторую концептуальную основу вики-систем: обеспечение возможности независимого пополнения и корректирования содержания системы. Разработана метаонтология Экспертопедии. Подробно рассмотрены методы создания многоагентных баз знаний для проектирования и управления в машиностроении. Приведена архитектура агента САПР. Даны примеры применения многоагентных систем для создания интеллектуальных систем полуавтоматического проектирования изделий машиностроения. Описана технология экспертного программирования.];;
+article_Evgenev_G_B_2020_OpenISCDT => nrel_author: 
+Evgenev_G_B;;
+article_Evgenev_G_B_2020_OpenISCDT => nrel_bibliographic_reference:[Евгенев, Г.Б. Открытая интегрированная технология компонентного проектирования. / Г.Б. Евгенев // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 149-152.](*
+ <-interstate_standard;; 
+*);;
+article_Evgenev_G_B_2020_OpenISCDT <- lang_en;;
+article_Evgenev_G_B_2020_OpenISCDT <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Evgenev_G_B_2020_OpenISCDT <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/19.Evgenev.pdf";; *);; *);;
+
+article_Evgenev_G_B_2020_OpenISCDT => nrel_key_concepts:
+{
+	concept_digital_manufacturing;
+	concept_intelligent_systems;
+	concept_computer_aided_process_planning;
+	concept_computer_aided_manufacturing;
+	concept_manufacturing_execution_system
+};;
+
+article_Evgenev_G_B_2020_OpenISCDT <- 05.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 05;; => rrel_number_of_year: 2019;;*);;*);;
+05.12.2019 <- date_of_received;; 
+article_Evgenev_G_B_2020_OpenISCDT<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..149=>..152);;
+..149=>..nrel:149;;
+..152=>..nrel:152;;
+..149<-exact_value;;
+..152<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..149<-page;;
+..152<-page;;
+number_of_page<-page;;

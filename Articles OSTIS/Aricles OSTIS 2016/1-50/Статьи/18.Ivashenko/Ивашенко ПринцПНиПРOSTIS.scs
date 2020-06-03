@@ -1,0 +1,42 @@
+article_Ivashenko_V_P_2016_FoundoPIaOPI => nrel_main_idtf:
+[Ивашенко В.П. 2016 - ПринцПНиПРOSTIS]
+	(*
+	<- lang_ru;;
+	*);
+	[Ivashenko V.P. 2016 - FoundoPIaOPI] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Ivashenko_V_P_2016_FoundoPIaOPI => nrel_article_title:[Принципы платформенной независимости и платформенной реализации OSTIS](*
+	<- lang_ru;;
+	*);;
+
+article_Ivashenko_V_P_2016_FoundoPIaOPI => nrel_author:
+Ivanshenko_V_P;
+Tatur_M.M.;;
+
+article_Ivashenko_V_P_2016_FoundoPIaOPI <- article;;
+
+article_Ivashenko_V_P_2016_FoundoPIaOPI <- article_OSTIS_2016;;
+
+article_Ivashenko_V_P_2016_FoundoPIaOPI => nrel_bibliographic_reference: [Ивашенко, В. П. Принципы платформенной независимости и платформенной реализации OSTIS / Ивашенко В.П., М.М. Татур // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Ivashenko_V_P_2016_FoundoPIaOPI => nrel_year_publication: 2016;;
+
+article_Ivashenko_V_P_2016_FoundoPIaOPI => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Ivashenko_V_P_2016_FoundoPIaOPI <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/18.ivashenko.pdf";; *);; *);;
+
+
+article_Ivashenko_V_P_2016_FoundoPIaOPI =>  nrel_abstract:
+[В  работе рассматривается  подход кспецификации платформ,их сравнению и  принципы  их  реализации,рассматриваются виды платформенной независимости и даются схемы построения платформенно независимых компонентов интеллектуальных систем, использующих в качестве языка представления знаний однородные семантические сети с теоретико-множественной интерпретацией](*
+	<- lang_ru;;
+	*);;
+
+article_Ivashenko_V_P_2016_FoundoPIaOPI => nrel_count_page: 6;;
+
+article_Ivashenko_V_P_2016_FoundoPIaOPI <- lang_ru;;

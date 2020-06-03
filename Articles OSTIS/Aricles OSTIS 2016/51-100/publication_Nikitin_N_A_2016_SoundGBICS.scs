@@ -1,0 +1,34 @@
+article_Nikitin_N_A_2016_SoundGBICS => nrel_main_idtf:
+[ Никитин Н.А. 2016 - ГенерЗпЦГИ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Nikitin N.A. 2016 - SoundGBICS] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Nikitin_N_A_2016_SoundGBICS=> nrel_article_title:[Генерация звуков по цветовой гамме изображения ](*
+	<- lang_ru;;
+	*);;
+article_Nikitin_N_A_2016_SoundGBICS => nrel_author:
+Nikitin_N_A;;
+article_Nikitin_N_A_2016_SoundGBICS => nrel_author:
+Rozaliev_V.L.;;
+article_Nikitin_N_A_2016_SoundGBICS => nrel_author:
+Orlova_U.A.;;
+article_Nikitin_N_A_2016_SoundGBICS => nrel_author:
+ZaboleevaXZotova_A.V.;;
+article_Nikitin_N_A_2016_SoundGBICS => nrel_abstract: [В работе рассматривается теоретическое описание алгоритма соотнесенияцветовых и музыкальных характеристик, базирующегося на светомузыкальной теории Афанасьева, а также схеме соотнесения цветов и тональностей Скрябина. Также описывается программная система генерации звуков по цветовой гамме изображений, которая состоит из модуля анализа изображений и синтеза звуков, а также приводится описание выбранного метода синтеза звуков];;
+article_Nikitin_N_A_2016_SoundGBICS=> nrel_bibliographic_reference: [Никитин, Н.А. Генерация звуков по цветовой гамме изображения / Н.А. Никитин, В.Л. Розалиев, Ю.А. Орлова, А.В. Заболеева-Зотова / Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 561–564.](*
+<-interstate_standard;; 
+*);;
+
+article_Nikitin_N_A_2016_SoundGBICS=> nrel_year_publication: 2016;;
+
+article_Nikitin_N_A_2016_SoundGBICS => nrel_comprise:  Materials_OSTIS2016;;
+article_Nikitin_N_A_2016_SoundGBICS<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Никитин.pdf";; *);;*);;
+
+article_Nikitin_N_A_2016_SoundGBICS <- article;;
+article_Nikitin_N_A_2016_SoundGBICS <- article_OSTIS_2016;;

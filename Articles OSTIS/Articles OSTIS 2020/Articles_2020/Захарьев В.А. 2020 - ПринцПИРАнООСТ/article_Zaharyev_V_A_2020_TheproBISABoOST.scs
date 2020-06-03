@@ -1,0 +1,63 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..197;;
+sc_node_not_relation->..206;;
+sc_node_not_relation->..str;;
+article_Zaharyev_V_A_2020_TheproBISABoOST=> nrel_main_idtf:
+[Захарьев В.А. 2020 - ПринцПИРАнООСТ]
+	(*
+	<- lang_ru;;
+	*);
+	[Zaharyev V.A. 2020 - TheproBISABoOST] 
+	(*
+	<- lang_en;;
+	*);;
+article_Zaharyev_V_A_2020_TheproBISABoOST => nrel_article_title:[Принципы построения интеллектуальных речевых ассистентов на основе открытой семантической технологии.](*
+	<- lang_ru;;
+	*);;
+article_Zaharyev_V_A_2020_TheproBISABoOST => nrel_article_title:[The principles of building intelligent speech assistants based on open semantic technology.](*
+	<- lang_en;;
+	*);;
+article_Zaharyev_V_A_2020_TheproBISABoOST <- article;;
+article_Zaharyev_V_A_2020_TheproBISABoOST <- article_OSTIS_2020;;
+
+article_Zaharyev_V_A_2020_TheproBISABoOST => nrel_abstract: [ The speech interface is one of the most natural and convenient ways of organizing user interactions with intelligent systems. Nowadays universal voice assistants are implemented by the largest world companies for various platforms and have gained popularity among users. The aim of this work is to develop the principles of building voice assistants for intelligent computer systems based on OSTIS Technology [8]. The main requirements in this case are ensuring maximum independence from the subject area and providing the possibility of adaptation (primarily automatic) of the universal assistant for a specific user and the features of a specific subject area.];
+[ Целью данной работы является разработка принципов построения речевых ассистентов для интеллектуальных систем на базе Технологии ОСТИС.
+ Приведено описание существующих систем, их типовой архитектуры и принципов работы. В соответсвии со сравнительной характеристикой систем данного типа, а также результатами анализа актуальных потребностей пользователей, сформулирован ряд требований, которые показывают потенциальную эффективность применения Технологии ОСТИС для разработки диалоговых систем и голосовых асистентов в часности. Ключевыми условиями в данном случае являются обеспечение, с одной стороны, максимальной независимости от предметной области, с другой стороны – обеспечение возможности адаптации (в первую очередь – автоматической) универсального ассистента под конкретного пользователя и особенности конкретной предметной области.
+ В работе приведен пример реализации интеллектуального речевого ассистента, основанный на интеграции современных подходов к обработке речевого сигнала и семантических моделей управления диалогом. Приведены особенности реализации этапов анализа и синтеза речевого сигнала для удовлетворения реализации вышеобозначенных требований. Полученные результаты, в частности, разработанный набор онтологий, могут быть применены для разработки речевых ассистентов различного назначения, в том числе адаптированы с учетом особенностей конкретной предметной области.];;
+article_Zaharyev_V_A_2020_TheproBISABoOST => nrel_author: 
+Zaharyev_V_A;
+Shunkevich_D_V;
+Nikiforov_S_A;
+Luahor_T_V;
+Azarov_I_S;;
+article_Zaharyev_V_A_2020_TheproBISABoOST=> nrel_bibliographic_reference:[Захарьев, В.А. Принципы построения интеллектуальных речевых ассистентов на основе открытой семантической технологии. / В.А. Захарьев, Д.В. Шункевич, С.А. Никифоров, Т.В. Ляхор, И.С. Азаров // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 197-206.](*
+ <-interstate_standard;; 
+*);;
+article_Zaharyev_V_A_2020_TheproBISABoOST <- lang_en;;
+article_Zaharyev_V_A_2020_TheproBISABoOST <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Zaharyev_V_A_2020_TheproBISABoOST <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/27.Zaharyev.pdf";; *);; *);;
+
+article_Zaharyev_V_A_2020_TheproBISABoOST => nrel_key_concepts:
+{
+	concept_dialogue_system;
+	concept_voice_assistant;
+	concept_semantic_network;
+	concept_spoken_language_understanding
+};;
+article_Zaharyev_V_A_2020_TheproBISABoOST <- 12.02.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 02;; => rrel_number_of_day_in_month: 12;; => rrel_number_of_year: 2020;;*);;*);;
+12.02.2020 <- date_of_received;;
+article_Zaharyev_V_A_2020_TheproBISABoOST<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..197=>..206);;
+..197=>..nrel:197;;
+..206=>..nrel:206;;
+..197<-exact_value;;
+..206<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..197<-page;;
+..206<-page;;
+number_of_page<-page;;
+article_Zaharyev_V_A_2020_TheproBISABoOST <= nrel_published_material: report_Zakharyev_V_A_Shunkevich_D_V_2020_ThePoBISABoOST;;

@@ -1,0 +1,61 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..323;;
+sc_node_not_relation->..326;;
+sc_node_not_relation->..str;;
+article_Karaeva_D_A_2020_InforASfSFO => nrel_main_idtf:
+[Караева Д.А. 2020 - ИнфорССдБЭС]
+	(*
+	<- lang_ru;;
+	*);
+	[Karaeva D.A. 2020 - InforASfSFO] 
+	(*
+	<- lang_en;;
+	*);;
+article_Karaeva_D_A_2020_InforASfSFO => nrel_article_title:[Информационно-советующая система для безопасной эксплуатации судов.](*
+	<- lang_ru;;
+	*);;
+article_Karaeva_D_A_2020_InforASfSFO => nrel_article_title:[Information Advising System for Safe Fleet Operations.](*
+	<- lang_en;;
+	*);;
+
+article_Karaeva_D_A_2020_InforASfSFO <- article;;
+article_Karaeva_D_A_2020_InforASfSFO <- article_OSTIS_2020;;
+
+article_Karaeva_D_A_2020_InforASfSFO => nrel_abstract: [ Safe fleet operations requirest the implementation of a large number of documented rules. When preparing a vessel for a voyage or directly during operation, there is often a need of actual information concerning safe operation regulations in effect, which volume can be quite considerable. Help for the users can be provided through automation of search and extraction processes.
+ The article deals with an approach to the design of information advising system on safe fleet operations, based on semantic technologies. System users and their main informational needs are described. The problems, solved by the system are determined. Functional blocks of the system are highlightened. The requirements for the informational and documentational supply are set. Such a system will fasten and simplify relevant information acquisition.];
+[ Безопасная эксплуатация судов требует выполнения многих правил, регламентированных утвержденными документами. При подготовке судна к рейсу или его эксплуатации необходима актуальная информация о действующих регламентах по безопасной эксплуатации, объем которой может быть весьма значительным. Существенную помощь пользователям может оказать автоматизация процедур поиска и выдачи необходимых данных и документов.
+ В статье описан подход к созданию информационносоветующей системы по безопасной эксплуатации судов, основанной на семантических технологиях. Описаны пользователи системы и их основные информационные потребности. Определены задачи, решаемые системой. Приведена концептуальная схема системы. Наличие подобной системы позволит ускорить и упростить получение релевантной информации.];;
+article_Karaeva_D_A_2020_InforASfSFO => nrel_author: 
+Karaeva_D_A;;
+article_Karaeva_D_A_2020_InforASfSFO => nrel_bibliographic_reference:[Караева, Д.А. Информационно-советующая система для безопасной эксплуатации судов1 / Д.А. Караева // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 323-326.](*
+ <-interstate_standard;; 
+*);;
+article_Karaeva_D_A_2020_InforASfSFO <- lang_en;;
+article_Karaeva_D_A_2020_InforASfSFO <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Karaeva_D_A_2020_InforASfSFO <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/51.Karaeva.pdf";; *);; *);;
+
+
+article_Karaeva_D_A_2020_InforASfSFO => nrel_key_concepts:
+{
+	concept_information_advising_systems;
+	concept_semantic_technologies;
+	concept_precedents_search;
+	concept_safe_fleet_operations
+};;
+
+article_Karaeva_D_A_2020_InforASfSFO <- 30.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 30;; => rrel_number_of_year: 2020;;*);;*);;
+article_Karaeva_D_A_2020_InforASfSFO <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..323=>..326);;
+..323=>..nrel:323;;
+..326=>..nrel:326;;
+..323<-exact_value;;
+..326<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..323<-page;;
+..326<-page;;
+number_of_page<-page;;
+article_Karaeva_D_A_2020_InforASfSFO <= nrel_published_material:  report_Karaeva_D_A_2020_AdvisSftSOoS;;

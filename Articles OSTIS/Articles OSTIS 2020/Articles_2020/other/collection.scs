@@ -1,0 +1,17 @@
+sc_node_not_relation-> collection;;
+collection=> nrel_main_idtf:
+[сборник](*<- lang_ru;;*);
+[collection](*<- lang_en;;*);;
+
+definition ->...
+(*
+->rrel_key_sc_element:  collection;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Сборник - книга, в которой собраны какие-либо произведения, материалы, документы.](*<-lang_ru;;*);;*);;
+=> nrel_main_idtf: [Опр.(сборник)](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{ 
+	creation;
+	material;
+	document
+};;
+*);;

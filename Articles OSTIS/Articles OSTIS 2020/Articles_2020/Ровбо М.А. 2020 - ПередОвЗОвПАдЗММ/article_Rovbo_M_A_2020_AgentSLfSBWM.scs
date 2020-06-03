@@ -1,0 +1,63 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..327;;
+sc_node_not_relation->..332;;
+sc_node_not_relation->..str;;
+article_Rovbo_M_A_2020_AgentSLfSBWM => nrel_main_idtf:
+[Ровбо М.А. 2020 - ПередОвЗОвПАдЗММ]
+	(*
+	<- lang_ru;;
+	*);
+	[Rovbo M.A. 2020 - AgentSLfSBWM] 
+	(*
+	<- lang_en;;
+	*);;
+article_Rovbo_M_A_2020_AgentSLfSBWM => nrel_article_title:[Передача опыта в задаче обучения в пространстве агента для знаковых моделей мира.](*
+	<- lang_ru;;
+	*);;
+article_Rovbo_M_A_2020_AgentSLfSBWM => nrel_article_title:[Agent-Space Transfer Learning for Sign-Based World Model.](*
+	<- lang_en;;
+	*);;
+
+article_Rovbo_M_A_2020_AgentSLfSBWM <- article;;
+article_Rovbo_M_A_2020_AgentSLfSBWM <- article_OSTIS_2020;;
+
+article_Rovbo_M_A_2020_AgentSLfSBWM => nrel_abstract: [ Several algorithms were studied for transfer learning problem for a foraging task. These algorithms are suitable for a semiotic control system to facilitate experience transfer between two learning agents with different agentspace descriptions of the state in a predicate form. They require that the target agent’s description of the task is a subset of the source agent’s description.
+ The algorithms are based on the Q-learning algorithm and uses a custom transfer function to initialize the target agent’s state-action table, which matches the corresponding predicates. The test problem used to test the algorithms is a foraging task, where an agent must gather randomly generated food in a grid world.
+ The results show that they provide improvement in the learning curve for the target agent after transferring experience from an agent with more input predicates. The improvement is inconsistent and sometimes does not bring noticeable difference in performance, but the target agent performs at least as good as an agent with no prior experience.];
+[ Исследовано несколько алгоритмов для задачи передачи опыта при обучении на примере задачи фуражировки. Эти алгоритмы подходят для семиотической системы управления, чтобы облегчить передачу опыта между двумя обучающимися агентами с различными описаниями состояния в пространстве агента в форме предикатов. Они требуют, чтобы описание задачи целевого агента было подмножеством описания исходного агента. 
+ Алгоритмы основаны на алгоритме Q-обучения и используют специальную функцию передачи опыта, инициализирующую таблицу состояний-действий целевого агента, которая сопоставляет соответствующие предикаты. Тестовая задача, используемая для оценки алгоритмов, является задачей фуражировки, когда агент должен собирать случайно сгенерированную пищу в мире-сетке.
+ Результаты показывают, что они обеспечивают улучшение кривой обучения для целевого агента после передачи опыта от агента с большим количеством входных предикатов. Улучшение непостоянно и иногда не приносит заметной разницы в производительности, но целевой агент работает по крайней мере так же хорошо, как агент без предшествующего опыта.];;
+article_Rovbo_M_A_2020_AgentSLfSBWM => nrel_author: 
+Rovbo_M_A;;
+article_Rovbo_M_A_2020_AgentSLfSBWM => nrel_bibliographic_reference:[Ровбо, М.А Передача опыта в задаче обучения в пространстве агента для знаковых моделей мира. / М.А. Ровбо // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. //Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 327-332.](*
+ <-interstate_standard;; 
+*);;
+article_Rovbo_M_A_2020_AgentSLfSBWM <- lang_en;;
+article_Rovbo_M_A_2020_AgentSLfSBWM <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Rovbo_M_A_2020_AgentSLfSBWM <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/52.Rovbo.pdf";; *);; *);;
+
+
+article_Rovbo_M_A_2020_AgentSLfSBWM => nrel_key_concepts:
+{
+	concept_transfer_learning;
+	concept_reinforcement_learning;
+	concept_semiotic_control;
+	concept_robotics
+};;
+
+article_Rovbo_M_A_2020_AgentSLfSBWM <- 30.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 30;; => rrel_number_of_year: 2020;;*);;*);;
+article_Rovbo_M_A_2020_AgentSLfSBWM <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..327=>..332);;
+..327=>..nrel:327;;
+..332=>..nrel:332;;
+..327<-exact_value;;
+..332<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..327<-page;;
+..332<-page;;
+number_of_page<-page;;
+article_Rovbo_M_A_2020_AgentSLfSBWM <= nrel_published_material: report_Rovbo_M_A_2020_TransoEitToLitASfIMotW;;

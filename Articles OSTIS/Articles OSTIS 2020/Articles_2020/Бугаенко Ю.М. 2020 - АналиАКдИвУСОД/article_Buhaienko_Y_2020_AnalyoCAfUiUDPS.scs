@@ -1,0 +1,59 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..101;;
+sc_node_not_relation->..104;;
+sc_node_not_relation->..str;;
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS=> nrel_main_idtf:
+[Бугаенко Ю.М. 2020 - АналиАКдИвУСОД]
+	(*
+	<- lang_ru;;
+	*);
+	[Buhaienko Y.M. 2020 AnalyoCAfUiUDPS] 
+	(*
+	<- lang_en;;
+	*);;
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS => nrel_article_title:[Анализ алгоритмов кластеризации для использования в универсальной системе обработки данных.](*
+	<- lang_ru;;
+	*);;
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS => nrel_article_title:[Analysis of clustering algorithms for use in the universaldata processing system.](*
+	<- lang_en;;
+	*);;
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS <- article;;
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS <- article_OSTIS_2020;;
+
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS => nrel_abstract: [Today, humanity is moving to work in the digital space. While processing large amounts of information in digital space, data processing systems can analyze data, create logical inference systems and building some conditions in which data must be homogeneous, similar, and grouped into clusters. Such systems can analyze the data and create logical output systems according to the rules. Some conditions are required to build such systems: the data must be homogeneous, similar to each other and grouped into clusters. One way to help achieve this is through clustered data analysis. There are a large number of cluster analysis methods available today, but not all of them provide positive results. The article offers criteria that allow you to select algorithms that are appropriate for application in a specific subject area, namely the algorithmic complexity of the algorithm, the accuracy of the object’s belonging to the cluster, the attribution of the object to one or another cluster at the boundary of two clusters, the ability to build from clusters fuzzy logic rules. Also described is the architecture of the created system, which clusters the data with different algorithms to use from the desired area. The algorithms were tested to solve the problem of data clustering to predict the degree of server energy efficiency at certain values involved in the processor frequency and number of cores calculations. The use of algorithms allowed us to analyze and look at the features of each, to determine the fuzzy C-average as the most appropriate for this task.];
+[В статье предложены критерии, которые позволяют выбрать алгоритмы, целесообразны для применения в конкретной предметной области, а именно алгоритмический сложность алгоритма, точность принадлежности объекта к кластеру, отнесение объекта к одному или другому кластера на границе двух кластеров, возможность построить из кластеров нечеткие логические правила. Также описана архитектура созданной системы, кластеризирует данные различными алгоритмами в зависимости от потребностей предметной области.];;
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS => nrel_author: 
+Buhaienko_Y_M;
+Globa_L_C;
+Lyashenko_A_V;
+Grebinechenko_M;;
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS => nrel_bibliographic_reference:[Бугаенко, Ю. Анализ алгоритмов кластеризации для использования в универсальной системе обработки данных. / Ю. Бугаенко, Л.С. Глоба, А. Ляшенко, М. Гребинеченко // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 101-104.](*
+ <-interstate_standard;; 
+*);;
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS <- lang_en;;
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/10.Buhaienko.pdf";; *);; *);;
+
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS => nrel_key_concepts:
+{
+	concept_clustering_algorithms;
+	concept_clustering;
+	concept_fuzzy_logic
+};;
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS <- 15.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 15;; => rrel_number_of_year: 2019;;*);;*);;
+15.12.2019 <- date_of_received;;
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..101=>..104);;
+..101=>..nrel:101;;
+..104=>..nrel:104;;
+..101<-exact_value;;
+..104<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..101<-page;;
+..104<-page;;
+number_of_page<-page;;
+article_Buhaienko_Y_2020_AnalyoCAfUiUDPS <= nrel_published_material: report_Globa_L_S_2020_AnalyoCAfUiaUDPS;;

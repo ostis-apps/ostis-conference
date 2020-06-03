@@ -1,0 +1,42 @@
+article_Davydenko_I_T_2016_tTooloSTSMoKB => nrel_main_idtf:
+[Давыденко И.Т. 2016 - СредсССМБЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Davydenko I.T. 2016 - tTooloSTSMoKB] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Davydenko_I_T_2016_tTooloSTSMoKB => nrel_article_title:[Средства структуризации семантических моделей баз знаний](*
+	<- lang_ru;;
+	*);;
+
+article_Davydenko_I_T_2016_tTooloSTSMoKB => nrel_author:
+Davydenko_I_T;
+Grakova_N_V;
+Sergienko_E_S;
+Fedotova_A.V.;;
+
+article_Davydenko_I_T_2016_tTooloSTSMoKB <- article;;
+article_Davydenko_I_T_2016_tTooloSTSMoKB <- article_OSTIS_2016;;
+
+article_Davydenko_I_T_2016_tTooloSTSMoKB => nrel_bibliographic_reference: [Давыденко, И. Т. Средства структуризации семантических моделей баз знаний / И.Т. Давыденко, Н.В. Гракова, Е.С. Сергиенко, А.В. Федотова // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Davydenko_I_T_2016_tTooloSTSMoKB => nrel_year_publication: 2016;;
+
+article_Davydenko_I_T_2016_tTooloSTSMoKB => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Davydenko_I_T_2016_tTooloSTSMoKB <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/13.davydenko.pdf";; *);; *);;
+
+article_Davydenko_I_T_2016_tTooloSTSMoKB => nrel_abstract:
+[В  работе  рассмотрены  средства  структуризации  семантических  моделей  баз  знаний,  основанные  наунифицированных  семантических  сетях.  Основное  внимание  уделяется  рассмотрению  понятий  структура,знание, рассматривается их классификация. Отдельный раздел посвящен описанию таких видовзнаний, какпредметная областьи онтологии.](*
+	<- lang_ru;;
+	*);;
+
+article_Davydenko_I_T_2016_tTooloSTSMoKB => nrel_count_page: 14;;
+
+article_Davydenko_I_T_2016_tTooloSTSMoKB <- lang_ru;;

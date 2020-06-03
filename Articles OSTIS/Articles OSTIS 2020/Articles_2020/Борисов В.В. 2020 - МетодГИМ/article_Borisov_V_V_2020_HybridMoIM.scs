@@ -1,0 +1,57 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..137;;
+sc_node_not_relation->..140;;
+sc_node_not_relation->..str;;
+article_Borisov_V_V_2020_HybridMoIM=> nrel_main_idtf:
+[Борисов В.В. 2020 - МетодГИМ]
+	(*
+	<- lang_ru;;
+	*);
+	[Borisov V.V. 2020 - HybridMoIM] 
+	(*
+	<- lang_en;;
+	*);;
+article_Borisov_V_V_2020_HybridMoIM => nrel_article_title:[Метод гибридизации интеллектуальных моделей.](*
+	<- lang_ru;;
+	*);;
+article_Borisov_V_V_2020_HybridMoIM => nrel_article_title:[Hybridization Method of Intelligent Models.](*
+	<- lang_en;;
+	*);;
+article_Borisov_V_V_2020_HybridMoIM <- article;;
+article_Borisov_V_V_2020_HybridMoIM <- article_OSTIS_2020;;
+
+article_Borisov_V_V_2020_HybridMoIM => nrel_abstract: [ The development trends of intelligent models are generalized. The approach to systematization and classification of hybrid models is described. Examples of classification of known hybrid intelligent models related to each considered approach to their hybridization are given. The proposed method of hybridization of intelligent models is considered.];
+[ Обобщены тенденции развития интеллектуальных моделей. Описан подход к систематизации и классификации гибридных моделей. Приведены примеры классификации известных гибридных интеллектуальных моделей, в соответствии с рассмотренным подходом к их гибридизации. Рассмотрен предложенный метод гибридизации интеллектуальных моделей.];;
+article_Borisov_V_V_2020_HybridMoIM => nrel_author: 
+Borisov_V_V;;
+article_Borisov_V_V_2020_HybridMoIM => nrel_bibliographic_reference:[Борисов, В.В. Метод гибридизации интеллектуальных моделей. / В.В. Борисов // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 137-140.](*
+ <-interstate_standard;; 
+*);;
+article_Borisov_V_V_2020_HybridMoIM <- lang_en;;
+article_Borisov_V_V_2020_HybridMoIM <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Borisov_V_V_2020_HybridMoIM <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/17.Borisov.pdf";; *);; *);;
+
+article_Borisov_V_V_2020_HybridMoIM => nrel_key_concepts:
+{
+	concept_hybridization_of_intelligent_models;
+	concept_fuzzy_model;
+	concept_neural_network_model;
+	concept_evolutionary_modelling
+};;
+
+article_Borisov_V_V_2020_HybridMoIM <- 21.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 21;; => rrel_number_of_year: 2019;;*);;*);;
+article_Borisov_V_V_2020_HybridMoIM <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..137=>..140);;
+..137=>..nrel:137;;
+..140=>..nrel:140;;
+..137<-exact_value;;
+..140<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..137<-page;;
+..140<-page;;
+number_of_page<-page;;
+article_Borisov_V_V_2020_HybridMoIM <= nrel_published_material: report_Borisov_V_V_2020_HybriMfSM;;

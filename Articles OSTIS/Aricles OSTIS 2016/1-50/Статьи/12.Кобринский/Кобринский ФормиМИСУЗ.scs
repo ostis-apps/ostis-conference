@@ -1,0 +1,39 @@
+article_Kobrinsky_B_A_2016_FormMISMbK => nrel_main_idtf:
+[Кобринский Б.А. 2016 - ФормиМИСУЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Kobrinsky B.A. 2016 - FormMISMbK] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Kobrinsky_B_A_2016_FormMISMbK => nrel_article_title:[Формирование медицинских информационных систем, управляемых знаниями](*
+	<- lang_ru;;
+	*);;
+
+article_Kobrinsky_B_A_2016_FormMISMbK => nrel_author:
+Kobrinskiy_B_A;;
+
+article_Kobrinsky_B_A_2016_FormMISMbK <- article;;
+article_Kobrinsky_B_A_2016_FormMISMbK <- article_OSTIS_2016;;
+
+article_Kobrinsky_B_A_2016_FormMISMbK => nrel_bibliographic_reference: [Кобринский, Б. А. Формирование медицинских информационных систем, управляемых знаниями / Б.А. Кобринский // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Kobrinsky_B_A_2016_FormMISMbK => nrel_year_publication: 2016;;
+
+article_Kobrinsky_B_A_2016_FormMISMbK => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Kobrinsky_B_A_2016_FormMISMbK <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/12.kobrinsky.pdf";; *);; *);;
+
+article_Kobrinsky_B_A_2016_FormMISMbK => nrel_abstract:
+[В работе рассматриваетсявопросы построения и интеграции информационных медицинских систем наосновемодульного  принципа.  Реализация  «надсистемных»  модулей  рассматривается  как  основа  длялюбыхмедицинских  систем,  «внутрисистемные»  модули  являются  проблемно  ориентированными.  Модульныйпринцип  информационного  обеспечения  систем  является  основой  для  построения  как  систем  общегоназначения,  так  и  специализированных  медицинских  систем  (регистров).  Система  управляющих  знанийпредставлена как метабаза знаний, включающая суббазы по отдельным направлениям](*
+	<- lang_ru;;
+	*);;
+
+article_Kobrinsky_B_A_2016_FormMISMbK  => nrel_count_page: 6;;
+
+article_Kobrinsky_B_A_2016_FormMISMbK  <-  lang_ru;;

@@ -1,0 +1,61 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..349;;
+sc_node_not_relation->..352;;
+sc_node_not_relation->..str;;
+article_Shviatsova_A_V_2020_TheSmUTS => nrel_main_idtf:
+[Швецова Е.В. 2020 - УмнаяГТС]
+	(*
+	<- lang_ru;;
+	*);
+	[Shviatsova A.V. 2020 - TheSmUTS] 
+	(*
+	<- lang_en;;
+	*);;
+article_Shviatsova_A_V_2020_TheSmUTS => nrel_article_title:[Умная городская транспортная система.](*
+	<- lang_ru;;
+	*);;
+article_Shviatsova_A_V_2020_TheSmUTS => nrel_article_title:[The Smart Urban Transport System.](*
+	<- lang_en;;
+	*);;
+
+article_Shviatsova_A_V_2020_TheSmUTS <- article;;
+article_Shviatsova_A_V_2020_TheSmUTS <- article_OSTIS_2020;;
+
+article_Shviatsova_A_V_2020_TheSmUTS => nrel_abstract: [ In the paper principles of functioning an intelligent urban transport system based on unmanned electric vehicles which capable of adapting to passenger traffic’s changes in real time are considered. The algorithm of drawing up a plan of passenger transportation by means of such transport system and cassette-conveyor method of passenger delivery are described. The upper limit of the necessary number of transport units for the implementation of the distribution plan is given.];
+[ Данная статья посвящена описанию интеллектуальной городской транспортной пассажирской системы на основе беспилотных электрокаров, называемых инфобусами, и принципам ее фукнционирования, а именно конвейерно-кассетному способу развозки пассажиров. Во введении приведены предпосылки возникновения новых видов транспортных систем в городах и в частности PRT-транспорта. Второй раздел посвящен описанию самой транспортной системы на основе беспилотных электрокаров и алгоритмам составления плана развозки пассажиров посредством конвейерно-кассетного способа. В третьем разделе приведена оценка верхней границы использованных в плане развозки инфобусов.];;
+article_Shviatsova_A_V_2020_TheSmUTS => nrel_author: 
+Shviatsova_A_V;
+SutX_V.N.;;
+article_Shviatsova_A_V_2020_TheSmUTS => nrel_bibliographic_reference:[Швецова, Е.В. Умная городская транспортная система. / Е.В. Швецова, В.Н. Шуть // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. //Белорус. Гос. Ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 349-352.](*
+ <-interstate_standard;; 
+*);;
+article_Shviatsova_A_V_2020_TheSmUTS <- lang_en;;
+article_Shviatsova_A_V_2020_TheSmUTS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Shviatsova_A_V_2020_TheSmUTS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/57.Shviatsova.pdf";; *);; *);;
+
+
+article_Shviatsova_A_V_2020_TheSmUTS => nrel_key_concepts:
+{
+	concept_smart_urban_mobility;
+	concept_smart_urban_transport_vehicle_system;
+	concept_infobus;
+	concept_unmanned_vehicles
+};;
+
+article_Shviatsova_A_V_2020_TheSmUTS <- 08.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 08;; => rrel_number_of_year: 2020;;*);;*);;
+08.01.2020 <- date_of_received;;
+article_Shviatsova_A_V_2020_TheSmUTS <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..349=>..352);;
+..349=>..nrel:349;;
+..352=>..nrel:352;;
+..349<-exact_value;;
+..352<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..349<-page;;
+..352<-page;;
+number_of_page<-page;;
+article_Shviatsova_A_V_2020_TheSmUTS <= nrel_published_material: report_Shvetsova_E_V_2020_SmartCTS;;

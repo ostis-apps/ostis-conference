@@ -1,0 +1,31 @@
+article_Lahin_O_I_2016_DevelOUASSPISS => nrel_main_idtf:
+[Лахин О.И. 2016 - ОсобеПОдАПППиГРСМКС] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Lahin O.I. 2016 - DevelOUASSPISS] 
+	(*
+	<- lang_en;;
+	*);;
+article_Lahin_O_I_2016_DevelOUASSPISS=> nrel_article_title:[Особенности построения онтологии для адаптивного планирования программы полета и грузопотока российского сегмента МКС](*
+	<- lang_ru;;
+	*);;
+article_Lahin_O_I_2016_DevelOUASSPISS => nrel_author:
+Lahin_O_I;;
+article_Lahin_O_I_2016_DevelOUASSPISS => nrel_author:
+Polnikov_A_S;;
+article_Lahin_O_I_2016_DevelOUASSPISS => nrel_author:
+Redkina_K_V;;
+article_Lahin_O_I_2016_DevelOUASSPISS => nrel_abstract: [В работе рассматривается задача адаптивного планирования программы полёта и грузопотока Российского сегмента Международной космической станции (РС МКС) с применением интерактивной мультиагентной системы построения программы полета, грузопотока и расчета ресурсов РС МКС. Описывается подход к формированию онтологии МКС, используемой агентами при переговорах в процессе планирования. Приводятся основные концепты, атрибуты и отношения, задействованные в процессе планирования, и примеры их влияния на конечный результат.];;
+article_Lahin_O_I_2016_DevelOUASSPISS=> nrel_bibliographic_reference: [Лахин, О.И.  Особенности построения онтологии для адаптивного планирования программы полета и грузопотока российского сегмента МКС/ О.И. Лахин, А.С. Полников, К.В. Редькина // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 493–496.](*
+<-interstate_standard;; 
+*);;
+
+article_Lahin_O_I_2016_DevelOUASSPISS=> nrel_year_publication: 2016;;
+
+article_Lahin_O_I_2016_DevelOUASSPISS=> nrel_comprise:  Materials_OSTIS2016;;
+article_Lahin_O_I_2016_DevelOUASSPISS<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Лахин.pdf";; *);;*);;
+
+article_Lahin_O_I_2016_DevelOUASSPISS <- article;;
+article_Lahin_O_I_2016_DevelOUASSPISS <- article_OSTIS_2016;;

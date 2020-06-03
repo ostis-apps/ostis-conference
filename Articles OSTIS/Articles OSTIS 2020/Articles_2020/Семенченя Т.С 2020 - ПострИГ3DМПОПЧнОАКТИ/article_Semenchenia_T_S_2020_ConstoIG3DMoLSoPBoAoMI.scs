@@ -1,0 +1,60 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..291;;
+sc_node_not_relation->..296;;
+sc_node_not_relation->..str;;
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI => nrel_main_idtf:
+[Семенченя Т.С. 2020 - ПострИГ3DМПОПЧнОАКТИ]
+	(*
+	<- lang_ru;;
+	*);
+	[Semenchenia T.S. 2020 - ConstoIG3DMoLSoPBoAoMI] 
+	(*
+	<- lang_en;;
+	*);;
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI => nrel_article_title:[Построение индивидуальной геометрической 3D модели поясничного отдела позвоночника человека на основе анализа КТ-изображений.](*
+	<- lang_ru;;
+	*);;
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI => nrel_article_title:[Construction of individual geometric 3D model of the lumbar spine of a person based on the analysis of medical images.](*
+	<- lang_en;;
+	*);;
+
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI <- article;;
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI <- article_OSTIS_2020;;
+
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI => nrel_abstract: [ In this article, we will consider the algorithm on the basis of which an application was developed to build a three-dimensional model of the lumbar spine using images DICOM. The model is different from the existing ones so far as it has an intervertebral disk. The created application has been successfully tested.];
+[ Предложен алгоритм, позволяющий по результатам компьютерной томографии поясничного отдела позвоночника человека, представленной в виде DICOM-файлов, сформировать трёхмерную модель, отличающуюся от существующих сгенерированным межпозвоночным диском. На основе алгоритма создано соответствующее программное обеспечение и проведена его аппробация.];;
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI => nrel_author: 
+Kurochka_K_S;
+Semenchenia_T_S;;
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI => nrel_bibliographic_reference:[Семенченя, Т.С. Построение индивидуальной геометрической 3d модели поясничного отдела позвоночника человека на основе анализа кт-изображений. / Т.С. Семенченя, К.С. Курочка // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 291-296.](*
+ <-interstate_standard;; 
+*);;
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI <- lang_en;;
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/44.Semenchenia.pdf";; *);; *);;
+
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI => nrel_key_concepts:
+{
+	concept_computed_tomography;
+	concept_DICOM;
+	concept_STL;
+	concept_3D_model;
+	concept_lumbar_spine
+};;
+
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI <- 15.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 15;; => rrel_number_of_year: 2020;;*);;*);;
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..291=>..296);;
+..291=>..nrel:291;;
+..296=>..nrel:296;;
+..291<-exact_value;;
+..296<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..291<-page;;
+..296<-page;;
+number_of_page<-page;;
+article_Semenchenia_T_S_2020_ConstoIG3DMoLSoPBoAoMI <= nrel_published_material: report_Kurochka_K_S_2020_BuildaIGMotLSoaPBotAoCI;;

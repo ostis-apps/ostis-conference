@@ -1,0 +1,63 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..341;;
+sc_node_not_relation->..344;;
+sc_node_not_relation->..str;;
+article_Korukhova_Y_S_2020_AnapptSMIR => nrel_main_idtf:
+[Корухова Ю.С. 2020 - ОбоднПкМИПНЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Korukhova Y.S. 2020 - ClassAtDESoPBoAoVI] 
+	(*
+	<- lang_en;;
+	*);;
+article_Korukhova_Y_S_2020_AnapptSMIR => nrel_article_title:[Об одном подходе к музыкальному информационному поиску нотных записей.](*
+	<- lang_ru;;
+	*);;
+article_Korukhova_Y_S_2020_AnapptSMIR => nrel_article_title:[An approach to sheet music information retrieval.](*
+	<- lang_en;;
+	*);;
+
+article_Korukhova_Y_S_2020_AnapptSMIR <- article;;
+article_Korukhova_Y_S_2020_AnapptSMIR <- article_OSTIS_2020;;
+
+article_Korukhova_Y_S_2020_AnapptSMIR => nrel_abstract: [ The paper presents a sheet music retrieval system. A search query is written in MusicXML format. MusicXML is a very popular format for sheet music, supported by various music notation software. With the appearance of large electronic collections the problem of music retrieval becomes particularly important. Known information retrieval methods are not directly applicable for this particular domain: the task differs from the structured retrieval in texts because, for example, two sheet music files with totally different symbolic content may represent the same composition written in different keys or arranged for different instruments.
+ Our search starts from a fragment containing a melody or a part of a composition and the goal is to find the whole composition in a digital collection. The collection should be preliminary indexed and the index is stored as database. For MusicXML files we propose a software tool that performs indexing automatically. For other formats the indexing process can be performed manually and database is extended by means of SQL–queries. To perform a fuzzy search we mark the longest common subsequence in the query and index item and then to remove their differences using automated reasoning method called rippling. The appropriate rewriting rules and differences annotation techniques for musical notation are implemented in prototype sheet music retrieval system.];
+[ В работе рассматривается задача поиска нотных записей музыкальных произведений по заданному в виде последовательности нот фрагменту мелодии. В связи с появлением больших электронных нотных библиотек, такая задача становится особенно актуальной.
+ Поисковый запрос формулируется в виде файла формата MusicXML, который поддерживается большинством программ – нотных редакторов наряду с их собственными форматами. Поиск ведется в электронной нотной библиотеке, которая должна быть предварительно проиндексирована. Индекс хранится в виде базы данных PostgreSQL. Для автоматического построения индекса по MusicXML файлам создан специальный программный инструмент. Файлы других форматов могут быть проиндексированы вручную либо с использованием дополнительных программ. Взаимодействие с индексом – базой данных возможно с помощью SQL – запросов.
+ При реализации поиска возникает задача сравнения фрагмента – запроса с элементом индекса, причем представляет интерес не только поиск точно совпадающих, но и похожих на запрос произведений. Реализация нечеткого поиска выполнена на основе волновых правил, традиционно применяемых в автоматическом доказательстве теорем методом математической индукции. При построении такого доказательства гипотеза и заключение индукции являются синтаксически похожими, и стоит задача устранения символьных различий между ними. Для ее решения применяются специальные правила переписывания, которые по построению уменьшают количество различий после их применения. В работе составлены волновые правила для устранения различий похожих музыкальных фрагментов и возможности корректировки неточности в поисковом запросе.
+ Предложенный в работе подход реализован в прототипной программной системе поиска нотных записей.];;
+article_Korukhova_Y_S_2020_AnapptSMIR => nrel_author: 
+Korukhova_Y_S;
+Tolybayeva_A;;
+article_Korukhova_Y_S_2020_AnapptSMIR => nrel_bibliographic_reference:[Корухова, Ю.С. Об одном подходе к музыкальному информационному поиску нотных записей. / Ю.С. Корухова, А. Толыбаева // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. //Белорус. Гос. Ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 341-344.](*
+ <-interstate_standard;; 
+*);;
+article_Korukhova_Y_S_2020_AnapptSMIR <- lang_en;;
+article_Korukhova_Y_S_2020_AnapptSMIR <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Korukhova_Y_S_2020_AnapptSMIR <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/55.Korukhova.pdf";; *);; *);;
+
+
+article_Korukhova_Y_S_2020_AnapptSMIR => nrel_key_concepts:
+{
+	concept_music_information_retrieval;
+	concept_automated_reasoning;
+	concept_rippling
+};;
+
+article_Korukhova_Y_S_2020_AnapptSMIR <- 15.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 15;; => rrel_number_of_year: 2019;;*);;*);;
+article_Korukhova_Y_S_2020_AnapptSMIR <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..341=>..344);;
+..341=>..nrel:341;;
+..344=>..nrel:344;;
+..341<-exact_value;;
+..344<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..341<-page;;
+..344<-page;;
+number_of_page<-page;;
+article_Korukhova_Y_S_2020_AnapptSMIR <= nrel_published_material: report_Korukhova_Y_S_2020_AboutOAtMIRoMN;;

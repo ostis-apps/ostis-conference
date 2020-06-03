@@ -1,0 +1,40 @@
+article_Valkman_Y_R_2016_OntooIM => nrel_main_idtf:
+[Валькман Ю.Р. 2016 - ОбОнтИМ]
+	(*
+	<- lang_ru;;
+	*);
+	[Valkman U.R. 2016 - OntooIM] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Valkman_Y_R_2016_OntooIM => nrel_article_title:[Об онтологии интеллектуального моделирования](*
+	<- lang_ru;;
+	*);;
+
+article_Valkman_Y_R_2016_OntooIM => nrel_author:
+ValXkman_U._R.;
+Stepashko_P_V;;
+
+article_Valkman_Y_R_2016_OntooIM <- article;;
+article_Valkman_Y_R_2016_OntooIM <- article_OSTIS_2016;;
+
+article_Valkman_Y_R_2016_OntooIM => nrel_bibliographic_reference: [Валькман Ю.Р. Об онтологии интеллектуального моделирования / Валькман Ю.Р., П.В. Степашко // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Valkman_Y_R_2016_OntooIM => nrel_year_publication: 2016;;
+
+article_Valkman_Y_R_2016_OntooIM => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Valkman_Y_R_2016_OntooIM <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/22.valkman.pdf";; *);; *);;
+
+article_Valkman_Y_R_2016_OntooIM =>  nrel_abstract:
+[В настоящее время объекты и системы моделирования непрерывно усложняются.Поэтому,весьма актуальна разработка средств интеллектуализации процессов моделирования. С нашей точки зрения, ядром системы интеллектуального моделирования является онтологическая база знаний. В статье рассматриваются некоторые принципы построения онтологии моделей,процессов моделирования,моделируемых объектов,решаемых проблем,задач](*
+	<- lang_ru;;
+	*);;
+
+article_Valkman_Y_R_2016_OntooIM => nrel_count_page: 6;;
+
+article_Valkman_Y_R_2016_OntooIM <- lang_ru;;

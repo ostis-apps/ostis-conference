@@ -1,0 +1,4 @@
+sc_node_not_relation-> concept_development;;
+concept_development => nrel_main_idtf:
+[разработка](*<- lang_ru;;*);
+[development] (*<-lang_ru;;*);;

@@ -1,0 +1,9 @@
+Boyko_I_M => nrel_main_idtf:
+ [Бойко И.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Boyko I.M.] 
+	(*
+	<- lang_en;;
+	*);;

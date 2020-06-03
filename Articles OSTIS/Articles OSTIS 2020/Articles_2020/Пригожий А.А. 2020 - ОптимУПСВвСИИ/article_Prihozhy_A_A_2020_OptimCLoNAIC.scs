@@ -1,0 +1,58 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..225;;
+sc_node_not_relation->..228;;
+sc_node_not_relation->..str;;
+article_Prihozhy_A_A_2020_OptimCLoNAIC => nrel_main_idtf:
+[Пригожий А.А. 2020 - ОптимУПСВвСИИ]
+	(*
+	<- lang_ru;;
+	*);
+	[Prihozhy A.A. 2020 - OptimCLoNAIC] 
+	(*
+	<- lang_en;;
+	*);;
+article_Prihozhy_A_A_2020_OptimCLoNAIC => nrel_article_title:[Оптимизация уровня параллелизма сетевых вычислений в системах искусственного интеллекта.](*
+	<- lang_ru;;
+	*);;
+article_Prihozhy_A_A_2020_OptimCLoNAIC => nrel_article_title:[Optimizing the concurrency level of network artificial intelligence computations.](*
+	<- lang_en;;
+	*);;
+article_Prihozhy_A_A_2020_OptimCLoNAIC <- article;;
+article_Prihozhy_A_A_2020_OptimCLoNAIC <- article_OSTIS_2020;;
+
+article_Prihozhy_A_A_2020_OptimCLoNAIC => nrel_abstract: [ Recent achievements in development of artificial intelligence systems would be impossible without the use of high performance distributed computing platforms. This paper presents a graph model of concurrent network schedules and a technique that estimates the execution time and implementation cost over maximum weight cliques in task graphs. It proposes an algorithm for recalculating clique sets after changing the concurrency level of a schedule by adding an edge to the concurrency graph and removing the edge from the complement graph. Since the set of pairs of concurrent tasks has been found, it treats a schedule existence problem as solving a combined logical equation. The proposed model and technique are a basis for the development and implementation of network algorithms.];
+[ Последние достижения в системах искусственного интеллекта невозможны без использования распределенных вычислительных платформ. В статье рассматривается графовая модель сетевых планов, а параметры планов оценивается посредством клик на графах предшествования и распараллеленности. Предлагается алгоритм пересчета клик при изменении уровня параллелизма вычислений посредством добавления или удаления ребра в графе. Для найденного множества пар распараллеленных задач решается проблема существования плана. Алгоритм распараллеливания минимизирует либо время выполнения плана, либо используемые ресурсы. Предлагаемые модель и алгоритм реализованы в программном обеспечении.];;
+article_Prihozhy_A_A_2020_OptimCLoNAIC => nrel_author: 
+Prigozhii_A_A;;
+article_Prihozhy_A_A_2020_OptimCLoNAIC => nrel_bibliographic_reference:[Прихожий, А.А. Оптимизация уровня параллелизма сетевых вычислений в системах искусственного интеллекта. / А.А. Прихожий // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 225-228.](*
+ <-interstate_standard;; 
+*);;
+article_Prihozhy_A_A_2020_OptimCLoNAIC <- lang_en;;
+article_Prihozhy_A_A_2020_OptimCLoNAIC <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Prigozhy_A_A_2020_OptimCLoNAIC <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+article_Prihozhy_A_A_2020_OptimCLoNAIC: ... (*-> rrel_example: "file://../../PDF/30.Prigozhii.pdf";; *);; *);;
+
+article_Prihozhy_A_A_2020_OptimCLoNAIC => nrel_key_concepts:
+{
+	concept_artificial_intelligence_systems;
+	concept_distributed_computations;
+	concept_computing_schedule;
+	concept_parallelization;
+	concept_optimization
+};;
+article_Prihozhy_A_A_2020_OptimCLoNAIC <- 23.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 23;; => rrel_number_of_year: 2019;;*);;*);;
+23.12.2019 <- date_of_received;;
+article_Prihozhy_A_A_2020_OptimCLoNAIC <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..225=>..228);;
+..225=>..nrel:225;;
+..228=>..nrel:228;;
+..225<-exact_value;;
+..228<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..225<-page;;
+..228<-page;;
+number_of_page<-page;;
+article_Prihozhy_A_A_2020_OptimCLoNAIC <= nrel_published_material: report_Prikhozhiy_A_A_2020_OptimotLoPoNCiAIS;; 

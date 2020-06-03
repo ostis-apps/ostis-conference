@@ -1,0 +1,36 @@
+article_Vagin_V_N_2016_AbouttTRFitIS => nrel_main_idtf:
+[Вагин В.Н. 2016 - ОФормТРвИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Vagin V.N. 2016 - AbouttTRFitIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Vagin_V_N_2016_AbouttTRFitIS => nrel_article_title:[О формализации темпоральных рассуждений в интеллектуальных системах](*
+	<- lang_ru;;
+	*);;
+
+article_Vagin_V_N_2016_AbouttTRFitIS => nrel_author:
+Vagin_V.N.;
+Yeremeev_A_P;
+Gulyakina_N_A;;
+article_Vagin_V_N_2016_AbouttTRFitIS <- lang_ru;;
+article_Vagin_V_N_2016_AbouttTRFitIS => nrel_abstract: [Рассматриваются возможности формализации рассуждений (вывода) с учетом фактора времени в плане их использования в современных и перспективных интеллектуальных системах различного назначения, включая системы реального времени. Работа выполнена при финансовой поддержке РФФИ и БРФФИ.];;
+article_Vagin_V_N_2016_AbouttTRFitIS => nrel_count_page: 8;;
+
+article_Vagin_V_N_2016_AbouttTRFitIS <- article_OSTIS_2016;;
+
+article_Vagin_V_N_2016_AbouttTRFitIS => nrel_bibliographic_reference: [Вагин, В.Н. О формализации темпоральных рассуждений в интеллектуальных системах / В.Н. Вагин, А.П. Еремеева, Н.А. Гулякина // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Vagin_V_N_2016_AbouttTRFitIS => nrel_year_publication: 2016;;
+
+article_Vagin_V_N_2016_AbouttTRFitIS => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Vagin_V_N_2016_AbouttTRFitIS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/41.vagin.pdf";; *);; *);;
+
+article_Vagin_V_N_2016_AbouttTRFitIS <- article;;

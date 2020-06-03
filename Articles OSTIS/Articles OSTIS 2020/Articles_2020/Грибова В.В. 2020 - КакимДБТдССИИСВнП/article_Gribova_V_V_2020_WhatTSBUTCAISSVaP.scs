@@ -1,0 +1,62 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..57;;
+sc_node_not_relation->..62;;
+sc_node_not_relation->..str;;
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP=> nrel_main_idtf:
+[Грибова В.В. 2020 - КакимДБТдССИИСВнП]
+	(*
+	<- lang_ru;;
+	*);
+	[Gribova V.V. 2020 WhatTSBUTCAISSVaP] 
+	(*
+	<- lang_en;;
+	*);;
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP => nrel_article_title:[Какими должны быть технологии для создания систем искусственного интеллекта? Субъективный взгляд на проблему.](*
+	<- lang_ru;;
+	*);;
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP => nrel_article_title:[What technologies should be used to create artificial intelligence systems? Subjective view at the problem.](*
+	<- lang_en;;
+	*);;
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP <- article;;
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP <- article_OSTIS_2020;;
+
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP => nrel_abstract: [This paper provides an overview of the current state in the development of artificial intelligence systems. An attempt is being made to answer the question: what should be the perfect artificial intelligence system? The requirements to the tools for creating artificial intelligence systems are identified and substantiated.];
+[ Искусственный интеллект как научное направление возник в середине 50-х годов, и основные исследования, проводимые учеными, были связаны с моделями представления знаний и методами решения интеллектуальных задач. Прежде всего, стало очевидно, что технологии решения задач на основе алгоритмического подхода плохо подходят для решения творческих или интеллектуальных задач, поэтому необходимы специализированные технологии для создания
+систем такого класса.
+ За время существования искусственного интеллекта (ИИ) как направления, был создан ряд моделей представления знаний, методов решения интеллектуальных задач. Технологически это поддерживалось сначала специализированными языками программирования, затем универсальными инструментальными системами и проблемно-независимыми
+и специализированными оболочками. Как правило, инструментарий для разработки систем ИИ поддерживал проектирование систем ИИ на основе знаний, разработка систем ИИ, основанная на других методах, гораздо более слабо поддерживались инструментально. Однако в последние несколько лет ситуация коренным образом изменилась. На рынок вышли многочисленные фреймворки и библиотеки, поддерживающие нейросетевой подход к созданию систем такого класса. Они удобны, хорошо реализованы (их разработкой занимаются лидеры IT-индустрии), имеют достаточно низкий порог вхождения для разработчиков. В результате ИИ зачастую стал сводиться исключительно к нейросетевому подходу, а подход, основанный на знаниях, многие характеризуют как устаревший, потерявший свою актуальность.
+ Так ли это? Какими должны быть технологии ИИ, какими свойствами обладать? Данная работа содержит мнение
+автора по всем указанным вопросам.];;
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP => nrel_author: Gribova_V_V;;
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP => nrel_bibliographic_reference:[Грибова, В.В. Какими должны быть технологии для создания систем искусственного интеллекта? Субъективный взгляд на проблему. / В.В. Грибова // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 57-62.](*
+ <-interstate_standard;; 
+*);;
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP <- lang_en;;
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/04.Gribova.pdf";; *);; *);;
+
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP => nrel_key_concepts:
+{
+	concept_artificial_intelligence;
+	concept_shells;
+	concept_machine_learning;
+	concept_knowledge_bases
+};;
+
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP <- 15.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 15;; => rrel_number_of_year: 2020;;*);;*);;
+15.01.2020 <-date_of_received;;
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..57=>..62);;
+..57=>..nrel:57;;
+..62=>..nrel:62;;
+..57<-exact_value;;
+..62<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..57<-page;;
+..62<-page;;
+number_of_page<-page;;
+article_Gribova_V_V_2020_WhatTSBUTCAISSVaP<=nrel_published_material: report_Gribova_V_V_2020_WhatSbtTfCAISSLatP;;

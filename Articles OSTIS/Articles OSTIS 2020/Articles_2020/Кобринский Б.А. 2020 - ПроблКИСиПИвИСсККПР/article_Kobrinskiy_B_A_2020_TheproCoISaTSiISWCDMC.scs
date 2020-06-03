@@ -1,0 +1,59 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..117;;
+sc_node_not_relation->..122;;
+sc_node_not_relation->..str;;
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC=> nrel_main_idtf:
+[Кобринский Б.А. 2020 - ПроблКИСиПИвИСсККПР]
+	(*
+	<- lang_ru;;
+	*);
+	[Kobrinskiy B.A. 2020 TheproCoISaTSiISWCDMC] 
+	(*
+	<- lang_en;;
+	*);;
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC => nrel_article_title:[Проблема конвергенции интеллектуальных систем и погружения их в информационные системы с когнитивной компонентой принятия решения.](*
+	<- lang_ru;;
+	*);;
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC => nrel_article_title:[The problem of convergence of intelligent systems and their submergence in information systems with a cognitive decision-making component.](*
+	<- lang_en;;
+	*);;
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC <- article;;
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC <- article_OSTIS_2020;;
+
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC => nrel_abstract: [In this paper the problems of convergence or synergy of knowledge in intelligent systems of one subject area, implemented on different approaches, are considered. The basis is the addition and synonymy of signs (terms) in the knowledge metabases. A version of the work of an information system user with various intelligent decisionmaking support systems using synonymous concepts is presented. It is proposed to use 2, 3-simplexes to make and justify a decision for converged intelligent systems, and in the dynamics of changes -– 2-simplex prism.];
+[ В настоящей работе рассматриваются проблемы конвергенции или синергии знаний в интеллектуальных системах одной предметной области, реализованных на различных подходах. В основу положены дополнение и синонимия признаков (терминов) в метабазах знаний. Представлен вариант работы пользователя информационной системы с различными интеллектуальными системами поддержки решений в рамках использования синонимичных понятий. Для принятия и обоснования принятия решения для конвергируемых интеллектуальных систем предлагается использовать 2, 3- симплексы, а в динамике изменений — 2-симплекс призму (2-simplex prism).];;
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC => nrel_author: 
+Kobrinskiy_B_A;
+Ankovskaa_A.E.;;
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC => nrel_bibliographic_reference:[Кобринский, Б.А. Проблема конвергенции интеллектуальных систем и погружения их в информационные системы с когнитивной компонентой принятия решения. / Б.А. Кобринский, А.Е. Янковская // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 117-122.](*
+ <-interstate_standard;; 
+*);;
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC <- lang_en;;
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/13.Kobrinskiy.pdf";; *);; *);;
+
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC => nrel_key_concepts:
+{
+	concept_convergence_of_intelligent_systems;
+	concept_computer_assisted_intelligence_design;
+	concept_knowledge_metabase;
+	concept_synonym_base;
+	concept_semantic_interoperability;
+	concept_cognitive_component
+};;
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC <- 12.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 12;; => rrel_number_of_year: 2020;;*);;*);;
+article_Kobrinskiy_B_A_2020_TheproCoISaTSiISWCDMC<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..117=>..122);;
+..117=>..nrel:117;;
+..122=>..nrel:122;;
+..117<-exact_value;;
+..122<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..117<-page;;
+..122<-page;;
+number_of_page<-page;;
+

@@ -1,0 +1,60 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..133;;
+sc_node_not_relation->..136;;
+sc_node_not_relation->..str;;
+article_Averkin_A_N_2020_NeuraNiSA => nrel_main_idtf:
+[Аверкин А.Н. 2020 - НейроСвСА]
+	(*
+	<- lang_ru;;
+	*);
+	[Averkin A.N. 2020 - NeuraNiSA] 
+	(*
+	<- lang_en;;
+	*);;
+article_Averkin_A_N_2020_NeuraNiSA => nrel_article_title:[Нейронные сети в семантическом анализе.](*
+	<- lang_ru;;
+	*);;
+article_Averkin_A_N_2020_NeuraNiSA => nrel_article_title:[Neural Networks in Semantic Analysis.](*
+	<- lang_en;;
+	*);;
+article_Averkin_A_N_2020_NeuraNiSA <- article;;
+article_Averkin_A_N_2020_NeuraNiSA <- article_OSTIS_2020;;
+
+article_Averkin_A_N_2020_NeuraNiSA => nrel_abstract: [ This paper presents research of the possibilities of application deep neural networks in semantic analysis. This paper presents the current situation in this area and the prospects for application an artificial intelligence in se-mantic analysis and trend and tendencies of this science area. For better un-derstanding future tendencies of researches in semantical area we present detailed review of the studies in semantic analysis with using artificial intelligence, studies about a human brain.];
+[ В статье описываются глубинные архитектуры искусственных нейронных сетей и возможности их применения в семантическом анализе. Рассматривается история разработки глубинных нейронных сетей. Исследуются современные тенденции в задачах семантического анализа, а также представляется кратких обзор исследований в данной области.];;
+
+article_Averkin_A_N_2020_NeuraNiSA => nrel_author: 
+Averkin_A_N;
+Yarushev_S_A;;
+article_Averkin_A_N_2020_NeuraNiSA => nrel_bibliographic_reference:[Аверкин, А.Н. Нейронные сети в семантическом анализе. / А.Н. Аверкин, С.А. Ярушев // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 133-136.] (*
+ <-interstate_standard;; 
+*);;
+article_Averkin_A_N_2020_NeuraNiSA <- lang_en;;
+article_Averkin_A_N_2020_NeuraNiSA <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Averkin_A_N_2020_NeuraNiSA <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/16.Averkin.pdf";; *);; *);;
+
+article_Averkin_A_N_2020_NeuraNiSA => nrel_key_concepts:
+{
+	concept_semantic_analysis;
+	concept_deep_neural_networks;
+	concept_forecasting;
+	concept_processing_of_natural_language
+};;
+
+article_Averkin_A_N_2020_NeuraNiSA <- 21.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 21;; => rrel_number_of_year: 2019;;*);;*);;
+21.12.2019<- date_of_received;;
+article_Averkin_A_N_2020_NeuraNiSA <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..133=>..136);;
+..133=>..nrel:133;;
+..136=>..nrel:136;;
+..133<-exact_value;;
+..136<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..133<-page;;
+..136<-page;;
+number_of_page<-page;;
+article_Averkin_A_N_2020_NeuraNiSA <=nrel_published_material: report_Averkin_A_N_2020_NeuraNiSA;;

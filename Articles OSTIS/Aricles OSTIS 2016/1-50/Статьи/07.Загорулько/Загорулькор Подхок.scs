@@ -1,0 +1,42 @@
+//
+article_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD => nrel_main_idtf:
+[Загорулько Г.Б. 2016 - ПодхокОКППРИСППРвСПО]
+	(*
+	<- lang_ru;;
+	*);
+	[Zagorulko G.B. 2016 - aApprtOoISotDoIDSSiWFD] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD => nrel_article_title:[Подход к организации комплексной поддержки процесса резработки интеллектуальных СППР в слабоформализованных предметных областях](*
+	<- lang_ru;;
+	*);;
+
+article_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD => nrel_author:
+ZagorulXko_G.B.;
+ZagorulXko_U.A.;;
+
+article_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD <- article;;
+article_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD <- article_OSTIS_2016;;
+
+article_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD => nrel_bibliographic_reference: [Загурко, Г. Б. Подход к организации комплексной поддержки процесса резработки интеллектуальных СППР в слабоформализованных предметных областях / Г.Б. Загорулько, Ю.А. Загорулько // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD => nrel_year_publication: 2016;;
+
+article_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD => nrel_comprise:  Materials_OSTIS2016;;
+
+aticle_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/07.zagorulko.pdf";; *);; *);;
+
+
+article_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD => nrel_abstract:
+[Рассматривается подход к организации комплексной поддержк ипроцесса разработки интеллектуальных СППР в слабоформализованных предметных областях.Такая поддержка осуществляется на тре хуровнях:концептуальном,информационномикомпонентном.Концептуальный уровень обеспечиваются онтологией поддержки принятия решений,  информационныйуровень–специализированным интернет-ресурсом,содержащим систематизированную всоответствии с указанной онтологией информацию обобласти знаний «Поддержк апринятия решений». Компонентный уровень составляет репозитарий реализованных методов поддержки принятия решений,систематизированных и описанных всоответствии с онтологией.](*
+	<- lang_ru;;
+	*);;
+
+article_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD => nrel_count_page: 4;;
+
+article_Zagorulko_G_B_2016_aApprtOoISotDoIDSSiWFD <- lang_ru;;

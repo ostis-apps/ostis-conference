@@ -1,0 +1,35 @@
+article_Sibirev_I_V_2016_AlgorfPaRoQD => nrel_main_idtf:
+[Сибирев И.В. 2016 - АлгорПиВАД]
+	(*
+	<- lang_ru;;
+	*);
+	[Sibirev I.V. 2016 - AlgorfPaRoQD] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Sibirev_I_V_2016_AlgorfPaRoQD => nrel_article_title:[Алгоритм предобработки и восстановления анкетных данных](*
+	<- lang_ru;;
+	*);;
+
+article_Sibirev_I_V_2016_AlgorfPaRoQD => nrel_author:
+Sibirev_I_V;
+Afanaseva_T_V;;
+article_Sibirev_I_V_2016_AlgorfPaRoQD <- lang_ru;;
+article_Sibirev_I_V_2016_AlgorfPaRoQD => nrel_abstract: [В статье предлагается алгоритм, восстанавливающий недостающие анкетные данные, на основе методов нечёткой кластеризации.];;
+article_Sibirev_I_V_2016_AlgorfPaRoQD => nrel_count_page: 4;;
+
+article_Sibirev_I_V_2016_AlgorfPaRoQD <- article_OSTIS_2016;;
+
+article_Sibirev_I_V_2016_AlgorfPaRoQD => nrel_bibliographic_reference: [Сибирёв, И.В. Алгоритм предобработки и восстановления анкетных данных / И.В. Сиюирёв, Т.В. Афанасьева // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Sibirev_I_V_2016_AlgorfPaRoQD => nrel_year_publication: 2016;;
+
+article_Sibirev_I_V_2016_AlgorfPaRoQD => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Sibirev_I_V_2016_AlgorfPaRoQD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/40.sibirev.pdf";; *);; *);;
+
+article_Sibirev_I_V_2016_AlgorfPaRoQD <- article;;

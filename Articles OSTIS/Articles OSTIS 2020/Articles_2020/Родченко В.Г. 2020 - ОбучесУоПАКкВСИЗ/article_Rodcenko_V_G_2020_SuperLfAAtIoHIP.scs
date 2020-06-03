@@ -1,0 +1,60 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..253;;
+sc_node_not_relation->..256;;
+sc_node_not_relation->..str;;
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP => nrel_main_idtf:
+[Родченко В.Г. 2020 - ОбучесУоПАКкВСИЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Rodcenko V.G. 2020 - SuperLfAAtIoHIP] 
+	(*
+	<- lang_en;;
+	*);;
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP => nrel_article_title:[Обучение с учителем: от построения алгоритма классификации к выявлению скрытых интерпретируемых закономерностей.](*
+	<- lang_ru;;
+	*);;
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP => nrel_article_title:[Supervised Learning: from the allocation algorithm to the identification of hidden interpretable patterns.](*
+	<- lang_en;;
+	*);;
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP <- article;;
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP <- article_OSTIS_2020;;
+
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP => nrel_abstract: [ In Supervised Learning, traditionally, training is aimed at constructing an algorithm that in the future should carry out the correct classification of objects. The initial training sample is formed on the basis of classes alphabet and an a priori features dictionary, and then, in the process of training, separating surface classes are constructed. A practically useful classifier is constructed in result, but nothing can be learned about the properties of classes. An alternative approach to Supervised Learning is proposed, which is aimed at studying of the of classes properties at revealing the hidden interpreted patterns.];
+[ Обучение с учителем направлено на построение алгоритма, который в дальнейшем должен осуществлять правильную классификацию объектов. Исходная обучающая выборка формируется на основе алфавита классов и априорного словаря признаков, а затем в процессе обучения строятся разделяющие классы поверхности. В результате получается практически полезный классификатор, но о свойствах классов ничего узнать не удается. Предложен альтернативный подход к обучению с учителем, который направлен на исследование свойств классов и на выявление скрытых интерпретируемых закономерностей. Целью обучения является поиск признаковых подпространств, в которых паттерны классов не пересекаются. Паттерны классов представляются в виде кластерных структур. Алгоритм обучения позволяет автоматически провести анализ данных обучающей выборки и выявить наиболее информативные признаки с точки зрения разделения классов. Представлены результаты применения алгоритма обучения для решения задачи классификации.];;
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP => nrel_author: 
+Rodcenko_V.G.;;
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP => nrel_bibliographic_reference:[Родченко, В. Обучение с учителем: от построения алгоритма классификации к выявлению скрытых интерпретируемых закономерностей / В. Родченко // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 253-256.](*
+ <-interstate_standard;; 
+*);;
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP <- lang_en;;
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/36.Rodcenko.pdf";; *);; *);;
+
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP => nrel_key_concepts:
+{
+	concept_machine_learning;
+	concept_data_mining;
+	concept_classification;
+	concept_supervised_learning;
+	concept_instance_based_learning;
+	concept_training_dataset
+};;
+
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP <- 27.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 27;; => rrel_number_of_year: 2020;;*);;*);;
+27.01.2020 <- date_of_received;;
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..253=>..256);;
+..253=>..nrel:253;;
+..256=>..nrel:256;;
+..253<-exact_value;;
+..256<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..253<-page;;
+..256<-page;;
+number_of_page<-page;;
+article_Rodcenko_V_G_2020_SuperLfAAtIoHIP <= nrel_published_material: report_Rodchenko_V_G_2020_TeachwaTfBACAtIHIP;;

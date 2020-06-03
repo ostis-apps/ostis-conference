@@ -1,0 +1,59 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..273;;
+sc_node_not_relation->..276;;
+sc_node_not_relation->..str;;
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF => nrel_main_idtf:
+[Шолтанюк С.В. 2020 - ОбуслКНСвЗПВР]
+	(*
+	<- lang_ru;;
+	*);
+	[Sholtanyuk S.V. 2020 - NumerCoNNCiTSF] 
+	(*
+	<- lang_en;;
+	*);;
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF => nrel_article_title:[Обусловленность компонентов нейронной сети в задачах прогнозирования временных рядов.](*
+	<- lang_ru;;
+	*);;
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF => nrel_article_title:[Numerical conditioning of neural network components in time series forecasting.](*
+	<- lang_en;;
+	*);;
+
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF <- article;;
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF <- article_OSTIS_2020;;
+
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF => nrel_abstract: [ In this paper, an issue of stability of fully connected neural network (perceptron), forecasting time series with sliding window method, is considered. A task of finding conditions, providing best results on accuracy and stability, was set. To accomplish it, training of the neural network with various sets of hyperparameters, such as amount of neurons on input and hidden layers, as well as activation function, has been performed. Training was performed on modeled data, which have been perturbed with unbiased normally distributed random variables with various variance. Such training results as number of conditioning of weight matrix between input and hidden layers, number of conditioning of activation functions, as well as statistics on retrospective forecasting absolut error, have been shown. An approach for estimation of condition number for some activation functions has been proposed. Impact of activation function on accuracy and stability of forecasting perceptron has been shown.];
+[ В данной работе рассмотрен вопрос устойчивости полносвязной нейронной сети (персептрона), прогнозирующей временные ряды методом скользящего окна. Поставлена задача нахождения условий, обеспечивающих лучшие результаты по точности и устойчивости, для чего было проведено обучение нейронной сети при различных наборах гиперпараметров, таких как количество нейронов на входном и скрытом слоях, а также функция активации. Обучение проводилось для смоделированных данных, которые подвергались зашумлению несмещёнными нормально распределёнными случайными величинами с различной дисперсией. Представлены такие результаты обучения нейронной сети, как число обусловленности матрицы весов между входным и скрытым слоями, число обусловленности функций активации, а также статистические характеристики абсолютной погрешности ретроспективного прогноза. Предложен подход к оцениванию числа обусловленности некоторых функций активации, использующихся при решении задач прогнозирования. Показано влияние выбора функции активации на точность и устойчивость прогностического персептрона.];;
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF => nrel_author: 
+Sholtanyuk_S_V;;
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF => nrel_bibliographic_reference:[Шолтанюк, С.В. Обусловленность компонентов нейронной сети в задачах прогнозирования временных рядов. / С.В. Шолтанюк // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 273-276.](*
+ <-interstate_standard;; 
+*);;
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF <- lang_en;;
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/40.Sholtanyuk.pdf";; *);; *);;
+
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF => nrel_key_concepts:
+{
+	concept_time_series_forecasting;
+	concept_neural_network;
+	concept_perceptron;
+	concept_numerical_conditioning;
+	concept_activation_function
+};;
+
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF <- 29.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 29;; => rrel_number_of_year: 2019;;*);;*);;
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..273=>..276);;
+..273=>..nrel:273;;
+..276=>..nrel:276;;
+..273<-exact_value;;
+..276<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..273<-page;;
+..276<-page;;
+number_of_page<-page;;
+article_Sholtanyuk_S_V_2020_NumerCoNNCiTSF <= nrel_published_material: report_Sholtanyuk_S_V_2020_CondioNNCiTSFP;;

@@ -1,0 +1,42 @@
+article_Grishenko_M_A_2016_SoftFRKBDPKBD => nrel_main_idtf:
+[Грищенко М.А. 2016 - СистеППБЗPKBD]
+	(*
+	<- lang_ru;;
+	*);
+	[Grishenko M.A. 2016 - SoftFRKBDPKBD] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Grishenko_M_A_2016_SoftFRKBDPKBD => nrel_article_title:[Система программирования продекционных баз знаний: personal knowledge base designer](*
+	<- lang_ru;;
+	*);;
+
+article_Grishenko_M_A_2016_SoftFRKBDPKBD => nrel_author:
+Grishenko_M_A;
+Dorodnykh_N_O;
+Urin_A_U;;
+
+article_Grishenko_M_A_2016_SoftFRKBDPKBD <- article;;
+article_Grishenko_M_A_2016_SoftFRKBDPKBD <- article_OSTIS_2016;;
+
+article_Grishenko_M_A_2016_SoftFRKBDPKBD => nrel_bibliographic_reference: [Грищенко, М.А. Система программирования продекционных баз знаний: personal knowledge base designer / М.А. Грищенко, Н.О. Дородных, А.Ю. Юрин // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Grishenko_M_A_2016_SoftFRKBDPKBD => nrel_year_publication: 2016;;
+
+article_Grishenko_M_A_2016_SoftFRKBDPKBD => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Grishenko_M_A_2016_SoftFRKBDPKBD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/30.grishenko.pdf";; *);; *);;
+
+
+article_Grishenko_M_A_2016_SoftFRKBDPKBD => nrel_abstract:
+[Описана  система  для программирования продукционных баз  знаний:«PersonalKnowledgeBaseDesigner»,ориентированнаяна  непрограммирующего  специалиста.  Применениесистемыпозволяет  автоматизироватьэтапыформализации  знаний  игенерации  программного  кода.Для  представления  продукций(логическихправил)используется обобщеннаямодель, которая позволяет абстрагироваться от особенностей определенныхязыков программирования баз знаний. Приведено описание архитектурыиосновных функций.Программнаясистема позволяет интегрироватьсясCASE-средствомIBMRationalRose,в части импорта концептуальныхмоделей в форме диаграмм классовUML, описывающих основные предметные понятия и отношения междуними.Программная системаобладает расширяемой архитектурой, т.е. реализована возможность подключения динамических  библиотек  (модулей)  поддерживающих  различные  языки программирования  баззнаний.  Внастоящий момент реализован модуль поддержкиязыка представления знаний CLIPS(CLanguageIntegratedProductionSystem).](*
+	<- lang_ru;;
+	*);;
+
+article_Grishenko_M_A_2016_SoftFRKBDPKBD  => nrel_count_page: 4;;
+
+article_Grishenko_M_A_2016_SoftFRKBDPKBD  <- lang_ru;;

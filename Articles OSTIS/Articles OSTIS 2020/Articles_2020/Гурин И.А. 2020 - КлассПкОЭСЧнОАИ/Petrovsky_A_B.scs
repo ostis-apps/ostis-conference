@@ -1,0 +1,9 @@
+Petrovsky_A_B => nrel_main_idtf:
+[Петровский А.Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[Petrovsky A.B.] 
+	(*
+	<- lang_en;;
+	*);;

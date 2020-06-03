@@ -1,0 +1,58 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..129;;
+sc_node_not_relation->..132;;
+sc_node_not_relation->..str;;
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS=> nrel_main_idtf:
+[Михеенкова М.А 2020 - ОбоднПкИАДвСС]
+	(*
+	<- lang_ru;;
+	*);
+	[Mikheyenkova M.A. 2020 OntheAtIDAiSS] 
+	(*
+	<- lang_en;;
+	*);;
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS => nrel_article_title:[Об одном подходе к интеллектуальному анализу данных в социальных системах.](*
+	<- lang_ru;;
+	*);;
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS => nrel_article_title:[On the Approach to Intelligent Data Analysis in the Social Sciences.](*
+	<- lang_en;;
+	*);;
+
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS <- article;;
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS <- article_OSTIS_2020;;
+
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS => nrel_abstract: [ The paper considers the intelligent data analysis in subject areas with open sets of empirical data, where formal apparatus is absent and the procedures for the theories’ formation are heuristic. Approaches to solving these problems by means of the JSM Method of automated support for research are described. Implementing JSM Method intelligent systems are partner humanmachine systems that automatically reproduce an imitation of the set of natural (rational) intelligence’ abilities. In the interactive mode, it is possible to imitate such abilities as adaptation and correction of knowledge and the choice of reasoning strategy. JSM Socio intelligent system has been created to solve various problems of sociological data analysis. The generation of hypotheses on behavior prediction and its determinants, empirical regularities revealing in expanding empirical data give reason to consider the JSM Method as a tool for knowledge discovery in the social sciences.];
+[ Рассматриваются проблемы интеллектуального анализа данных в областях с открытыми множествами эмпирических данных, где отсутствует формальный аппарат и формирование теорий носит эвристический характер. Описаны подходы к решению этих проблем средствами ДСМ-метода автоматизированной поддержки исследований. Реализующие ДСМ-метод интеллектуальные системы являются человеко-машинными системами, воспроизводящими в автоматическом режиме имитацию ряда способностей естественного (рационального) интеллекта. В интерактивном режиме возможна имитация таких способностей, как адаптация и коррекция знаний и выбор стратегии рассуждений. Для решения задач анализа социологических данных создана интеллектуальная система JSM Socio. Порождение гипотез о детерминантах поведения и его прогнозе, обнаружение эмпирических закономерностей в расширяющихся базах эмпирических данных дают основание считать ДСМ-метод инструментом интеллектуального анализа данных в науках о человеке и обществе.];;
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS => nrel_author: 
+Mikheyenkova_M_A;;
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS => nrel_bibliographic_reference:[Михеенкова, М.А. Об одном подходе к интеллектуальному анализу данных в социальных системах. / М.А. Михеенкова // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 129-132.](*
+ <-interstate_standard;; 
+*);;
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS <- lang_en;;
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/15.Mikheyenkova.pdf";; *);; *);;
+
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS => nrel_key_concepts:
+{
+	concept_knowledge_discovery;
+	concept_JSM_Method;
+	concept_formalized_qualitative_analysis;
+	concept_social_data_analysis
+};;
+
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS <- 15.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 15;; => rrel_number_of_year: 2019;;*);;*);;
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..129=>..132);;
+..129=>..nrel:129;;
+..132=>..nrel:132;;
+..129<-exact_value;;
+..132<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..129<-page;;
+..132<-page;;
+number_of_page<-page;;
+article_Mikheyenkova_M_A_2020_OntheAtIDAiSS<=nrel_published_material:report_Mikheyenkova_M_A_2020_AboutOAtDMiSS;;

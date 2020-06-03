@@ -1,0 +1,61 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..317;;
+sc_node_not_relation->..322;;
+sc_node_not_relation->..str;;
+article_Khabibullina_E_L_2020_FormiPRiITStCTF => nrel_main_idtf:
+[Хабибуллина Е.Л. 2020 - ПострСПдУТПвИТС]
+	(*
+	<- lang_ru;;
+	*);
+	[Khabibullina E.L. 2020 - FormiPRiITStCTАF] 
+	(*
+	<- lang_en;;
+	*);;
+article_Khabibullina_E_L_2020_FormiPRiITStCTF => nrel_article_title:[Построение семантических правил для управления транспортным потоком в интеллектуальной транспортной системе.](*
+	<- lang_ru;;
+	*);;
+article_Khabibullina_E_L_2020_FormiPRiITStCTF => nrel_article_title:[Forming Production Rules in Intelligent Transportation System to Control Traffic Flow.](*
+	<- lang_en;;
+	*);;
+
+article_Khabibullina_E_L_2020_FormiPRiITStCTF <- article;;
+article_Khabibullina_E_L_2020_FormiPRiITStCTF <- article_OSTIS_2020;;
+
+article_Khabibullina_E_L_2020_FormiPRiITStCTF => nrel_abstract: [ The paper describes an approach to remodel the capacity of high-speed transportation corridors segments. Tho proposed remodelling scheme is based on applying neural network model combining results of stochastic capacity estimation during congested and free-flow regimes. Based on the obtained model it is proposed to analyze the impact of factors affecting on the estimated capacity with the methods of Analysis of Finite Fluctuations. There is also presented scheme how to form production rules into intelligent transportation system based on the presented approaches.];
+[ В статье приводится подход к математическому ремоделированию пропускной способности участков высокоскоростных транспортных коридоров. Предложенный метод основан на применении нейросетевой модели, сочетающий результаты оценки стохастической пропускной способности в период транспортного затора и свободного движения транспортных средств. Основываясь на полученной модели предлагается проводить анализ важности факторов, оказывающих влияние на оцененную пропускную способность с использованием методов анализа конечных изменений. Также на основании предлагаемых подходов представлена схема формирования продукционных правил в интеллектуальной транспортной системе.];;
+article_Khabibullina_E_L_2020_FormiPRiITStCTF => nrel_author: 
+Khabibullina_E_L;
+Sysoev_A_S;;
+article_Khabibullina_E_L_2020_FormiPRiITStCTF => nrel_bibliographic_reference:[Хабибулина, Е.Л. Построение семантических правил для управления транспортным потоком в интеллектуальной транспортной системе. / Е.Л. Хабибулина, А.С. Сысоев // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 317-322.](*
+ <-interstate_standard;; 
+*);;
+article_Khabibullina_E_L_2020_FormiPRiITStCTF <- lang_en;;
+article_Khabibullina_E_L_2020_FormiPRiITStCTF <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Khabibullina_E_L_2020_FormiPRiITStCTF <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/50.Khabibullina.pdf";; *);; *);;
+
+
+article_Khabibullina_E_L_2020_FormiPRiITStCTF => nrel_key_concepts:
+{
+	concept_semantic_rules;
+	concept_intelligent_transportation_system;
+	concept_traffic_flow;
+	concept_neural_network;
+	concept_expert_system
+};;
+
+article_Khabibullina_E_L_2020_FormiPRiITStCTF <- 30.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 30;; => rrel_number_of_year: 2020;;*);;*);;
+article_Khabibullina_E_L_2020_FormiPRiITStCTF <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..317=>..322);;
+..317=>..nrel:317;;
+..322=>..nrel:322;;
+..317<-exact_value;;
+..322<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..317<-page;;
+..322<-page;;
+number_of_page<-page;;
+article_Khabibullina_E_L_2020_FormiPRiITStCTF <= nrel_published_material: report_Khabibulina_E_L_2020_BuildSRfTMiaITS;;

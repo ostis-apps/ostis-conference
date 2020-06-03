@@ -1,0 +1,63 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..175;;
+sc_node_not_relation->..182;;
+sc_node_not_relation->..str;;
+article_Golovko_V_A_ImplemoIDSStAMP => nrel_main_idtf:
+[Головко В.А. 2020 - РеалиИСППРдСПП]
+	(*
+	<- lang_ru;;
+	*);
+	[Golovko V.A. 2020 - ImplemoIDSStAMP] 
+	(*
+	<- lang_en;;
+	*);;
+article_Golovko_V_A_ImplemoIDSStAMP => nrel_article_title:[Реализация интеллектуальной системы поддержки принятия решений для сопровождения производственного процесса.](*
+	<- lang_ru;;
+	*);;
+article_Golovko_V_A_ImplemoIDSStAMP => nrel_article_title:[Implementation of an intelligent decision support system to accompany the manufacturing process.](*
+	<- lang_en;;
+	*);;
+article_Golovko_V_A_ImplemoIDSStAMP <- article;;
+article_Golovko_V_A_ImplemoIDSStAMP <- article_OSTIS_2020;;
+
+article_Golovko_V_A_ImplemoIDSStAMP => nrel_abstract: [ The article reviews the implementation of an intelligent decision support system in case of solving real manufacturing problems of JSC “Savushkin Product” for quality control of marking products. The proposed system integrates neural network and semantic models. Also, article proposes original method of localization and recognition of images from a high-speed video stream, as well as a method of intelligent processing of recognition results for developing decision to manufacturing problems.];
+[ В работе рассматривается реализация интеллектуальной системы поддержки принятия решений в рамках решения реальных производственных задачах ОАО «Савушкин Продукт» по контролю качества нанесения маркировки на продукцию. Предложенная система интегрирует в себе нейросетевые и семантические модели. Предложен оригинальный метод локализация и распознавания изображений из видеопотока высокой скорости, а также способ интеллектуальной обработки результатов распознавания для выработки решений производственных проблем.];;
+article_Golovko_V_A_ImplemoIDSStAMP => nrel_author: 
+Golovko_V_A;
+Kroschenko_A_A;
+Kovalev_M_V;
+Taberko_V_V;
+Ivaniuk_D_S;;
+article_Golovko_V_A_ImplemoIDSStAMP => nrel_bibliographic_reference:[Головко, В. А. Реализация интеллектуальной системы поддержки принятия решений для сопровождения производственного процесса. / В.А. Головко, А.А. Крощенко, М.В. Ковалев, В.В. Таберко, Д.С. Иванюк // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 175-182.](*
+ <-interstate_standard;; 
+*);;
+article_Golovko_V_A_ImplemoIDSStAMP <- lang_en;;
+article_Golovko_V_A_ImplemoIDSStAMP <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Golovko_V_A_ImplemoIDSStAMP <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/24.Golovko.pdf";; *);; *);;
+
+article_Golovko_V_A_ImplemoIDSStAMP => nrel_key_concepts:
+{
+	concept_deep_neural_networks;
+	concept_object_detection;
+	concept_knowledge_bases;
+	concept_integration;
+	concept_inference;
+	concept_IDSS
+};;
+article_Golovko_V_A_ImplemoIDSStAMP <- 30.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 30;; => rrel_number_of_year: 2020;;*);;*);;
+30.01.2020 <- date_of_received;;
+article_Golovko_V_A_ImplemoIDSStAMP<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..175=>..182);;
+..175=>..nrel:175;;
+..182=>..nrel:182;;
+..175<-exact_value;;
+..182<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..175<-page;;
+..182<-page;;
+number_of_page<-page;;
+article_Golovko_V_A_ImplemoIDSStAMP <= nrel_published_material: report_Kroshchenko_A_A_Kovalev_M_V_2020_ImpleoaIDSStAtPP;;

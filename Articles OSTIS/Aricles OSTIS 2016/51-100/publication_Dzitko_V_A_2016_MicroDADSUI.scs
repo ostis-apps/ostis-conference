@@ -1,0 +1,35 @@
+article_Dzitko_V_A_2016_MicroDADSUI => nrel_main_idtf:
+[Житко В. А. 2016 - МикроПкПРИ]
+	(*
+	<- lang_ru;;
+	*);
+	[Dzitko V.A. 2016 - MicroDADSUI] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Dzitko_V_A_2016_MicroDADSUI=> nrel_article_title:[Микросервисный подход к проектированию речевых интерфейсов](*
+	<- lang_ru;;
+	*);;
+
+article_Dzitko_V_A_2016_MicroDADSUI => nrel_author:
+Jytko_V_A;;
+article_Dzitko_V_A_2016_MicroDADSUI => nrel_author:
+Lobanov_B_M;;
+article_Dzitko_V_A_2016_MicroDADSUI <- lang_ru;;
+article_Dzitko_V_A_2016_MicroDADSUI => nrel_abstract: [В статье описывается модель построения прикладных программных систем с речевым интерфейсом, основанная на применении сервис-ориентированной архитектуры и микросервисов. Такой подход обеспечивает минимизацию расходов на интеграцию различных по реализации и подходам компонентов в единую прикладную программную систему.];;
+
+article_Dzitko_V_A_2016_MicroDADSUI => nrel_count_page: 6;;
+
+article_Dzitko_V_A_2016_MicroDADSUI <- article_OSTIS_2016;;
+
+article_Dzitko_V_A_2016_MicroDADSUI => nrel_bibliographic_reference: [Житко, В. А. Микросервисный подход к проектированию речевых интерфейсов/ В.А. Житко, Б.М. Лобанов // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 383–388.](*
+<-interstate_standard;; 
+*);;
+
+article_Dzitko_V_A_2016_MicroDADSUI=> nrel_year_publication: 2016;;
+
+article_Dzitko_V_A_2016_MicroDADSUI=> nrel_comprise:  Materials_OSTIS2016;;
+article_Dzitko_V_A_2016_MicroDADSUI<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Житко.pdf";; *);;*);;
+
+article_Dzitko_V_A_2016_MicroDADSUI <- article;;

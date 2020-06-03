@@ -1,0 +1,60 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..111;;
+sc_node_not_relation->..116;;
+sc_node_not_relation->..str;;
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR=> nrel_main_idtf:
+[Рогушина Ю.В. - ИсполПСВРКИППОдСП]
+	(*
+	<- lang_ru;;
+	*);
+	[Rogushina J.V. 2020 UseofSoWPaIoDRfSR] 
+	(*
+	<- lang_en;;
+	*);;
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR => nrel_article_title:[Использование подобия страниц Вики-ресурсов как инструмента представления предметной области для семантического поиска.](*
+	<- lang_ru;;
+	*);;
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR => nrel_article_title:[Use of Similarity of Wiki Pages as an Instrument of Domain Representation for Semantic Retrieval.](*
+	<- lang_en;;
+	*);;
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR <- article;;
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR <- article_OSTIS_2020;;
+
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR => nrel_abstract: [ We propose an ontology-based approach to the Web semantic search that uses thesaurus representation of user task. Domain ontologies are considered as a source of semantic markup of the Wiki resources pertinent to retrieval domain. We use practical aspects of ontological approach to organization of Wiki-based information resources. Ontological model of Wiki resource formalizes the knowledge base structure and explicitly represents its main features. Domain ontologies, Wiki resources and task thesauri are generated independently by different applications but are used in general technological chain of useroriented semantic retrieval. Open information environment is considered as an external data base with great volumes of heterogeneous and semi-structured information.
+ Wiki ontologies are considered as the basis for establishing a semantic similarity between domain concepts pertinent to user task. Such Wiki-ontology elements as classes, property values of class instances and relations between them are used as parameters for the quantitative assessment of semantic similarity.];
+[ Мы предлагаем основанный на онтологиях подход к семантическому поиску в Веб, использующий тезаурусное представление задачи пользователя. Онтологии домена рассматриваются как источник семантической разметки Викиресурсов домена.
+ Мы используем онтологии для формализации структуры базы знаний Вики-ресурсов, которая явно представляет ее основные функции. Онтологии, Вики-ресурсы и тезаурусы задач создаются независимо различными приложениями, но используются в общей технологической цепочке семантического поиска, ориентированного на пользователя. Открытая информационная среда рассматривается как внешняя база данных, содержащия большие объемы гетерогенной и частично структурированной информации.
+ Вики-онтологии рассматриваются как основа для установления семантического подобия между понятиями предметной области, которые относятся к задаче пользователя. В качестве параметров для количественной оценки семантического подобия используются элементы Вики-онтологии (классы, значения свойств экземпляров классов и отношения между ними).];;
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR => nrel_author: 
+Rogushina_J_V;;
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR => nrel_bibliographic_reference:[Рогушина, Ю.В. Использование подобия страниц Вики-ресурсов как инструмента представления предметной области для семантического поиска / Ю.В. Рогушина // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 111-116.](*
+ <-interstate_standard;; 
+*);;
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR <- lang_en;;
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/12.Rogushina.pdf";; *);; *);;
+
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR => nrel_key_concepts:
+{
+	concept_semantic_search;
+	concept_domain_ontology;
+	concept_task_thesaurus;
+	concept_semantic_Wiki
+};;
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR <- 12.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 12;; => rrel_number_of_year: 2019;;*);;*);;
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..111=>..116);;
+..111=>..nrel:111;;
+..116=>..nrel:116;;
+..111<-exact_value;;
+..116<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..111<-page;;
+..116<-page;;
+number_of_page<-page;;
+
+article_Rogushina_J_V_2020_UseofSoWPaIoDRfSR <= nrel_published_material: report_Rogushina_Y_V_2020_UsingtSoWRPaatfRaDfSS;;

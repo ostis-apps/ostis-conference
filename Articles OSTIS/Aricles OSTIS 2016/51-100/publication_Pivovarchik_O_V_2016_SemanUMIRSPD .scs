@@ -1,0 +1,28 @@
+article_Pivovarchik_O_V_2016_SemanUMIRSPD => nrel_main_idtf:
+[Пивоварчик О.В. 2016 - СеманМПИССпПП] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Pivovarchik O.V. 2016 - SemanUMIRSPD] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Pivovarchik_O_V_2016_SemanUMIRSPD=> nrel_article_title:[Семантическая модель пользователя интеллектуальной справочной системы по проектированию программ](*
+	<- lang_ru;;
+	*);;
+article_Pivovarchik_O_V_2016_SemanUMIRSPD => nrel_author:
+Pivovarcik_O.V.;;
+article_Pivovarchik_O_V_2016_SemanUMIRSPD => nrel_abstract: [В работе проведен анализ существующих моделей пользователя и перечислены способы адаптации компьютерных систем к пользователю. Предложена семантическая модель пользователя справочной системы по проектированию программ, ориентированных на обработку баз знаний. Справочная система строится на базе технологии OSTIS.];;
+article_Pivovarchik_O_V_2016_SemanUMIRSPD => nrel_bibliographic_reference: [Пивоварчик, О.В. Семантическая модель пользователя интеллектуальной справочной системы по проектированию программ/ О.В. Пивоварчик // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 521–526.](*
+<-interstate_standard;; 
+*);;
+
+article_Pivovarchik_O_V_2016_SemanUMIRSPD=> nrel_year_publication: 2016;;
+
+article_Pivovarchik_O_V_2016_SemanUMIRSPD => nrel_comprise:  Materials_OSTIS2016;;
+article_Pivovarchik_O_V_2016_SemanUMIRSPD <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Пивоварчик.pdf";; *);;*);;
+
+article_Pivovarchik_O_V_2016_SemanUMIRSPD <- article;;
+article_Pivovarchik_O_V_2016_SemanUMIRSPD <- article_OSTIS_2016;;

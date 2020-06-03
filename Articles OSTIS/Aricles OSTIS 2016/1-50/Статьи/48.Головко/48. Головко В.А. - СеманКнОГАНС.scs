@@ -1,0 +1,38 @@
+article_Golovko_V_A_2016_SemanCBoDANN => nrel_main_idtf:
+[Головко В.А. 2016 - СеманКнОГАНС]
+	(*
+	<- lang_ru;;
+	*);
+	[Golovko V.A. 2016 - SemanCBoDANN] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Golovko_V_A_2016_SemanCBoDANN => nrel_article_title:[Семантическое кодирование на основе глубоких автоассоциативных нейронных сетей](*
+	<- lang_ru;;
+	*);;
+
+article_Golovko_V_A_2016_SemanCBoDANN => nrel_author:
+Golovko_V_A;
+Kroschenko_A_A;
+Hackevich_M_V;;
+article_Golovko_V_A_2016_SemanCBoDANN <- lang_ru;;
+article_Golovko_V_A_2016_SemanCBoDANN => nrel_abstract: [В работе предлагается подход к реализации семантического кодировани (хеширования) с помощью глубоких автоассоциативных нейронных сетей. Построенная на ее основе поисковая система отличается простотой и скоростью осуществления поиска релевантных изображений.];;
+article_Golovko_V_A_2016_SemanCBoDANN => nrel_count_page: 6;;
+
+article_Golovko_V_A_2016_SemanCBoDANN <- article_OSTIS_2016;;
+
+
+article_Golovko_V_A_2016_SemanCBoDANN => nrel_bibliographic_reference: [Головко В.А. Семантическое кодирование на основе глубоких автоассоциативных нейронных сетей / В.А. Головко, А.А. Крощенко, М.В. Хацкевич // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Golovko_V_A_2016_SemanCBoDANN => nrel_year_publication: 2016;;
+
+article_Golovko_V_A_2016_SemanCBoDANN => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Golovko_V_A_2016_SemanCBoDANN <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/48.golovko.pdf";; *);; *);;
+
+
+article_Golovko_V_A_2016_SemanCBoDANN <- article;;

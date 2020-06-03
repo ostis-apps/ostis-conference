@@ -1,0 +1,59 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..297;;
+sc_node_not_relation->..300;;
+sc_node_not_relation->..str;;
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC => nrel_main_idtf:
+[Копейко В.С 2020 - ИсполBERTМвЗПССВ]
+	(*
+	<- lang_ru;;
+	*);
+	[Kopeyko V.S. 2020 - TheProUCoCQbBERTM] 
+	(*
+	<- lang_en;;
+	*);;
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC => nrel_article_title:[Использование BERT модели в задаче понимания содержания сложного вопроса.](*
+	<- lang_ru;;
+	*);;
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC => nrel_article_title:[The Problem of Understanding the Content of a Complex Question by BERT Model Construction.](*
+	<- lang_en;;
+	*);;
+
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC <- article;;
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC <- article_OSTIS_2020;;
+
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC => nrel_abstract: [ This paper describes the application of the BERT natural language processing model to solve the problem of understanding the content of a complex question. In this paper there are description of the model itself, basic concepts of solution and model for training for classification. Common task are represented by example of the using of this model for practical analysis of the data. Quality results is based on preprocessing such data.];
+[ Данная работа посвящена описанию применения модели обработки естественного языка BERT для решения задачи понимания содержания сложного вопроса. Сначала вводится описание самой модели, ее основные концепции и задачи, на которых модель изначально тренируется. Затем рассматривается пример использования этой модели в практических целях, анализ исходных данных и описание процесс их предобработки.];;
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC => nrel_author: 
+Kopeyko_V_S;
+Nedzved_A_M;;
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC => nrel_bibliographic_reference:[Копейко, В.С. Использование BERT модели в задаче понимания содержания сложного вопроса. / В.С. Копейко, А.М. Недзьведь // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 297-300.](*
+ <-interstate_standard;; 
+*);;
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC <- lang_en;;
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/45.Kopeyko.pdf";; *);; *);;
+
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC => nrel_key_concepts:
+{
+	concept_natural_language_processing;
+	concept_automated_answer;
+	concept_language_analysis;
+	concept_BERT_model
+};;
+
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC <-  14.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 14;; => rrel_number_of_year: 2020;;*);;*);;
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..297=>..300);;
+..297=>..nrel:297;;
+..300=>..nrel:300;;
+..297<-exact_value;;
+..300<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..297<-page;;
+..300<-page;;
+number_of_page<-page;;
+article_Kopeyko_V_S_2020_TheProUCoCQbBERTMC <= nrel_published_material: report_Kopeiko_V_S_2020_UsingtBMiUtCoaCQ;;

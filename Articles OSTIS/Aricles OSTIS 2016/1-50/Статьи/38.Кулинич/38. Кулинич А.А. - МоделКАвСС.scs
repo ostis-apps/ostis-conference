@@ -1,0 +1,33 @@
+article_Kulinich_A_A_2016_ModeloACitSE => nrel_main_idtf:
+[Кулинич А.А. 2016 - МоделКАвСС]
+	(*
+	<- lang_ru;;
+	*);
+	[Kulinich A.A. 2016 - ModeloACitSE] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Kulinich_A_A_2016_ModeloACitSE => nrel_article_title:[Модель кооперации агентов в семотической среде](*
+	<- lang_ru;;
+	*);;
+
+article_Kulinich_A_A_2016_ModeloACitSE => nrel_author:
+Kulinich_A_A;;
+article_Kulinich_A_A_2016_ModeloACitSE <- lang_ru;;
+article_Kulinich_A_A_2016_ModeloACitSE <- article_OSTIS_2016;;
+article_Kulinich_A_A_2016_ModeloACitSE => nrel_abstract: [В работе рассмотрена модель кооперации агентов, представленных в знаковой среде их функционирования. Предложена модель формального агента с BDI архитектурой, описанная в терминах знаковой среды. Сформулированы условия кооперации агентов в условиях неполноты их знаний о среде функционирования.];;
+article_Kulinich_A_A_2016_ModeloACitSE => nrel_count_page: 6;;
+article_Kulinich_A_A_2016_ModeloACitSE => nrel_bibliographic_reference: [Кулинич, А.А. Модель кооперации агентов в семотической среде / А.А. Кулинич // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+
+article_Kulinich_A_A_2016_ModeloACitSE => nrel_year_publication: 2016;;
+
+article_Kulinich_A_A_2016_ModeloACitSE => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Kulinich_A_A_2016_ModeloACitSE <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/38.kulinich.pdf";; *);; *);;
+
+article_Kulinich_A_A_2016_ModeloACitSE <- article;;

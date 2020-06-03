@@ -1,0 +1,34 @@
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU => nrel_main_idtf:
+[ Бабамухамедова М.З. 2016 - ПринцДЭвЗАУвУАнО] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Babamuhamedova M.Z. 2016 - PrincAEPACCAU ] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU=> nrel_article_title:[Принцип достоверной эквивалентности в задачах адаптивного управления в условиях априорной неопределенности](*
+	<- lang_ru;;
+	*);;
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU <- lang_en;;
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU => nrel_abstract: [В статье рассматриваются системы с управлением, которые функционируют в условиях априорной неопределенности с неизвестными параметрами. На объекты управления действуют возмущающие воздействия с неизвестными функциями распределения вероятности математическое описание, которое задается с помощью неравенств. Поэтому разработку систем автоматического управления этими объектами необходимо осуществлять на основе теории адантивных систем. Задачи адаптивного управления в настоящее время рещают на базе принципа достоверной эквивалентности.];;
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU => nrel_count_page: 4;;
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU => nrel_author:
+Babamuhamedova_M.Z.;;
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU => nrel_author:
+Dosanova_M.U;;
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU => nrel_author:
+Ergashev_F_A;;
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU <- article_OSTIS_2016;;
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU => nrel_bibliographic_reference: [Бабамухамедова, М.З. Принцип достоверной эквивалентности в задачах адаптивного управления в условиях априорной неопределенности / М.З. Бабамухамедова, М.Ю. Дощанова, Ф.А. Эргашев / Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 565–568.](*
+<-interstate_standard;; 
+*);;
+
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU=> nrel_year_publication: 2016;;
+
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU => nrel_comprise:  Materials_OSTIS2016;;
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Бабамухамедова.pdf";; *);;*);;
+
+article_Babamuhamedova_M_Z_2016_PrincAEPACCAU <- article;;

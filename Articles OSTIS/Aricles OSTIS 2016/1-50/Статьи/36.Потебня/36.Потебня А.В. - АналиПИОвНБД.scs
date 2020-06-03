@@ -1,0 +1,35 @@
+article_Potebnia_A_V_2016_AnalysoIXPiSD => nrel_main_idtf:
+[Потебня А.В. 2016 - АналиПИОвНБД]
+	(*
+	<- lang_ru;;
+	*);
+	[Potebnia A.V. 2016 - AnalysoIXPiSD] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Potebnia_A_V_2016_AnalysoIXPiSD => nrel_article_title:[Анализ процессов информационного обмена в наукометрических базах данных](*
+	<- lang_ru;;
+	*);;
+article_Potebnia_A_V_2016_AnalysoIXPiSD <- lang_ru;;
+article_Potebnia_A_V_2016_AnalysoIXPiSD => nrel_author:
+Potebnia_A_V;
+Pogorelyi_S_D;;
+article_Potebnia_A_V_2016_AnalysoIXPiSD => nrel_abstract: [В статье проведено исследование процессов распространения информации в наукометрических базах данных. На основе разработанной математической модели с применением методов комбинаторной оптимизации определены тенденции кластеризации баз данных и установлены основные способы поддержания их целостности. Выполнено экспериментальное исследование системы ArXiv.];;
+
+article_Potebnia_A_V_2016_AnalysoIXPiSD <- article_OSTIS_2016;;
+article_Potebnia_A_V_2016_AnalysoIXPiSD => nrel_count_page: 6;;
+
+article_Potebnia_A_V_2016_AnalysoIXPiSD => nrel_bibliographic_reference: [Потебня, А.В. Анализ процессов информационного обмена в наукометрических базах данных / А.В. Потебня, С.Д. Погорелый // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Potebnia_A_V_2016_AnalysoIXPiSD => nrel_year_publication: 2016;;
+
+article_Potebnia_A_V_2016_AnalysoIXPiSD => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Potebnia_A_V_2016_AnalysoIXPiSD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/36.potebnia.pdf";; *);; *);;
+
+
+article_Potebnia_A_V_2016_AnalysoIXPiSD <- article;;

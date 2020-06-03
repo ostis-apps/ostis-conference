@@ -1,0 +1,35 @@
+article_Danilin_N_S_2016_TeleDUOBESC => nrel_main_idtf:
+[Данилин Н.С. 2016 - ПримеДТдЦУНСнБСС] 
+	(*
+	<- lang_ru;;
+	*);
+	[Danilin N.S. 2016 - TeleDUOBESC] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Danilin_N_S_2016_TeleDUOBESC => nrel_article_title:[Применение данных телеметрии для целей управления нештатными ситуациями на борту спутниковых систем](*
+	<- lang_ru;;
+	*);;
+article_Danilin_N_S_2016_TeleDUOBESC => nrel_author:
+Danilin_N.S.;;
+article_Danilin_N_S_2016_TeleDUOBESC => nrel_author:
+Dimitrov_D_M;;
+article_Danilin_N_S_2016_TeleDUOBESC => nrel_author:
+Sabirov_I_H;;
+article_Danilin_N_S_2016_TeleDUOBESC <- lang_ru;;
+article_Danilin_N_S_2016_TeleDUOBESC => nrel_abstract: [В работе предлагается подход к формированию пространства признаков на базе телеметрических данных спутниковой системы с применением ROC-анализа для нужд ситуационного управления, которое реализуется бортовой системой интеллектуального мониторинга программно-аппаратной среды.];;
+
+article_Danilin_N_S_2016_TeleDUOBESC => nrel_count_page: 4;;
+article_Danilin_N_S_2016_TeleDUOBESC <- article_OSTIS_2016;;
+
+article_Danilin_N_S_2016_TeleDUOBESC => nrel_bibliographic_reference: [Данилин, Н.С. Применение данных телеметрии для целей управления нештатными ситуациями на борту спутниковых систем/ Н.С. Данилин, Д.М. Димитров, И.Х. Сабиров // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 483–486.](*
+<-interstate_standard;; 
+*);;
+
+article_Danilin_N_S_2016_TeleDUOBESC=> nrel_year_publication: 2016;;
+
+article_Danilin_N_S_2016_TeleDUOBESC=> nrel_comprise:  Materials_OSTIS2016;;
+article_Danilin_N_S_2016_TeleDUOBESC<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Данилин.pdf";; *);;*);;
+
+article_Danilin_N_S_2016_TeleDUOBESC <- article;;

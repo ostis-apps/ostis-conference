@@ -1,0 +1,36 @@
+article_Sapunkov_A_A_2016_TimeSRAttSF => nrel_main_idtf:
+[Сапунков А.А. 2016 - АлгорУВР]
+	(*
+	<- lang_ru;;
+	*);
+	[Sapunkov A.A. 2016 - TimeSRAttSF] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Sapunkov_A_A_2016_TimeSRAttSF => nrel_article_title:[Алгоритм унификации временных рядов](*
+	<- lang_ru;;
+	*);;
+article_Sapunkov_A_A_2016_TimeSRAttS <- lang_ru;;
+article_Sapunkov_A_A_2016_TimeSRAttS => nrel_abstract: [В работе приводится методика унификации временных рядов, то есть приведение временных рядов разной длины к временным рядам одинаковой длины для последующей обработки или анализа. Описывается наиболее популярный метод для решения данной задачи, метод F-преобразований, и приводится новая разработанная методика унификации временных рядов. В конце работы сравниваются обе методики, указываются преимущества и недостатки.];;
+publication_Sapunkov_A_A_2016_TimeSRAttS => nrel_count_page: 4;;
+
+
+article_Sapunkov_A_A_2016_TimeSRAttSF => nrel_author:
+Sapunkov_A_A;
+Afanaseva_T_V;;
+
+article_Sapunkov_A_A_2016_TimeSRAttSF <- article_OSTIS_2016;;
+
+article_Sapunkov_A_A_2016_TimeSRAttSF => nrel_bibliographic_reference: [Сапунков, А.А. Алгоритм унификации временных рядов / А.А. Сапунков, Т.В. Афанасьева // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Sapunkov_A_A_2016_TimeSRAttSF => nrel_year_publication: 2016;;
+
+article_Sapunkov_A_A_2016_TimeSRAttSF => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Sapunkov_A_A_2016_TimeSRAttSF <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/45.sapunkov.pdf";; *);; *);;
+
+article_Sapunkov_A_A_2016_TimeSRAttSF <- article;;

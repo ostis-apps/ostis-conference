@@ -1,0 +1,37 @@
+article_Gribova_V_V_2016_RealiUIVEbDM => nrel_main_idtf:
+[Грибова В. В. 2016 - РеалиПИВСпДМ]
+	(*
+	<- lang_ru;;
+	*);
+	[Gribova V.V. 2016 - RealiUIVEbDM] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Gribova_V_V_2016_RealiUIVEbDM => nrel_article_title:[Реализация пользовательских интерфейсов виртуальных сред по декларативной модели](*
+	<- lang_ru;;
+	*);;
+
+article_Gribova_V_V_2016_RealiUIVEbDM => nrel_author:
+Fedorishchev_L_A;;
+article_Gribova_V_V_2016_RealiUIVEbDM => nrel_author:
+Gribova_V_V;;
+
+article_Gribova_V_V_2016_RealiUIVEbDM <- lang_ru;;
+article_Gribova_V_V_2016_RealiUIVEbDM => nrel_abstract: [В работе приводится описание подхода к разработке пользовательских интерфейсов виртуальных сред по декларативной модели. Данный подход позволяет заменить кодирование в разработке и сопровождении не только самих виртуальных сред, но и интерфейсов их естественным декларативным описанием, что открывает дополнительные возможности по гибкой настройке и управлению пользовательских интерфейсов.];;
+
+article_Gribova_V_V_2016_RealiUIVEbDM => nrel_count_page: 4;;
+
+article_Gribova_V_V_2016_RealiUIVEbDM <- article_OSTIS_2016;;
+
+article_Gribova_V_V_2016_RealiUIVEbDM => nrel_bibliographic_reference: [Грибова, В. В. Реализация пользовательских интерфейсов виртуальных сред по декларативной модели / В.В. Грибова, Л.А. Федорищев // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 327–330.](*
+<-interstate_standard;; 
+*);;
+
+article_Gribova_V_V_2016_RealiUIVEbDM => nrel_year_publication: 2016;;
+
+article_Gribova_V_V_2016_RealiUIVEbDM => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Gribova_V_V_2016_RealiUIVEbDM <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Грибова.pdf";; *);;*);;
+
+article_Gribova_V_V_2016_RealiUIVEbDM <- article;;

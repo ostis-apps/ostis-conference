@@ -1,0 +1,60 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..215;;
+sc_node_not_relation->..224;;
+sc_node_not_relation->..str;;
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS=> nrel_main_idtf:
+[Вэньцзу Ли 2020 - ОнтолПкАПГВиКЗвИОС]
+	(*
+	<- lang_ru;;
+	*);
+	[Wenzu Li 2020 - OntolAtAPoQGaKCiILS] 
+	(*
+	<- lang_en;;
+	*);;
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS => nrel_article_title:[Онтологический подход к автоматизации процессов генерации вопросов и контроля знаний в интеллектуальных обучающих системах.](*
+	<- lang_ru;;
+	*);;
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS => nrel_article_title:[Ontological approach to automating the processes of question generation and knowledge control in intelligent learning systems.](*
+	<- lang_en;;
+	*);;
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS <- article;;
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS <- article_OSTIS_2020;;
+
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS => nrel_abstract: [ This article proposes an approach for designing a general subsystem of automatic generation of questions and automatic verification of answers in intelligent learning systems. The proposed approach is based on the existing approaches and ontology theory, using this approach it is possible to generate various types of questions from the knowledge bases automatically and automatically verify the correctness and completeness of user answers. Compared with the existing approaches, the approach proposed in this article has certain advantages, and the subsystem designed using this approach can be used in systems built using OSTIS Technology.];
+[ В данной работе предложен подход к проектированию общей подсистемы автоматической генерации вопросов и автоматической верификации ответов в интеллектуальных обучающих систем. Данный подход предлагается на основе существующих подходов и теории онтологий, с помощью предлагаемого подхода можно автоматически генерировать различные типы вопросов из баз знаний и автоматически проверять правильность и полноту ответов пользователей. В сравнении с существующими подходами, предложенный в данной работе подход имеет определенные технические преимущества, а подсистема, разработанная с использованием предложенного в данной работе подхода, может быть применена в различных обучающих системах, построенных по технологии OSTIS.];;
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS => nrel_author: 
+Longwei_Q;
+Wenzu_L;
+Grakova_N_V;;
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS => nrel_bibliographic_reference:[Вэньцзу, Ли. Онтологический подход к автоматизации процессов генерации вопросов и контроля знаний в интеллектуальных обучающих системах. / Ли Вэньцзу, Н.В. Гракова, Цянь Лунвэй // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 215-224.](*
+ <-interstate_standard;; 
+*);;
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS <- lang_en;;
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/29.Wenzu.pdf";; *);; *);;
+
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS => nrel_key_concepts:
+{
+	concept_question_generation;
+	ontology;
+	concept_answer_verification;
+	concept_knowledge_bases;
+	concept_learning_systems
+};;
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS <- 10.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 10;; => rrel_number_of_year: 2020;;*);;*);;
+10.01.2020 <- date_of_received;;
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..215=>..224);;
+..215=>..nrel:215;;
+..224=>..nrel:224;;
+..215<-exact_value;;
+..224<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..215<-page;;
+..224<-page;;
+number_of_page<-page;;
+article_Wenzu_Li_2020_OntolAtAPoQGaKCiILS <= nrel_published_material: report_Li_Wenzu_2020_OntolAtAtPoGQaCKiILS;;

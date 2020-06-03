@@ -1,0 +1,35 @@
+article_Averkin_A_N_2016_NeuralNiSA => nrel_main_idtf:
+[Аверкин А.Н. 2016 - НейроСвСА]
+	(*
+	<- lang_ru;;
+	*);
+	[Averkin A.N. 2016 - NeuralNiSA] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Averkin_A_N_2016_NeuralNiSA => nrel_article_title:[Нейронные сети в семантическом анализе](*
+	<- lang_ru;;
+	*);;
+
+article_Averkin_A_N_2016_NeuralNiSA => nrel_author:
+Averkin_A_N;
+Yarushev_S_A;;
+article_Averkin_A_N_2016_NeuralNiSA <- lang_ru;;
+article_Averkin_A_N_2016_NeuralNiSA => nrel_abstract: [В работе проводится исследование по возможностям применения искусственных нейронных сетей в семантическом анализе. Рассматривается современное состояние дел в данной отрасли, перспективы использования искусственного интеллекта в области семантического анализа, направления и тенденции развития науки в данном направлении. Приводится обзор некоторых работ в области семантического анализа с применением технологий искусственного интеллекта и нейронных сетей.];;
+article_Averkin_A_N_2016_NeuralNiSA => nrel_count_page: 4;;
+
+article_Averkin_A_N_2016_NeuralNiSA <- article_OSTIS_2016;;
+
+article_Averkin_A_N_2016_NeuralNiSA => nrel_bibliographic_reference: [Аверкин, А.Н. Нейронные сети в семантическом анализе / А.Н. Аверкин, С.А. Ярушев // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Averkin_A_N_2016_NeuralNiSA => nrel_year_publication: 2016;;
+
+article_Averkin_A_N_2016_NeuralNiSA => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Averkin_A_N_2016_NeuralNiSA <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/49.averkin.pdf";; *);; *);;
+
+article_Averkin_A_N_2016_NeuralNiSA <- article;;

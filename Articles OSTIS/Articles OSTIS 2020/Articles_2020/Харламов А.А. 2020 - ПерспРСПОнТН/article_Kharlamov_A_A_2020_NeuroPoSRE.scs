@@ -1,0 +1,62 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..141;;
+sc_node_not_relation->..148;;
+sc_node_not_relation->..str;;
+article_Kharlamov_A_A_2020_NeuroPoSRE => nrel_main_idtf:
+[Харламов А.А. 2020 - ПерспРСПОнТН]
+	(*
+	<- lang_ru;;
+	*);
+	[Kharlamov A.A. 2020 - NeuroPoSRE] 
+	(*
+	<- lang_en;;
+	*);;
+article_Kharlamov_A_A_2020_NeuroPoSRE => nrel_article_title:[Перспективы развития семантических представлений, основывающиеся на тенденциях нейроинформатики.](*
+	<- lang_ru;;
+	*);;
+article_Kharlamov_A_A_2020_NeuroPoSRE => nrel_article_title:[Neuroinformatics Presumptions of Semantic Representations Evolution.](*
+	<- lang_en;;
+	*);;
+article_Kharlamov_A_A_2020_NeuroPoSRE <- article;;
+article_Kharlamov_A_A_2020_NeuroPoSRE <- article_OSTIS_2020;;
+
+article_Kharlamov_A_A_2020_NeuroPoSRE => nrel_abstract: [ To date, traditional information technology and artificial intelligence technology have evolved independently of each other. Now is the time to fundamentally rethink the experience of using and evolution of traditional information technology and its integration with artificial intelligence technology. Currently, the key problem in the development of information technology in general and artificial intelligence technology in particular is the problem of ensuring the information compatibility of computer systems, including intelligent systems. One of the advantages of combining knowledge bases — the core of modern information systems — is the use of a more or less standard way (in the form of semantic networks) to represent knowledge. However, the sole use of semantic networks to represent knowledge does not solve the problem of standardization. For such a representation to become generally accepted, it must be based on the fundamental principles of describing semantics. The most fundamental concept in this sense is the representation of knowledge in human consciousness. Semantic representations in the modern sense – that is, thesauri, semantic networks, ontologies – are a very rough description of the highest level of reality where we live, which can only conditionally be called a model of the world. In order to understand the architecture of the semantic representations that adequately describe the human world (as the modeled object), it is necessary to reproduce the architecture of the human world model as it is formed in the human consciousness. To understand this architecture, one need to look at the human brain (a natural neural network that forms semantic representations), at its (brain) organs that form this architecture, at the cognitive networks that form in it in response to particular situations at its input and output in the process of solving specific problems, at the informatics of individual sensory and effector modalities, the levels of hierarchical representations of which contain images of events of the external and interoceptive world of human of varying degrees of complexity, at the combinations of these hierarchies in multimodal representations, including those in the description of entire situations, as well as the sequence of situations, how they are used in the process of the unconscious and purposeful behaviour – its planning and implementation control. Obviously, the brain is both very large and very heterogeneous neural network that is complex in architecture. Such representations are not only well supported by a comparison with the architecture and informatics of the brain, but are also effectively modelled in applications. TextAnalyst, a software technology for automatic semantic analysis of unstructured texts (which is based on an artificial neural network based on neurons with time summation of signals), effectively implements the functions of forming a homogeneous semantic network, automatic abstracting of texts, comparing texts by their meaning, as well as classifying and clustering texts. It can be assumed that this technology will also effectively analyze code sequences obtained in the analysis of video sequences, if this analysis is sufficiently bionic. A single approach to the processing of textual and visual information will enable constructing effective multimodal systems for processing and presenting information, which is the only accurate approach to the modelling of human intellectual functions.];
+[ До настоящего времени традиционные информационные технологии и технологии искусственного интеллекта развивались независимо друг от друга. Сейчас настало время фундаментального переосмысления опыта использования и эволюции традиционных информационных технологий и их интеграции с технологиями искусственного интеллекта. Ключевой на текущий момент проблемой развития информационных технологий в целом и технологий искусственного интеллекта в частности является проблема обеспечения информационной совместимости компьютерных систем и в том числе интеллектуальных систем. Одной из возможностей информационного совмещения баз знаний – ядра современных информационных систем – является использование для представления знаний более или менее стандартного способа в виде семантических сетей. Однако само использование семантических сетей для представления знаний не решает проблемы стандартизации. Чтобы такое представление стало общепринятым, оно должно базироваться на фундаментальных принципах описания семантики. Наиболее фундаментальным в этом смысле представлением является представление знаний в сознании человека. Семантические представления в современном понимании – тезаурусы, семантические сети, онтологии – это очень грубое описание самого верхнего уровня действительности, в которой мы живем, которое лишь условно можно назвать моделью мира. Для понимания релевантной моделируемому предмету – реальному миру человека – архитектуры семантических представлений, адекватно описывающих этот мир, необходимо воспроизвести архитектуру модели мира человека, как она формируется в его сознании. Для понимания этой архитектуры необходимо посмотреть на мозг человека (естественную нейронную сеть, формирующую семантические представления), на его (мозга) органы, которые формируют эту архитектуру, на когнитивные сети, возникающие в нем в ответ на появление конкретных ситуаций на его входе и выходе в процессе решения конкретных задач, на информатику отдельных сенсорных и эффекторных модальностей, уровни иерархических представлений которых содержат образы событий внешнего и интероцептивного мира человека разной степени сложности, объединение этих иерархий в многомодальных представлениях, в том числе, в рамках описания целых ситуаций, а также последовательностей ситуаций, как они используются в процессе неосознанного, а также целенаправленного поведения – его планирования и контроля исполнения. Очевидно, что мозг – это и очень большая, и очень неоднородная, а потому, сложная по архитектуре нейронная сеть. Такие представления не только хорошо подтверждаются сравнением с архитектурой и информатикой мозга, но и эффективно моделируются в приложениях. Программная технология для автоматического смыслового анализа неструктурированных текстов TextAnalyst (в основе которой лежит искусственная нейронная сеть на основе нейронов с временной суммацией сигналов) эффективно реализует функции формирования однородной семантической сети, автоматического реферирования текстов, сравнения текстов по смыслу, классификации и кластеризации текстов. Можно предполагать, что также эффективно подобная технология будет анализировать кодовые последовательности, полученные при анализе видеорядов, если этот анализ будет достаточно бионичен. Единый подход к обработке текстовой и зрительной информации позволит говорить о построении эффективных многомодальных систем обработки и представления информации, что является единственно верным подходом в развитии моделирования интеллектуальных функций человека.];;
+article_Kharlamov_A_A_2020_NeuroPoSRE => nrel_author: 
+Kharlamov_A_A;;
+article_Kharlamov_A_A_2020_NeuroPoSRE => nrel_bibliographic_reference:[Харламов, А.А. Перспективы развития семантических представлений, основывающиеся на тенденциях нейроинформатики. / А.А. Харламов // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 141-148.](*
+ <-interstate_standard;; 
+*);;
+article_Kharlamov_A_A_2020_NeuroPoSRE <- lang_en;;
+article_Kharlamov_A_A_2020_NeuroPoSRE <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Kharlamov_A_A_2020_NeuroPoSRE <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/18.Harlamov.pdf";; *);; *);;
+
+article_Kharlamov_A_A_2020_NeuroPoSRE => nrel_key_concepts:
+{
+	concept_integration_of_information_technology;
+	concept_semantic_networks_as_the_basis_for_standardizing;
+	concept_the_representation_of_knowledge;
+	concept_semantic_networks_in_the_human_consciousness;
+	concept_artificial_neural_networks;
+	concept_neurons_with_temporary_summation_of_signals;
+	concept_semantic_analysis_of_texts;
+	concept_integration_of_modalities
+};;
+
+article_Kharlamov_A_A_2020_NeuroPoSRE <- 09.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 09;; => rrel_number_of_year: 2020;;*);;*);;
+09.01.2020 <- date_of_received;;
+article_Kharlamov_A_A_2020_NeuroPoSRE <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..141=>..148);;
+..141=>..nrel:141;;
+..148=>..nrel:148;;
+..141<-exact_value;;
+..148<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..141<-page;;
+..148<-page;;
+number_of_page<-page;;
+article_Kharlamov_A_A_2020_NeuroPoSRE <= nrel_published_material: report_Kharlamov_A_A_2020_ProspftDoSCBoTiN;;

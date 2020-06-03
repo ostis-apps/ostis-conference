@@ -1,0 +1,63 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..69;;
+sc_node_not_relation->..72;;
+sc_node_not_relation->..str;;
+article_Rybina_G_V_2020_SomeAoIToCoTIES=> nrel_main_idtf:
+[Рыбина Г.В. 2020 - НекотАИТПОИЭС]
+	(*
+	<- lang_ru;;
+	*);
+	[Rybina G.V. 2020 SomeAoIToCoTIES] 
+	(*
+	<- lang_en;;
+	*);;
+article_Rybina_G_V_2020_SomeAoIToCoTIES => nrel_article_title:[Некоторые аспекты интеллектуальной технологии построения обучающих интегрированных экспертных систем.](*
+	<- lang_ru;;
+	*);;
+article_Rybina_G_V_2020_SomeAoIToCoTIES => nrel_article_title:[Some aspects of intelligent technology of construction of the tutoring integrated expert systems.](*
+	<- lang_en;;
+	*);;
+article_Rybina_G_V_2020_SomeAoIToCoTIES <- article;;
+article_Rybina_G_V_2020_SomeAoIToCoTIES<- article_OSTIS_2020;;
+
+article_Rybina_G_V_2020_SomeAoIToCoTIES => nrel_abstract: [We analyze the experience of development and use of tutoring integrated expert systems in MEPhI educational process. These systems were created on the basis of problem-oriented methodology and intelligent software environment of AT-TECHNOLOGY workbench. The emphasis is on the peculiarities of the implementation of certain tasks of intellectual training, related to the identification of stude.];
+[Мы анализировали опыт разработки и использования интегрированных экспертных систем обучения в учебном процессе НИЯУ МИФИ. Эти системы были созданы на основе основы проблемно-ориентированной методологии и интеллектуального программного обеспечения среды инструментального комплекса АТ-ТЕХНОЛОГИЯ. Выразительность речь идет об особенностях реализации тех или иных задач организации интеллектуальное обучение, связанное с идентификацией личности обучающихся знания и умения решать неформализованные задачи.];;
+article_Rybina_G_V_2020_SomeAoIToCoTIES => nrel_author: 
+Rybina_G_V;
+Sorokin_I_A;
+Korsachev_A_A;
+Dvorchik_M_A;;
+article_Rybina_G_V_2020_SomeAoIToCoTIES => nrel_bibliographic_reference:[Рыбина, Г.В. Некоторые аспекты интеллектуальной технологии построения обучающих интегрированных экспертных систем. / Г.В. Рыбина, И.А. Сорокин, А.А. Корсачев, М.А. Дворчик // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 69-72](*
+ <-interstate_standard;; 
+*);;
+article_Rybina_G_V_2020_SomeAoIToCoTIES <- lang_en;;
+article_Rybina_G_V_2020_SomeAoIToCoTIES <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Rybina_G_V_2020_SomeAoIToCoTIES <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/06.Ryibina.pdf";; *);; *);;
+
+article_Rybina_G_V_2020_SomeAoIToCoTIES => nrel_key_concepts:
+{
+	concept_artificial_intelligence;
+	concept_integrated_expert_systems;
+	concept_problem_oriented_methodology;
+	concept_AT_TECHNOLOGY_workbench;
+	concept_intelligent_software_environment;
+	concept_automated_planning;
+	concept_tutoring_integrated_expert_systems;
+	concept_intelligent_training
+};;
+article_Rybina_G_V_2020_SomeAoIToCoTIES <- 13.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 13;; => rrel_number_of_year: 2019;;*);;*);;
+article_Rybina_G_V_2020_SomeAoIToCoTIES <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..69=>..72);;
+..69=>..nrel:69;;
+..72=>..nrel:72;;
+..69<-exact_value;;
+..72<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..69<-page;;
+..72<-page;;
+number_of_page<-page;;
+article_Rybina_G_V_2020_SomeAoIToCoTIES<=nrel_published_material:report_Korsachev_A_A_2020_SomeAoITfBTIES;;

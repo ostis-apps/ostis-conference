@@ -1,0 +1,40 @@
+article_Koronchik_D_N_2016_SmartHCbK => nrel_main_idtf:
+[Корончик Д.Н. 2016 - УмныйДУЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Koronchik D.N. 2016 - SmartHCbK] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Koronchik_D_N_2016_SmartHCbK => nrel_article_title:["Умный дом", управляемый знаниями](*
+	<- lang_ru;;
+	*);;
+
+article_Koronchik_D_N_2016_SmartHCbK => nrel_author:
+Koronchik_Denis_Nikolaevich;;
+
+article_Koronchik_D_N_2016_SmartHCbK <- article;;
+article_Koronchik_D_N_2016_SmartHCbK <- article_OSTIS_2016;;
+
+
+article_Koronchik_D_N_2016_SmartHCbK => nrel_bibliographic_reference: [Корончик, Д. Н. "Умный дом", управляемый знаниями / Д.Н. Корончик // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Koronchik_D_N_2016_SmartHCbK => nrel_year_publication: 2016;;
+
+article_Koronchik_D_N_2016_SmartHCbK => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Koronchik_D_N_2016_SmartHCbK <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/20.koronchik.pdf";; *);; *);;
+
+article_Koronchik_D_N_2016_SmartHCbK => nrel_abstract:
+[В работе приводится описание подхода к реализации «Умного дома» на основе технологии OSTIS , который дает целый ряд преимуществ , в сравнении с существующими подходами. Суть описываемого подхода заключается в том, что устройства в доме управляются зна ниями.](*
+	<- lang_ru;;
+	*);;
+
+article_Koronchik_D_N_2016_SmartHCbK => nrel_count_page: 4;;
+
+article_Koronchik_D_N_2016_SmartHCbK <- lang_ru;;

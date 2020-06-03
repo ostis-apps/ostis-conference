@@ -1,0 +1,59 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..313;;
+sc_node_not_relation->..316;;
+sc_node_not_relation->..str;;
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI => nrel_main_idtf:
+[Сысоев А.С. 2020 - АналиКИкРОФВНСМ]
+	(*
+	<- lang_ru;;
+	*);
+	[Sysoev A.S. 2020 - AnalyoFFaBoDaSoNNMI] 
+	(*
+	<- lang_en;;
+	*);;
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI => nrel_article_title:[Анализ конечных изменений как основа формирования входов нейросетевой модели.](*
+	<- lang_ru;;
+	*);;
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI => nrel_article_title:[Analysis of Finite Fluctuations as a Basis of Defining a Set of Neural Network Model Inputs.](*
+	<- lang_en;;
+	*);;
+
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI <- article;;
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI <- article_OSTIS_2020;;
+
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI => nrel_abstract: [ The paper describes an approach on the defining a set of neural network model inputs analyzing their influence on the output. The mathematical basis of such procedure is Analysis of Finite Fluctuations based on applying Lagrange mean value theorem. The applied problem under consideration in finding outliers in data from healthcare digital system records.];
+[ В статье рассматривается подход к формированию набора входных переменных для нейросетевой модели на основе анализа их влияния на выход. Математической основой такой процедуры выступает анализ конечных изменений, основанный на применении теоремы Лагранжа о промежуточной точке. Прикладная проблема исследования — выявление аномалий в наборах данных, полученных из информационной системы фиксации результатов оказания медицинской помощи.];;
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI => nrel_author: 
+Sheglevatych_R_V;
+Sysoev_A_S;;
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI => nrel_bibliographic_reference:[Сысоев, А.С. Анализ конечных изменений как основа формирования входов нейросетевой модели. / А.С. Сысоев, Р. Щеглеватых // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 313-316.](*
+ <-interstate_standard;; 
+*);;
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI <- lang_en;;
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/49.Sheglevatych.pdf";; *);; *);;
+
+
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI => nrel_key_concepts:
+{
+	concept_analysis_of_finite_fluctuations;
+	concept_neural_network;
+	concept_sensitivity_analysis
+};;
+
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI <- 30.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 30;; => rrel_number_of_year: 2020;;*);;*);;
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..313=>..316);;
+..313=>..nrel:313;;
+..316=>..nrel:316;;
+..313<-exact_value;;
+..316<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..313<-page;;
+..316<-page;;
+number_of_page<-page;;
+article_Sysoev_A_S_2020_AnalyoFFaBoDaSoNNMI <= nrel_published_material: report_Sysoev_A_S_2020_AnalyoFCatBftFoIoaNNM;;

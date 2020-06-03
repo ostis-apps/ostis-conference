@@ -1,0 +1,28 @@
+article_Mityanok_V_V_2016_APhysiSSVSHS => nrel_main_idtf:
+[Митянок В. В. 2016 - ОФизиСПГЗРЧ]
+	(*
+	<- lang_ru;;
+	*);
+	[Mityanok V.V. 2016 - APhysiSSVSHS] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Mityanok_V_V_2016_APhysiSSVSHS => nrel_article_title:[О физической структуре простых гласных звуков речи человека](*
+	<- lang_ru;;
+	*);;
+
+article_Mityanok_V_V_2016_APhysiSSVSHS => nrel_author:
+Mityanok_V_V;;
+article_Mityanok_V_V_2016_APhysiSSVSHS => nrel_abstract: [В статье описываются результаты численных экспериментов по разложению гласных звуков речи человека на составляющие их звуковые моды с дрейфующими амплитудами. Полученные моды вновь суммировались, при этом предварительно подвергались сознательным искажениям с целью выявления факторов, как имеющих значение так и не имеющих значение для распознаваемости звуков.];;
+article_Mityanok_V_V_2016_APhysiSSVSHS => nrel_bibliographic_reference: [Митянок, В. В. О физической структуре простых гласных звуков речи человека / В.В. Митянок // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 405–410.](*
+<-interstate_standard;; 
+*);;
+
+article_Mityanok_V_V_2016_APhysiSSVSHS => nrel_year_publication: 2016;;
+
+article_Mityanok_V_V_2016_APhysiSSVSHS => nrel_comprise:  Materials_OSTIS2016;;
+article_Mityanok_V_V_2016_APhysiSSVSHS <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Митянок.pdf";; *);;*);;
+
+article_Mityanok_V_V_2016_APhysiSSVSHS <- article;;
+article_Mityanok_V_V_2016_APhysiSSVSHS <- article_OSTIS_2016;;

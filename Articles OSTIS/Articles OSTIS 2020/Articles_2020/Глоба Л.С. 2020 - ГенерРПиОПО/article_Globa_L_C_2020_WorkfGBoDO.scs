@@ -1,0 +1,64 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..105;;
+sc_node_not_relation->..110;;
+sc_node_not_relation->..str;;
+article_Globa_L_C_2020_WorkfGBoDO=> nrel_main_idtf:
+[Глоба Л.С. 2020 - ГенерРПиОПО]
+	(*
+	<- lang_ru;;
+	*);
+	[Globa L.C. 2020 WorkfGBoDO] 
+	(*
+	<- lang_en;;
+	*);;
+article_Globa_L_C_2020_WorkfGBoDO => nrel_article_title:[Генерация рабочих процессов из онтологии предметной области.](*
+	<- lang_ru;;
+	*);;
+article_Globa_L_C_2020_WorkfGBoDO => nrel_article_title:[Workflows Generation based on the Domain Ontology.](*
+	<- lang_en;;
+	*);;
+article_Globa_L_C_2020_WorkfGBoDO <- article;;
+article_Globa_L_C_2020_WorkfGBoDO <- article_OSTIS_2020;;
+
+article_Globa_L_C_2020_WorkfGBoDO => nrel_abstract: [The digital economy, which is a prerequisite for the 4th Industrial Revolution, requires a rapid increase in services provided in the digital global space. However, the level of computer-aided workflows underlying the various services is imperfect due to the lack of meta-models (ontologies) that would describe the conditions of use of the services, take into account the meaningful connections between them, and a mathematical apparatus that would make it easy to execute certain interactions of elements of such models.
+ The paper describes the approach to automation of the design of workflows and their components (functional services, communications and rules of interaction) by computer-aided generation of both a set of services that are components of workflows and the sequence of their execution, using ontologies – meta-models of workflows, services, domain, logical rules that establish relationships between functional services.
+ The application of the proposed approach allowed to generate workflows based on the parameters defined in the meta-model (ontology) of the register of services and limitations imposed by the domain ontology, taking into account both functional and non-functional requirements, realizing the transformation of the workflow in its program execution models regardless of the calculation. 
+ For the computer-aided workflows generation, a software environment has been developed, the performance of which is tested on the example of workflow generation with the use of IT TODOS tools for constructing and modifying ontologies and generating a workflow scheme using BPMN.];
+[В работе освещён подход к автоматизации проектирования рабочих процессов и их компонентов (функциональных сервисов, связей и правил взаимодействия) путем автоматизированной генерации как набора сервисов, которые являются составляющими рабочих процессов, так и последовательности их выполнения, используя онтологии – метамодели рабочего процесса, сервисов, предметной области, логических правил, устанавливающих связи между функциональными сервисами.
+ Применение предложенного подхода позволило генерировать рабочие процессы на основе параметров, определенных в мета-моделях (онтологиях) реестра сервисов, и ограничений, наложенных онтологией предметной области, учитывая как функциональные, так и нефункциональные требования, реализуя преобразования рабочего процесса независимо от вычислений в его программной модели выполнения.
+ Для автоматизированной генерации рабочих процессов разработана программная среда, работоспособность которой проверена на примере генерации рабочего процесса с применением инструментальных средств построения и модификации онтологий ИТ ТОДОС и генерации схемы рабочего процесса средствами языка BPMN.];;
+article_Globa_L_C_2020_WorkfGBoDO => nrel_author: 
+Globa_L_C;
+Popova_M_A;
+Bakai_A_N;;
+article_Globa_L_C_2020_WorkfGBoDO => nrel_bibliographic_reference:[Глоба, Л. С. Генерация рабочих процессов из онтологии предметной области / Л.С. Глоба, М.А. Попова, А.Н. Бакай // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 105-110.](*
+ <-interstate_standard;; 
+*);;
+article_Globa_L_C_2020_WorkfGBoDO <- lang_en;;
+article_Globa_L_C_2020_WorkfGBoDO <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Globa_L_C_2020_WorkfGBoDO <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/11.Globa.pdf";; *);; *);;
+
+article_Globa_L_C_2020_WorkfGBoDO => nrel_key_concepts:
+{
+	ontology;
+	concept_workflow;
+	concept_functional_services;
+	concept_computer_aided_business_process_design
+};;
+article_Globa_L_C_2020_WorkfGBoDO <- 12.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 12;; => rrel_number_of_year: 2019;;*);;*);;
+12.12.2019 <- date_of_received;;
+article_Globa_L_C_2020_WorkfGBoDO <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..105=>.110);;
+..105=>..nrel:105;;
+..110=>..nrel:110;;
+..105<-exact_value;;
+..110<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..105<-page;;
+..110<-page;;
+number_of_page<-page;;
+article_Globa_L_C_2020_WorkfGBoDO<= nrel_published_material: report_Globa_L_S_2020_GeneroWftOotSA;;

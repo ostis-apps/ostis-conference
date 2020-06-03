@@ -1,0 +1,74 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..73;;
+sc_node_not_relation->..88;;
+sc_node_not_relation->..str;;
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT=> nrel_main_idtf:
+[Голенков В.В. 2020 - СтандИКСКЗТЭРТИИ]
+	(*
+	<- lang_ru;;
+	*);
+	[Golenkov V.V. 2020 ThestoICSaKCoCSoDoAIT] 
+	(*
+	<- lang_en;;
+	*);;
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT => nrel_article_title:[Стандартизация интеллектуальных компьютерных систем -ключевая задача текущего этапа развития технологий искусственного интеллекта.](*
+	<- lang_ru;;
+	*);;
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT => nrel_article_title:[The standardization of intelligent computer systems as a key challenge of the current stage of development of artificial intelligence technologies.](*
+	<- lang_en;;
+	*);;
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT <- article;;
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT <- article_OSTIS_2020;;
+
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT => nrel_abstract: [ This work is devoted to the consideration of the most important factor providing semantic compatibility of intelligent computer systems and their components – standardization of intelligent computer systems, as well as standardization of methods and tools of their design.];
+[ Данная работа посвящена рассмотрению важнейшего фактора, обеспечивающего семантическую совместимость интеллектуальных компьютерных систем и их компонентов – стандартизации интеллектуальных компьютерных систем, а также стандартизации методов и средств их проектирования.
+Основой предлагаемого подхода к обеспечению высокого уровня обучаемости и семантической совместимости интеллектуальных компьютерных систем, а также к разработке стандарта интеллектуальных компьютерных систем является унификация смыслового представления знаний в памяти таких систем и построение глобального смыслового пространства знаний.
+ В работе рассмотрены текущие проблемы в области развития технологий искусственного интеллекта, в области автоматизации научно-технической и образовательной деятельности, а также в области развития информационных технологий в целом.
+ Описаны принципы, лежащие в основе стандарта интеллектуальных компьютерных систем и соответствующей технологии их разработки, рассмотрена структура базы знаний портала научных знаний, в рамках которой формально описывается указанный стандарт.];;
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT => nrel_author: 
+Golenkov_V_V;
+Golovko_V_A;
+Gulyakina_N_A;
+Krasnoproshin_V_V;;
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT => nrel_bibliographic_reference:[Голенков, В.В. Стандартизация интеллектуальных компьютерных систем -ключевая задача текущего этапа развития технологий искусственного интеллекта. / В.В. Голенков, В.А. Головко, Н.А. Гулякина, В.В. Краснопрошин // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 73-88](*
+ <-interstate_standard;; 
+*);;
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT <- lang_en;;
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT<- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/07.Golenkov.pdf";; *);; *);;
+
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT => nrel_key_concepts:
+{
+	concept_intelligent_computer_system;
+	concept_integrated_technology_for_the_development_of_intelligent_computer_systems;
+	concept_knowledge_base_of_an_intelligent_computer_system;
+	concept_educational_activities_in_the_field_of_artificial_intelligence;
+	concept_research_activities_in_the_field_of_artificial_intelligence;
+	concept_development_of_artificial_intelligence_technologies;
+	concept_engineering_activities_in_the_field_of_artificial_intelligence;
+	concept_convergence_of_scientific_disciplines_in_the_field_of_artificial_intelligence;
+	concept_convergence_of_models_for_the_representation_and_processing_of_knowledge_in_intelligent_computer_systems;
+	concept_general_theory_of_intelligent_computer_systems;
+	concept_convergence_of_various_methods_and_means_of_developing_intelligent_computer_systems;
+	concept_semantic_compatibility_of_intelligent_computer_systems_and_their_components;
+	concept_hybrid_intelligent_computer_system;
+	concept_semantic_representation_of_knowledge;
+	concept_standard_of_intelligent_computer_systems
+};;
+
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT <- 21.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 21;; => rrel_number_of_year: 2019;;*);;*);;
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..73=>..88);;
+..73=>..nrel:73;;
+..88=>..nrel:88;;
+..73<-exact_value;;
+..88<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..73<-page;;
+..88<-page;;
+number_of_page<-page;;
+article_Golenkov_V_V_2020_ThestoICSaKCoCSoDoAIT <= nrel_published_material: report_Golenkov_V_V_2020_TheSoISCiaKTitCSoDoAIT;;

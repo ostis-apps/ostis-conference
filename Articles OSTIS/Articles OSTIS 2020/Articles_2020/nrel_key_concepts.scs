@@ -1,0 +1,31 @@
+sc_node_norole_relation->nrel_key_concepts;;
+nrel_key_concepts=> nrel_main_idtf:
+[ключевые понятия*](*<- lang_ru;;*);
+[key concepts*] (*<- lang_en;;*);;
+
+definition ->...
+(*
+->rrel_key_sc_element:  nrel_key_concepts;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Ключевые понятия — понятия, способные дать высокоуровневое описание содержания документа, которые используются главным образом для поиска](*<-lang_ru;;*);;*);;
+=> nrel_main_idtf: [Опр.(ключевые понятия)](*<-lang_ru;;*);;
+=> nrel_using_constants:
+{ 
+	concept;
+	document
+	
+};;
+*);;
+
+nrel_key_concepts=>nrel_first_domain: article;;
+nrel_key_concepts=>nrel_second_domain: ..concept(*<=nrel_boolean:concept;;*);;
+..union6<=nrel_combination:
+{
+	article;
+	..concept(*<=nrel_boolean:concepts;;*)
+};;
+..union6<=nrel_definitional_domain:nrel_key_concepts;;
+
+nrel_key_concepts<-oriented_relation;;
+nrel_key_concepts<|-symmetric_relation;;
+nrel_key_concepts<-antireflexive_relation;;
+nrel_key_concepts<|-transitive_relation;;

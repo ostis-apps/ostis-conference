@@ -1,0 +1,62 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..153;;
+sc_node_not_relation->..156;;
+sc_node_not_relation->..str;;
+article_Paluh_B_V_2020_ThemeoOCoEoCTS => nrel_main_idtf:
+[Палюх Б.В. 2020 - МеханОУЭНТС]
+	(*
+	<- lang_ru;;
+	*);
+	[Paluh B.V. 2020 - ThemeoOCoEoCTS] 
+	(*
+	<- lang_en;;
+	*);;
+article_Paluh_B_V_2020_ThemeoOCoEoCTS => nrel_article_title:[Механизм оптимального управления эволюцией непрерывных технологических систем.](*
+	<- lang_ru;;
+	*);;
+article_Paluh_B_V_2020_ThemeoOCoEoCTS => nrel_article_title:[The mechanism of optimal control of the evolution of continuous technological system.](*
+	<- lang_en;;
+	*);;
+article_Paluh_B_V_2020_ThemeoOCoEoCTS <- article;;
+article_Paluh_B_V_2020_ThemeoOCoEoCTS <- article_OSTIS_2020;;
+
+article_Paluh_B_V_2020_ThemeoOCoEoCTS => nrel_abstract: [Due to competition in the conditions of continuous development of technology, enterprises have to constantly optimize production processes. There is a problem of choosing the most suitable solution to a particular situation managing the evolution of a technological system because the activities of enterprises must take into account a large number of external factors, take into account various kinds of limitations (resource, material and others).
+ This paper presents the mechanisms of optimal control of continuous technological systems based on the application of the theory of active systems, the theory of fuzzy systems, artificial intelligence methodologies, multi-agent systems. A method is proposed for forming a minimum set of solutions to problems with given constraints by combining a number of control mechanisms for the functioning of the technological system.];
+[ В связи с постоянно растущей конкуренцией в условиях непрерывного развития технологий промышленные предприятия вынуждены постоянно оптимизировать технологические процессы на производстве. Так как деятельность предприятий должна учитывать большое количество внешних факторов, учитывать различного рода ограничения (ресурсные, материальные и другие) при управлении эволюцией технологической системы возникает проблема выбора наиболее подходящего для конкретной ситуации варианта решения задачи. В данной работе приводятся механизмы оптимального управления непрерывными технологическими системами на основе применения теории активных систем, теории нечетких системы, методологий искусственного интеллекта, многоагентных систем. Предлагается способ формирования минимального множества вариантов решений задач с заданными ограничениями путем объединения ряда механизмов управления функционированием технологической системы.
+ Множества решений формируются на основе информации, получаемой путем привлечения на предприятие внешних консультантов, разносторонне исследующих функционирование системы и предлагающих различные варианты решений по оптимизации организационного управления. Другое множество представляет собой знания, получаемые в процессе взаимодействия руководителей предприятия непосредственно с сотрудниками. Следующее множество формируется на основе применения информации, полученной из тематических распределенных систем путем поиска и выбора оптимального решения задачи с последующей адаптацией.
+ Приведенные механизмы управления эволюцией непрерывных технологических систем более подробно рассмотрены в [1], [5], [8]. Предложенные алгоритмы использованы при разработке экспертных систем и информационных систем управления предприятием.];;
+article_Paluh_B_V_2020_ThemeoOCoEoCTS => nrel_author: 
+Paluh_B_V;
+Egereva_I_A;;
+article_Paluh_B_V_2020_ThemeoOCoEoCTS => nrel_bibliographic_reference:[Палюх, Б.В. Механизм оптимального управления эволюцией непрерывных технологических систем. / Б.В. Палюх, И.А. Егерева // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 153-156.](*
+ <-interstate_standard;; 
+*);;
+article_Paluh_B_V_2020_ThemeoOCoEoCTS <- lang_en;;
+article_Paluh_B_V_2020_ThemeoOCoEoCTS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Paluh_B_V_2020_ThemeoOCoEoCTS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/20.Paluh.pdf";; *);; *);;
+
+article_Paluh_B_V_2020_ThemeoOCoEoCTS => nrel_key_concepts:
+{
+	concept_optimal_control;
+	concept_evolution_of_continuous_technological_systems;
+	concept_semantic_systems;
+	concept_theory_of_fuzzy_systems;
+	concept_artificial_intelligence_methodologies;
+	concept_multi_agent_systems
+};;
+article_Paluh_B_V_2020_ThemeoOCoEoCTS <- 15.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 15;; => rrel_number_of_year: 2020;;*);;*);;
+article_Paluh_B_V_2020_ThemeoOCoEoCTS <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..153=>..156);;
+..153=>..nrel:153;;
+..156=>..nrel:156;;
+..153<-exact_value;;
+..156<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..153<-page;;
+..156<-page;;
+number_of_page<-page;;
+article_Paluh_B_V_2020_ThemeoOCoEoCTS <= nrel_published_material: report_Egereva_I_2020_TheoOCotEoCTS;;

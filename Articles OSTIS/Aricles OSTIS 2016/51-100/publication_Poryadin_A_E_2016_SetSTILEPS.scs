@@ -1,0 +1,30 @@
+article_Poryadin_A_E_2016_SetSTILEPS => nrel_main_idtf:
+[Порядин А. Е. 2016 - КомплИСРЛОПСЧ]
+	(*
+	<- lang_ru;;
+	*);
+	[Poryadin A.E. 2016 - SetSTILEPS] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Poryadin_A_E_2016_SetSTILEPS => nrel_article_title:[Комплекс инструментальных средств, реализующих логику оценки психофизиологического состояния человека](*
+	<- lang_ru;;
+	*);;
+
+article_Poryadin_A_E_2016_SetSTILEPS => nrel_author:
+Poryadin_A_E;;
+article_Poryadin_A_E_2016_SetSTILEPS => nrel_author:
+Sidorkina_I_G;;
+article_Poryadin_A_E_2016_SetSTILEPS => nrel_abstract: [В работе рассматриваются алгоритмы диагностики, реализованные в исследуемых инструментальных средствах оценки психофизиологического состояния человека. Сформулированы требования к системе поддержки принятия решений для диагностики психофизиологических особенностей человека. Предложенный к использованию алгоритм обладает следующими преимуществами: проведение диагностики с использованием мобильных устройств, гарантирует сохранность данных в течение длительного периода времени, позволяет выявлять тенденции характерные для людей определенной профессии, либо проживающих в определенной местности.];;
+article_Poryadin_A_E_2016_SetSTILEPS => nrel_bibliographic_reference: [Порядин, А. Е. Комплекс инструментальных средств, реализующих логику оценки психофизиологического состояния человека / А.Е. Порядин, И.Г. Сидоркина // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 367–370.](*
+<-interstate_standard;; 
+*);;
+
+article_Poryadin_A_E_2016_SetSTILEPS => nrel_year_publication: 2016;;
+
+article_Poryadin_A_E_2016_SetSTILEPS => nrel_comprise:  Materials_OSTIS2016;;
+article_Poryadin_A_E_2016_SetSTILEPS<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Порядин.pdf";; *);;*);;
+
+article_Poryadin_A_E_2016_SetSTILEPS<- article;;
+article_Poryadin_A_E_2016_SetSTILEPS <- article_OSTIS_2016;;

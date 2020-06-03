@@ -1,0 +1,41 @@
+article_Savkin_L_V_2016_AboutTWoSCWOTFSN => nrel_main_idtf:
+[Савкин Л.В. 2016 - ОДвухКСКНвФСС]
+	(*
+	<- lang_ru;;
+	*);
+	[Savkin L.V. 2016 - AboutTWoSCWOTFSN] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Savkin_L_V_2016_AboutTWoSCWOTFSN => nrel_article_title:[О двух классах семантической корреляции, наблюдаемых в функциональных семантических сетях](*
+	<- lang_ru;;
+	*);;
+
+article_Savkin_L_V_2016_AboutTWoSCWOTFSN => nrel_author:
+Savkin_L_V;;
+
+article_Savkin_L_V_2016_AboutTWoSCWOTFSN <- article;;
+article_Savkin_L_V_2016_AboutTWoSCWOTFSN <- article_OSTIS_2016;;
+
+article_Savkin_L_V_2016_AboutTWoSCWOTFSN => nrel_bibliographic_reference: [Савкин Л.В. О двух классах семантической корреляции, наблюдаемых в функциональных семантических сетях / Л.В. Савкин // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Savkin_L_V_2016_AboutTWoSCWOTFSN => nrel_year_publication: 2016;;
+
+article_Savkin_L_V_2016_AboutTWoSCWOTFSN => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Savkin_L_V_2016_AboutTWoSCWOTFSN <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/32.savkin.pdf";; *);; *);;
+
+
+
+article_Savkin_L_V_2016_AboutTWoSCWOTFSN => nrel_abstract:
+[В работе рассмотрены два класса семантической корреляции, которые предложено использоватьв процедурах пофрагментной  верификации  функциональных  семантических  сетей.В  качестве  первого  класса  выступаетструктурно-функциональная  корреляция,основанная  на анализестепени  сходства орграфов,  описывающих выделенные фрагменты сети. В качестве второго класса выступает референциальная корреляция, основанная на сопоставлении верхних (итоговых) семантических значений верифицируемых фрагментов.](*
+	<- lang_ru;;
+	*);;
+
+article_Savkin_L_V_2016_AboutTWoSCWOTFSN  => nrel_count_page: 4;;
+
+article_Savkin_L_V_2016_AboutTWoSCWOTFSN <- lang_ru;;

@@ -1,0 +1,33 @@
+article_Kurilenko_I_E_2016_OnTMFfIS => nrel_main_idtf:
+[Куриленко И.Е. 2016 - РазраМРнОТПдИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Kurilenko I.E. 2016 - OnTMFfIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Kurilenko_I_E_2016_OnTMFfIS => nrel_article_title:[Разработка методов рассуждений на основе темпоральных прецедентов для интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+article_Kurilenko_I_E_2016_OnTMFfIS => nrel_author:
+Kurilenko_I_E;;
+article_Kurilenko_I_E_2016_OnTMFfIS <- lang_ru;;
+article_Kurilenko_I_E_2016_OnTMFfIS => nrel_abstract: [Рассматривается расширение возможностей средств рассуждений на основе прецедентов возможностью учета фактора времени. Работа выполнена при финансовой поддержке РФФИ.];;
+article_Kurilenko_I_E_2016_OnTMFfIS => nrel_count_page: 6;;
+article_Kurilenko_I_E_2016_OnTMFfIS <- article_OSTIS_2016;;
+
+article_Kurilenko_I_E_2016_OnTMFfIS => nrel_bibliographic_reference: [Куриленко И.Е. Разработка методов рассуждений на основе темпоральных прецедентов для интеллектуальных систем / И.Е. Куриленко // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Kurilenko_I_E_2016_OnTMFfIS => nrel_year_publication: 2016;;
+
+article_Kurilenko_I_E_2016_OnTMFfIS => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Kurilenko_I_E_2016_OnTMFfIS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/43.kurilenko.pdf";; *);; *);;
+
+article_Kurilenko_I_E_2016_OnTMFfIS <- article;;

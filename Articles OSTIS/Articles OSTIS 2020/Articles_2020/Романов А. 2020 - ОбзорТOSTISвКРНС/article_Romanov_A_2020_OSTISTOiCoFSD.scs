@@ -1,0 +1,64 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..89;;
+sc_node_not_relation->..94;;
+sc_node_not_relation->..str;;
+article_Romanov_A_2020_OSTISTOiCoFSD=> nrel_main_idtf:
+[Романов А. 2020 - ОбзорТOSTISвКРНС]
+	(*
+	<- lang_ru;;
+	*);
+	[Romanov A. 2020 OSTISTOiCoFSD] 
+	(*
+	<- lang_en;;
+	*);;
+article_Romanov_A_2020_OSTISTOiCoFSD => nrel_article_title:[Обзор технологии OSTIS в контексте разработки нечетких систем.](*
+	<- lang_ru;;
+	*);;
+article_Romanov_A_2020_OSTISTOiCoFSD => nrel_article_title:[OSTIS technology overview in the context of fuzzy systems development.](*
+	<- lang_en;;
+	*);;
+article_Romanov_A_2020_OSTISTOiCoFSD <- article;;
+article_Romanov_A_2020_OSTISTOiCoFSD <- article_OSTIS_2020;;
+
+article_Romanov_A_2020_OSTISTOiCoFSD => nrel_abstract: [This article provides an overview of OSTIS technology. The prospects of using OSTIS technology in the field of data analysis and the development of fuzzy systems are considered. An approach to modeling time series based on type 2 fuzzy sets is described. An approach to constructing a fuzzy knowledge base is presented.];
+[ В данной статье представлен обзор технологии OSTIS. Рассмотрены перспективы использования технологии OSTIS в области анализа данных и разработки нечетких систем.
+ Описан подход к моделированию временных рядов на основе нечетких множеств типа 2. Представлен подход к построению нечеткой базы знаний.];;
+article_Romanov_A_2020_OSTISTOiCoFSD => nrel_author: 
+Romanov_A_A;
+Filippov_A_A;
+Guskov_G;
+Vasin_A_O;
+Skalkin_A_M;
+Stroeva_J_V;;
+article_Romanov_A_2020_OSTISTOiCoFSD => nrel_bibliographic_reference:[Романов, А. Обзор технологии ostis в контексте разработки нечетких систем. / А. Романов, А. Филиппов, Г. Гуськов, А. Васин, А. Скалкин, Ю. Строева // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 89-94.](*
+ <-interstate_standard;; 
+*);;
+article_Romanov_A_2020_OSTISTOiCoFSD <- lang_en;;
+article_Romanov_A_2020_OSTISTOiCoFSD <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Romanov_A_2020_OSTISTOiCoFSD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/08.Romanov.pdf";; *);; *);;
+
+article_Romanov_A_2020_OSTISTOiCoFSD => nrel_key_concepts:
+{
+	concept_ostis;
+	concept_overwiev;
+	concept_type_2_fuzzy_sets;
+	concept_fuzzy_knowledge_base
+};;
+
+article_Romanov_A_2020_OSTISTOiCoFSD <- 29.12.2019 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 12;; => rrel_number_of_day_in_month: 29;; => rrel_number_of_year: 2019;;*);;*);;
+29.12.2019 <- date_of_received;;
+article_Romanov_A_2020_OSTISTOiCoFSD <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..89=>..94);;
+..89=>..nrel:89;;
+..94=>..nrel:94;;
+..89<-exact_value;;
+..94<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..89<-page;;
+..94<-page;;
+number_of_page<-page;;
+article_Romanov_A_2020_OSTISTOiCoFSD<=nrel_published_material:report_Romanov_A_A_2020_OSTISTOitCoFSD;;

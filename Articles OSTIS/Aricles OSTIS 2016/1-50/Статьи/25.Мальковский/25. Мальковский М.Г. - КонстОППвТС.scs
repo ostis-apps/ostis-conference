@@ -1,0 +1,42 @@
+article_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_main_idtf:
+[Мальковский М.Г. 2016 - КонстОППвТС]
+	(*
+	<- lang_ru;;
+	*);
+	[Malkovsky M.G. 2016 - TheDoPCORitTN] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_article_title:[Конструирование отношения псевдохронологического порядка в терминологических сетях](*
+	<- lang_ru;;
+	*);;
+
+article_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_author:
+MalXkovskij_M.G.; 
+Solovyov_S_U;;
+
+article_Malkovsky_M_G_2016_TheDoPCORitTN <- article;;
+article_Malkovsky_M_G_2016_TheDoPCORitTN <- article_OSTIS_2016;;
+
+article_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_bibliographic_reference: [Мальковский М.Г.  Конструирование отношения псевдохронологического порядка в терминологических сетях / М.Г. Мальковский, С.Ю. Соловьёв // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_year_publication: 2016;;
+
+article_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Malkovsky_M_G_2016_TheDoPCORitTN <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/25.malkovsky.pdf";; *);; *);;
+
+
+article_Malkovsky_M_G_2016_TheDoPCORitTN <- lang_ru;;
+
+article_Malkovsky_M_G_2016_TheDoPCORitTN  => nrel_abstract:
+[Рассматриваетсяжизненный цикл терминовнаучной и деловой лексики. Вводится понятие хронологическойшкалы   терминов.   Рассматривается   задача   восстановления   хронологических   связей   на   заданномструктурированном  множестве  терминов.  Предлагается  для  восстановления  использоватьприемы  научногопознания, которые с одной стороны используются для конструирования терминосистем, а с другой стороныпозволяют  зафиксировать  порядок  появления  терминов  в  научно-деловом  обороте.  Приводятся  образцыпродукционных  правил,  ориентированных  на  выявление  хронологических  связей.  Предлагается  методконструирования хронологической шкалы по результатам функционирования продукционной системы.](*
+	<- lang_ru;;
+	*);;
+
+article_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_count_page: 4;;
+

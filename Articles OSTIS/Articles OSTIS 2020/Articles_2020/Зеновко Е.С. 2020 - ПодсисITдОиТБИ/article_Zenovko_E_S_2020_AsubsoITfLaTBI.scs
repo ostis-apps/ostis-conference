@@ -1,0 +1,63 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..235;;
+sc_node_not_relation->..238;;
+sc_node_not_relation->..str;;
+article_Zenovko_E_S_2020_AsubsoITfLaTBI => nrel_main_idtf:
+[Зеновко Е.С. 2020 - ПодсисITдОиТБИ]
+	(*
+	<- lang_ru;;
+	*);
+	[Zenovko E.S. 2020 - AsubsoITfLaTBI] 
+	(*
+	<- lang_en;;
+	*);;
+article_Zenovko_E_S_2020_AsubsoITfLaTBI => nrel_article_title:[Подсистема «IntonTrainer» для обучения и тренировки белорусской интонации.](*
+	<- lang_ru;;
+	*);;
+article_Zenovko_E_S_2020_AsubsoITfLaTBI => nrel_article_title:[A subsystem of the “IntonTrainer” for learning and training Belarussian intonation.](*
+	<- lang_en;;
+	*);;
+article_Zenovko_E_S_2020_AsubsoITfLaTBI <- article;;
+article_Zenovko_E_S_2020_AsubsoITfLaTBI <- article_OSTIS_2020;;
+
+article_Zenovko_E_S_2020_AsubsoITfLaTBI => nrel_abstract: [ The article presents Belarusian module of program complex "IntonTrainer" for training learners in producing a variety of intonation patterns of Belarusian speech. The system is designed for visual learning basic Belarusian tonal types, comparing melodic portraits of a reference phrase and a phrase spoken by a learner. It involves an active learner-system interaction, where the user can not only listen to an audio, but also try to repeat correctly this phrase and achieve the best result. The main principle of the program is to analyse and compare student’s results with standard variants without teacher’s involvement.];
+[ В статье представлен белорусский модуль программного комплекса «IntonTrainer» для обучения учащихся выработке разнообразных интонационных паттернов белорусской речи. Система предназначена для визуального изучения основных белорусских тональных типов, сравнения мелодических портретов референтной фразы и фразы, произносимой учеником. Он включает в себя активное взаимодействие ученика и системы, где пользователь может не только слушать аудио, но и пытаться правильно повторить эту фразу и достичь наилучшего результата. Основным принципом программы является анализ и сравнение результатов студента со стандартными вариантами без участия учителя.];;
+article_Zenovko_E_S_2020_AsubsoITfLaTBI => nrel_author: 
+Zenovko_E_S;
+Lobanov_B_M;;
+article_Zenovko_E_S_2020_AsubsoITfLaTBI => nrel_bibliographic_reference:[Зеновко, Е.С. Программный комплекс intontrainer для изучения белорусской интонации. / Е.С. Зеновко, Б.М. Лобанов // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 235-238.](*
+ <-interstate_standard;; 
+*);;
+article_Zenovko_E_S_2020_AsubsoITfLaTBI <- lang_en;;
+article_Zenovko_E_S_2020_AsubsoITfLaTBI <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Zenovko_E_S_2020_AsubsoITfLaTBI <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/32.Zenovko.pdf";; *);; *);;
+
+article_Zenovko_E_S_2020_AsubsoITfLaTBI => nrel_key_concepts:
+{
+	concept_program_complex;
+	concept_intonation;
+	concept_tone;
+	concept_melodic_contour;
+	concept_melodic_portrait;
+	concept_linguaacoustic_database;
+	concept_module;
+	concept_reference_phrase
+};;
+
+article_Zenovko_E_S_2020_AsubsoITfLaTBI <- 14.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 14;; => rrel_number_of_year: 2020;;*);;*);;
+14.01.2020 <- date_of_received;;
+article_Zenovko_E_S_2020_AsubsoITfLaTBI<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..235=>..238);;
+..235=>..nrel:235;;
+..238=>..nrel:238;;
+..235<-exact_value;;
+..238<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..235<-page;;
+..238<-page;;
+number_of_page<-page;;
+article_Zenovko_E_S_2020_AsubsoITfLaTBI<= nrel_published_material: report_Zenovko_E_S_2020_IntonSPfSBI;;

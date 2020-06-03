@@ -1,0 +1,46 @@
+article_Zubcov_R_O_2016_AlgoASfODA => nrel_main_idtf:
+[Зубцов Р.О. 2016 - АлгориПООАД]
+	(*
+	<- lang_ru;;
+	*);
+	[Zubcov R.O. 2016 - AlgoASfODA] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Zubcov_R_O_2016_AlgoASfODA => nrel_article_title:[Алгоритмическое и программное обеспечение онтологического анализа данных](*
+	<- lang_ru;;
+	*);;
+
+article_Zubcov_R_O_2016_AlgoASfODA => nrel_author:
+Zubcov_R_O;
+Semenova_V_A;
+Smirnov_S_V;;
+
+
+article_Zubcov_R_O_2016_AlgoASfODA <- article;;
+article_Zubcov_R_O_2016_AlgoASfODA <- article_OSTIS_2016;;
+
+
+article_Zubcov_R_O_2016_AlgoASfODA => nrel_bibliographic_reference: [Зубцов Р.О. Алгоритмическое и программное обеспечение онтологического анализа данных / Р.О. Зубцов, В.А. Семенова, С.В. Смирнов // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Zubcov_R_O_2016_AlgoASfODA => nrel_year_publication: 2016;;
+
+article_Zubcov_R_O_2016_AlgoASfODA => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Zubcov_R_O_2016_AlgoASfODA <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/11.zubcov.pdf";; *);; *);;
+
+
+
+
+article_Zubcov_R_O_2016_AlgoASfODA => nrel_abstract:
+[Встатье  рассматриваютсяматематическиемодели,  методы  и  алгоритмы  онтологического  анализа  данных,составляющие  аналитическое  ядроразрабатываемогоинструментариясемантического  моделирования  ипроектирования,  и  предназначенные  для выводаформальных  онтологий  на  основеэмпирическихобъектно-признаковых  данных,  организованных  в  виде  соответствия  «объекты-свойства».  Оцениваются  перспективыразвития соответствующего программного обеспечения.](*
+	<- lang_ru;;
+	*);;
+
+article_Zubcov_R_O_2016_AlgoASfODA => nrel_count_page: 6;;
+
+article_Zubcov_R_O_2016_AlgoASfODA <- lang_ru;;

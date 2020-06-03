@@ -1,0 +1,37 @@
+article_Karpaev_S_A_2016_DevelDOIPBOA => nrel_main_idtf:
+[Карпаев С.А. 2016 -  РазраСОО-ППнООП] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Karpaev S.A. 2016 - DevelDOIPBOA] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Karpaev_S_A_2016_DevelDOIPBOA => nrel_article_title:[Разработка справочников объектов оперативно-производственного планирования на основе онтологического подхода](*
+	<- lang_ru;;
+	*);;
+
+article_Karpaev_S_A_2016_DevelDOIPBOA <- lang_ru;;
+article_Karpaev_S_A_2016_DevelDOIPBOA => nrel_author:
+Karpaev_S_A;;
+article_Karpaev_S_A_2016_DevelDOIPBOA => nrel_author:
+Larin_S.N.;;
+
+article_Karpaev_S_A_2016_DevelDOIPBOA => nrel_abstract: [В статье обосновывается необходимость разработки и применения справочников объектов планирования основанного на онтологическом подходе, в качестве информационной основы для создания комплекса программ автоматизированного проектирования оперативно-производственного плана производства.];;
+
+article_Karpaev_S_A_2016_DevelDOIPBOA => nrel_count_page: 4;;
+
+article_Karpaev_S_A_2016_DevelDOIPBOA <- article_OSTIS_2016;;
+
+article_Karpaev_S_A_2016_DevelDOIPBOA => nrel_bibliographic_reference: [Карпаев С.А. Разработка справочников объектов оперативно-производственного планирования на основе онтологического подхода/ С.А. Карпаев, С.Н. Ларин  // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 441–444.](*
+<-interstate_standard;; 
+*);;
+
+article_Karpaev_S_A_2016_DevelDOIPBOA=> nrel_year_publication: 2016;;
+
+article_Karpaev_S_A_2016_DevelDOIPBOA => nrel_comprise:  Materials_OSTIS2016;;
+article_Karpaev_S_A_2016_DevelDOIPBOA<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Карпаев.pdf";; *);;*);;
+
+article_Karpaev_S_A_2016_DevelDOIPBOA <- article;;

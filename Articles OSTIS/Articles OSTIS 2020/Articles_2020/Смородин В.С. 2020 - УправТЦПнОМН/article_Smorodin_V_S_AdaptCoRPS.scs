@@ -1,0 +1,60 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..161;;
+sc_node_not_relation->..166;;
+sc_node_not_relation->..str;;
+article_Smorodin_V_S_AdaptCoRPS => nrel_main_idtf:
+[Смородин В.С. 2020 - УправТЦПнОМН]
+	(*
+	<- lang_ru;;
+	*);
+	[Smorodin V.S. 2020 - AdaptCoRPS] 
+	(*
+	<- lang_en;;
+	*);;
+article_Smorodin_V_S_AdaptCoRPS => nrel_article_title:[Управление технологическим циклом производства на основе модели нейроконтроллера.](*
+	<- lang_ru;;
+	*);;
+article_Smorodin_V_S_AdaptCoRPS => nrel_article_title:[Adaptive control of robotic production systems.](*
+	<- lang_en;;
+	*);;
+article_Smorodin_V_S_AdaptCoRPS <- article;;
+article_Smorodin_V_S_AdaptCoRPS <- article_OSTIS_2020;;
+
+article_Smorodin_V_S_AdaptCoRPS => nrel_abstract: [ The purpose of the work, that is presented in this paper, is to develop a method for adaptive control of a technological production cycle based on a software and hardware system that includes indicators of the hardware units states, parameters of the technological production cycle operation, simulation model of the probabilistic technological process and a built-in decision-making system. Operational interaction of the software and hardware system components and construction of the feedback control connections is implemented through the control parameters and variables of the simulation model based on the output of the neuroregulator model. To address the described problem, tasks related to implementation of the neural network technologies when constructing architecture and mathematical model of the neuroregulator were solved. The mathematical model of the neuroregulator is based on parameters of operation of the physical prototype, construction of the feedback connections for the real-time control (adaptive control) is based on the procedure of training of a recurrent neural network that includes LSTMcells. Considering the testing results is was found out that recurrent neural networks with LSTM-cells can be successfully used as an approximator of the Q-function for the given problem in the conditions when the observable region of the system states has complex structure.];
+[ Цель работы, результаты которой представлены в рамках данной статьи, состояла в разработке методики адаптивного управления технологическим циклом производства на базе программно-аппаратной системы, содержащей индикаторы состояния оборудования, параметры функционирования технологического цикла, имитационную модель вероятностного технологического процесса и встроенную систему принятия решений. Оперативное взаимодействие компонентов программно-аппаратной системы и построение обратных связей по управлению реализуется с помощью параметров управления и переменных имитационной модели на основе результатов работы модели нейрорегулятора. Для достижения поставленной цели были решены задачи, связанные с применением нейросетевых технологий при построении архитектуры и математической модели нейрорегулятора. При этом математическая модель нейрорегулятора разработана на основе параметров функционирования физического прототипа, а построение обратных связей по управлению в режиме реального времени (адаптивного управления) основано на процедуре обучения рекуррентной нейронной сети, построенной с использованием LSTM-блоков. С учетом полученных результатов установлено, что рекуррентные сети с LSTM-модулями могут успешно применяться в качестве аппроксиматора Q-функции агента для решения поставленной задачи в условиях, когда наблюдаемая область состояний системы имеет сложную структуру.];;
+article_Smorodin_V_S_AdaptCoRPS => nrel_author: 
+Smorodin_V_S;
+Prokhorenko_V_A;;
+article_Smorodin_V_S_AdaptCoRPS => nrel_bibliographic_reference:[Смородин, В. Управление технологическим циклом производства на основе модели нейроконтроллера. / В.Смородин, В. Прохоренко // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 161-166.](*
+ <-interstate_standard;; 
+*);;
+article_Smorodin_V_S_AdaptCoRPS <- lang_en;;
+article_Smorodin_V_S_AdaptCoRPS <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Smorodin_V_S_AdaptCoRPS <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/22.Smorodin.pdf";; *);; *);;
+
+article_Smorodin_V_S_AdaptCoRPS => nrel_key_concepts:
+{
+	concept_technological_production_process;
+	concept_parameters_of_operation;
+	concept_probabilistic_network_chart;
+	concept_state_indicators;
+	concept_methods_of_adaptive_control;
+	concept_neural_network;
+	concept_LSTM;
+	concept_Q_learning
+};;
+article_Smorodin_V_S_AdaptCoRPS<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..161=>..166);;
+..161=>..nrel:161;;
+..166=>..nrel:166;;
+..161<-exact_value;;
+..166<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..161<-page;;
+..166<-page;;
+number_of_page<-page;;
+article_Smorodin_V_S_AdaptCoRPS <= nrel_published_material: report_Prokhorenko_V_2020_ProduCMBotNM;;

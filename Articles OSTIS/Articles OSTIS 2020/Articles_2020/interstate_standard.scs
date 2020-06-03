@@ -1,0 +1,30 @@
+sc_node_not_relation-> interstate_standard;;
+interstate_standard => nrel_main_idtf:
+[межгосударственный стандарт](*<- lang_ru;;*);
+[interstate standard] (*<-lang_en;;*);;
+
+definition ->...
+(*
+->rrel_key_sc_element: interstate_standard;;
+<= nrel_sc_text_translation: ...(*->rrel_exampale:[Межгосударственный стандарт - стандарт, принятый Межгосударственным советом по стандартизации, метрологии и сертификации Содружества Независимых Государств.](*<-lang_ru;;*);;*);;
+=> nrel_main_idtf: [Опр.(межгосударственный стандарт)](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{ 
+	standard
+};;
+*);;
+
+statement ->...
+(*
+->rrel_key_sc_element: interstate_standard;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Межгосударственный стандарт был разработан для контроля качества продукции.](*<-lang_ru;;*);;*);;
+=> nrel_main_idtf: [Утв.(межгосударственный стандарт)](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{
+	production;
+	quality
+};;
+*);;
+
+
+interstate_standard <= nrel_inclusion: standard;;

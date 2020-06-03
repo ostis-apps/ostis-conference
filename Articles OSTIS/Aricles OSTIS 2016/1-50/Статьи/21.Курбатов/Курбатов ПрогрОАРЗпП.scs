@@ -1,0 +1,41 @@
+article_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_main_idtf:
+[Курбатов С.С. 2016 - ПрогрОАРЗпП]
+	(*
+	<- lang_ru;;
+	*);
+	[Kurbatov S.S. 2016 - SoftfTASoTOPG] 
+	(*
+	<- lang_en;;
+	*);;
+
+article_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_article_title:[Программное обеспечение для автоматического решения задач по планометрии](*
+	<- lang_ru;;
+	*);;
+
+article_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_author:
+Kurbatov_S.S.;
+Lobzin_A.P.;
+Hahalin_G.K.;;
+
+article_Kurbatov_S_S_2016_SoftfTASoTOPG <- article;;
+article_Kurbatov_S_S_2016_SoftfTASoTOPG <- article_OSTIS_2016;;
+
+article_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_bibliographic_reference: [Курбатов С.С. Программное обеспечение для автоматического решения задач по планометрии / С.С. Курбатов, А.П. Лобзин, Г.К. Хахалин // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.](*
+<-interstate_standard;; 
+*);;
+
+article_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_year_publication: 2016;;
+
+article_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_comprise:  Materials_OSTIS2016;;
+
+article_Kurbatov_S_S_2016_SoftfTASoTOPG <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/21.kurbatov.pdf";; *);; *);;
+
+article_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_abstract:
+[В статье рассмотрена система автоматического решения задач по планиметрии с использованием онтологии иестественно-языкового интерфейса. В рамках системы разработано программное обеспечение, использующееонтологию  при  поиске  решения  задачи,  сформулированной  на  предметно-ориентированном  естественномязыке.  Для  найденного  решения  разработана  визуализация  на  предметном  и  онтологическом  уровнях.Программное  обеспечение  включает макросы Word для  работы  с  графикой  и  решатель,  реализованный  впрограммной среде  онтологии.](*
+	<- lang_ru;;
+	*);;
+
+article_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_count_page: 6;;
+
+article_Kurbatov_S_S_2016_SoftfTASoTOPG <- lang_ru;;

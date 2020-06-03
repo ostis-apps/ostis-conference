@@ -1,0 +1,5 @@
+sc_node_not_relation-> subjects;;
+subjects => nrel_main_idtf:
+[тематика](*<- lang_ru;;*);
+[subjects](*<-lang_en;;*);;
+

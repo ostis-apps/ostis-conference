@@ -1,0 +1,58 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..183;;
+sc_node_not_relation->..188;;
+sc_node_not_relation->..str;;
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD => nrel_main_idtf:
+[Гордей А.Н. 2020 - ПерспПкСПЗиИПвКЗАРСЭФТД]
+	(*
+	<- lang_ru;;
+	*);
+	[Hardzei A.N. 2020 - PerspAtSKRaTAiCoToAIoSEFoTD] 
+	(*
+	<- lang_en;;
+	*);;
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD => nrel_article_title:[Перспективные подходы к семантическому представлению знаний и их приложения в контексте задачи автоматического распознавания семантически эквивалентных фрагментов текстовых документов.](*
+	<- lang_ru;;
+	*);;
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD => nrel_article_title:[Perspective Approaches to Semantic Knowledge Representation and their Applications in the Context of the Task of Automatic Identification of the Semantically Equivalent Fragments of the Text Documents.](*
+	<- lang_en;;
+	*);;
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD <- article;;
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD <- article_OSTIS_2020;;
+
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD => nrel_abstract: [ The article presents the solution of the maintenance the trust in science in context of the problem of the automatic identification of the semantically equivalent fragments of the text documents. The solution refers to the implementation of the principles of unification of information representation in the memory of computer systems and semantic knowledge representation according to the Theory for Automatic Generation of Knowledge.];
+[ В статье представлено решение проблемы поддержания доверия к науке в контексте задачи автоматического распознавания семантически эквивалентных фрагментов текстовых документов. Решение основывается на реализации принципов унификации представления информации в памяти компьютерных систем и представления семантических знаний в соответствии с теорией автоматического порождения архитектуры знаний (ТАПАЗ).];;
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD => nrel_author: 
+Gordej_A.N.;
+Krapivin_U_B;;
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD => nrel_bibliographic_reference:[Гордей, А.Н. Перспективные подходы к семантическому представлению знаний и их приложения в контексте задачи автоматического распознавания семантически эквивалентных фрагментов текстовых документов. / А.Н. Гордей, Ю.Б. Крапивин // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. // Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 183-188.](*
+ <-interstate_standard;; 
+*);;
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD <- lang_en;;
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/25.Hardzei.pdf";; *);; *);;
+
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD => nrel_key_concepts:
+{
+	languages;
+	concept_automatic_text_processing;
+	concept_research_integrity;
+	concept_adopted_fragment
+};;
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD <- 06.02.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 02;; => rrel_number_of_day_in_month: 06;; => rrel_number_of_year: 2020;;*);;*);;
+06.02.2020 <- date_of_received;;
+article_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD<-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..183=>..188);;
+..183=>..nrel:183;;
+..188=>..nrel:188;;
+..183<-exact_value;;
+..188<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..183<-page;;
+..188<-page;;
+number_of_page<-page;;
+rticle_Gordej_A.N._2020_PerspAtSKRaTAiCoToAIoSEFoTD <= nrel_published_material: report_Gordey_A_N_2020_PromiAttSRoKaTAitCotToARoSEFoTD;;

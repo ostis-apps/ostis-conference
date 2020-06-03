@@ -1,0 +1,61 @@
+sc_node_norole_relation->..nrel;;
+sc_node_not_relation->..333;;
+sc_node_not_relation->..336;;
+sc_node_not_relation->..str;;
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI => nrel_main_idtf:
+[Гурин И.А. 2020 - КлассПкОЭСЧнОАИ]
+	(*
+	<- lang_ru;;
+	*);
+	[Gurin I.A. 2020 - ClassAtDESoPBoAoVI] 
+	(*
+	<- lang_en;;
+	*);;
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI => nrel_article_title:[Классификационный подход к определению эмоционального состояния человека на основе анализа видеоинформации.](*
+	<- lang_ru;;
+	*);;
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI => nrel_article_title:[Classification approach to determining emotional state of person based on analysis of video information.](*
+	<- lang_en;;
+	*);;
+
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI <- article;;
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI <- article_OSTIS_2020;;
+
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI => nrel_abstract: [ This work considers recognition of person’s emotional state with body movements and postures as a problem of group classification of multi-attribute objects. The analysis of existing approaches to the recognition of the human emotional state based on video information was made. An approach proposed includes using markerless recognition of body movements based on video information, identification of poses and movements with a model of human motor activity, characteristics description of postures and movements in a limited natural language and the group classification method of poses and movements having verbal description for emotional state identification.];
+[ В работе распознавание эмоционального состояния человека по телодвижениям и позам рассматривается как проблема групповой классификации многопризнаковых объектов. Проведён анализ существующих подходов к распознаванию эмоционального состояния человека на основе анализа видеоинформации. Предложен подход, включающий безмаркерное распознание телодвижений по видеоинформации, идентификацию поз и движений с использованием модели двигательной активности человека, описание характеристик поз и движений на ограниченном естественном языке, выявление эмоциональных состояний с помощью метода групповой классификации поз и движений, имеющих вербальные описания.];;
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI => nrel_author: 
+Gurin_I_A;
+Petrovsky_A_B;
+ZaboleevaXZotova_A.V.;;
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI => nrel_bibliographic_reference:[Гурин, И.А. Классификационный подход к определению эмоционального состояния человека на основе анализа видеоинформации. / И.А. Гурин, А.Б. Петровский, А.В. Заболеева-Зотова // Открытые семантические технологии проектирования интеллектуальных систем. Сборник научных трудов. Выпуск 4. //Белорус. гос. ун-т информатики и радиоэлектроники ; редкол: Голенков В.В. (гл.ред) [и др.] - Минск, 2020. – С. 333-336.](*
+ <-interstate_standard;; 
+*);;
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI <- lang_en;;
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI <= nrel_comprise: Research_Papers_Collection_OSTIS_Issue_4;; 
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI <- rrel_key_sc_element: ... (*<- sc_explanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../PDF/53.Gurin.pdf";; *);; *);;
+
+
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI => nrel_key_concepts:
+{
+	concept_human_emotional_state;
+	concept_analysis_of_the_video_information;
+	concept_movement_and_postures_recognition;
+	concept_group_classification
+};;
+
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI <- 31.01.2020 (*=> nrel_gregorian_calendar_measurement: ..date (*=>rrel_number_of_month_in_year: 01;; => rrel_number_of_day_in_month: 31;; => rrel_number_of_year: 2020;;*);;*);;
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI <-..str;;
+..str<-interval_value;;
+..str=>nrel_measurement:(..333=>..336);;
+..333=>..nrel:333;;
+..336=>..nrel:336;;
+..333<-exact_value;;
+..336<-exact_value;;
+..nrel<-measurement_of_fixed_measure;;
+..nrel=>nrel_measure:number_of_page;;
+..str<-page;;
+..333<-page;;
+..336<-page;;
+number_of_page<-page;;
+article_Gurin_I_A_2020_ClassAtDESoPBoAoVI <= nrel_published_material: report_Gurin_I_A_2020_TheCAtDtESoaPBotAoVI;;

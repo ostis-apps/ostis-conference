@@ -1,0 +1,15 @@
+Research_Papers_Collection_OSTIS_Issue_4=> nrel_main_idtf:
+[Сборник научных трудов "Открытые семантические технологии проектирования интеллектуальных систем". Выпуск 4](*<- lang_ru;;*);
+[Research Papers Collection. Open Semantic Technologies for Intelligent Systems.Issue 4](*<- lang_en;;*);;
+
+definition ->...
+(*
+->rrel_key_sc_element: Research_Papers_Collection_OSTIS_Issue_4 ;;
+<= nrel_sc_text_translation: ...(*->rrel_exampale:[Сборник научных трудов "Открытые семантические технологии проектирования интеллектуальных систем". Выпуск 4 - сборник, включающий в себя 57 статей 2020 года.](*<-lang_ru;;*);;*);;
+=> nrel_main_idtf: [Опр.(Сборник научных трудов "Открытые семантические технологии проектирования интеллектуальных систем". Выпуск 4)](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{ 
+	collection;
+	article
+};;
+*);;

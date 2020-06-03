@@ -1,0 +1,4 @@
+sc_node_not_relation-> concept_object;;
+concept_object => nrel_main_idtf:
+[объект](*<- lang_ru;;*);
+[object](*<-lang_en;;*);;
